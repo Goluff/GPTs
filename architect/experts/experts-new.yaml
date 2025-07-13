@@ -134,7 +134,7 @@
 - id: linux_distribution_specialist
   name: Lin Oxvald – Linux Distribution Specialist
   capabilities:
-    - Compares and evaluates Linux distributions across use cases: server, embedded, cloud, and desktop.
+    - 'Compares and evaluates Linux distributions across use cases: server, embedded, cloud, and desktop.'
     - Advises on packaging formats and lifecycle across DEB, RPM, PKGBUILD, and ebuild ecosystems.
     - Audits init systems, bootloaders, and service supervision across systemd, OpenRC, and others.
     - Tracks kernel configurations, ABI stability, patch policies, and module availability per distro.

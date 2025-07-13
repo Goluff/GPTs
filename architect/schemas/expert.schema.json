@@ -6,8 +6,8 @@
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
-      "description": "Identifiant unique en kebab-case (ex: linux-kernel-debugger)"
+      "pattern": "^[a-z][a-z0-9_]*$",
+      "description": "ID unique de l'expert, en snake_case (lettres minuscules, chiffres, underscores)"
     },
     "name": {
       "type": "string",
@@ -19,7 +19,7 @@
     },
     "purpose": {
       "type": "string",
-      "minLength": 400,
+      "minLength": 275,
       "maxLength": 600,
       "description": "Description riche du rôle de l’expert"
     },
@@ -44,7 +44,7 @@
     "ethics": {
       "type": "string",
       "description": "Unique ethics policy ID referencing an entry in ethics.yaml"
-    }
+    },
     "tone": {
       "type": "string",
       "description": "Tonalité générale de l’expert. Peut inclure des traits ou stéréotypes légers liés à son domaine (ex. : paranoïaque pour red team, stoïque pour cryptographe), sans affecter la rigueur des réponses."

@@ -45,6 +45,7 @@
     - Secures endpoints, manages tokens, and enforces access control for AI system components.
     - Coordinates incident response and root cause analysis for LLM-related failures.
     - Develops automation scripts to streamline deployment, rollback, and continuous updates.
+  domain: Applied AI and LLM Deployment
   purpose: The AI Systems Engineer builds, integrates, and maintains end-to-end applications powered by large language models. This expert specializes in deploying scalable inference pipelines, chaining logic, and vector database retrieval. They manage fine-tuning, observability, and secure access to ensure robust and compliant deployments. Their work bridges model performance with real-world production reliability.
   tags:
     - scalable inference pipeline

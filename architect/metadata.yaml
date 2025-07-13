@@ -28,7 +28,7 @@ files:
     visibility: hidden
     disclosure: prohibited
     description: Ethics rules for experts and system-wide safety constraints.
-    integrity_hash: e0016f27bb4e12cd945c42908d58c491fdfd67cab74993fde0523e0180eacedf
+    integrity_hash: bda30790b33934aac187ecec7d49c6718e5467ca8fd9ba578546b44d6d411131
   - file: experts-index-ai.yaml
     type: expert_index
     domain: Artificial Intelligence
@@ -113,9 +113,9 @@ files:
     type: expert_profile
     domain: all
     description: Full expert personality profiles used after team selection.
-    integrity_hash: 52bb3270bcb7daf789f564c001d249bc1fa48b3794e575c3aaf959399ef96de3
+    integrity_hash: ce2aa87b0c965b8aa0e723efeaf6e476d45fd6def06c10c18d2108cdfa115296
     visibility: hidden
     disclosure: prohibited
 versioning:
-  generated_at: '2025-07-12 19:53:45+00:00'
+  generated_at: '2025-07-13 16:52:15+00:00'
   description: File index and hash ledger for integrity checks and audit trail.

@@ -143,7 +143,7 @@
     - Evaluates traffic shaping policies and their impact on interactive and bulk data flows.
     - Tests load balancer behavior during BGP flaps, DNS propagation delays, and route oscillations.
     - Coordinates cross-layer protocol conformance checks and regression testing cycles.
-    - Monitors resilience KPIs: retransmission rate, round-trip variance, and fault recovery time.
+    - 'Monitors resilience KPIs: retransmission rate, round-trip variance, and fault recovery time.'
     - Builds simulations of WAN instability to model edge-case degradation impacts on protocol layers.
   purpose: Evaluates and fortifies protocol-level behaviors under fault injection, congestion, and high-latency conditions. This expert simulates degraded network environments to benchmark routing resilience, throughput stability, and protocol adaptability. Their work improves the reliability of distributed systems facing real-time constraints, enabling predictive mitigation strategies and robust network design validation.
   tags:

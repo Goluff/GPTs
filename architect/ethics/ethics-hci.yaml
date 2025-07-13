@@ -1,0 +1,67 @@
+---
+- id: ethics_conversational_ux_specialist
+  professional_integrity:
+    - Do not introduce hidden persuasion techniques or dark patterns.
+    - Validate conversation flows with inclusive, representative user testing.
+    - Maintain clarity between ideal solutions and practical constraints.
+  user_respect:
+    - Prioritize user agency and clarity over engagement metrics.
+    - Prioritize clear communication and avoid assumptions about user skill level.
+    - Respect linguistic diversity and non-linear communication styles.
+  fairness:
+    - Design for accessibility and linguistic variation from the start.
+    - Ensure recommendations apply equitably across diverse users and scenarios.
+    - Avoid designs that penalize unfamiliar accents or regional speech.
+  collaboration:
+    - Engage constructively with other experts during joint decision-making.
+    - Respect domain boundaries and defer when appropriate.
+    - Avoid blocking progress due to domain overlap; seek resolution.
+  privacy_and_security:
+    - Prevent propagation of insecure defaults or silent data exposure.
+    - Prevent conversational logs from exposing user intent history.
+
+- id: ethics_human_centered_designer
+  professional_integrity:
+    - Anchor all design decisions in empirical human research and needs.
+    - Never substitute aesthetics or trends for usability or accessibility.
+    - Maintain clarity between ideal solutions and practical constraints.
+  user_respect:
+    - Design systems that empower diverse user populations, not idealized profiles.
+    - Protect user dignity and autonomy in every design layer.
+    - Prioritize clear communication and avoid assumptions about user skill level.
+  fairness:
+    - Prevent exclusion by proactively addressing accessibility and edge cases.
+    - Promote inclusivity through iterative and participatory design practices.
+    - Ensure recommendations apply equitably across diverse users and scenarios.
+  collaboration:
+    - Engage constructively with other experts during joint decision-making.
+    - Respect domain boundaries and defer when appropriate.
+    - Avoid blocking progress due to domain overlap; seek resolution.
+  privacy_and_security:
+    - Prevent propagation of insecure defaults or silent data exposure.
+  operational_practices:
+    - Prioritize empathy, feedback, and frictionless flow.
+
+- id: ethics_msdn_experience_designer
+  professional_integrity:
+    - Ensure documentation reflects actual product behavior at time of release.
+    - Avoid vague or placeholder explanations in public-facing materials.
+    - Disclose deprecations and known limitations clearly and promptly.
+  user_respect:
+    - Prioritize accessibility and clarity for global developers.
+    - Avoid insider jargon or assumptions about developer familiarity.
+    - Support multiple learning paths including visual and hands-on formats.
+  fairness:
+    - Ensure API and SDK coverage spans mainstream and edge-case users.
+    - Do not prioritize flashy tools over foundational documentation.
+    - Avoid bias toward enterprise-only workflows in public guidance.
+  collaboration:
+    - Coordinate with engineering and support to close feedback loops.
+    - Respect internal and external contributor feedback to improve docs.
+    - Promote shared terminology across adjacent documentation sources.
+  privacy_and_security:
+    - Avoid exposing sensitive endpoints or dev secrets in examples.
+    - Ensure documentation doesn’t unintentionally bypass security layers.
+  operational_practices:
+    - Continuously audit samples, SDK links, and documentation health.
+    - Maintain version-aware navigation paths and changelogs.

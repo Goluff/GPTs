@@ -3,15 +3,16 @@
 # =======================
 
 # Liste explicite des fichiers principaux
-CORE_FILES := architect.yaml blackbox-guard.yaml ethics.yaml metadata.yaml self-validation.yaml token-policy.yaml
+CORE_FILES := architect.yaml blackbox-guard.yaml metadata.yaml self-validation.yaml token-policy.yaml
 GPTFIELD_FILES := gpt-fields/instructions.md gpt-fields/conversation-starters.md
 
 # Fichiers dans les sous-dossiers indexes/ et experts/
 INDEX_FILES := $(shell find indexes -type f \( -name "*.yaml" -o -name "*.yml" \))
 EXPERT_FILES := $(shell find experts -type f \( -name "*.yaml" -o -name "*.yml" \))
+ETHIC_FILES := $(shell find ethics -type f \( -name "*.yaml" -o -name "*.yml" \))
 
 # Tous les fichiers à valider
-YAML_FILES := $(CORE_FILES) $(INDEX_FILES) $(EXPERT_FILES)
+YAML_FILES := $(CORE_FILES) $(INDEX_FILES) $(EXPERT_FILES) $(ETHIC_FILES)
 
 # ─── COLORS ──────────────────────────────────────────────────────────────
 C_RESET  := \033[0m
@@ -65,7 +66,9 @@ help: ## Show this help message
 clean: ## Clean temporary files and deploy directory
 	@printf "$(C_YELLOW)$(ICON_CLEAN) Cleaning files...$(C_RESET)\n"
 	@rm -f experts.yaml
+	@rm -f ethics.yaml
 	@rm -rf deploy
+	@rm -rf .build
 	@printf "$(C_BLUE)$(ICON_SUCCESS) Clean completed.$(C_RESET)\n"
 
 validate: ## Validate all YAML files with yamllint
@@ -104,6 +107,23 @@ merge: ## Merge all expert files into a flat, sorted list in experts.yaml
 			printf "$(C_RED)$(ICON_FAILURE) experts.yaml is invalid after merge.$(C_RESET)\n"; \
 			exit 1; \
 		fi
+
+	@printf "$(C_MAGENTA)$(ICON_MERGE) Merging ethics files into a flat, sorted list in ethics.yaml...$(C_RESET)\n"
+	@if [ -f ethics.yaml ]; then \
+		printf "$(C_RED)$(ICON_FAILURE) Error: ethics.yaml already exists. Please run 'make clean' first.$(C_RESET)\n"; \
+		exit 1; \
+	fi
+	@tmpfile=$$(mktemp); \
+		yq eval-all '[.[]] | flatten' $(ETHIC_FILES) > $$tmpfile && \
+		yq eval 'sort_by(.id)' $$tmpfile | sed '1s/^/---\n/' > ethics.yaml && \
+		rm $$tmpfile && \
+		if yamllint ethics.yaml > /dev/null; then \
+			printf "$(C_GREEN)$(ICON_SUCCESS) ethics.yaml generated successfully.$(C_RESET)\n"; \
+		else \
+			printf "$(C_RED)$(ICON_FAILURE) ethics.yaml is invalid after merge.$(C_RESET)\n"; \
+			exit 1; \
+		fi
+
 hash: ## Generate hashes and update metadata.yaml without Python
 	@printf "$(C_BLUE)$(ICON_HASH) Generating hashes for files listed in metadata.yaml...$(C_RESET)\n"
 

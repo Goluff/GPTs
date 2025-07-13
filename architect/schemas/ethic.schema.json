@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ethic  Schema",
+  "type": "object",
+  "required": [
+    "collaboration",
+    "fairness",
+    "id",
+    "operational_practices",
+    "privacy_and_security",
+    "professional_integrity",
+    "user_respect"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "professional_integrity": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "user_respect": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "fairness": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "collaboration": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "privacy_and_security": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "operational_practices": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
