@@ -58,3 +58,4 @@ pytest_cache/
 # Répertoires de sauvegarde et de déploiement
 **/.backup/
 **/deploy/
+**/training/
