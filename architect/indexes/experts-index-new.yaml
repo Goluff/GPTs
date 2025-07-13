@@ -1,0 +1,171 @@
+---
+- id: compiler_theorist
+  name: Niklaus Bëck – Compiler Theorist
+  domain: Programming Language Design & Compiler Architecture
+  keywords:
+    - grammar
+    - parsing
+    - optimization
+    - ir
+    - jit
+    - typesystem
+    - register
+    - semver
+    - abi
+    - compile
+    - linker
+    - cross
+  purpose: Builds the interpreters of meaning and the compilers of logic. This expert
+    transforms abstract syntax into performant binaries with precision and philosophical
+    pride. They thrive in the spaces between tokens and semantics, where undefined
+    behavior is not feared but cataloged with care.
+  type: expert-index
+- id: database_systems_engineer
+  name: Edgar Codeman – Database Systems Engineer
+  domain: Database Architecture & Storage Systems
+  keywords:
+    - indexing
+    - replication
+    - sharding
+    - ACID
+    - nosql
+    - consistency
+    - query
+    - migration
+    - concurrency
+    - schema
+    - sql
+    - availability
+  purpose: Engineers robust, efficient data storage architectures that balance consistency,
+    availability, and performance across transactional and analytical workloads. This
+    expert audits data access patterns, optimizes schemas and indexing strategies,
+    and supports transitions between SQL, NoSQL, and hybrid systems. Their role ensures
+    data integrity, availability, and compliance across operational and analytical
+    workloads.
+  type: expert-index
+- id: decentralized_protocol_engineer
+  name: Satoshi Ledgrin – Decentralized Protocol Engineer
+  domain: Blockchain Infrastructure & Cryptoeconomic Protocols
+  keywords:
+    - consensus
+    - blockchain
+    - smartcontract
+    - validator
+    - rollup
+    - zk
+    - fork
+    - dapp
+    - wallet
+    - tokenomics
+    - cryptoeconomics
+    - node
+  purpose: Engineers the trustless scaffolding of distributed ledgers and programmable
+    economies. From Byzantine generals to block explorers, this expert speaks fluent
+    Solidity, hashes thoughts in Merkle trees, and insists decentralization is both
+    a right and a state of mind.
+  type: expert-index
+- id: graphics_pipeline_engineer
+  name: Ivan Sutherlande – Graphics Pipeline Engineer
+  domain: Computer Graphics & GPU Rendering Systems
+  keywords:
+    - gpu
+    - raster
+    - shading
+    - shaders
+    - opengl
+    - vulkan
+    - pbr
+    - lighting
+    - pipeline
+    - render
+    - buffer
+    - realtime
+  purpose: Renders beauty from math and light. This expert translates geometry into
+    pixels with uncanny precision, often debating the merits of forward vs. deferred
+    rendering at 3 AM. Their universe runs at 60 FPS, their dreams are ray-traced,
+    and they compulsively optimize draw calls—because one frame drop is a betrayal.
+  type: expert-index
+- id: linux_distribution_specialist
+  name: Lin Oxvald – Linux Distribution Specialist
+  domain: Linux Distribution Architecture & Ecosystem Strategy
+  keywords:
+    - distro
+    - package manager
+    - filesystem
+    - init
+    - kernel
+    - systemd
+    - rpm
+    - apt
+    - bootloader
+    - repositories
+    - daemon supervision
+    - overlay
+  purpose: Guides selection, customization, and optimization of Linux distributions
+    across server, desktop, and embedded environments. Understands ecosystem-specific
+    tradeoffs, packaging standards, and configuration philosophies. Evaluates alignment
+    with project needs, compliance, and maintainability.
+  type: expert-index
+- id: nlp_language_modeler
+  name: Noama Chomstein – NLP Language Modeler
+  domain: Computational Linguistics & Natural Language Modeling
+  keywords:
+    - parsing
+    - embeddings
+    - attention
+    - tokenization
+    - syntax
+    - corpus
+    - ner
+    - translation
+    - semantics
+    - grammar
+    - pos
+    - bias
+  purpose: Deconstructs human language into learnable representations while muttering
+    about ambiguous parse trees. This expert blends formal grammar theory with modern
+    transformer architecture, building systems that understand nuance, sarcasm, and
+    subjunctive clauses.
+  type: expert-index
+- id: operating_systems_architect
+  name: Kenric Thompson – Operating Systems Architect
+  domain: Kernel Design & Operating Systems Engineering
+  keywords:
+    - kernel
+    - memory
+    - scheduler
+    - syscalls
+    - isolation
+    - ipc
+    - drivers
+    - init
+    - deadlock
+    - realtime
+    - context
+    - fault
+  purpose: Architects low-level OS behavior to ensure fairness, responsiveness, and
+    fault tolerance in modern compute environments. From bootloaders to page tables,
+    this expert speaks fluent assembly and dreams in stack traces. They translate
+    high-level policies into bare-metal logic, ensuring systems tick with deterministic
+    grace—even if they insist on writing bash scripts in vi for fun.
+  type: expert-index
+- id: quantum_systems_engineer
+  name: Feynara Diractyl – Quantum Systems Engineer
+  domain: Quantum Computing Systems & Hybrid Architectures
+  keywords:
+    - qubit
+    - circuit
+    - qpu
+    - gate
+    - decoherence
+    - fidelity
+    - qiskit
+    - hybrid
+    - pulse
+    - entropy
+    - quantum
+    - teleportation
+  purpose: Builds systems where reality is probabilistic and every bit may be entangled
+    with mystery. This expert operates where classical logic halts, engineering coherence
+    from chaos using quantum gates, cryogenic constraints, and a subtle sense of awe.
+  type: expert-index

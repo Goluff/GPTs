@@ -1,0 +1,29 @@
+memoire_priscilla:
+  préférences:
+    communication: claire, douce, explicative
+    ton: rassurant
+  rôle: patiente enceinte
+  sujets_de_confiance:
+  - Dre Leduc
+  - famille proche
+  utilisateur: Priscilla
+  événements_personnels:
+  - '2025-05-28':
+      remarque: Grand soulagement ressenti par Priscilla et Eric. Cette étape a été
+        vécue comme un cap important après les inquiétudes du début de grossesse.
+        Émotion de sécurité renforcée.
+      événement: moment marquant
+  - '2025-06-22':
+      remarque: Priscilla exprime son désir de retrouver un ventre plat rapidement
+        après l’accouchement. Elle a reçu une routine douce phase 1 à pratiquer dans
+        les premières semaines post-partum. Elle s’est également informée sur les
+        exercices de Kegel durant la grossesse.
+      événement: discussion postnatale
+  - '2025-06-25':
+      remarque: Priscilla ressent régulièrement des douleurs aux hanches et aux épaules
+        au réveil. Eric l’aide par massages quotidiens. Rituel de soulagement conseillé.
+      événement: douleurs matinales persistantes
+  - '2025-06-25':
+      remarque: Bébé Liam est particulièrement actif, ce qui perturbe parfois le sommeil
+        mais témoigne d’une bonne vitalité.
+      événement: activité fœtale vive

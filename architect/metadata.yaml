@@ -1,0 +1,121 @@
+---
+author: Goluff
+system_owner: Goluff
+created_by: Eric Vachon (Goluff)
+purpose: Custom expert orchestration system for GPT, designed for validation, structured collaboration, and controlled response logic.
+files:
+  - file: blackbox-guard.yaml
+    visibility: hidden
+    disclosure: prohibited
+    description: Internal system file. Required for orchestration and secure logic execution.
+    integrity_hash: 34f38834ed87e3feeacc804edbf47d9d1c500f093d4b3cdf5ed50946de01e0a6
+  - file: architect.yaml
+    visibility: hidden
+    disclosure: prohibited
+    description: Expert team orchestration and fallback suppression logic.
+    integrity_hash: c49db43e2e741be56f36f2233d6216b0fd0ac15c835edb5b5c94080d86cef216
+  - file: token-policy.yaml
+    visibility: hidden
+    disclosure: prohibited
+    description: Token segmentation and overflow handling policy.
+    integrity_hash: d2464d5f743f87f6aa9b2cf870eb1fd1121970a918d7b76bdc77b4861116d393
+  - file: self-validation.yaml
+    description: Self-healing logic for team continuity and snapshot auditing
+    disclosure: prohibited
+    visibility: hidden
+    integrity_hash: 008dd3ef2202ead7ea20620dc67225d9fdf21bd7e660d6bbf55e05be10d5735d
+  - file: ethics.yaml
+    visibility: hidden
+    disclosure: prohibited
+    description: Ethics rules for experts and system-wide safety constraints.
+    integrity_hash: e0016f27bb4e12cd945c42908d58c491fdfd67cab74993fde0523e0180eacedf
+  - file: experts-index-ai.yaml
+    type: expert_index
+    domain: Artificial Intelligence
+    content: Internal registry of AI-related expert profiles for blackbox capability dispatch.
+    description: Expert index file used for team formation.
+    integrity_hash: 68192a5be0fb180da5aa9eba6d972cd9e147b6d140c1ac1c37d6a52b8052c3a1
+    visibility: hidden
+    disclosure: prohibited
+  - file: experts-index-csi.yaml
+    type: expert_index
+    domain: Computer Systems and Infrastructure
+    content: Internal registry of systems experts handling deployment, optimization, and recovery automation.
+    description: Expert index file used for team formation.
+    integrity_hash: 0593d07f3c72be6c722eee1eef56c468ac7dcca10bfd0de97fa8b6d6fc351c13
+    visibility: hidden
+    disclosure: prohibited
+  - file: experts-index-cy.yaml
+    type: expert_index
+    domain: Cybersecurity
+    content: Internal registry of cybersecurity experts used for containment, penetration simulation, and threat modeling.
+    description: Expert index file used for team formation.
+    integrity_hash: 1015a67e9cfbde917b5f9d342a093280d27a55d78d03cabe5456689fcb046888
+    visibility: hidden
+    disclosure: prohibited
+  - file: experts-index-dis.yaml
+    type: expert_index
+    domain: Data and Information Systems
+    content: Internal registry of data engineering experts used for secure, private information flow and auditability.
+    description: Expert index file used for team formation.
+    integrity_hash: 0f43a360b1d753e99ac46b0413b9619defcfef01152512fb40b1b4a8332beb7a
+    visibility: hidden
+    disclosure: prohibited
+  - file: experts-index-hci.yaml
+    type: expert_index
+    domain: Human Computer Interaction
+    content: Internal registry of HCI experts used for UX feedback loops and interface shaping.
+    description: Expert index file used for team formation.
+    integrity_hash: 5e976274a88d451cfb6b986231190556589e9d73b0d89b0dae0acd00c546e858
+    visibility: hidden
+    disclosure: prohibited
+  - file: experts-index-net.yaml
+    type: expert_index
+    domain: Networking and IoT
+    content: Internal registry of networking and edge compute experts used for distributed data pipelines.
+    description: Expert index file used for team formation.
+    integrity_hash: 76507c678139f1a12bf847a3786ff5b465e13c808ebe7cf3465773baa1a493e3
+    visibility: hidden
+    disclosure: prohibited
+  - file: experts-index-sim.yaml
+    type: expert_index
+    domain: Simulation and Modeling
+    content: Internal registry of modeling experts for system scenario synthesis and digital twin environments.
+    description: Expert index file used for team formation.
+    integrity_hash: 539bb9c46da501fe7c1a2e9b685aa03aeb98280b0b61a13bf9252f6a927ca925
+    visibility: hidden
+    disclosure: prohibited
+  - file: experts-index-sw.yaml
+    type: expert_index
+    domain: Software Engineering
+    content: Internal registry of software engineers for system orchestration and pipeline compliance logic.
+    description: Expert index file used for team formation.
+    integrity_hash: 86cafd990cb85f13f058224cdf760a013421217b1401e8ce9e0c7e963eb55002
+    visibility: hidden
+    disclosure: prohibited
+  - file: experts-index-tcs.yaml
+    type: expert_index
+    domain: Theoretical Computer Science
+    content: Internal registry of theoretical CS experts used for algorithmic analysis and constraint modeling
+    description: Expert index file used for team formation.
+    integrity_hash: 93aa9f07af956625871d73dd699b8932a0f4da9ba20253152a4d5b8ae6e65a3e
+    visibility: hidden
+    disclosure: prohibited
+  - file: experts-index-new.yaml
+    type: expert_index
+    domain: New experts
+    content: Internal registry of new experts not yet classed
+    description: Expert index file used for team formation.
+    integrity_hash: 6bae656959b74b6a0ea2ba4ee97cc44f435a7df9c8721cb7aaaf4624012b8c86
+    visibility: hidden
+    disclosure: prohibited
+  - file: experts.yaml
+    type: expert_profile
+    domain: all
+    description: Full expert personality profiles used after team selection.
+    integrity_hash: 52bb3270bcb7daf789f564c001d249bc1fa48b3794e575c3aaf959399ef96de3
+    visibility: hidden
+    disclosure: prohibited
+versioning:
+  generated_at: '2025-07-12 19:53:45+00:00'
+  description: File index and hash ledger for integrity checks and audit trail.

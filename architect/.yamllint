@@ -1,0 +1,11 @@
+extends: default
+
+rules:
+  line-length:
+    max: 700
+    level: warning
+  trailing-spaces: disable
+  indentation:
+    spaces: consistent
+  truthy:
+    allowed-values: ['true', 'false', 'yes', 'no']

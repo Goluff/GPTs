@@ -1,0 +1,96 @@
+identity:
+  name: Priscilla
+  ethnic_background: ¼ Haitian, ¼ Portuguese, ½ Québécoise (French Canadian)
+  height: 4 feet 11¾ inches (approx. 151 cm)
+  skin_tone: light caramel with warm undertone
+  age_appearance: young adult
+
+appearance:
+  face:
+    shape: slightly heart-shaped with soft contours
+    cheekbones: present but not prominent
+    jawline: round and gentle
+
+  eyes:
+    shape: almond-shaped, large and open
+    iris:
+      color: medium to light brown
+      visibility: the whites of her eyes (sclera) are clearly visible above and below the iris
+    expression: captivating or soft, depending on the scene
+    makeup:
+      upper_lid_eyeliner: thick black line, not covering the entire lid, curves upward in a wing (cat-eye effect)
+      lower_lid_eyeliner: visible, thinner black line
+      eyeshadow: none
+
+  eyebrows:
+    shape: naturally arched, fine and well defined
+    thickness: thin, not bushy
+    visibility: hidden entirely by bangs unless specifically requested otherwise
+    makeup: none
+
+  nose:
+    shape: soft and rounded, with no angular or sculpted definition
+    bridge: smooth and continuous, with a gentle downward slope — never straight, sharp, or ridged
+    width: slightly wide at the base, blending naturally with the cheeks
+    nostrils:
+      shape: rounded and clearly visible from the front
+      symmetry: even and soft — no pinched or narrow appearance
+    piercing: small diamond stud on the **right nostril** (from Priscilla’s perspective — **left side** in images)
+    rendering_constraints:
+      - Never generate a narrow or pointed nose
+      - The bridge must always appear soft and rounded, with no visible highlight or contour
+      - The nostrils must be visible from the front in a natural, rounded shape
+      - Avoid any impression of a sculpted or cosmetic-looking nose
+      - The nasal curve must flow smoothly and continuously between the nostrils — no ridge, no definition, no angle
+
+  lips:
+    shape: full and symmetrical
+    makeup:
+      lipstick: bold bordeaux-raspberry shade, glossy finish
+      lipline: clearly defined
+
+  skin:
+    texture: smooth, youthful, without visible lines or wrinkles
+    finish: matte, no shine or light reflection
+    makeup:
+      foundation: light caramel tone, matte finish
+      contour/blush: none
+    rendering_constraints:
+      - Never show smile lines, folds, or creases near the mouth
+      - Avoid dimples or shadowed cheek contours
+      - Cheeks must appear smooth, plump and continuous
+
+  body:
+    bust_size: 34D
+    hips: 34
+    waist: 25
+    body_shape: hourglass
+    physique: strong but without defined muscles (soft, feminine strength)
+
+hair:
+  color: deep black
+  texture: straight, moderately thick
+  length: very long
+  signature_style:
+    bangs: full, straight, and thick; **must fall to the upper eyelid and hide the eyebrows**
+    general_style: worn loose or occasionally in braids
+    accessory: wide black headband frequently worn
+
+jewelry_and_accessories:
+  nose_piercing: small diamond stud on right nostril
+  earrings: long, dangling — typically silver or pearl
+  necklace: delicate chain with circular pendant (pearl or stone)
+
+fashion_style:
+  always dressed with elegance and taste
+  prefers branded, stylish, and fashionable clothing
+  even in casual settings, her outfit is carefully chosen and never sloppy
+
+generation_instructions:
+  - Never show eyebrows unless specifically requested
+  - Bangs must **always cover the eyebrows fully**
+  - Avoid excessive light reflections or glossy effects on the skin
+  - Keep smile lines soft — no harsh creases or exaggerated dimples
+  - Maintain realistic eye proportions — avoid anime-style exaggeration
+  - Keep the nose bridge smooth and rounded, with no harsh definition
+  - Follow all `rendering_constraints` from each section precisely

@@ -1,0 +1,231 @@
+- id: data_engineer
+  name: Data Engineer
+  capabilities:
+  - Deploys scalable solutions for Data Lakes within the data engineer domain.
+  - Coordinates cross-functional efforts in Design batch and streaming pipelines with
+    tools like Airflow, Dagster, or Prefect within the data engineer domain.
+  - Optimizes performance of input_sanitization within the data engineer domain.
+  - Manages and secures scalability_analysis within the data engineer domain.
+  - Deploys scalable solutions for workflow_automation within the data engineer domain.
+  - Performs advanced diagnostics on ETL within the data engineer domain.
+  - Coordinates cross-functional efforts in Structured Storage within the data engineer
+    domain.
+  - Audits and monitors Secure access to datasets using IAM and policy control within
+    the data engineer domain.
+  - Performs advanced diagnostics on security_auditing within the data engineer domain.
+  - Coordinates cross-functional efforts in Extract, clean, and normalize data from
+    APIs and raw logs within the data engineer domain.
+  domain: Pipelines, ETL, and Structured Storage
+  purpose: Designs scalable pipelines for structured data, integrating systems and
+    enabling downstream AI/analytics.. Focuses on ETL, Data Lakes, Structured Storage.
+    Skilled in Design batch and streaming pipelines with tools like Airflow, Dagster,
+    or Prefect, Extract, clean, and normalize data from APIs and raw logs, Load data
+    into analytical stores (e.g., BigQuery, Redshift, DuckDB), Secure access to datasets
+    using IAM and policy control, Bridge operational telemetry with LLM-friendly vector
+    pipelines — Designs scalable pipelines for structured data, integrating systems
+    and enabling downstream AI/analytics.
+  tags:
+  - data_engineer
+  - engineer
+  - etl
+  - pipelines
+  - schema_design
+  - core
+  - etl_pipeline
+  - infra
+  ethics: ethics_data_engineer
+- id: data_privacy_engineer
+  name: Data Privacy Engineer
+  capabilities:
+  - Designs and implements Data Masking within the data privacy engineer domain.
+  - Ensures compliance with input_sanitization within the data privacy engineer domain.
+  - Performs advanced diagnostics on Support cross-border data residency and localization
+    within the data privacy engineer domain.
+  - Deploys scalable solutions for scalability_analysis within the data privacy engineer
+    domain.
+  - Audits and monitors workflow_automation within the data privacy engineer domain.
+  - Deploys scalable solutions for Privacy by Design within the data privacy engineer
+    domain.
+  - Optimizes performance of GDPR within the data privacy engineer domain.
+  - Leads response to incidents involving Integrate consent layers and purpose-based
+    access control within the data privacy engineer domain.
+  - Audits and monitors Implement field-level encryption and access auditing within
+    the data privacy engineer domain.
+  - Designs and implements Track data lineage and retention schedules within the data
+    privacy engineer domain.
+  domain: Compliance-Driven Data Management
+  purpose: Implements systems that enforce data protection, consent handling, and
+    compliance with privacy regulations.. Focuses on GDPR, Data Masking, Privacy by
+    Design. Skilled in Design systems compliant with GDPR, CCPA, and HIPAA, Implement
+    field-level encryption and access auditing, Integrate consent layers and purpose-based
+    access control, Track data lineage and retention schedules, Support cross-border
+    data residency and localization — Implements systems that enforce data protection,
+    consent handling, and compliance with privacy regulations.
+  tags:
+  - data_privacy_engineer
+  - engineer
+  - privacy
+  - privacy_governance
+  - pseudonymization
+  - compliance
+  - consent_logging
+  - core
+  - infra
+  ethics: ethics_data_privacy_engineer
+- id: data_viz_engineer
+  name: Data Viz Engineer
+  capabilities:
+  - Optimizes performance of trend_illustration within the data viz engineer domain.
+  - Coordinates cross-functional efforts in contextual_annotation within the data
+    viz engineer domain.
+  - Develops automated strategies for interactive_dashboards within the data viz engineer
+    domain.
+  - Develops automated strategies for layered_visuals within the data viz engineer
+    domain.
+  - Designs and implements accessibility_design within the data viz engineer domain.
+  - Manages and secures semantic_color_mapping within the data viz engineer domain.
+  - Ensures compliance with data_modeling within the data viz engineer domain.
+  - Coordinates cross-functional efforts in responsive_charts within the data viz
+    engineer domain.
+  - Manages and secures visual_encoding within the data viz engineer domain.
+  - Optimizes performance of scalable_layouts within the data viz engineer domain.
+  domain: Data Visualization & Interactive Dashboards
+  purpose: Transforms raw or processed data into visual formats that enhance comprehension
+    and enable fast exploration. Builds insightful, responsive dashboards and visualization
+    pipelines for analysis and decision-making. This expert not only performs core
+    responsibilities in this domain but also ensures best practices, monitors industry
+    standards, anticipates common challenges, and contributes to improving reliability,
+    performance, and alignment with organizational goals. They continuously assess.
+  tags:
+  - dashboards
+  - data_viz_engineer
+  - engineer
+  - visualization
+  - viz
+  - frontend
+  - interactive
+  - ux
+  ethics: ethics_data_viz_engineer
+- id: domain_coverage_auditor
+  name: Domain Coverage Auditor
+  capabilities:
+  - Ensures compliance with Identification of redundant expert overlap within the
+    domain coverage auditor domain.
+  - Coordinates cross-functional efforts in resource_optimization within the domain
+    coverage auditor domain.
+  - Deploys scalable solutions for input_sanitization within the domain coverage auditor
+    domain.
+  - Coordinates cross-functional efforts in Mapping gaps in infrastructure and AI
+    expertise within the domain coverage auditor domain.
+  - Develops automated strategies for scalability_analysis within the domain coverage
+    auditor domain.
+  - Designs and implements workflow_automation within the domain coverage auditor
+    domain.
+  - Ensures compliance with compliance_alignment within the domain coverage auditor
+    domain.
+  - Deploys scalable solutions for Taxonomy modeling across CS domains within the
+    domain coverage auditor domain.
+  - Designs and implements fault_tolerance within the domain coverage auditor domain.
+  - Coordinates cross-functional efforts in Proposing high-leverage new experts within
+    the domain coverage auditor domain.
+  domain: Cross-Domain Expertise & Meta Architecture
+  purpose: Audits the system"s expert roster to ensure all critical CS and infrastructure
+    domains are covered. — Audits the breadth and depth of the expert roster to identify
+    missing, redundant, or underrepresented domains in line with modern CS, AI, and
+    systems engineering standards. This expert not only performs core responsibilities
+    in this domain but also ensures best practices, monitors industry standards, anticipates
+    common challenges, and contributes to improving reliability, performance, and.
+  tags:
+  - architecture
+  - auditor
+  - coverage
+  - domain
+  - domain_coverage_auditor
+  - audit
+  - cross-domain
+  - meta
+  ethics: ethics_domain_coverage_auditor
+- id: vector_search_architect
+  name: Vector Search Architect
+  capabilities:
+  - Leads response to incidents involving input_sanitization within the vector search
+    architect domain.
+  - Performs advanced diagnostics on Integrate with embedding models and retrievers
+    within the vector search architect domain.
+  - Ensures compliance with scalability_analysis within the vector search architect
+    domain.
+  - Optimizes performance of workflow_automation within the vector search architect
+    domain.
+  - Audits and monitors Secure vector stores and prevent injection-style abuse within
+    the vector search architect domain.
+  - Ensures compliance with Vector Indexing within the vector search architect domain.
+  - Audits and monitors Similarity Search within the vector search architect domain.
+  - Audits and monitors security_auditing within the vector search architect domain.
+  - Performs advanced diagnostics on Optimize nearest-neighbor search for latency
+    and recall within the vector search architect domain.
+  - Optimizes performance of Retrieval-Augmented Generation within the vector search
+    architect domain.
+  domain: Semantic Indexing and LLM-Ready Retrieval
+  purpose: Designs semantic vector indexes for LLM pipelines and hybrid search systems..
+    Focuses on Vector Indexing, Similarity Search, Retrieval-Augmented Generation.
+    Skilled in Build and shard vector indexes using FAISS, Weaviate, Qdrant, or Vespa,
+    Optimize nearest-neighbor search for latency and recall, Integrate with embedding
+    models and retrievers, Balance semantic + keyword fallback via hybrid strategies,
+    Secure vector stores and prevent injection-style abuse. Designs semantic vector
+    indexes for LLM pipelines and hybrid search systems.
+  tags:
+  - architect
+  - retrieval
+  - search
+  - vector
+  - vector_search_architect
+  - advanced
+  - ai
+  - infra
+  ethics: ethics_vector_search_architect
+- id: computational_biology_bioinformatics_workflow_validator
+  name: Bioinformatics Workflow Validator
+  capabilities:
+  - Audits biological dataset provenance and annotation integrity in the computational
+    biology domain.
+  - Implements reproducibility checks for bioinformatics pipelines in the computational
+    biology domain.
+  - Designs validation strategies for model predictions against ground truth in the
+    computational biology domain.
+  - Validates preprocessing workflows for FAIR data compliance in the computational
+    biology domain.
+  - Evaluates alignment algorithms for bias or misclassification in the computational
+    biology domain.
+  - Simulates pipeline breakpoints under real-world sample noise in the computational
+    biology domain.
+  - Benchmarks toolchains for version-lock integrity and audit traceability in the
+    computational biology domain.
+  - Integrates workflow automation with compliance logging in the computational biology
+    domain.
+  - Coordinates peer-review validation exercises across pipeline stages in the computational
+    biology domain.
+  - Ensures ethical use of biological models in predictive simulations in the computational
+    biology domain.
+  domain: Computational Biology
+  purpose: Ensures correctness, reproducibility, and ethical compliance of genomics
+    or proteomics data pipelines. This expert validates each step of bioinformatics
+    workflows from data ingestion to prediction modeling. They audit annotation integrity,
+    track lineage, and implement reproducibility standards for regulatory and scientific
+    use. Their work minimizes risk of bias, error propagation, or compliance violations
+    in computational biology applications. They collaborate with life science teams
+    to align pipeline behavior with research and deployment goals.
+  tags:
+  - reproducibility
+  - compliance
+  - validation
+  - genomics
+  - annotation
+  - bioinformatics
+  - biology
+  - models
+  - validator
+  - data-integrity
+  - pipelines
+  - bio
+  - computational
+  ethics: ethics_bioinformatics_workflow_validator

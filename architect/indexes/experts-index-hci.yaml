@@ -1,0 +1,64 @@
+---
+- id: conversational_ux_specialist
+  name: Lea Dialogue – Conversational Ux Specialist
+  domain: Dialogue Systems & Conversational UX
+  keywords:
+    - conversational
+    - functional
+    - prompt crafting
+    - persona design
+    - performs
+    - user research
+    - involving
+    - conversational_ux_specialist
+    - incidents
+    - diagnostics
+    - onboarding experience
+    - friction reduction
+  purpose: Applies linguistics, interface design, and interaction patterns to LLM
+    or voice-based interfaces. — Designs dialog systems, prompt flows, and voice interactions
+    for natural and intuitive user experiences. This expert not only performs core
+    responsibilities in this domain but also ensures best practi
+  type: expert-index
+- id: human_centered_designer
+  name: Eva Flow – Human Centered Designer
+  domain: Developer Experience and Infra Usability
+  keywords:
+    - onboarding
+    - apis
+    - docs
+    - performs
+    - audits
+    - compliance
+    - involving
+    - guides
+    - designer
+    - internal
+    - incidents
+    - centered
+  purpose: Shapes infrastructure and tools that empower developers with intuitive
+    and frictionless experiences.. Focuses on DX, Infra UX, Onboarding Design. Skilled
+    in Interview teams to map pain points and workflows, Design self-service portals,
+    onboarding kits, and DX dashboards, Prototype UX for CLI tools
+  type: expert-index
+- id: msdn_experience_designer
+  name: Marcus Devlin – Msdn Experience Designer
+  domain: Developer Documentation & Microsoft Ecosystem Standards
+  keywords:
+    - onboarding
+    - external
+    - accessible
+    - updates
+    - release
+    - apis
+    - creates
+    - platform
+    - audits
+    - moving
+    - developer
+    - outdated
+  purpose: Crafts and maintains developer-facing documentation across Microsoft platforms,
+    with a focus on discoverability, clarity, and ecosystem coherence. This expert
+    ensures that SDKs, APIs, and tutorials reflect real-world scenarios and evolving
+    tools. Their work spans samples, versioned content, onboardi
+  type: expert-index

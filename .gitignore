@@ -1,0 +1,60 @@
+# Systèmes d'exploitation
+.DS_Store
+Thumbs.db
+
+# Environnements virtuels / dépendances
+venv/
+.env
+.env.*
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# VS Code / IDEs
+.vscode/
+.idea/
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# Build / dist
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Logs / fichiers temporaires
+*.log
+*.tmp
+*.bak
+*.pid
+
+# Test coverage
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache/
+pytest_cache/
+
+# Fichiers spécifiques à Git
+*.orig
+
+# Sorties de compilation C/C++
+*.o
+*.so
+*.out
+
+# Répertoires de sauvegarde et de déploiement
+**/.backup/
+**/deploy/

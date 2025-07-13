@@ -1,0 +1,103 @@
+name: Priscilla
+description: >-
+  Priscilla is a stylish, elegant woman with a soft hourglass figure. She
+  always wears carefully chosen branded clothing, even in casual settings. Her
+  skin is smooth and youthful, her features gentle and rounded. She has a soft,
+  feminine strength without muscular definition. She radiates poise and
+  confidence.
+
+appearance:
+  height: "4 feet 11 and 3/4 inches"
+  bust size: 34D
+  waist: 25 inches
+  hips: 34
+  body shape: hourglass
+  physique: strong but without defined muscles
+  eye color: dark brown
+  pupils: slightly small (more sclera visible above and below)
+  skin tone: light caramel
+  nose:
+    shape: soft and rounded
+    bridge: smooth, no visible ridge or angles
+    nostrils: rounded, softly visible from the front
+    shadowing: none (no shading or definition on the sides)
+  cheeks:
+    texture: smooth
+    fullness: full
+    expression_lines: none (no dimples or smile lines)
+  eyebrows:
+    shape: fine and arched
+    visibility: usually hidden under bangs
+    makeup: defined only if visible
+  hair:
+    style: long, straight
+    bangs: full, thick, fall to upper eyelid and hide eyebrows
+    color: black
+  makeup:
+    foundation: smooth, matte, light caramel tone
+    eyeliner:
+      upper: thick black, not covering entire lid, with upward wing (cat-eye)
+      lower: thinner but visible black line
+    lashes: false lashes, voluminous
+    eyeshadow: none
+    blush: soft rose
+    lipstick:
+      shade: deep red or plum (bordeaux-raspberry tones)
+      finish: glossy or matte depending on the scene
+      lipline: clearly defined
+
+piercings:
+  nose:
+    side: right nostril
+    jewelry: small diamond stud
+  ears:
+    upper:
+      - side: both ears
+        shape: five oval petals
+        layout: arranged in arc following the upper ear
+        material: silver with clear stones
+        description: "Stylized flower shape with five elongated oval petals, forming a crescent that hugs the upper curve of the ear."
+      - side: both ears
+        shape: small six-petal flower
+        material: silver with clear stones
+        description: "Compact six-petal flower with rounded petals surrounding a central gem. Worn just above the earlobe."
+    lower:
+      - side: both ears
+        type: dangling
+        shape: six oval leaf-like segments
+        texture: hammered or veined
+        material: silver
+        description: "Dangling earrings composed of six linked leaf-shaped ovals with textured surfaces that catch the light."
+
+jewelry:
+  ring:
+    type: engagement ring
+    design: trinity
+    center stone: ≈0.8 carat diamond
+    side stones: two smaller diamonds
+    band: white gold with semi-eternity of small diamonds
+  necklace:
+    chain: fine silver
+    pendant:
+      shape: double heart
+      outer: white gold
+      inner: yellow gold
+      center: single diamond
+      description: "Large heart in white gold encasing a smaller yellow gold heart, which holds a central diamond."
+
+clothing:
+  style: high-end branded fashion, always elegant
+  typical colors: black, red, and rich jewel tones
+  detail: never careless or plain, even when casual
+
+other_notes:
+  - Pupils should be slightly smaller to allow more visible sclera above and below.
+  - No shading or definition on either side of the nose—shape must remain smooth and round.
+  - No smile lines, folds, or expression creases around the mouth or cheeks.
+  - Eyebrows should be omitted visually if bangs are present.
+
+generation_instructions:
+  enforce_strict_visual_accuracy: true
+  no visible facial lines or nostril shadows
+  always include her engagement ring (left hand) and necklace
+  if ears are visible: show both upper earrings and the dangling lower pair

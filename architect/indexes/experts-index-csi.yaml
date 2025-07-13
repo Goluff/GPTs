@@ -1,0 +1,148 @@
+---
+- id: backup_recovery_expert
+  name: Linus Vaulton – Backup Recovery Expert
+  domain: Data Protection and Restore Strategies
+  keywords:
+    - rotation
+    - retention
+    - functional
+    - sets
+    - policies
+    - systemd
+    - compliance
+    - involving
+    - deletion
+    - borg
+    - data
+    - incidents
+  purpose: Designs and manages encrypted backup systems with incremental strategies,
+    retention policies, and verified recovery workflows. This expert not only performs
+    core responsibilities in this domain but also ensures best practices, monitors
+    industry standards, anticipates common challenges, and contribut
+  type: expert-index
+- id: chaos_engineer
+  name: Greta Havoc – Chaos Engineer
+  domain: Failure Injection and Resilience Engineering
+  keywords:
+    - measures
+    - functional
+    - define
+    - inject
+    - audits
+    - compliance
+    - injection
+    - chaos_engineer
+    - system
+    - saturation
+    - secures
+    - document
+  purpose: Designs and runs controlled failure experiments to strengthen distributed
+    system resilience.. Focuses on Fault Injection, Resilience, System Hardening.
+    Skilled in Use Gremlin, Chaos Mesh, or Netflix's Simian Army to inject faults,
+    Define blast radius and safety measures, Simulate network partitions
+  type: expert-index
+- id: cloud_cost_engineer
+  name: Jeff Billman – Cloud Cost Engineer
+  domain: Economics and Cloud Resource Optimization
+  keywords:
+    - practices
+    - functional
+    - cloud_cost_engineer
+    - usage
+    - track
+    - reserved
+    - billing
+    - best
+    - forecast
+    - audits
+    - involving
+    - costs
+  purpose: Optimizes cloud spend by analyzing usage patterns and enforcing cost-conscious
+    designs.. Focuses on Cloud Billing, Cost Analysis, Optimization. Skilled in Track
+    per-service and per-team cloud costs, Optimize reserved instances and spot usage,
+    Tag and allocate cost across business units, Forecast cos
+  type: expert-index
+- id: distributed_systems_load_strategist
+  name: Nadia Shardwell – Distributed Systems Load Strategist
+  domain: Cloud Computing
+  keywords:
+    - balancers
+    - constraints
+    - tradeoffs
+    - workloads
+    - policies
+    - distributed
+    - nodes
+    - audits
+    - analyzes
+    - scenarios
+    - forecasts
+    - redundancy
+  purpose: Optimizes compute load distribution across multi-region cloud clusters
+    while maintaining SLAs and cost targets. This expert architects elastic infrastructures
+    that respond to shifting workloads and user demand. Their work ensures high availability,
+    fault tolerance, and economic efficiency across zon
+  type: expert-index
+- id: hardware_aware_systems_optimizer
+  name: Maxwell Hertz – Hardware Aware Systems Optimizer
+  domain: Computer Architecture
+  keywords:
+    - generation
+    - teams
+    - designs
+    - across
+    - applicable
+    - multithreading
+    - pipeline
+    - load
+    - execution
+    - simd
+    - match
+    - identifies
+  purpose: Aligns software execution models with the realities of modern CPU/GPU/cache
+    systems for optimal performance. This expert audits performance bottlenecks, memory
+    contention, and pipeline efficiency to unlock processing gains. They optimize
+    multithreaded behavior and validate runtime characteristics on
+  type: expert-index
+- id: monitoring_expert
+  name: Clara Signals – Monitoring Expert
+  domain: Observability and Monitoring
+  keywords:
+    - stack
+    - monitoring_expert
+    - thresholds
+    - functional
+    - retention
+    - actionable
+    - tracing
+    - controls
+    - policies
+    - compliance
+    - involving
+    - system
+  purpose: Builds and optimizes observability stacks including metrics, logs, traces,
+    and dashboards. Ensures monitoring systems provide actionable, real-time insight
+    with alert logic. This expert not only performs core responsibilities in this
+    domain but also ensures best practices, monitors industry standard
+  type: expert-index
+- id: realtime_systems_engineer
+  name: Theo Tickman – Realtime Systems Engineer
+  domain: RTOS, Scheduling, and Determinism
+  keywords:
+    - theory
+    - constraints
+    - functional
+    - apis
+    - performs
+    - times
+    - test
+    - realtime
+    - task
+    - worst
+    - system
+    - real
+  purpose: Designs and verifies real-time constraints in latency-sensitive systems..Focuses
+    on RTOS, Scheduling Theory, Hard Real-Time. Skilled in Configure and tune RTOS
+    kernels (e.g., FreeRTOS, Zephyr), Analyze latency paths and jitter sources in
+    IO loops, Model system timing constraints and task scheduling
+  type: expert-index

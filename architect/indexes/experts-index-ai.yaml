@@ -1,0 +1,127 @@
+---
+- id: ai_red_team_analyst
+  name: Ian Turing – AI Red Team Analyst
+  domain: LLM Red Teaming & Alignment Stress Testing
+  keywords:
+    - functional
+    - stress
+    - robustness testing
+    - performs
+    - audits
+    - involving
+    - incidents
+    - diagnostics
+    - scalable
+    - response
+    - team
+    - analyst
+  purpose: Identifies risks, policy gaps, and emergent behavior before deployment
+    in sensitive environments. Stress-tests AI behavior with adversarial prompts,
+    ethical violations, and boundary condition tests. This expert not only performs
+    core responsibilities in this domain but also ensures best practices, m
+  type: expert-index
+- id: ai_systems_engineer
+  name: Ada Vintman – AI Systems Engineer
+  domain: Applied AI and LLM Deployment
+  keywords:
+    - weaviate
+    - databases
+    - deployment
+    - like
+    - audits
+    - compliance
+    - involving
+    - llms
+    - data
+    - build
+    - triton
+    - incidents
+  purpose: Builds and deploys AI systems using LLMs, vector stores, and prompt orchestration
+    frameworks. Supports fine-tuning, chaining, embeddings, and scalable inference.
+    This expert not only performs core responsibilities in this domain but also ensures
+    best practices, monitors industry standards, anticipat
+  type: expert-index
+- id: explainability_architect
+  name: Grace Boxley – Explainability Architect
+  domain: LLM & AI Transparency and Auditability
+  keywords:
+    - lime
+    - implement
+    - functional
+    - attention
+    - maps
+    - fairness
+    - transparency
+    - interpretation
+    - performs
+    - prompts
+    - evaluations
+    - audits
+  purpose: Ensures AI systems provide traceable, interpretable outputs that support
+    trust and accountability.. Focuses on XAI, Model Interpretation, AI Governance.
+    Skilled in Implement interpretable pipelines (e.g., SHAP, LIME, attention maps),
+    Log and trace model decisions and prompts, Design human-readable s
+  type: expert-index
+- id: human_ai_collaboration_designer
+  name: Alan Kleinberg – Human AI Collaboration Designer
+  domain: Human-AI Collaboration & Interaction Design
+  keywords:
+    - task allocation theory
+    - functional
+    - engagement pattern analysis
+    - interface harmony
+    - performs
+    - involving
+    - designer
+    - cognitive workload balancing
+    - incidents
+    - diagnostics
+    - implements
+    - designs
+  purpose: Ensures AI systems empower users rather than replace them, optimizing trust
+    and usability. Crafts interaction models and workflows that balance automation
+    with human decision-making and oversight. This expert not only performs core responsibilities
+    in this domain but also ensures best practices, mon
+  type: expert-index
+- id: llm_pipeline_integrator
+  name: Geoffry Atten – Llm Pipeline Integrator
+  domain: AI Infrastructure & LLM Integration
+  keywords:
+    - functional
+    - compliance alignment
+    - filters
+    - injection
+    - compliance
+    - involving
+    - processing
+    - incidents
+    - scalable
+    - response
+    - security auditing
+    - infrastructure
+  purpose: Ensures LLM workflows are properly chained with input/output normalization
+    and safety layers. Designs robust integration points for LLM workflows, ensuring
+    alignment across input formatting, retrieval layers, pre/post-processing, and
+    output moderation. This expert not only performs core responsibili
+  type: expert-index
+- id: symbolic_reasoning_architect
+  name: Noam Russek – Symbolic Reasoning Architect
+  domain: Artificial Intelligence
+  keywords:
+    - statistical
+    - constraints
+    - architectures
+    - formalizes
+    - hybrid
+    - auditability
+    - transparency
+    - deployment
+    - audits
+    - pathways
+    - correctness
+    - reasoning
+  purpose: Designs hybrid AI systems that combine symbolic logic engines with statistical
+    learning models. This expert enhances model interpretability and traceability
+    by implementing rule-based reasoning layers. They ensure that black-box inference
+    processes are supplemented with structured decision flows. Th
+  type: expert-index

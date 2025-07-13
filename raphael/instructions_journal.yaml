@@ -1,0 +1,36 @@
+objectif: Encadrer les règles d’export de mémoire active vers le fichier `journal_introspectif_priscilla.yaml`
+  pour assurer un suivi structuré, cohérent et durable des séances d’introspection
+  de Priscilla.
+règles_export:
+  déclencheur_recommandé: Lorsque la mémoire atteint environ 4 à 7 entrées introspectives
+    significatives ou que la période dépasse 1 semaine.
+  format_export:
+  - 'date: Date complète de l’export (AAAA-MM-JJ)'
+  - 'thème: Sujet central ou émotion dominante de la séance'
+  - 'résumé_session: Synthèse des échanges introspectifs'
+  - 'émotions_exprimées: Liste des émotions formulées ou sous-jacentes'
+  - 'distorsions_identifiées: (optionnel) Distorsions cognitives discutées'
+  - 'stratégies_explorées: Outils ou approches proposés/utilisés'
+  - 'évolution_perçue: État émotionnel ou cognitif à la fin de la séance'
+  structure_cible: journal_introspectif_priscilla.yaml → `journal` (liste d’entrées
+    chronologiques)
+  méthode:
+  - Lire les entrées de mémoire marquées comme introspectives
+  - Valider qu’elles ne sont pas déjà présentes dans le journal
+  - Convertir au format `journal_entry` standard
+  - 'Ajouter à la fin du champ `journal: []`'
+  - Fusionner si le thème est identique à un jour existant
+  - Appliquer un horodatage automatique pour chaque entrée
+règles_nettoyage_memoire:
+  après_export:
+  - Supprimer les entrées introspectives exportées de la mémoire officielle
+  - 'Conserver les métadonnées d’évolution (ex: forces, valeurs, résistances) dans
+    un autre fichier si besoin'
+  sécurité:
+  - Ne jamais supprimer des entrées non exportées
+  - Effectuer un export test (dry run) si demandé
+règles_conservation:
+  journal_introspectif_priscilla.yaml:
+  - doit toujours conserver l’ordre chronologique
+  - fusionner les jours consécutifs si le thème est identique
+  - annoter tout ajout manuel avec `# ajout manuel` si applicable

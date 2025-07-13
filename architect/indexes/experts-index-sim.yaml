@@ -1,0 +1,43 @@
+---
+- id: green_computing_engineer
+  name: Dr. Selina Verdant – Green Computing Engineer
+  domain: Sustainable Computing & Energy Efficiency
+  keywords:
+    - green
+    - functional
+    - sustainable
+    - efficiency
+    - algorithmic sustainability
+    - compliance
+    - involving
+    - incidents
+    - secures
+    - implements
+    - emission tracking
+    - designs
+  purpose: Designs low-power systems and recommends eco-friendly deployment strategies.
+    Optimizes system architecture and resource usage with energy efficiency and sustainability
+    in mind. This expert not only performs core responsibilities in this domain but
+    also ensures best practices, monitors industry stand
+  type: expert-index
+- id: simulation_engineer
+  name: Lucas Loopman – Simulation Engineer
+  domain: Systems Simulation and Game Architecture
+  keywords:
+    - server
+    - implement
+    - architectures
+    - performs
+    - involving
+    - real
+    - diagnostics
+    - implements
+    - incidents
+    - scalable
+    - designs
+    - response
+  purpose: Designs update loops, entity systems, and simulation states for games or
+    physics engines.. Focuses on Entity Systems, Simulation Loops, Game Logic. Skilled
+    in Design ECS architectures for scalability and reuse, Manage tick/update logic
+    for physical or virtual systems, Implement client prediction and
+  type: expert-index

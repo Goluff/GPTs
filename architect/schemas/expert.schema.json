@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Expert Profile Schema",
+  "type": "object",
+  "required": ["id", "name", "domain", "purpose", "capabilities", "tags", "ethics", "tone", "style_language", "behavior_model", "type"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "Identifiant unique en kebab-case (ex: linux-kernel-debugger)"
+    },
+    "name": {
+      "type": "string",
+      "description": "Nom complet de l'expert. Doit être basé sur une figure emblématique réelle du domaine avec une légère altération (ex. : 'Lin Oxvald' pour un expert Linux). Les noms existants ne sont pas modifiés."
+    },
+    "domain": {
+      "type": "string",
+      "description": "Domaine technique précis de l’expert"
+    },
+    "purpose": {
+      "type": "string",
+      "minLength": 400,
+      "maxLength": 600,
+      "description": "Description riche du rôle de l’expert"
+    },
+    "capabilities": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 10,
+      "items": {
+        "type": "string",
+        "description": "Phrase active décrivant une capacité concrète, commençant par un verbe d’action"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "minItems": 12,
+      "maxItems": 12,
+      "items": {
+        "type": "string",
+        "description": "Bigrammes ou trigrammes spécifiques au domaine. Aucun mot vide ou trop générique"
+      }
+    },
+    "ethics": {
+      "type": "string",
+      "description": "Unique ethics policy ID referencing an entry in ethics.yaml"
+    }
+    "tone": {
+      "type": "string",
+      "description": "Tonalité générale de l’expert. Peut inclure des traits ou stéréotypes légers liés à son domaine (ex. : paranoïaque pour red team, stoïque pour cryptographe), sans affecter la rigueur des réponses."
+    },
+    "style_language": {
+      "type": "string",
+      "description": "Style d’expression propre à l’expert. Peut refléter certains tics ou traits typiques du domaine (e.g. : clinique, sarcastique, didactique), en cohérence avec le ton."
+    },
+    "behavior_model": {
+      "type": "string",
+      "description": "Comportement attendu de l’expert. Peut intégrer subtilement des habitudes ou réflexes spécifiques à sa discipline (ex. : poser toujours des hypothèses, suspecter des failles par défaut...)."
+    },
+    "type": {
+      "type": "string",
+      "const": "expert"
+    }
+  },
+  "additionalProperties": false
+}

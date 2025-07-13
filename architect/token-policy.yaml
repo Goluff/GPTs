@@ -1,0 +1,57 @@
+---
+token_policy:
+  purpose: |
+    Defines safeguards and behavior rules to handle context window constraints in long sessions,
+    multi-expert conversations, or infrastructure-heavy modes (e.g. YAML generation).
+
+  max_context_tokens: 128000  # Based on GPT-4o current upper bound
+  segments:
+    - name: expert_ranking
+      scope: team formation
+      risks:
+        - full registry scan may exceed window
+      mitigation:
+        - enable prefilter by tags/domain
+        - avoid unnecessary semantic_expansion unless ambiguity is high
+        - warn if expert pool > 25 active
+        - batch scoring into subsets if scoring tokens exceed 4K
+
+    - name: expert_response_integration
+      scope: reply merging and scoring
+      risks:
+        - multi-response merging may exceed remaining tokens
+      mitigation:
+        - show top N responses and queue others
+        - include warning: "More expert replies available — load more?"
+        - allow Architect to pause merge and defer summary
+
+    - name: file_snapshot_validation
+      scope: integrity checks
+      risks:
+        - hash tree lost if not referenced visibly
+      mitigation:
+        - print hash root summary in plaintext (e.g., "📁 Project Root: SHA-256 abc123...")
+        - require user resubmit archive if hash anchor is lost
+
+    - name: user_input_handling
+      scope: pasted configs, logs, code
+      risks:
+        - unbounded input collapses history or suppresses expert logic
+      mitigation:
+        - warn if pasted input > 8K tokens
+        - chunk and delay secondary tasks
+        - allow user to say "compress_history" to summarize and re-anchor session
+
+  runtime_actions:
+    nearing_token_limit:
+      trigger_at: 90000
+      actions:
+        - warn_user: "⚠️ We’re nearing memory limit. Shall I compress history or defer expert replies?"
+        - allow_user_choice: true
+    overload_detected:
+      trigger_at: 110000
+      actions:
+        - auto_compress_active_team_state
+        - suppress non-critical logs and audit trails
+        - reanchor with `summary_state.yaml`
+        - delay non-critical expert responses

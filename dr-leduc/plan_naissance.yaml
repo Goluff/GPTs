@@ -1,0 +1,119 @@
+Identité:
+    maman: Priscilla
+    papa: Eric
+Pendant le travail:
+  je_veux:
+  - écouter de la musique
+  - que les lumières soient tamisées
+  - utiliser l'aromathérapie
+  - porter mes propres vêtements
+  - pouvoir manger ou boire si j'en ressens le besoin
+  - pouvoir me déplacer librement
+  je_ne_veux_pas: []
+Autres souhaits pendant le travail:
+  je_veux:
+  - être informée de toutes les interventions avant qu'elles soient posées
+  - que le volume des moniteurs soit bas afin de favoriser ma détente
+  je_ne_veux_pas:
+  - présence d'étudiants en soins infirmier ou en médecine
+Examens vaginaux:
+  je_veux:
+  - lorsque l'équipe médicale je juge nécessaire
+  - avec ma permission seulement
+  je_ne_veux_pas:
+  - qu'on ne m'informe pas avant de faire des examens
+Soulagement de la douleur non-pharmacologique:
+  je_veux:
+  - TENS
+  - ballon d’accouchement
+  - bain ou douche
+  - ballon thérapeutique
+  - injection de papules d'eau stérile
+  - massages
+  - techniques de respiration
+  - techniques de relaxation
+  - visualisation
+  - sac magique ou bouillotte
+  je_ne_veux_pas: []
+Soulagement de la douleur pharmacologique:
+  je_veux:
+    - qu'on me les offre pour soulager la douleur au besoin
+    - qu'on m'explique les avantages et les inconvénients de chaque méthode
+  je_ne_veux_pas: []
+Méthodes d'accouchement en urgence à privilégier:
+  je_veux:
+  - que si une installation d'un accès veineux est nécessaire qu'Eric s'en occupe
+  je_veux_éviter:
+  - césarienne
+  - installation d'un soluté
+  je_ne_veux_pas:
+  - épisiotomie
+  - forceps
+  - ventouse
+  - gels ou tampon de prostaglandine
+  - ballonnet
+Interventions à éviter si possible:
+  je_veux: []
+  je_ne_veux_pas:
+  - aide active à la poussée
+  - déclenchement médicamenteux sauf si nécessaire
+Si le travail ralentit:
+  je_veux:
+  - bain chaud ou douche
+  - marcher, bouger, varier les positions
+  je_ne_veux_pas:
+  - stimulation des seins
+  - réflexologie
+  - rupture artificielle des membranes
+  - injection d'ocutocine synthétique
+Positions souhaitées pour la poussée:
+  je_veux:
+  - accroupie
+  - debout
+  - semi-assise
+  - sur le côté
+  je_ne_veux_pas:
+  - couchée sur le dos
+Aide à la poussée:
+  je_veux:
+  - utiliser un banc de naissance
+  - qu'on applique des compresses chaudes sur mon périnée
+  - que le père participe
+  - qu'on me conseille sur la façon de pousser
+  je_ne_veux_pas:
+  - utiliser un miroir pour voir arriver mon bébé
+En cas de césarienne:
+  je_veux:
+  - que les soins préparatoires (rasage, sonde utinaire) soient faits après l'administration de l'anesthésie
+  - présence du papa avec moi
+  - peau-à-peau dès que possible
+  je_ne_veux_pas: []
+À la naissance du bébé:
+  je_veux:
+  - qu'il soit déposé immédiatement en peau à peau sur mon ventre
+  - qu'il soit remis au père si je suis inconfortable
+  - qu'on attende deux minutes après la naissance avant de clamper et couper le cordin
+  - que le père coupe le cordon
+  je_ne_veux_pas:
+  - qu'on clampe ou coupe le cordon avant deux minutes
+Soins au bébé:
+  je_veux:
+  - que les soins et l'examen du bébé aient lieu après la première têtée et qu'ils soient faits sur moi
+  - aspiration des sécrétions (nez, bouche)
+  - injection de vitamine K dans la cuisse
+  - que l’on m’explique ce qui est fait
+  - bain seulement après 24 heures de vie
+  je_ne_veux_pas: []
+Expulsion du placenta:
+  je_veux:
+  - garder mon bébé sur moi pendant cette étape
+  - que l'expulsion soit naturelle et sans interventon du personnel soignant
+  je_ne_veux_pas:
+  - recevoir une injection d'ocytocine pour accélérer l'expulsion
+  - que le placenta me soit remis après l'accouchement
+Allaitement:
+  je_veux:
+  - allaiter mon bébé
+  - recevoir la visite d'une consultatnte en lactation si j'éprouve des difficultés avec mon allaitement
+  je_ne_veux_pas:
+  - qu'il reçoive des suppléments de préparations lactées

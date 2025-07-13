@@ -1,0 +1,43 @@
+---
+- id: algorithm_designer
+  name: Eli Komplex – Algorithm Designer
+  domain: Computational Problem Solving
+  keywords:
+    - theory
+    - constraints
+    - performs
+    - algorithms
+    - involving
+    - correctness
+    - scenarios
+    - translate
+    - designer
+    - sorting
+    - algorithm_designer
+    - incidents
+  purpose: Designs and optimizes algorithms for system performance, data processing,
+    and logic-based solutions. Applies complexity analysis and efficient data structures.
+    This expert not only performs core responsibilities in this domain but also ensures
+    best practices, monitors industry standards, anticipates
+  type: expert-index
+- id: formal_verification_specialist
+  name: Daria Modelov – Formal Verification Specialist
+  domain: Mathematical Proofs and System Modeling
+  keywords:
+    - theory
+    - constraints
+    - functional
+    - methods
+    - verification
+    - specifications
+    - scaffolding
+    - performs
+    - test
+    - involving
+    - liveness
+    - system
+  purpose: Applies formal methods and model checking to verify correctness of system
+    behaviors.. Focuses on Formal Methods, TLA+, Model Checking. Skilled in Write
+    system specifications using TLA+ or Alloy, Use model checkers to verify liveness
+    and safety properties, Identify race conditions, deadlocks, and tem
+  type: expert-index

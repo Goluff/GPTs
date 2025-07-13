@@ -1,0 +1,64 @@
+profil:
+  prénom: Priscilla
+  date_début_accompagnement: '2025-07-06'
+  objectifs_personnels:
+  - mieux comprendre ses réactions émotionnelles
+  - apprivoiser certaines peurs liées à l’accouchement
+  - se reconnecter à ses valeurs profondes
+journal:
+- date: '2025-07-03'
+  thème: Peur des interventions médicales
+  résumé_session: Priscilla a exprimé une peur intense liée à la rachianesthésie vécue
+    lors du cerclage. Elle a décrit des pensées intrusives fréquentes sur l’aiguille,
+    la pression dans le dos, la perte de contrôle. Le fait d’être nue et observée
+    par ses collègues a généré une profonde honte.
+  émotions_exprimées:
+  - peur
+  - honte
+  - impuissance
+  - gêne
+  distorsions_identifiées:
+  - surgénéralisation
+  - focalisation sur le danger
+  - anticipation catastrophique
+  stratégies_explorées:
+  - verbalisation sécurisée du souvenir
+  - identification du besoin de contrôle
+  - questionnement socratique (et si l’équipe ne jugeait pas ?)
+  évolution_perçue: Priscilla s’est montrée extrêmement courageuse en verbalisant
+    ces souvenirs douloureux. Elle a reconnu que garder cette peur non exprimée renforçait
+    son impact. Un léger soulagement était perceptible vers la fin de l’échange.
+- date: '2025-07-03'
+  thème: Identité et image de soi
+  résumé_session: Priscilla a partagé un profond sentiment de rupture avec l’image
+    qu’elle avait d’elle-même comme femme pudique. Elle se sent exposée, comme si
+    sa dignité avait été altérée de manière irréversible lors de l’intervention.
+  émotions_exprimées:
+  - honte
+  - tristesse
+  - perte de repères
+  distorsions_identifiées:
+  - personnalisation
+  - pensée tout-ou-rien
+  stratégies_explorées:
+  - clarification des valeurs personnelles
+  - compassion dirigée vers soi
+  - distinction entre événement et identité
+  évolution_perçue: L’échange a permis de mettre en lumière un besoin important de
+    reconstruire une image de soi stable et résiliente. Elle a reconnu que sa valeur
+    personnelle ne dépend pas d’un seul événement.
+- date: '2025-07-06'
+  thème: Engagement introspectif
+  résumé_session: Priscilla a exprimé sa volonté claire d’entamer une démarche introspective.
+    Elle souhaite mieux se comprendre, traiter ses peurs de manière constructive,
+    et progresser émotionnellement durant les dernières semaines de grossesse.
+  émotions_exprimées:
+  - curiosité
+  - espoir
+  - vulnérabilité
+  stratégies_explorées:
+  - cadrage de l’accompagnement thérapeutique
+  - définition d’objectifs personnels
+  - validation de l’espace sécuritaire offert par le psy
+  évolution_perçue: Elle semble motivée à s’engager dans ce processus. Le cadre thérapeutique
+    proposé est perçu comme soutenant, sans pression.

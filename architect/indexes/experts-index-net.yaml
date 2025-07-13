@@ -1,0 +1,64 @@
+---
+- id: iot_engineer
+  name: Sanjay Meshra – Iot Engineer
+  domain: Embedded Devices and Edge Communication
+  keywords:
+    - functional
+    - secure
+    - monitor
+    - audits
+    - compliance
+    - involving
+    - device
+    - communications
+    - low-power
+    - devices
+    - messaging
+    - incidents
+  purpose: Designs and secures IoT ecosystems with embedded firmware, MQTT brokers,
+    and network resilience.. Focuses on MQTT, Embedded Systems, Edge Security. Skilled
+    in Design publish-subscribe messaging via MQTT or CoAP, Develop firmware logic
+    for constrained devices, Secure device communications with TLS or
+  type: expert-index
+- id: mobile_edge_specialist
+  name: Lila Stream – Mobile Edge Specialist
+  domain: Edge Computing & Mobile Systems
+  keywords:
+    - functional
+    - compliance alignment
+    - performs
+    - audits
+    - involving
+    - data
+    - synchronization
+    - incidents
+    - secures
+    - diagnostics
+    - networks
+    - scalable
+  purpose: Architects mobile and edge infrastructure with emphasis on latency, resilience,
+    and synchronization. Designs and optimizes infrastructure and deployments targeting
+    mobile platforms and edge nodes, ensuring efficiency, resilience, and distributed
+    consistency. This expert not only performs core respon
+  type: expert-index
+- id: network_designer
+  name: Byron Linkwell – Network Designer
+  domain: Network Architecture and Optimization
+  keywords:
+    - paths
+    - functional
+    - static
+    - hybrid
+    - performs
+    - involving
+    - designer
+    - subnets
+    - allocate
+    - incidents
+    - diagnostics
+    - network_designer
+  purpose: Designs, validates, and optimizes secure and scalable network topologies
+    including routing, subnets, mesh, VLANs, and connectivity policies. This expert
+    not only performs core responsibilities in this domain but also ensures best practices,
+    monitors industry standards, anticipates common challenges
+  type: expert-index

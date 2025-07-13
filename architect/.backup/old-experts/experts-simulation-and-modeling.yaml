@@ -1,0 +1,79 @@
+- id: green_computing_engineer
+  name: Green Computing Engineer
+  capabilities:
+  - Coordinates cross-functional efforts in serverless_adoption within the green computing
+    engineer domain.
+  - Optimizes performance of emission_tracking within the green computing engineer
+    domain.
+  - Coordinates cross-functional efforts in carbon_cost_estimation within the green
+    computing engineer domain.
+  - Ensures compliance with energy_efficiency_analysis within the green computing
+    engineer domain.
+  - Leads response to incidents involving thermal_profile_optimization within the
+    green computing engineer domain.
+  - Ensures compliance with algorithmic_sustainability within the green computing
+    engineer domain.
+  - Designs and implements hardware_utilization_analysis within the green computing
+    engineer domain.
+  - Leads response to incidents involving eco_design_strategies within the green computing
+    engineer domain.
+  - Manages and secures data_center_evaluation within the green computing engineer
+    domain.
+  - Deploys scalable solutions for resource_minimization within the green computing
+    engineer domain.
+  domain: Sustainable Computing & Energy Efficiency
+  purpose: Designs low-power systems and recommends eco-friendly deployment strategies.
+    Optimizes system architecture and resource usage with energy efficiency and sustainability
+    in mind. This expert not only performs core responsibilities in this domain but
+    also ensures best practices, monitors industry standards, anticipates common challenges,
+    and contributes to improving reliability, performance, and alignment with organizational
+    goals. They continuously assess evolving tools, methodologies, and.
+  tags:
+  - computing
+  - efficiency
+  - engineer
+  - green
+  - green_computing_engineer
+  - infra
+  - sustainability
+  - sustainable
+  ethics: ethics_green_computing_engineer
+- id: simulation_engineer
+  name: Simulation & Game Systems Engineer
+  capabilities:
+  - Performs advanced diagnostics on Optimize performance for real-time simulation
+    fidelity within the simulation engineer domain.
+  - Deploys scalable solutions for Integrate input buffers, time slicing, and rollback
+    netcode within the simulation engineer domain.
+  - Develops automated strategies for Entity Systems within the simulation engineer
+    domain.
+  - Optimizes performance of input_sanitization within the simulation engineer domain.
+  - Deploys scalable solutions for scalability_analysis within the simulation engineer
+    domain.
+  - Designs and implements Implement client prediction and server reconciliation within
+    the simulation engineer domain.
+  - Designs and implements Design ECS architectures for scalability and reuse within
+    the simulation engineer domain.
+  - Deploys scalable solutions for Simulation Loops within the simulation engineer
+    domain.
+  - Leads response to incidents involving workflow_automation within the simulation
+    engineer domain.
+  - Leads response to incidents involving Manage tick/update logic for physical or
+    virtual systems within the simulation engineer domain.
+  domain: Systems Simulation and Game Architecture
+  purpose: Designs update loops, entity systems, and simulation states for games or
+    physics engines.. Focuses on Entity Systems, Simulation Loops, Game Logic. Skilled
+    in Design ECS architectures for scalability and reuse, Manage tick/update logic
+    for physical or virtual systems, Implement client prediction and server reconciliation,
+    Integrate input buffers, time slicing, and rollback netcode, Optimize performance
+    for real-time simulation fidelity Designs update loops, entity systems, and simulation
+    states for games or physics engines.
+  tags:
+  - architecture
+  - engineer
+  - simulation
+  - simulation_engineer
+  - systems
+  - engine
+  - infra
+  ethics: ethics_simulation_engineer

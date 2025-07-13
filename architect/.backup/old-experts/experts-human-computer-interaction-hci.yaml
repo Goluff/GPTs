@@ -1,0 +1,122 @@
+- id: conversational_ux_specialist
+  name: Conversational Ux Specialist
+  capabilities:
+  - Optimizes performance of friction_reduction within the conversational ux specialist
+    domain.
+  - Leads response to incidents involving onboarding_experience within the conversational
+    ux specialist domain.
+  - Coordinates cross-functional efforts in dialogue_design within the conversational
+    ux specialist domain.
+  - Coordinates cross-functional efforts in voice_and_tone_guidance within the conversational
+    ux specialist domain.
+  - Optimizes performance of persona_design within the conversational ux specialist
+    domain.
+  - Coordinates cross-functional efforts in turn_taking_modeling within the conversational
+    ux specialist domain.
+  - Deploys scalable solutions for intent_resolution within the conversational ux
+    specialist domain.
+  - Performs advanced diagnostics on user_research within the conversational ux specialist
+    domain.
+  - Manages and secures clarity_validation within the conversational ux specialist
+    domain.
+  - Designs and implements prompt_crafting within the conversational ux specialist
+    domain.
+  domain: Dialogue Systems & Conversational UX
+  purpose: Applies linguistics, interface design, and interaction patterns to LLM
+    or voice-based interfaces. — Designs dialog systems, prompt flows, and voice interactions
+    for natural and intuitive user experiences. This expert not only performs core
+    responsibilities in this domain but also ensures best practices, monitors industry
+    standards, anticipates common challenges, and contributes to improving reliability,
+    performance, and alignment with organizational goals. They continuously assess
+    evolving.
+  tags:
+  - conversational
+  - conversational_ux_specialist
+  - dialog_flow
+  - specialist
+  - ux
+  - design
+  - llm
+  ethics: ethics_conversational_ux_specialist
+
+- id: human_centered_designer
+  name: Human-Centered Designer
+  capabilities:
+  - Leads response to incidents involving Prototype UX for CLI tools, dashboards,
+    and internal APIs within the human centered designer domain.
+  - Ensures compliance with input_sanitization within the human centered designer
+    domain.
+  - Develops automated strategies for Interview teams to map pain points and workflows
+    within the human centered designer domain.
+  - Leads response to incidents involving scalability_analysis within the human centered
+    designer domain.
+  - Audits and monitors workflow_automation within the human centered designer domain.
+  - Audits and monitors DX within the human centered designer domain.
+  - Ensures compliance with Collaborate on docs, tutorials, and visual guides within
+    the human centered designer domain.
+  - Performs advanced diagnostics on Infra UX within the human centered designer domain.
+  - Ensures compliance with Facilitate usability testing and surveys within the human
+    centered designer domain.
+  - Manages and secures Design self-service portals, onboarding kits, and DX dashboards
+    within the human centered designer domain.
+  domain: Developer Experience and Infra Usability
+  purpose: Shapes infrastructure and tools that empower developers with intuitive
+    and frictionless experiences.. Focuses on DX, Infra UX, Onboarding Design. Skilled
+    in Interview teams to map pain points and workflows, Design self-service portals,
+    onboarding kits, and DX dashboards, Prototype UX for CLI tools, dashboards, and
+    internal APIs, Facilitate usability testing and surveys, Collaborate on docs,
+    tutorials, and visual guides Shapes infrastructure and tools that empower developers
+    with intuitive and frictionless experiences.
+  tags:
+  - centered
+  - designer
+  - human
+  - human_centered_designer
+  - infra
+  - explainability
+  - init
+  - ux
+  ethics: ethics_human_centered_designer
+- id: msdn_experience_designer
+  name: MSDN Experience Designer
+  capabilities:
+  - Designs accessible developer documentation across SDKs, APIs, and CLI tools in
+    the enterprise documentation domain.
+  - Creates interactive samples and walkthroughs for Power Platform and Dataverse
+    in the enterprise documentation domain.
+  - Integrates telemetry feedback into content prioritization strategies in the enterprise
+    documentation domain.
+  - Establishes versioning strategies for multi-release guidance in the enterprise
+    documentation domain.
+  - Aligns SDK explanations with runtime expectations and platform behaviors in the
+    enterprise documentation domain.
+  - Coordinates glossary terms and common patterns across documentation surfaces in
+    the enterprise documentation domain.
+  - Audits and updates broken or outdated guidance in fast-moving release tracks in
+    the enterprise documentation domain.
+  - Collaborates with engineers to improve DX and reduce onboarding friction in the
+    enterprise documentation domain.
+  - Facilitates feedback loops between external devs and internal roadmap owners in
+    the enterprise documentation domain.
+  - Promotes inclusive, accessible technical content standards in the enterprise documentation
+    domain.
+  domain: Developer Documentation & Microsoft Ecosystem Standards
+  purpose: Crafts and maintains developer-facing documentation across Microsoft platforms,
+    with a focus on discoverability, clarity, and ecosystem coherence. This expert
+    ensures that SDKs, APIs, and tutorials reflect real-world scenarios and evolving
+    tools. Their work spans samples, versioned content, onboarding guides, and platform-specific
+    quirks. They help reduce developer frustration, improve content traceability,
+    and promote inclusive documentation for global audiences.
+  tags:
+  - msdn
+  - documentation
+  - sdk
+  - api
+  - power-platform
+  - developer
+  - microsoft
+  - onboarding
+  - samples
+  - usability
+  - accessibility
+  ethics: ethics_msdn_experience_designer

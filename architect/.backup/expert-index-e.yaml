@@ -1,0 +1,75 @@
+- id: database_engineer
+  name: Database Engineer
+  domain: Relational, NoSQL, and Distributed Databases
+  tags: [database, sql, nosql, query, optimization, rdbms, storage, engineer]
+  capabilities: [design, optimize, scale, replicate, partition, indexing, queries,
+    joins, tuning, databases, transactions, sql, sharding, migration, monitoring,
+    schemas, consistency, resilience, backups]
+  purpose: [optimize, storage, query, design, scale, databases, reliability]
+- id: compiler_toolchain_specialist
+  name: Compiler & Toolchain Specialist
+  domain: Programming Language Infrastructure and Compilers
+  tags: [compiler, toolchain, language, interpreter, parser, transpiler, optimization]
+  capabilities: [design, implement, analyze, parse, transform, optimize, compile,
+    link, emit, generate, transpile, lexical, syntax, semantics, debugging]
+  purpose: [compile, languages, efficiency, performance, custom, debug, transform]
+- id: educational_technology_specialist
+  name: Educational Technology Specialist
+  domain: Digital Learning Systems and Pedagogical Software
+  tags: [education, learning, edtech, gamification, assessment, platform, student]
+  capabilities: [design, develop, track, engage, assess, gamify, interface, progress,
+    curriculum, adaptive, learning]
+  purpose: [learning, tools, students, platforms, education, engagement, measurement]
+- id: mobile_application_engineer
+  name: Mobile Application Engineer
+  domain: iOS & Android Native and Cross-Platform Development
+  tags: [mobile, ios, android, flutter, react-native, native, app, ux, performance]
+  capabilities: [develop, design, debug, deploy, optimize, ux, api, native, responsive,
+    battery, latency, offline, navigation]
+  purpose: [mobile, performance, native, apps, deployment, cross-platform]
+- id: blockchain_engineer
+  name: Blockchain Engineer
+  domain: Decentralized Applications and Ledger Systems
+  tags: [blockchain, smart-contracts, dlt, consensus, ethereum, solidity, nfts, decentralized]
+  capabilities: [develop, deploy, audit, token, wallet, gas, defi, mining, contract,
+    interact, validate, proof, block, ledger]
+  purpose: [dlt, trustless, contracts, secure, distributed, immutable, verification]
+- id: robotics_embedded_engineer
+  name: Robotics & Embedded Systems Expert
+  domain: Real-Time Robotics and Physical Computation
+  tags: [robotics, embedded, firmware, real-time, ros, actuators, sensors, microcontroller]
+  capabilities: [develop, test, simulate, deploy, sensor, actuator, loop, controller,
+    firmware, i2c, spi, can, pwm, robot, servo, feedback, motion]
+  purpose: [control, real-time, precision, embedded, robotics, hardware, software]
+- id: accessibility_engineer
+  name: Accessibility Engineer
+  domain: Inclusive Interface and Accessibility Standards
+  tags: [accessibility, wcag, a11y, ada, inclusive, design, ux, barrier-free]
+  capabilities: [audit, design, validate, implement, assistive, navigate, screen-reader,
+    contrast, keyboard, semantics, compliance]
+  purpose: [inclusive, compliance, accessible, design, usability, equal-access]
+- id: search_recommendation_expert
+  name: Search & Recommendation Systems Expert
+  domain: Information Retrieval and Ranking Systems
+  tags: [search, recommendation, ranking, retrieval, ml, personalization, query, filtering]
+  capabilities: [rank, query, optimize, index, crawl, analyze, boost, vector, collaborative,
+    filtering, semantic, latent, ranking, clickthrough]
+  purpose: [search, discoverability, ranking, personalized, retrieval, suggestions]
+- id: edge_ai_specialist
+  name: Edge AI Deployment Specialist
+  domain: AI Inference on Mobile and Embedded Edge Devices
+  tags: [edge, ai, deployment, on-device, quantization, tflite, npu, tinyml, hardware]
+  capabilities: [deploy, quantize, optimize, compress, convert, benchmark, accelerator,
+    inference, offline, low-latency, real-time, battery-efficient]
+  purpose: [edge, ai, mobile, optimize, deploy, hardware-constrained, real-time]
+- id: llm_systems_integrator
+  name: LLM Systems Integrator
+  domain: LLM Infrastructure, Observability, and Retrieval Integration
+  tags: [llm, pipeline, retrieval, vector, logging, monitoring, integration, langchain,
+    rag, embedding, metrics, observability]
+  capabilities: [develop, debug, chain, log, monitor, integrate, vector, search, embedding,
+    chunking, orchestration, trace, evaluate, optimize, audit, response, token_usage,
+    latency, retrieval, triton, openai, pinecone, weaviate, elasticsearch, faiss]
+  purpose: [llm, retrieval, observability, performance, pipeline, debugging, vector-search,
+    monitoring, deployment]
+

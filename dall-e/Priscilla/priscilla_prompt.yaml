@@ -1,0 +1,34 @@
+apparence:
+  frange:
+    descente: jusqu’à la paupière supérieure
+    couvre_sourcils: oui
+    texture: droite, dense, noire
+  sourcils:
+    demander_absence: oui
+    forme_si_visibles: fins, arqués, peu visibles
+  yeux:
+    sclère_visible: oui (surtout en bas)
+    forme: douce, légèrement étirée
+    couleur: brun clair
+  nez:
+    forme: arrondi, narines douces, arête non marquée
+    piercing: petit diamant narine droite (à gauche dans l’image)
+  peau:
+    texture: matte, sans reflets
+    lisse: oui
+    teinte: caramel naturel
+    âge_apparent: jeune adulte
+  expression:
+    neutre ou sourire doux
+  bijouterie:
+    collier fin avec perle
+    boucles pendantes simples
+  maquillage:
+    discret, naturel
+    eye-liner noir
+
+instructions_spécifiques:
+  - éviter les reflets brillants sur les joues ou le front
+  - ne jamais afficher les sourcils si la frange est visible
+  - toujours garder le piercing du **bon côté** (droite de Priscilla)
+  - proportions réalistes et naturelles

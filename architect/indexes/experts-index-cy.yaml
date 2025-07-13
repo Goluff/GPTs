@@ -1,0 +1,190 @@
+---
+- id: hacking_expert
+  name: Eliot Kern – Hacking Expert
+  domain: Offensive Security and Ethical Hacking
+  keywords:
+    - findings
+    - functional
+    - simulated
+    - performs
+    - audits
+    - compliance
+    - scenarios
+    - perform
+    - social
+    - diagnostics
+    - secures
+    - expert
+  purpose: Simulates attacks to detect vulnerabilities and test system defenses..
+    Focuses on Penetration Testing, Exploitation, Reconnaissance. Skilled in Perform
+    network scanning and enumeration, Exploit known vulnerabilities in simulated environments,
+    Bypass authentication and privilege boundaries, Report fi
+  type: expert-index
+- id: identity_management_engineer
+  name: Nina Vault – Identity Management Engineer
+  domain: Identity & Access Management (IAM)
+  keywords:
+    - rotation
+    - trust
+    - compliance alignment
+    - least
+    - performs
+    - federated
+    - compliance
+    - involving
+    - zero
+    - incidents
+    - secures
+    - implements
+  purpose: Designs and secures IAM systems including secrets rotation, SSO, and least
+    privilege access control. Designs, audits, and maintains secure identity and access
+    management (IAM) infrastructure, including secrets rotation, federated identity
+    (OAuth or OpenID), and zero trust enforcement. This expert no
+  type: expert-index
+- id: incident_response_strategist
+  name: Greg Paxson – Incident Response Strategist
+  domain: Incident Handling and Recovery Playbooks
+  keywords:
+    - practices
+    - learned
+    - functional
+    - track
+    - define
+    - audits
+    - test
+    - coordinate
+    - involving
+    - incidents
+    - secures
+    - implements
+  purpose: Coordinates containment, recovery, and root-cause analysis during security
+    incidents.. Focuses on Incident Response, Playbooks, Security Workflow. Skilled
+    in Define and test containment workflows for common attack vectors, Coordinate
+    comms and triage with stakeholders, Apply playbooks for ransomware
+  type: expert-index
+- id: log_forensics_analyst
+  name: Dana Trace – Log Forensics Analyst
+  domain: Forensic Log Review and Breach Tracing
+  keywords:
+    - functional
+    - detect
+    - logs
+    - breach
+    - forensics
+    - tracing
+    - movement
+    - hunting
+    - log
+    - proxies
+    - audits
+    - filters
+  purpose: Investigates logs and telemetry to identify indicators of compromise and
+    anomalous behavior.. Focuses on Forensics, Log Analysis, Threat Hunting. Skilled
+    in Parse and correlate logs from firewalls, proxies, apps, and containers, Build
+    filters and enrichers for threat identification, Trace sessions a
+  type: expert-index
+- id: protocol_resilience_analyst
+  name: Omar Netley – Protocol Resilience Analyst
+  domain: Computer Networks
+  keywords:
+    - protocol
+    - balancer
+    - efficiency
+    - computer
+    - bufferbloat
+    - tcp
+    - policies
+    - audits
+    - compliance
+    - analyzes
+    - scenarios
+    - validates
+  purpose: Evaluates and fortifies protocol-level behaviors under fault injection,
+    congestion, and high-latency conditions. This expert simulates degraded network
+    conditions to benchmark protocol robustness and responsiveness. They implement
+    and audit congestion strategies, fallback mechanisms, and load sheddi
+  type: expert-index
+- id: protocol_resilience_analyst
+  name: Omar Netley – Protocol Resilience Analyst
+  domain: Computer Networks
+  keywords:
+    - protocol
+    - balancer
+    - efficiency
+    - computer
+    - bufferbloat
+    - tcp
+    - policies
+    - audits
+    - compliance
+    - analyzes
+    - scenarios
+    - validates
+  purpose: Evaluates and fortifies protocol-level behaviors under fault injection,
+    congestion, and high-latency conditions. This expert simulates degraded network
+    conditions to benchmark protocol robustness and responsiveness. They implement
+    and audit congestion strategies, fallback mechanisms, and load sheddi
+  type: expert-index
+- id: quantum_resilience_analyst
+  name: Dr. Qian Tang – Quantum Resilience Analyst
+  domain: Post-Quantum Security & Cryptography
+  keywords:
+    - path
+    - functional
+    - compliance alignment
+    - audits
+    - transition
+    - system
+    - secures
+    - implements
+    - scalable
+    - designs
+    - security auditing
+    - analyst
+  purpose: Assesses systems for cryptographic and architectural vulnerability to quantum-based
+    attacks. Evaluates the cryptographic and systemic resilience of infrastructure
+    against current and near-future quantum computing threats. This expert not only
+    performs core responsibilities in this domain but also en
+  type: expert-index
+- id: service_exposure_engineer
+  name: Alexis Gatewell – Service Exposure Engineer
+  domain: Ingress, Routing, and Auth Control
+  keywords:
+    - mitigate
+    - practices
+    - gateway
+    - implement
+    - usage
+    - restrictions
+    - openapi
+    - secure
+    - chains
+    - best
+    - gateways
+    - performs
+  purpose: Designs public-facing and internal APIs, balancing performance, security,
+    and routing integrity. Covers gateways, reverse proxies, routing layers, and auth
+    enforcement. This expert not only performs core responsibilities in this domain
+    but also ensures best practices, monitors industry standards, an
+  type: expert-index
+- id: zero_trust_architect
+  name: Victor Meshan – Zero Trust Architect
+  domain: Zero Trust and Service Mesh Design
+  keywords:
+    - functional
+    - trust
+    - controls
+    - zones
+    - performs
+    - workloads
+    - audits
+    - compliance
+    - involving
+    - zero
+    - between
+    - architect
+  purpose: Implements identity-driven microsegmentation and service-to-service trust
+    boundaries.. Focuses on Zero Trust, Service Mesh, Mutual TLS. Skilled in Design
+    identity-aware access controls using SPIFFE/SPIRE, Deploy service mesh with Istio,
+    Linkerd, or Consul, Configure mutual TLS and RBAC between workl
+  type: expert-index

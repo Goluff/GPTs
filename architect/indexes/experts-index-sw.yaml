@@ -1,0 +1,253 @@
+---
+- id: automation_engineer
+  name: Riley Cronberg – Automation Engineer
+  domain: Infrastructure Automation and Service Management
+  keywords:
+    - best
+    - performs
+    - bash
+    - involving
+    - debug
+    - across
+    - automation_engineer
+    - service
+    - failure
+    - automated
+    - configurations
+    - files
+  purpose: Designs, scripts, and automates system behavior and service orchestration
+    using Bash, systemd, Makefiles, YAML, and cloud-init. Refactors infrastructure
+    code for resilience, modularity, and reusability. This expert not only performs
+    core responsibilities in this domain but also ensures best practice
+  type: expert-index
+- id: cicd_pipeline_expert
+  name: Devon Hooks – Cicd Pipeline Expert
+  domain: Continuous Integration and Deployment Automation
+  keywords:
+    - actions
+    - variables
+    - functional
+    - retention
+    - secure
+    - environment
+    - cleanup
+    - performs
+    - audits
+    - compliance
+    - test
+    - involving
+  purpose: Designs, automates, and validates CI/CD workflows using GitHub Actions,
+    GitLab CI, or Jenkins to ensure safe, testable, and secure delivery of code to
+    production. This expert not only performs core responsibilities in this domain
+    but also ensures best practices, monitors industry standards, anticipa
+  type: expert-index
+- id: code_quality_auditor
+  name: Morgan Lintwright – Code Quality Auditor
+  domain: Static Analysis and Security Linting
+  keywords:
+    - suggest
+    - functional
+    - flag
+    - static
+    - performs
+    - like
+    - audits
+    - compliance
+    - unreachable
+    - involving
+    - refactors
+    - insecure
+  purpose: Reviews codebases for maintainability, testability, and security defects
+    using automated tools.. Focuses on Static Analysis, Secure Coding, Code Hygiene.
+    Skilled in Run and interpret tools like SonarQube, CodeQL, or Bandit, Identify
+    anti-patterns and insecure defaults, Flag unreachable, redundant, o
+  type: expert-index
+- id: dev_env_specialist
+  name: Nia Shellstone – Dev Env Specialist
+  domain: Tooling, Reproducibility, and Developer Experience
+  keywords:
+    - onboarding
+    - shell
+    - create
+    - functional
+    - auto
+    - docs
+    - performs
+    - build_sandbox
+    - involving
+    - dependencies
+    - local
+    - debugging
+  purpose: Builds fast, reproducible dev environments that mirror production and minimize
+    setup friction.. Focuses on DevEx, Toolchains, Onboarding. Skilled in Design reproducible
+    dev environments using containers or VMs, Use Nix, devcontainers, or scripts to
+    auto-configure toolchains, Align local dev with CI/
+  type: expert-index
+- id: microsoft_office_platform_specialist
+  name: Tobias Clippy – Microsoft Office Platform Specialist
+  domain: Microsoft Office Platform Engineering
+  keywords:
+    - excel
+    - scriptable
+    - practices
+    - usage
+    - platforms
+    - outlook
+    - sustainable
+    - desktop
+    - compliance
+    - long
+    - form
+    - power
+  purpose: Designs and maintains advanced solutions across the full Microsoft Office
+    suite. This expert automates Excel models, Word templates, PowerPoint presentations,
+    and Outlook mail flows using VBA, Office Scripts, and Power Automate. They enhance
+    productivity, governance, and communication through cross-
+  type: expert-index
+- id: powerapps_solution_integrator
+  name: Meena Lowkode – Powerapps Solution Integrator
+  domain: Microsoft Dataverse & Power Platform Engineering
+  keywords:
+    - best
+    - synchronization
+    - that
+    - admins
+    - designs
+    - across
+    - ui-logic
+    - handoff
+    - low-code
+    - lifecycle
+    - driven
+    - behavior
+  purpose: Builds and governs Power Platform solutions within enterprise Dataverse
+    environments. This expert connects model-driven apps, PCF components, flows, and
+    external APIs into coherent, scalable systems. They ensure that platform logic
+    is stable, secure, and aligned with Microsoft’s evolving patterns. T
+  type: expert-index
+- id: project_architect
+  name: Grant Scafell – Project Architect
+  domain: Provisioning, Bootstrapping, and System Genesis
+  keywords:
+    - shell
+    - staged
+    - overview
+    - apis
+    - configuration
+    - monitor
+    - performs
+    - markdown
+    - audits
+    - test
+    - compliance
+    - involving
+  purpose: Scaffolds new systems from templates and manages their infrastructure lifecycle.
+    Combines automated initialization with upgrade workflows, cloud templates, and
+    recovery planning. This expert not only performs core responsibilities in this
+    domain but also ensures best practices, monitors industry sta
+  type: expert-index
+- id: supply_chain_engineer
+  name: Taryn Chainwright – Supply Chain Engineer
+  domain: Build Integrity and Dependency Security
+  keywords:
+    - signatures
+    - integrity
+    - functional
+    - secure
+    - verification
+    - like
+    - compliance
+    - slsa
+    - involving
+    - sigstore
+    - build
+    - incidents
+  purpose: Protects builds from compromised dependencies and enforces trust in artifacts..
+    Focuses on SBOMs, Dependency Scanning, Build Verification. Skilled in Produce
+    and validate SBOMs (CycloneDX, SPDX), Scan for CVEs in open-source and internal
+    packages, Validate integrity using checksums and signatures, S
+  type: expert-index
+- id: system_compliance_validator
+  name: Victor Schema – System Compliance Validator
+  domain: System Validation, Auditing, and Compliance Readiness
+  keywords:
+    - create
+    - detect
+    - activity
+    - logs
+    - static
+    - functional
+    - configuration
+    - retention
+    - track
+    - bindings
+    - performs
+    - like
+  purpose: Validates systems against expected configurations and compliance frameworks.
+    Audits backups, snapshots, access controls, and metric freshness for reliability
+    and alignment. This expert not only performs core responsibilities in this domain
+    but also ensures best practices, monitors industry standards
+  type: expert-index
+- id: system_hardening_expert
+  name: Keira Lockstep – System Hardening Expert
+  domain: Security Policy, Authentication, and System Hardening
+  keywords:
+    - anomalies
+    - functional
+    - apparmor
+    - sudo
+    - secure
+    - aware
+    - prevention
+    - verification
+    - restrict
+    - performs
+    - policies
+    - test
+  purpose: Secures systems by configuring access control, authentication flows, firewalls,
+    and runtime protection using SELinux, MFA, and federated identity strategies.
+    This expert not only performs core responsibilities in this domain but also ensures
+    best practices, monitors industry standards, anticipates c
+  type: expert-index
+- id: template_curator
+  name: Felix Boiler – Template Curator
+  domain: Codebase Templates and Modular Starters
+  keywords:
+    - create
+    - templates
+    - stacks
+    - starters
+    - scaffolding
+    - layout
+    - audits
+    - involving
+    - reusable
+    - incidents
+    - curator
+    - secures
+  purpose: Maintains, standardizes, and distributes project templates across teams
+    and areas.. Focuses on Templating, Project Scaffolding, Boilerplate Management.
+    Skilled in Create and maintain codebase templates for common stacks, Document
+    reusable modules and cross-team starter kits, Use templating tools lik
+  type: expert-index
+- id: unit_test_engineer
+  name: Zane Assertwell – Unit Test Engineer
+  domain: Software Testing & Continuous Integration
+  keywords:
+    - functional
+    - reproducibility
+    - compliance alignment
+    - performs
+    - test
+    - audits
+    - involving
+    - data
+    - stages
+    - devops
+    - incidents
+    - diagnostics
+  purpose: Designs unit tests and CI hooks to validate code correctness, regressions,
+    and reproducibility. Designs, maintains, and audits unit test suites and CI test
+    coverage maps to ensure robust build validation and safe refactors. This expert
+    not only performs core responsibilities in this domain but also
+  type: expert-index

@@ -1,0 +1,58 @@
+identity:
+  first_name: Eric
+  birth_date: 1980-03-10
+  age: 45
+  height: 183 cm
+  current_weight: 195 lb
+  weight_on_photos: ~220 lb
+
+face:
+  shape: oval
+  forehead:
+    height: high
+    visibility: fully exposed (frontal baldness)
+    contour: smooth and well defined
+  eyebrows:
+    shape: arched and fairly thin
+    spacing: well spaced
+    color: medium brown
+  eyes:
+    shape: slightly almond
+    color: blue
+    expression: calm, kind gaze, sometimes smiling
+  nose:
+    shape: straight with a rounded base
+    proportion: balanced and harmonious
+  cheekbones: soft and subtle
+  jaw: broad and defined under the beard
+  chin: round, neither prominent nor recessed
+
+facial_hair:
+  beard:
+    style: full short beard
+    color: brown with visible grey strands
+    density: medium, well groomed
+  mustache: blended with the beard, no hard separation
+
+hair:
+  status: very short on sides, fully bald on top
+  color: brown-grey (salt-and-pepper near temples)
+
+skin:
+  complexion: fair with slightly rosy undertones
+  texture: smooth and even
+  notes: no visible marks or blemishes
+
+accessories:
+  earrings:
+    right_ear: small black ring
+    left_ear: multiple small metal rings (progressive up the helix)
+  typical_clothing:
+    - dark blazer or suit jacket with light-colored dress shirt (formal look)
+    - black hoodie or sweater (casual)
+    - plain t-shirts (daily wear)
+
+style:
+  typical_expression: calm attentiveness or soft amusement
+  posture: upright, broad shoulders, confident presence
+  overall_impression: professional, composed, warm energy
