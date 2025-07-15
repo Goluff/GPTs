@@ -1,0 +1,16 @@
+[Unit]
+Description=Priscilla Introspection API (Gunicorn + Uvicorn)
+After=network.target
+
+[Service]
+User=tonutilisateur
+Group=tonutilisateur
+WorkingDirectory=/chemin/vers/le/projet
+ExecStart=/usr/bin/gunicorn introspection_api:app -k uvicorn.workers.UvicornWorker --bind 127.0.0.1:8000 --workers 4
+Restart=always
+Environment="PYTHONUNBUFFERED=1"
+
+[Install]
+WantedBy=multi-user.target
+
+

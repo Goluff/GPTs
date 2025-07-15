@@ -3,62 +3,141 @@
   name: Sanjay Meshra – Iot Engineer
   domain: Embedded Devices and Edge Communication
   keywords:
-    - functional
-    - secure
-    - monitor
-    - audits
-    - compliance
-    - involving
-    - device
-    - communications
-    - low-power
-    - devices
-    - messaging
-    - incidents
-  purpose: Designs and secures IoT ecosystems with embedded firmware, MQTT brokers,
-    and network resilience.. Focuses on MQTT, Embedded Systems, Edge Security. Skilled
-    in Design publish-subscribe messaging via MQTT or CoAP, Develop firmware logic
-    for constrained devices, Secure device communications with TLS or
+    - ota update strategy
+    - mqtt messaging architecture
+    - edge security enforcement
+    - constrained device firmware
+    - secure provisioning workflows
+    - telemetry ingestion buffering
+    - coap protocol handling
+    - tls communication hardening
+    - fleet monitoring pipelines
+    - embedded systems auditing
+    - low-power iot logic
+    - device reachability assurance
+    - mqtt protocol design
+    - coap message handling
+    - tls encryption enforcement
+    - ota update workflows
+    - edge device provisioning
+    - firmware development cycle
+    - embedded security audit
+    - incident pattern response
+    - delivery reliability metrics
+    - message loss analysis
+    - fleet automation scaling
+    - data sanitization constraints
+    - privacy enforcement compliance
+    - provisioning trust anchors
+    - firmware level security
+    - low power firmware logic
+    - message delivery tracking
+    - cross functional automation
+    - data pipeline buffering
+    - embedded protocol exposure
+    - iot telemetry integration
+    - mqtt secure communication
+    - cloud edge ingestion
+    - firmware constraint optimization
+    - secure device registration
+    - communication latency assurance
+    - operational device visibility
+    - remote management workflow
   type: expert-index
 - id: mobile_edge_specialist
   name: Lila Stream – Mobile Edge Specialist
   domain: Edge Computing & Mobile Systems
   keywords:
-    - functional
-    - compliance alignment
-    - performs
-    - audits
-    - involving
-    - data
-    - synchronization
-    - incidents
-    - secures
-    - diagnostics
-    - networks
-    - scalable
-  purpose: Architects mobile and edge infrastructure with emphasis on latency, resilience,
-    and synchronization. Designs and optimizes infrastructure and deployments targeting
-    mobile platforms and edge nodes, ensuring efficiency, resilience, and distributed
-    consistency. This expert not only performs core respon
+    - edge node federation
+    - mobile network resilience
+    - data sync diagnostics
+    - latency-sensitive architecture
+    - fault-tolerant mobility
+    - edge telemetry monitoring
+    - mobile deployment topology
+    - flaky network handling
+    - mobile resource optimization
+    - update propagation strategy
+    - sync conflict resolution
+    - edge privacy compliance
+    - latency sensitive infrastructure
+    - edge node consistency
+    - network variability handling
+    - data synchronization protocols
+    - high churn environment
+    - mobile fault tolerance
+    - edge security auditing
+    - policy enforcement strategies
+    - predictive usage modeling
+    - heterogeneous device deployment
+    - telemetry anomaly detection
+    - mobile ingress diagnostics
+    - edge compliance auditing
+    - regulatory constraint enforcement
+    - jitter source analysis
+    - cross region sync failures
+    - autonomous edge federation
+    - connectivity fluctuation management
+    - update propagation optimization
+    - device cloud interaction tuning
+    - distributed sync architecture
+    - mobile edge orchestration
+    - resilient edge infrastructure
+    - edge node automation
+    - mobile platform architecture
+    - edge security enforcement
+    - mobile resource prediction
+    - network constrained deployment
+    - edge performance optimization
+    - Edge Computing & Mobile Systems
   type: expert-index
 - id: network_designer
   name: Byron Linkwell – Network Designer
   domain: Network Architecture and Optimization
   keywords:
-    - paths
-    - functional
-    - static
-    - hybrid
-    - performs
-    - involving
-    - designer
-    - subnets
-    - allocate
-    - incidents
-    - diagnostics
-    - network_designer
-  purpose: Designs, validates, and optimizes secure and scalable network topologies
-    including routing, subnets, mesh, VLANs, and connectivity policies. This expert
-    not only performs core responsibilities in this domain but also ensures best practices,
-    monitors industry standards, anticipates common challenges
+    - vlan topology design
+    - mesh routing protocols
+    - subnet allocation planning
+    - ad hoc routing setup
+    - bonding strategy design
+    - routing fault recovery
+    - static route configuration
+    - ipv6 multi-site planning
+    - batman protocol mesh
+    - topology validation audit
+    - network availability tuning
+    - hybrid site interconnectivity
+    - vlan mesh interconnection
+    - ipv4 subnet strategy
+    - dynamic routing protocols
+    - bridging configuration audit
+    - bonded link resilience
+    - broadcast domain segmentation
+    - topology misalignment detection
+    - link bonding performance
+    - protocol aware path tracing
+    - route drift correction
+    - dual stack planning
+    - distributed topology audit
+    - mesh resilience modeling
+    - routing loop resolution
+    - subnet isolation patterns
+    - site-to-site routing strategy
+    - hop-level routing analysis
+    - bonded interface tuning
+    - multi-site mesh planning
+    - high availability routing
+    - redundancy path mapping
+    - routing segmentation strategy
+    - mesh backbone integration
+    - failover-aware topology
+    - ipv6 allocation heuristics
+    - topology divergence detection
+    - batman protocol optimization
+    - vlan bridging techniques
+    - layer 2 domain tuning
+    - topology automation toolkit
+    - inter-subnet routing policies
+    - topology-aware route tracing
+    - Network Architecture and Optimization
   type: expert-index

@@ -34,11 +34,12 @@ console = Console()
 EXPERTS_DIR = Path("experts")
 INDEXES_DIR = Path("indexes")
 ETHICS_DIR = Path("ethics")
+CORE_DIR = Path("core")
 SCHEMAS_DIR = Path("schemas")
-METADATA_FILE = Path("metadata.yaml")
 EXPERT_FILE = "experts-{key}.yaml"
 INDEX_FILE = "experts-index-{key}.yaml"
 ETHIC_FILE = "ethics-{key}.yaml"
+METADATA_FILE = CORE_DIR / "metadata.yaml"
 EXPERT_SCHEMA_FILE = SCHEMAS_DIR / "expert.schema.json"
 INDEX_SCHEMA_FILE = SCHEMAS_DIR / "expert-index.schema.json"
 ETHIC_SCHEMA_FILE = SCHEMAS_DIR / "ethic.schema.json"
@@ -54,6 +55,7 @@ ICONS = {
     "group": "",
     "check": "",
     "link": "",
+    "ethic": "",
 }
 
 
@@ -92,6 +94,7 @@ def load_domain_mapping(metadata_path: Path) -> Dict[str, str]:
             key = item["file"].replace("experts-index-", "").replace(".yaml", "")
             mapping[key] = item["domain"]
     return mapping
+
 
 def run_validation(
     schema_file: Path,
@@ -140,11 +143,9 @@ def run_validation(
 
     return results
 
+
 def check_index_consistency(
-    experts_dir: Path,
-    indexes_dir: Path,
-    metadata_file: Path,
-    quiet: bool = False
+    experts_dir: Path, indexes_dir: Path, metadata_file: Path, quiet: bool = False
 ) -> dict:
     """Check index consistency across all domains, returning counts of missing and orphan indexes."""
     domain_map = load_domain_mapping(metadata_file)
@@ -171,16 +172,67 @@ def check_index_consistency(
 
         if not quiet:
             if not missing and not orphans:
-                console.print(f"[green]{ICONS['valid']} {domain}:[/green] All experts are indexed")
+                console.print(
+                    f"[green]{ICONS['valid']} {domain}:[/green] All experts are indexed"
+                )
             else:
                 console.print(f"[yellow]{ICONS['warning']} {domain}:[/yellow]")
                 for mid in sorted(missing):
                     name = expert_names.get(mid, mid)
-                    console.print(f"    [red]{ICONS['error']} Missing index for:[/red] {name}")
+                    console.print(
+                        f"    [red]{ICONS['error']} Missing index for:[/red] {name}"
+                    )
                 for oid in sorted(orphans):
-                    console.print(f"    [red]{ICONS['error']} Orphan index:[/red] {oid}")
+                    console.print(
+                        f"    [red]{ICONS['error']} Orphan index:[/red] {oid}"
+                    )
 
     return summary
+
+
+def check_ethic_consistency(
+    experts_dir: Path, ethics_dir: Path, metadata_file: Path, quiet: bool = False
+) -> dict:
+    """Check ethic consistency across all domains, returning counts of missing and orphan ethics."""
+    domain_map = load_domain_mapping(metadata_file)
+    summary = {}
+
+    for key, domain in domain_map.items():
+        expert_path = experts_dir / EXPERT_FILE.format(key=key)
+        ethic_path = ethics_dir / ETHIC_FILE.format(key=key)
+
+        if not expert_path.exists() or not ethic_path.exists():
+            continue
+
+        experts = load_yaml(expert_path)
+        ethics = load_yaml(ethic_path)
+
+        referenced_ids = {e["ethics"] for e in experts if "ethics" in e}
+        ethic_ids = {e["id"] for e in ethics}
+
+        missing = referenced_ids - ethic_ids
+        orphans = ethic_ids - referenced_ids
+
+        summary[domain] = {"missing": len(missing), "orphans": len(orphans)}
+
+        if not quiet:
+            if not missing and not orphans:
+                console.print(
+                    f"[green]{ICONS['valid']} {domain}:[/green] All ethics references are valid"
+                )
+            else:
+                console.print(f"[yellow]{ICONS['warning']} {domain}:[/yellow]")
+                for mid in sorted(missing):
+                    console.print(
+                        f"    [red]{ICONS['error']} Missing ethic rule:[/red] {mid}"
+                    )
+                for oid in sorted(orphans):
+                    console.print(
+                        f"    [red]{ICONS['error']} Orphan ethic entry:[/red] {oid}"
+                    )
+
+    return summary
+
 
 # ════════════════════════════════════════════════════════════════
 # ✅ COMMANDES
@@ -208,81 +260,58 @@ def summary():
         path = experts_dir / f"experts-{key}.yaml"
         if path.exists():
             experts = load_yaml(path)
-            console.print(
-                f"\n{ICONS['group']} [bold cyan]Domain:[/bold cyan] {domain}"
-            )
+            console.print(f"\n{ICONS['group']} [bold cyan]Domain:[/bold cyan] {domain}")
             for exp in experts:
                 console.print(f"  – [bold]{exp['name']}")
         else:
             console.print(f"[red]Fichier manquant pour le domaine '{key}'[/red]")
 
 
-@app.command("stats")
-def stats():
-    """Display statistics on expert counts and domain distribution."""
-    mapping = load_domain_mapping(METADATA_FILE)
-    experts_dir = EXPERTS_DIR
-
-    total = 0
-    with_ethics = 0
-    per_domain = defaultdict(lambda: {"count": 0, "ethics": 0})
-
-    for key, domain in mapping.items():
-        path = experts_dir / f"experts-{key}.yaml"
-        if not path.exists():
-            continue
-        experts = load_yaml(path)
-        for exp in experts:
-            total += 1
-            per_domain[key]["count"] += 1
-            if exp.get("ethics"):
-                with_ethics += 1
-                per_domain[key]["ethics"] += 1
-
-    console.rule(f"{ICONS['stats']} Global Statistics", style="bold cyan")
-    console.print(f"- [cyan]Total experts[/cyan]     : {total}")
-    console.print(f"- [cyan]With ethics[/cyan]       : {with_ethics}")
-    console.print(f"- [cyan]Without ethics[/cyan]    : {total - with_ethics}\n")
-
-    table = Table(title="Stats by domain", box=box.MINIMAL_DOUBLE_HEAD)
-    table.add_column("Key", style="dim", width=6)
-    table.add_column("Domain")
-    table.add_column("Experts", justify="right")
-    table.add_column("With ethics", justify="right")
-
-    for key, stat in per_domain.items():
-        table.add_row(
-            key, mapping.get(key, "?"), str(stat["count"]), str(stat["ethics"])
-        )
-
-    console.print(table)
-
-
 @app.command("validate-experts")
 def cli_validate_experts():
     """CLI command to validate expert files using expert.schema.json."""
-    console.rule(f"{ICONS['check']} Validation of experts files with schema", style="bold cyan")
+    console.rule(
+        f"{ICONS['check']} Validation of experts files with schema", style="bold cyan"
+    )
     run_validation(EXPERT_SCHEMA_FILE, EXPERTS_DIR, "experts-*.yaml", "experts")
 
 
 @app.command("validate-indexes")
 def cli_validate_indexes():
     """CLI command to validate expert-index files using expert-index.schema.json."""
-    console.rule(f"{ICONS['check']} Validation of indexes files with schema", style="bold cyan")
+    console.rule(
+        f"{ICONS['check']} Validation of indexes files with schema", style="bold cyan"
+    )
     run_validation(INDEX_SCHEMA_FILE, INDEXES_DIR, "experts-index-*.yaml", "indexes")
 
 
 @app.command("validate-ethics")
 def cli_validate_ethics():
     """CLI command to validate ethics files using ethic.schema.json."""
-    console.rule(f"{ICONS['check']} Validation of ethics files with schema", style="bold cyan")
+    console.rule(
+        f"{ICONS['check']} Validation of ethics files with schema", style="bold cyan"
+    )
     run_validation(ETHIC_SCHEMA_FILE, ETHICS_DIR, "ethics-*.yaml", "ethics")
+
 
 @app.command("check-indexes")
 def cli_check_indexes():
     """Check that every expert has a corresponding index and that no orphan indexes exist."""
-    console.rule(f"{ICONS['link']} Index consistency check across all domains", style="bold cyan")
+    console.rule(
+        f"{ICONS['link']} Index consistency check across all domains", style="bold cyan"
+    )
     check_index_consistency(EXPERTS_DIR, INDEXES_DIR, METADATA_FILE, quiet=False)
+
+
+@app.command("check-ethics")
+def cli_check_ethics():
+    """Check that every expert has a corresponding ethic rule and that no orphan ethics exist."""
+    console.rule(
+        f"{ICONS['ethic']} Ethic consistency check across all domains",
+        style="bold cyan",
+    )
+    check_ethic_consistency(EXPERTS_DIR, ETHICS_DIR, METADATA_FILE, quiet=False)
+
 
 @app.command("validate")
 def cli_validate_all():
@@ -290,15 +319,18 @@ def cli_validate_all():
     console.rule(f"{ICONS['check']} Validation Summary by Domain", style="bold cyan")
 
     domain_map = load_domain_mapping(METADATA_FILE)
-    domain_summary = defaultdict(lambda: {
-        "experts": 0,
-        "indexes": 0,
-        "ethics": 0,
-        "missing_indexes": 0,
-        "orphan_indexes": 0,
-    })
+    domain_summary = defaultdict(
+        lambda: {
+            "experts": 0,
+            "indexes": 0,
+            "ethics": 0,
+            "missing_indexes": 0,
+            "orphan_indexes": 0,
+            "missing_ethics": 0,
+            "orphan_ethics": 0,
+        }
+    )
 
-    # Schema validation
     for category, dir_path, schema_file, pattern in [
         ("experts", EXPERTS_DIR, EXPERT_SCHEMA_FILE, "experts-*.yaml"),
         ("indexes", INDEXES_DIR, INDEX_SCHEMA_FILE, "experts-index-*.yaml"),
@@ -309,7 +341,7 @@ def cli_validate_all():
             directory=dir_path,
             pattern=pattern,
             category=category,
-            quiet=True
+            quiet=True,
         )
         for file, errors in results.items():
             if errors:
@@ -317,7 +349,6 @@ def cli_validate_all():
                 domain_name = domain_map.get(domain_key, domain_key)
                 domain_summary[domain_name][category] += len(errors)
 
-    # Index consistency check
     index_stats = check_index_consistency(
         EXPERTS_DIR, INDEXES_DIR, METADATA_FILE, quiet=True
     )
@@ -325,17 +356,65 @@ def cli_validate_all():
         domain_summary[domain]["missing_indexes"] = stats["missing"]
         domain_summary[domain]["orphan_indexes"] = stats["orphans"]
 
-    # Display summary table
+    ethics_stats = check_ethic_consistency(
+        EXPERTS_DIR, ETHICS_DIR, METADATA_FILE, quiet=True
+    )
+    for domain, stats in ethics_stats.items():
+        domain_summary[domain]["missing_ethics"] = stats["missing"]
+        domain_summary[domain]["orphan_ethics"] = stats["orphans"]
+
     table = Table(show_lines=True)
-    table.add_column("Domain", style="bold")
-    table.add_column("Experts", justify="right")
-    table.add_column("Indexes", justify="right")
-    table.add_column("Ethics", justify="right")
-    table.add_column("Missing Indexes", justify="right")
-    table.add_column("Orphan Indexes", justify="right")
+    table.add_column(
+        "Domain", justify="left", style="bold cyan", header_style="bold green"
+    )
+    table.add_column(
+        "Experts", justify="right", style="bright_white", header_style="bold green"
+    )
+    table.add_column(
+        "Indexes", justify="right", style="bright_white", header_style="bold green"
+    )
+    table.add_column(
+        "Ethics", justify="right", style="bright_white", header_style="bold green"
+    )
+    table.add_column(
+        "Missing Indexes",
+        justify="right",
+        style="bright_white",
+        header_style="bold green",
+    )
+    table.add_column(
+        "Orphan Indexes",
+        justify="right",
+        style="bright_white",
+        header_style="bold green",
+    )
+    table.add_column(
+        "Missing Ethics",
+        justify="right",
+        style="bright_white",
+        header_style="bold green",
+    )
+    table.add_column(
+        "Orphan Ethics",
+        justify="right",
+        style="bright_white",
+        header_style="bold green",
+    )
+
+    total = {
+        "experts": 0,
+        "indexes": 0,
+        "ethics": 0,
+        "missing_indexes": 0,
+        "orphan_indexes": 0,
+        "missing_ethics": 0,
+        "orphan_ethics": 0,
+    }
 
     for domain in sorted(domain_summary):
         counts = domain_summary[domain]
+        for key in total:
+            total[key] += counts[key]
         table.add_row(
             domain,
             str(counts["experts"]),
@@ -343,9 +422,28 @@ def cli_validate_all():
             str(counts["ethics"]),
             str(counts["missing_indexes"]),
             str(counts["orphan_indexes"]),
+            str(counts["missing_ethics"]),
+            str(counts["orphan_ethics"]),
         )
 
+    table.add_row(
+        "[bold yellow]Total[/bold yellow]",
+        *[
+            f"[bold magenta]{total[key]}[/bold magenta]"
+            for key in [
+                "experts",
+                "indexes",
+                "ethics",
+                "missing_indexes",
+                "orphan_indexes",
+                "missing_ethics",
+                "orphan_ethics",
+            ]
+        ],
+    )
+
     console.print(table)
+
 
 if __name__ == "__main__":
     app()

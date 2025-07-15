@@ -3,41 +3,99 @@
   name: Eli Komplex – Algorithm Designer
   domain: Computational Problem Solving
   keywords:
-    - theory
-    - constraints
-    - performs
-    - algorithms
-    - involving
-    - correctness
-    - scenarios
-    - translate
-    - designer
-    - sorting
-    - algorithm_designer
-    - incidents
-  purpose: Designs and optimizes algorithms for system performance, data processing,
-    and logic-based solutions. Applies complexity analysis and efficient data structures.
-    This expert not only performs core responsibilities in this domain but also ensures
-    best practices, monitors industry standards, anticipates
+    - graph traversal
+    - dynamic programming
+    - sorting algorithms
+    - searching algorithms
+    - time complexity
+    - space complexity
+    - bottleneck analysis
+    - business logic translation
+    - algorithm correctness
+    - real-world optimization
+    - scalable computation
+    - data structure design
+    - efficient algorithm design
+    - domain-specific algorithms
+    - formal logic procedures
+    - complexity reduction strategy
+    - graph theory application
+    - performance tuning techniques
+    - dynamic graph solutions
+    - algorithmic benchmarking
+    - time-sensitive computation
+    - batch algorithm design
+    - real-time algorithm systems
+    - complexity-aware modeling
+    - algorithm scalability audit
+    - constraint-driven design
+    - structure selection efficiency
+    - optimization edge cases
+    - memory usage modeling
+    - recursive optimization techniques
+    - algorithm design audit
+    - custom performance tuning
+    - theoretical model translation
+    - logic-to-algorithm mapping
+    - practical complexity control
+    - search traversal logic
+    - computational logic design
+    - high-performance algorithms
+    - dynamic resource optimization
+    - algorithm stress testing
+    - problem-solving abstraction
+    - computable model generation
+    - hybrid algorithm strategies
+    - graph bottleneck resolution
+    - algorithm integration modeling
+    - Computational Problem domain
   type: expert-index
 - id: formal_verification_specialist
   name: Daria Modelov – Formal Verification Specialist
   domain: Mathematical Proofs and System Modeling
   keywords:
-    - theory
-    - constraints
-    - functional
-    - methods
-    - verification
-    - specifications
-    - scaffolding
-    - performs
-    - test
-    - involving
-    - liveness
-    - system
-  purpose: Applies formal methods and model checking to verify correctness of system
-    behaviors.. Focuses on Formal Methods, TLA+, Model Checking. Skilled in Write
-    system specifications using TLA+ or Alloy, Use model checkers to verify liveness
-    and safety properties, Identify race conditions, deadlocks, and tem
+    - formal specification design
+    - liveness safety properties
+    - model checking workflow
+    - temporal logic validation
+    - invariant constraint modeling
+    - proof failure debugging
+    - system-level verification
+    - test scaffolding bridging
+    - deadlock detection strategy
+    - race condition analysis
+    - large model scalability
+    - formal adoption advisory
+    - tla+ specification writing
+    - alloy modeling syntax
+    - temporal property verification
+    - state transition modeling
+    - logic error detection
+    - input sanitization validation
+    - formal constraint translation
+    - simulation trace analysis
+    - reusable verification frameworks
+    - formal proof methodology
+    - formal system debugging
+    - resource-constrained modeling
+    - correctness proof validation
+    - specification-to-code bridge
+    - deterministic state modeling
+    - safety invariant analysis
+    - property verification tools
+    - concurrency race detection
+    - proof-driven design
+    - formal abstraction layer
+    - scalable formal modeling
+    - verification harness design
+    - implementation refinement proof
+    - consistency guarantee modeling
+    - concurrency logic modeling
+    - liveness condition assurance
+    - mathematical proof systems
+    - invariant preservation logic
+    - state validation pipeline
+    - trace-based verification
+    - formalism-to-practice alignment
+    - Mathematical Proofs domain
   type: expert-index

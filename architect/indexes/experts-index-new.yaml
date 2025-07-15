@@ -3,169 +3,376 @@
   name: Niklaus Bëck – Compiler Theorist
   domain: Programming Language Design & Compiler Architecture
   keywords:
-    - grammar
-    - parsing
-    - optimization
-    - ir
-    - jit
-    - typesystem
-    - register
-    - semver
-    - abi
-    - compile
-    - linker
-    - cross
-  purpose: Builds the interpreters of meaning and the compilers of logic. This expert
-    transforms abstract syntax into performant binaries with precision and philosophical
-    pride. They thrive in the spaces between tokens and semantics, where undefined
-    behavior is not feared but cataloged with care.
+    - ssa ir optimization
+    - macro hygiene rules
+    - formal grammar design
+    - jit backend targets
+    - loop transform passes
+    - parser generator tools
+    - undefined behavior triage
+    - abi conformance layers
+    - recursive macro handling
+    - type system modeling
+    - segmentation fault audit
+    - cross compilation flows
+    - lexical analyzer design
+    - ast transformation rules
+    - cfg construction pipeline
+    - register allocation pass
+    - incremental compilation path
+    - metaprogramming syntax research
+    - symbol resolution logic
+    - intermediate representation tuning
+    - calling convention rules
+    - type inference implementation
+    - language macro expansion
+    - dataflow graph modeling
+    - backend code generation
+    - code inlining strategies
+    - runtime safety boundary
+    - semantic edge detection
+    - grammar extensibility layer
+    - ir invalidity handling
+    - recursion overflow response
+    - syntax rule conformance
+    - linkage rules enforcement
+    - macro system behavior
+    - compiler segmentation recovery
+    - multi-target code generation
+    - compiler formal semantics
+    - parsing ambiguity resolution
+    - abstract syntax modeling
+    - historical compiler structure
+    - Programming Language Design & Compiler Architecture
   type: expert-index
 - id: database_systems_engineer
   name: Edgar Codeman – Database Systems Engineer
   domain: Database Architecture & Storage Systems
   keywords:
-    - indexing
-    - replication
-    - sharding
-    - ACID
-    - nosql
-    - consistency
-    - query
-    - migration
-    - concurrency
-    - schema
-    - sql
-    - availability
-  purpose: Engineers robust, efficient data storage architectures that balance consistency,
-    availability, and performance across transactional and analytical workloads. This
-    expert audits data access patterns, optimizes schemas and indexing strategies,
-    and supports transitions between SQL, NoSQL, and hybrid systems. Their role ensures
-    data integrity, availability, and compliance across operational and analytical
-    workloads.
+    - schema migration audit
+    - acid base models
+    - query contention handling
+    - sharding replication logic
+    - distributed sql engines
+    - transactional log recovery
+    - hybrid htap systems
+    - fault tolerance tuning
+    - in memory optimizations
+    - backup failover strategy
+    - encryption residency policy
+    - analytics olap pipeline
+    - indexing strategy design
+    - normalization level tuning
+    - transactional consistency models
+    - base compliance enforcement
+    - sql nosql hybridization
+    - query execution strategy
+    - in memory buffer tuning
+    - storage partition design
+    - schema evolution workflow
+    - backward compatible migration
+    - deadlock incident response
+    - storage saturation alerting
+    - restore integrity automation
+    - point in time recovery
+    - real time ingestion engine
+    - access governance control
+    - encryption at rest strategy
+    - data residency compliance
+    - scalable htap deployment
+    - fault tolerant replication
+    - cross system integration
+    - concurrency optimization model
+    - replication sharding model
+    - analytical throughput tuning
+    - olap stream integration
+    - distributed storage audit
+    - backup integrity check
+    - Database Architecture & Storage Systems
   type: expert-index
 - id: decentralized_protocol_engineer
   name: Satoshi Ledgrin – Decentralized Protocol Engineer
   domain: Blockchain Infrastructure & Cryptoeconomic Protocols
   keywords:
-    - consensus
-    - blockchain
-    - smartcontract
-    - validator
-    - rollup
-    - zk
-    - fork
-    - dapp
-    - wallet
-    - tokenomics
-    - cryptoeconomics
-    - node
-  purpose: Engineers the trustless scaffolding of distributed ledgers and programmable
-    economies. From Byzantine generals to block explorers, this expert speaks fluent
-    Solidity, hashes thoughts in Merkle trees, and insists decentralization is both
-    a right and a state of mind.
+    - consensus fault recovery
+    - staking incentive model
+    - smart contract auditing
+    - zk rollup infrastructure
+    - bridge protocol security
+    - validator slashing rules
+    - deterministic replay flow
+    - data availability layer
+    - multisig wallet schemes
+    - onchain governance logic
+    - cryptographic integrity check
+    - decentralized identity system
+    - consensus algorithm design
+    - staking mechanism modeling
+    - on chain governance protocol
+    - smart contract execution
+    - gas metering system
+    - cryptographic primitive audit
+    - signature scheme validation
+    - zero knowledge integration
+    - fork scenario resolution
+    - double spend response
+    - layer one bridge
+    - zk rollup deployment
+    - optimistic rollup scaling
+    - validator incentivization logic
+    - token emission model
+    - did registry creation
+    - verifiable credential system
+    - multisig wallet security
+    - deterministic state replay
+    - key rotation flow
+    - gossip protocol design
+    - peer to peer overlay
+    - node discovery mechanism
+    - hard fork governance
+    - protocol upgrade lifecycle
+    - contract migration strategy
+    - cryptoeconomic incentive structure
+    - trustless consensus mechanism
+    - Blockchain Infrastructure & Cryptoeconomic Protocols
   type: expert-index
 - id: graphics_pipeline_engineer
   name: Ivan Sutherlande – Graphics Pipeline Engineer
   domain: Computer Graphics & GPU Rendering Systems
   keywords:
-    - gpu
-    - raster
-    - shading
-    - shaders
-    - opengl
-    - vulkan
-    - pbr
-    - lighting
-    - pipeline
-    - render
-    - buffer
-    - realtime
-  purpose: Renders beauty from math and light. This expert translates geometry into
-    pixels with uncanny precision, often debating the merits of forward vs. deferred
-    rendering at 3 AM. Their universe runs at 60 FPS, their dreams are ray-traced,
-    and they compulsively optimize draw calls—because one frame drop is a betrayal.
+    - deferred rendering engine
+    - programmable shader flow
+    - vulkan gpu profiling
+    - postprocessing pipeline design
+    - hdr color encoding
+    - spatial partitioning strategy
+    - occlusion culling method
+    - texture atlas packing
+    - screen space reflection
+    - realtime lighting system
+    - rasterization pipeline stages
+    - vertex fragment bottleneck
+    - programmable rendering pipeline
+    - raster stage optimization
+    - real time shading flow
+    - cross platform gpu abstraction
+    - tone mapping technique
+    - cinematic color grading
+    - z fighting artifact
+    - overdraw reduction strategy
+    - screen tearing fix
+    - aliasing debug method
+    - motion blur postprocessing
+    - bloom visual effect
+    - screen space ambient occlusion
+    - shader permutation handling
+    - gpu memory layout tuning
+    - pipeline bottleneck analysis
+    - vertex stage profiling
+    - geometry shader debugging
+    - tessellation stage audit
+    - fragment stage performance
+    - lod strategy design
+    - tile based renderer
+    - clustered deferred shading
+    - shader compilation security
+    - gpu driver compatibility check
+    - bvh spatial structure
+    - octree visibility system
+    - gpu rendering pipeline
+    - Computer Graphics & GPU Rendering Systems
   type: expert-index
 - id: linux_distribution_specialist
   name: Lin Oxvald – Linux Distribution Specialist
   domain: Linux Distribution Architecture & Ecosystem Strategy
   keywords:
-    - distro
-    - package manager
-    - filesystem
-    - init
-    - kernel
-    - systemd
-    - rpm
-    - apt
-    - bootloader
-    - repositories
-    - daemon supervision
-    - overlay
-  purpose: Guides selection, customization, and optimization of Linux distributions
-    across server, desktop, and embedded environments. Understands ecosystem-specific
-    tradeoffs, packaging standards, and configuration philosophies. Evaluates alignment
-    with project needs, compliance, and maintainability.
+    - linux packaging formats
+    - init system comparison
+    - distro selection strategy
+    - kernel config analysis
+    - daemon supervision models
+    - bootloader configuration audit
+    - overlay customization workflows
+    - filesystem layout mapping
+    - rpm deb ebuild parity
+    - lts support cadence
+    - cve response evaluation
+    - ci integration for distros
+    - packaging lifecycle guidance
+    - service supervision audit
+    - openrc system audit
+    - systemd configuration review
+    - distro use case mapping
+    - embedded distro assessment
+    - server distro selection
+    - cloud distro optimization
+    - desktop distro comparison
+    - abi stability tracking
+    - kernel patch policy
+    - module availability review
+    - overlay script versioning
+    - config delta tracking
+    - logging behavior anomalies
+    - daemon behavior mapping
+    - network setup inconsistencies
+    - release cadence analysis
+    - reproducibility enforcement
+    - compliance-based distro choice
+    - filesystem hierarchy modeling
+    - cross-distro packaging strategy
+    - automated packaging pipelines
+    - distro quirks identification
+    - version control overlays
+    - distro footprint planning
+    - security support strategy
+    - patch cadence evaluation
+    - default config locations
+    - upstream downstream sync
+    - audit of init workflows
+    - linux distribution domain
   type: expert-index
 - id: nlp_language_modeler
   name: Noama Chomstein – NLP Language Modeler
   domain: Computational Linguistics & Natural Language Modeling
   keywords:
-    - parsing
-    - embeddings
-    - attention
-    - tokenization
-    - syntax
-    - corpus
-    - ner
-    - translation
-    - semantics
-    - grammar
-    - pos
-    - bias
-  purpose: Deconstructs human language into learnable representations while muttering
-    about ambiguous parse trees. This expert blends formal grammar theory with modern
-    transformer architecture, building systems that understand nuance, sarcasm, and
-    subjunctive clauses.
+    - multilingual tokenization
+    - corpus alignment
+    - dependency parsing
+    - grammar induction
+    - subword segmentation
+    - neural embeddings
+    - attention modeling
+    - semantic drift resolution
+    - coreference systems
+    - sentiment pipelines
+    - language bias analysis
+    - dialogue state tracking
+    - multilingual corpus parsing
+    - part of speech tagging
+    - named entity recognition
+    - coreference resolution model
+    - sentiment analysis architecture
+    - neural sentiment classifier
+    - multilingual translation model
+    - tokenizer design strategies
+    - document classification pipeline
+    - question answering systems
+    - dialogue management modeling
+    - syntax coverage audit
+    - linguistic bias detection
+    - low resource language modeling
+    - grammar-based nlp systems
+    - semantic disambiguation workflow
+    - interpretable embedding methods
+    - attention-based context modeling
+    - NLP benchmark evaluation
+    - annotation workflow automation
+    - large-scale corpus ingestion
+    - emergent grammar discovery
+    - syntactic feature extraction
+    - computational linguistics theory
+    - semantic representation modeling
+    - deployed nlp system troubleshooting
+    - fine tuning language models
+    - translation subword optimization
+    - context-aware NLP pipeline
+    - Computational Linguistics & Natural Language Modeling
   type: expert-index
 - id: operating_systems_architect
   name: Kenric Thompson – Operating Systems Architect
   domain: Kernel Design & Operating Systems Engineering
   keywords:
-    - kernel
-    - memory
-    - scheduler
-    - syscalls
-    - isolation
-    - ipc
-    - drivers
-    - init
-    - deadlock
-    - realtime
-    - context
-    - fault
-  purpose: Architects low-level OS behavior to ensure fairness, responsiveness, and
-    fault tolerance in modern compute environments. From bootloaders to page tables,
-    this expert speaks fluent assembly and dreams in stack traces. They translate
-    high-level policies into bare-metal logic, ensuring systems tick with deterministic
-    grace—even if they insist on writing bash scripts in vi for fun.
+    - kernel scheduler design
+    - memory isolation strategy
+    - syscall interface audit
+    - posix compliance
+    - dma coordination
+    - interrupt handling
+    - real-time guarantees
+    - live patching
+    - secure boot chain
+    - numa optimization
+    - container isolation
+    - fault recovery logic
+    - interprocess communication
+    - kernel panic resolution
+    - priority inversion handling
+    - context switching audit
+    - interrupt vector tracing
+    - syscall table validation
+    - driver development routines
+    - dma transfer logic
+    - kernel mode transition
+    - lazy page loading
+    - out-of-memory strategy
+    - selinux policy enforcement
+    - hard realtime scheduling
+    - kernel module injection
+    - live patch workflow
+    - fault tracing system
+    - secure init systems
+    - hardware abstraction interface
+    - numa-aware scheduling
+    - processor affinity tuning
+    - syscall filtering policy
+    - container namespace isolation
+    - kernel stack debugging
+    - interrupt-safe scheduling
+    - starvation condition handling
+    - deadlock detection logic
+    - low-level syscall design
+    - context switch optimization
+    - ipc primitive architecture
+    - kernel architecture patterns
+    - execution predictability
+    - memory protection enforcement
+    - syscall interface mapping
   type: expert-index
 - id: quantum_systems_engineer
   name: Feynara Diractyl – Quantum Systems Engineer
   domain: Quantum Computing Systems & Hybrid Architectures
   keywords:
-    - qubit
-    - circuit
-    - qpu
-    - gate
-    - decoherence
-    - fidelity
-    - qiskit
-    - hybrid
-    - pulse
-    - entropy
-    - quantum
-    - teleportation
-  purpose: Builds systems where reality is probabilistic and every bit may be entangled
-    with mystery. This expert operates where classical logic halts, engineering coherence
-    from chaos using quantum gates, cryogenic constraints, and a subtle sense of awe.
+    - quantum circuit synthesis
+    - coherence time tuning
+    - qubit calibration routines
+    - pulse sequence design
+    - noise profile auditing
+    - qasm interoperability
+    - hybrid algorithm orchestration
+    - entanglement degradation handling
+    - variational quantum execution
+    - teleportation experiment setup
+    - backend slot management
+    - decoherence-aware mapping
+    - gate-level circuit design
+    - qpu interfacing strategy
+    - simulator hardware bridge
+    - error correction tuning
+    - fragile state stabilization
+    - entropic behavior audit
+    - measurement collapse modeling
+    - fidelity drop resolution
+    - decoherence event handling
+    - entanglement failure debug
+    - transpiler pass architecture
+    - hybrid runtime scheduling
+    - pulse-level compiler pass
+    - vendor sdk compatibility
+    - qasm dialect integration
+    - device topology mapping
+    - vqe workflow implementation
+    - qaoa parameter tuning
+    - hybrid quantum control
+    - noise injection tracing
+    - multi-tenant qpu security
+    - quantum backend routing
+    - quantum state evolution
+    - superdense coding setup
+    - noise-adaptive gate routing
+    - qubit register coordination
+    - low-level qubit abstraction
+    - probabilistic circuit logic
+    - multi-register entanglement
+    - real-time fidelity tracking
+    - quantum-classical orchestration
   type: expert-index

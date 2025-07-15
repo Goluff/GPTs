@@ -1,0 +1,82 @@
+
+openapi: 3.0.0
+info:
+  title: Secure Clinical Follow-Up Tracker API
+  version: "1.0"
+servers:
+  - url: https://api.yourdomain.com/psychtracker
+paths:
+  /record_entry:
+    post:
+      summary: Enregistrer une entrée de suivi clinique sécurisée
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                user_id:
+                  type: string
+                date:
+                  type: string
+                  format: date
+                category:
+                  type: string
+                score:
+                  type: integer
+                note:
+                  type: string
+      responses:
+        "200":
+          description: Entrée enregistrée avec succès
+
+  /retrieve_history:
+    get:
+      summary: Récupérer l’historique d’un utilisateur
+      parameters:
+        - in: query
+          name: user_id
+          required: true
+          schema:
+            type: string
+        - in: query
+          name: category
+          required: false
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Historique de suivi de l'utilisateur
+          content:
+            application/json:
+              schema:
+                type: object
+
+  /delete_session:
+    delete:
+      summary: Supprimer les données de suivi d’un utilisateur
+      parameters:
+        - in: query
+          name: user_id
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Données supprimées avec succès
+
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-API-Key
+    HMACHeader:
+      type: apiKey
+      in: header
+      name: X-Signature
+
+security:
+  - ApiKeyAuth: []
+  - HMACHeader: []

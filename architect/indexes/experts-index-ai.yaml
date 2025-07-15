@@ -3,125 +3,295 @@
   name: Ian Turing – AI Red Team Analyst
   domain: LLM Red Teaming & Alignment Stress Testing
   keywords:
-    - functional
-    - stress
-    - robustness testing
-    - performs
-    - audits
-    - involving
-    - incidents
-    - diagnostics
-    - scalable
-    - response
-    - team
-    - analyst
-  purpose: Identifies risks, policy gaps, and emergent behavior before deployment
-    in sensitive environments. Stress-tests AI behavior with adversarial prompts,
-    ethical violations, and boundary condition tests. This expert not only performs
-    core responsibilities in this domain but also ensures best practices, m
+    - adversarial testing
+    - model penetration testing
+    - compliance stress tests
+    - robustness evaluation
+    - security incident response
+    - alignment edge cases
+    - boundary condition prompts
+    - failure mode analysis
+    - defense evasion modeling
+    - prompt chaining audit
+    - reinforcement drift detection
+    - security policy review
+    - structured boundary prompts
+    - adversarial prompt design
+    - compliance stress analysis
+    - ethical stress scenarios
+    - robustness stress simulation
+    - anomaly pattern detection
+    - red team chaining techniques
+    - simulated attack scenarios
+    - systemic exploit discovery
+    - vulnerability mapping toolkit
+    - exploratory prompt chaining
+    - attack chain modeling
+    - resilience under pressure
+    - defensive response planning
+    - cross-team coordination
+    - incident mitigation planning
+    - misalignment behavior analysis
+    - reinforcement tuning drift
+    - defense evasion simulation
+    - policy input challenge
+    - high-stakes deployment
+    - pre-deployment validation
+    - red team vulnerability scan
+    - adversarial edge probing
+    - stress-induced misbehavior
+    - policy impact testing
+    - ethical boundary violation
+    - systemic failure exposure
+    - model integrity assurance
+    - robustness under scrutiny
+    - LLM red teaming
+    - alignment stress validation
   type: expert-index
 - id: ai_systems_engineer
   name: Ada Vintman – AI Systems Engineer
   domain: Applied AI and LLM Deployment
   keywords:
-    - weaviate
-    - databases
-    - deployment
-    - like
-    - audits
-    - compliance
-    - involving
-    - llms
-    - data
-    - build
-    - triton
-    - incidents
-  purpose: Builds and deploys AI systems using LLMs, vector stores, and prompt orchestration
-    frameworks. Supports fine-tuning, chaining, embeddings, and scalable inference.
-    This expert not only performs core responsibilities in this domain but also ensures
-    best practices, monitors industry standards, anticipat
+    - scalable inference pipeline
+    - vector database integration
+    - model fine-tuning workflows
+    - transformer deployment stack
+    - prompt engineering strategy
+    - AI systems observability
+    - compliance monitoring systems
+    - LangChain orchestration layer
+    - LLM endpoint security
+    - deployment automation scripts
+    - production-grade architecture
+    - incident response handling
+    - orchestration framework design
+    - retrieval optimization layer
+    - FAISS Pinecone Weaviate
+    - transformer fine-tuning tasks
+    - model version control
+    - Triton Ray Serve integration
+    - inference endpoint builder
+    - deterministic prompt design
+    - adaptive behavior prompting
+    - LLM benchmarking protocol
+    - performance scaling test
+    - secure token enforcement
+    - endpoint access control
+    - incident root analysis
+    - rollback deployment flow
+    - CI/CD automation logic
+    - real-time model routing
+    - retrieval-augmented output
+    - production inference scale
+    - chaining logic deployment
+    - prompt-behavior alignment
+    - LLM pipeline reliability
+    - AI system compliance
+    - deployment error tracing
+    - multi-model coordination
+    - tokenized input monitoring
+    - inference drift detection
+    - secure access architecture
+    - real-world robustness testing
+    - scalable AI integration
+    - LLM orchestration expert
+    - applied AI reliability
   type: expert-index
 - id: explainability_architect
   name: Grace Boxley – Explainability Architect
   domain: LLM & AI Transparency and Auditability
   keywords:
-    - lime
-    - implement
-    - functional
-    - attention
-    - maps
-    - fairness
-    - transparency
-    - interpretation
-    - performs
-    - prompts
-    - evaluations
-    - audits
-  purpose: Ensures AI systems provide traceable, interpretable outputs that support
-    trust and accountability.. Focuses on XAI, Model Interpretation, AI Governance.
-    Skilled in Implement interpretable pipelines (e.g., SHAP, LIME, attention maps),
-    Log and trace model decisions and prompts, Design human-readable s
+    - explainable pipelines
+    - attention visualization
+    - interpretability audits
+    - fairness evaluations
+    - transparency metrics
+    - governance compliance
+    - regulatory alignment
+    - ethical traceability
+    - cross-modal explanation
+    - decision logging
+    - bias detection
+    - audit readiness
+    - interpretable AI pipelines
+    - SHAP LIME attention
+    - input sanitization audits
+    - adversarial input defense
+    - explainability incident response
+    - transparency standard alignment
+    - end-to-end workflows
+    - enterprise explainability flows
+    - fairness metrics integration
+    - bias audit injection
+    - traceable decision output
+    - user-facing justification
+    - cross-modal interpretability
+    - multi-input LLM tracing
+    - governance artifact review
+    - transparency artifact logging
+    - iterative release audits
+    - interpretability benchmarking
+    - transparency lifecycle embedding
+    - trust-building explainability
+    - ethical audit compliance
+    - logging interpretability layers
+    - cross-functional governance
+    - decision path visibility
+    - interpretability-first modeling
+    - fairness-driven tuning
+    - explanation failure response
+    - model accountability logic
+    - ethical justification trace
+    - interpretable LLM workflow
+    - compliant decision logic
+    - AI system traceability
+    - auditor-facing output
   type: expert-index
 - id: human_ai_collaboration_designer
   name: Alan Kleinberg – Human AI Collaboration Designer
   domain: Human-AI Collaboration & Interaction Design
   keywords:
-    - task allocation theory
-    - functional
-    - engagement pattern analysis
+    - co-creation models
+    - trust calibration
+    - adaptive feedback loops
+    - shared agency design
+    - human error mitigation
     - interface harmony
-    - performs
-    - involving
-    - designer
-    - cognitive workload balancing
-    - incidents
-    - diagnostics
-    - implements
-    - designs
-  purpose: Ensures AI systems empower users rather than replace them, optimizing trust
-    and usability. Crafts interaction models and workflows that balance automation
-    with human decision-making and oversight. This expert not only performs core responsibilities
-    in this domain but also ensures best practices, mon
+    - explainability layers
+    - participatory workflows
+    - task distribution logic
+    - user oversight protocols
+    - collaboration trust dynamics
+    - cognitive workload balance
+    - AI responsiveness tuning
+    - behavioral feedback adaptation
+    - joint problem solving
+    - shared task allocation
+    - co-creation framework design
+    - trust calibration systems
+    - reliance modulation strategy
+    - cognitive load balancing
+    - participatory control scheme
+    - explainability enhancement
+    - user behavior monitoring
+    - interface expectation alignment
+    - interaction flow integrity
+    - incident response planning
+    - collaboration breakdown mitigation
+    - multi-modal interface harmony
+    - seamless interaction channels
+    - human agency preservation
+    - control-sharing protocols
+    - interaction trust recovery
+    - user-centered workflow logic
+    - dialog-level alignment
+    - oversight integration loop
+    - shared control architecture
+    - dynamic task handoff
+    - human-in-the-loop orchestration
+    - sustained engagement metrics
+    - participatory design layers
+    - mutual decision protocols
+    - collaborative cycle refinement
+    - AI-human boundary shaping
+    - trust-building interaction
   type: expert-index
 - id: llm_pipeline_integrator
-  name: Geoffry Atten – Llm Pipeline Integrator
+  name: Geoffry Atten – LLM Pipeline Integrator
   domain: AI Infrastructure & LLM Integration
   keywords:
-    - functional
+    - prompt preprocessing
+    - constraint injection
+    - input sanitization
+    - resource optimization
+    - fault tolerance design
+    - multimodal normalization
     - compliance alignment
-    - filters
-    - injection
-    - compliance
-    - involving
-    - processing
-    - incidents
-    - scalable
-    - response
+    - post-processing filters
+    - chaining validation
     - security auditing
-    - infrastructure
-  purpose: Ensures LLM workflows are properly chained with input/output normalization
-    and safety layers. Designs robust integration points for LLM workflows, ensuring
-    alignment across input formatting, retrieval layers, pre/post-processing, and
-    output moderation. This expert not only performs core responsibili
+    - output moderation
+    - llm orchestration
+    - constraint injection workflows
+    - resource allocation tuning
+    - validation input layers
+    - multi-turn context handling
+    - chaining compliance logic
+    - moderation flow alignment
+    - summarization module design
+    - post-processing guardrails
+    - fault-tolerant automation
+    - redundancy protocol engineering
+    - multimodal input normalization
+    - modular hook design
+    - pipeline integration strategy
+    - architecture layer coordination
+    - vulnerability check auditing
+    - pre-processing logic
+    - LLM post-processing flow
+    - integration layer hardening
+    - chained component sync
+    - generation moderation orchestration
+    - secure orchestration layers
+    - cross-stage optimization
+    - error recovery hooks
+    - structured output control
+    - conversational state memory
+    - pre-post processing chain
+    - input validation stack
+    - safety-optimized workflows
+    - integration fault inspection
+    - AI pipeline integrity
+    - scalable LLM workflow
+    - orchestration guardrail enforcement
+    - input-output constraint bridge
   type: expert-index
 - id: symbolic_reasoning_architect
   name: Noam Russek – Symbolic Reasoning Architect
   domain: Artificial Intelligence
   keywords:
-    - statistical
-    - constraints
-    - architectures
-    - formalizes
-    - hybrid
-    - auditability
-    - transparency
-    - deployment
-    - audits
-    - pathways
-    - correctness
-    - reasoning
-  purpose: Designs hybrid AI systems that combine symbolic logic engines with statistical
-    learning models. This expert enhances model interpretability and traceability
-    by implementing rule-based reasoning layers. They ensure that black-box inference
-    processes are supplemented with structured decision flows. Th
+    - symbolic reasoning layers
+    - hybrid logic models
+    - constraint propagation frameworks
+    - inference pathway audits
+    - ethical rule enforcement
+    - knowledge graph formalization
+    - fallback logic mechanisms
+    - contradiction detection tools
+    - logic transparency modules
+    - statistical-symbolic fusion
+    - hybrid inference pipelines
+    - explainable ai logic
+    - rule-based logic fusion
+    - decision transparency layers
+    - symbolic hybrid architecture
+    - formal knowledge structures
+    - reusable symbolic patterns
+    - ethical constraint modeling
+    - logic traceability framework
+    - contradiction pattern detection
+    - fallback logic scenarios
+    - symbolic inference tracing
+    - rule inference correctness
+    - symbolic-numeric integration
+    - hybrid engine evaluation
+    - black-box mitigation strategy
+    - constraint validation systems
+    - symbolic transparency pipeline
+    - high-stakes AI deployment
+    - modular logic integration
+    - interpretable decision flow
+    - edge-case fallback logic
+    - inference benchmarking layer
+    - statistical-rule consistency
+    - transparent reasoning hooks
+    - traceable logic design
+    - AI ethics validation
+    - hybrid pipeline coherence
+    - symbolic structure enforcement
+    - logic alignment protocol
+    - rule integrity assurance
+    - inference module auditing
+    - explainability enforcement layer
+    - hybrid rule engine logic
   type: expert-index

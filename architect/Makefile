@@ -1,12 +1,12 @@
 # =======================
-# $(ICON_INSTALL) CustomGPT Build System – Architect
+# CustomGPT Build System – Architect
 # =======================
 
 # Liste explicite des fichiers principaux
-CORE_FILES := architect.yaml blackbox-guard.yaml metadata.yaml self-validation.yaml token-policy.yaml
 GPTFIELD_FILES := gpt-fields/instructions.md gpt-fields/conversation-starters.md
 
 # Fichiers dans les sous-dossiers indexes/ et experts/
+CORE_FILES := $(shell find core -type f \( -name "*.yaml" -o -name "*.yml" \))
 INDEX_FILES := $(shell find indexes -type f \( -name "*.yaml" -o -name "*.yml" \))
 EXPERT_FILES := $(shell find experts -type f \( -name "*.yaml" -o -name "*.yml" \))
 ETHIC_FILES := $(shell find ethics -type f \( -name "*.yaml" -o -name "*.yml" \))
@@ -48,6 +48,8 @@ endif
 
 all: clean validate merge hash install archive
 
+
+
 help: ## Show this help message
 	@printf "\n"
 	@printf "$(C_MAGENTA)╭────────────────────────────────────────────╮$(C_RESET)\n"
@@ -65,10 +67,8 @@ help: ## Show this help message
 
 clean: ## Clean temporary files and deploy directory
 	@printf "$(C_YELLOW)$(ICON_CLEAN) Cleaning files...$(C_RESET)\n"
-	@rm -f experts.yaml
-	@rm -f ethics.yaml
 	@rm -rf deploy
-	@rm -rf .build
+	@rm -rf build
 	@printf "$(C_BLUE)$(ICON_SUCCESS) Clean completed.$(C_RESET)\n"
 
 validate: ## Validate all YAML files with yamllint
@@ -91,116 +91,102 @@ validate: ## Validate all YAML files with yamllint
 		exit 1; \
 	fi
 
-merge: ## Merge all expert files into a flat, sorted list in experts.yaml
-	@printf "$(C_MAGENTA)$(ICON_MERGE) Merging expert files into a flat, sorted list in experts.yaml...$(C_RESET)\n"
-	@if [ -f experts.yaml ]; then \
-		printf "$(C_RED)$(ICON_FAILURE) Error: experts.yaml already exists. Please run 'make clean' first.$(C_RESET)\n"; \
-		exit 1; \
-	fi
-	@tmpfile=$$(mktemp); \
-		yq eval-all '[.[]] | flatten' $(EXPERT_FILES) > $$tmpfile && \
-		yq eval 'sort_by(.id)' $$tmpfile | sed '1s/^/---\n/' > experts.yaml && \
-		rm $$tmpfile && \
-		if yamllint experts.yaml > /dev/null; then \
-			printf "$(C_GREEN)$(ICON_SUCCESS) experts.yaml generated successfully.$(C_RESET)\n"; \
-		else \
-			printf "$(C_RED)$(ICON_FAILURE) experts.yaml is invalid after merge.$(C_RESET)\n"; \
-			exit 1; \
-		fi
+merge: ##   Fusionne tous les experts avec leurs règles d’éthique dans build/experts.yaml (strict: aucune règle manquante)
+	@python scripts/merge_experts.py
 
-	@printf "$(C_MAGENTA)$(ICON_MERGE) Merging ethics files into a flat, sorted list in ethics.yaml...$(C_RESET)\n"
-	@if [ -f ethics.yaml ]; then \
-		printf "$(C_RED)$(ICON_FAILURE) Error: ethics.yaml already exists. Please run 'make clean' first.$(C_RESET)\n"; \
-		exit 1; \
-	fi
-	@tmpfile=$$(mktemp); \
-		yq eval-all '[.[]] | flatten' $(ETHIC_FILES) > $$tmpfile && \
-		yq eval 'sort_by(.id)' $$tmpfile | sed '1s/^/---\n/' > ethics.yaml && \
-		rm $$tmpfile && \
-		if yamllint ethics.yaml > /dev/null; then \
-			printf "$(C_GREEN)$(ICON_SUCCESS) ethics.yaml generated successfully.$(C_RESET)\n"; \
-		else \
-			printf "$(C_RED)$(ICON_FAILURE) ethics.yaml is invalid after merge.$(C_RESET)\n"; \
-			exit 1; \
-		fi
+hash: ## Generate hashes and update build/metadata.yaml
+	@printf "$(C_BLUE)$(ICON_HASH) Generating integrity hashes into build/metadata.yaml...$(C_RESET)\n"
 
-hash: ## Generate hashes and update metadata.yaml without Python
-	@printf "$(C_BLUE)$(ICON_HASH) Generating hashes for files listed in metadata.yaml...$(C_RESET)\n"
+	@mkdir -p build
 
-	@tmpfile=$$(mktemp); \
-	cp metadata.yaml $$tmpfile; \
-	for i in $$(yq eval '.files[].file' $$tmpfile); do \
-		if echo $$i | grep -q 'index'; then f="indexes/$$i"; else f="$$i"; fi; \
+	@cp core/metadata.yaml build/metadata.yaml
+
+	@for i in $$(yq eval '.files[].file' build/metadata.yaml); do \
+		case "$$i" in \
+			experts.yaml) f="build/$$i" ;; \
+			*index*)      f="indexes/$$i" ;; \
+			*)            f="core/$$i" ;; \
+		esac; \
 		if [ -f "$$f" ]; then \
 			hash=$$(sha256sum "$$f" | awk '{print $$1}'); \
-			yq eval "(.files[] | select(.file == \"$$i\") ).integrity_hash = \"$$hash\"" -i $$tmpfile; \
+			yq eval "(.files[] | select(.file == \"$$i\") ).integrity_hash = \"$$hash\"" -i build/metadata.yaml; \
 		else \
-			printf "$(C_YELLOW)$(ICON_WARNING) Warning: $$f not found. Skipping.$(C_RESET)\n"; \
+			printf "$(C_YELLOW)$(ICON_WARNING) Warning: file not found: $$f (for entry $$i)$(C_RESET)\n"; \
 		fi; \
-	done; \
-	timestamp=$$(date -u +'%Y-%m-%d %H:%M:%S+00:00'); \
-	yq eval ".versioning.generated_at = \"$$timestamp\"" -i $$tmpfile; \
-	mv $$tmpfile metadata.yaml
+	done
 
-	@printf "$(C_GREEN)$(ICON_HASH) Hashes updated in metadata.yaml$(C_RESET)\n"
+	@timestamp=$$(date -u +'%Y-%m-%d %H:%M:%S+00:00'); \
+	yq eval ".versioning.generated_at = \"$$timestamp\"" -i build/metadata.yaml
 
-	@printf "$(C_BLUE)$(ICON_VALIDATE) Validating updated metadata.yaml...$(C_RESET)\n"
-	@yamllint metadata.yaml > /dev/null && \
-		printf "$(C_GREEN)$(ICON_SUCCESS) metadata.yaml is valid after update.$(C_RESET)\n" || \
-		(printf "$(C_RED)$(ICON_FAILURE) metadata.yaml validation failed after update.$(C_RESET)\n" && exit 1)
+	@printf "$(C_GREEN)$(ICON_HASH) Hashes successfully updated in build/metadata.yaml$(C_RESET)\n"
 
-	@printf "$(C_BLUE)$(ICON_VALIDATE) Verifying integrity hashes in metadata.yaml...$(C_RESET)\n"
+	@printf "$(C_BLUE)$(ICON_VALIDATE) Validating build/metadata.yaml...$(C_RESET)\n"
+	@yamllint build/metadata.yaml > /dev/null && \
+		printf "$(C_GREEN)$(ICON_SUCCESS) metadata.yaml is valid.$(C_RESET)\n" || \
+		(printf "$(C_RED)$(ICON_FAILURE) metadata.yaml validation failed.$(C_RESET)\n" && exit 1)
+
+	@printf "$(C_BLUE)$(ICON_VALIDATE) Verifying hashes against disk...$(C_RESET)\n"
 	@errors=0; \
-	for i in $$(yq eval '.files[].file' metadata.yaml); do \
-		if echo $$i | grep -q 'index'; then f="indexes/$$i"; else f="$$i"; fi; \
+	for i in $$(yq eval '.files[].file' build/metadata.yaml); do \
+		case "$$i" in \
+			experts.yaml) f="build/$$i" ;; \
+			*index*)      f="indexes/$$i" ;; \
+			*)            f="core/$$i" ;; \
+		esac; \
 		if [ -f "$$f" ]; then \
-			expected=$$(yq eval ".files[] | select(.file == \"$$i\") | .integrity_hash" metadata.yaml); \
+			expected=$$(yq eval ".files[] | select(.file == \"$$i\") | .integrity_hash" build/metadata.yaml); \
 			actual=$$(sha256sum "$$f" | awk '{print $$1}'); \
 			if [ "$$expected" != "$$actual" ]; then \
 				printf "$(C_RED)$(ICON_FAILURE) Hash mismatch for $$f: expected=$$expected, actual=$$actual$(C_RESET)\n"; \
 				errors=1; \
 			else \
-				printf "$(C_GREEN)$(ICON_SUCCESS) Hash OK for $$f$(C_RESET)\n"; \
+				printf "$(C_GREEN)$(ICON_SUCCESS) OK: $$f$(C_RESET)\n"; \
 			fi; \
 		else \
-			printf "$(C_YELLOW)$(ICON_WARNING) File not found: $$f (listed in metadata.yaml)$(C_RESET)\n"; \
+			printf "$(C_YELLOW)$(ICON_WARNING) Missing file: $$f (referenced as $$i)$(C_RESET)\n"; \
 		fi; \
 	done; \
 	if [ "$$errors" -eq 0 ]; then \
-		printf "$(C_GREEN)$(ICON_SUCCESS) All integrity hashes verified successfully!$(C_RESET)\n"; \
+		printf "$(C_GREEN)$(ICON_SUCCESS) All hashes verified successfully.$(C_RESET)\n"; \
 	else \
-		printf "$(C_RED)$(ICON_FAILURE) One or more hash mismatches found.$(C_RESET)\n"; \
+		printf "$(C_RED)$(ICON_FAILURE) One or more hash mismatches detected.$(C_RESET)\n"; \
 		exit 1; \
 	fi
 
-install: ## Installs selected files into the deploy/ directory
-	@echo -e "$(C_GREEN)$(ICON_INSTALL) Installing knowledge files into deploy/ directory...$(C_RESET)"
-	@rm -rf deploy
+install: clean-deploy ## Copy all final deployment files to deploy/
+	@printf "$(C_BLUE)$(ICON_INSTALL) Preparing deployment folder → deploy/$(C_RESET)\n"
+
 	@mkdir -p deploy
 
-	@# Copy core knowledge files
-	@for f in architect.yaml blackbox-guard.yaml ethics.yaml metadata.yaml experts.yaml self-validation.yaml token-policy.yaml; do \
+	@cp build/metadata.yaml deploy/metadata.yaml
+
+	@for i in $$(yq eval '.files[].file' build/metadata.yaml); do \
+		case "$$i" in \
+			experts.yaml) f="build/$$i" ;; \
+			*index*)      f="indexes/$$i" ;; \
+			*)            f="core/$$i" ;; \
+		esac; \
 		if [ -f "$$f" ]; then \
-			cp "$$f" deploy/; \
-		fi \
+			cp "$$f" "deploy/$$i"; \
+			printf "$(C_GREEN)$(ICON_SUCCESS) Copied: $$f → deploy/$$i$(C_RESET)\n"; \
+		else \
+			printf "$(C_YELLOW)$(ICON_WARNING) Skipped missing file: $$f$(C_RESET)\n"; \
+		fi; \
 	done
 
-	@# Copy index files from indexes/
-	@for f in indexes/experts-index-*.yaml; do \
-		if [ -f "$$f" ]; then \
-			cp "$$f" deploy/; \
-		fi \
-	done
+	@printf "$(C_GREEN)$(ICON_SUCCESS) Deployment package ready in deploy/$(C_RESET)\n"
 
-	@echo -e "$(C_GREEN)$(ICON_SUCCESS) Knowledge files successfully deployed into deploy/$(C_RESET)"
-
-archive: ## Archive YAML files and GPT field file into deploy/architect.zip
-	@printf "$(C_MAGENTA)$(ICON_ARCHIVE) Creating deployment archive...$(C_RESET)\n"
+clean-deploy: ## Clean the deploy/ folder before fresh install
+	@printf "$(C_RED)$(ICON_CLEAN) Cleaning deployment folder → deploy/$(C_RESET)\n"
+	@rm -rf deploy/
 	@mkdir -p deploy
-	@zip -q deploy/architect.zip $(YAML_FILES) $(GPTFIELD_FILES); \
-	if [ $$? -eq 0 ]; then \
-		printf "$(C_GREEN)$(ICON_SUCCESS) Archive created at deploy/architect.zip$(C_RESET)\n"; \
-	else \
-		printf "$(C_RED)$(ICON_FAILURE) Failed to create archive.$(C_RESET)\n"; \
-		exit 1; \
-	fi
+	@printf "$(C_GREEN)$(ICON_SUCCESS) deploy/ is now clean and ready.$(C_RESET)\n"
+
+archive: ## Create a flat zip archive from deploy/ and gpt-fields/
+	@printf "$(C_MAGENTA)$(ICON_ARCHIVE) Creating flat archive → build/architect.zip$(C_RESET)\n"
+	@mkdir -p build/archive_temp
+	@cp -a deploy/* build/archive_temp/
+	@cp -a gpt-fields/* build/archive_temp/
+	@cd build/archive_temp && zip -rq ../architect.zip .
+	@rm -rf build/archive_temp
+	@printf "$(C_GREEN)$(ICON_SUCCESS) Archive build/architect.zip ready.$(C_RESET)\n"

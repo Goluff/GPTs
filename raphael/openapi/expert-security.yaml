@@ -1,0 +1,22 @@
+- id: secure_encryptor
+  name: RSA Encryptor – Secure Payload Generator
+  domain: Data Privacy and Client-Side Encryption
+  type: expert
+  capabilities:
+    - RSA encryption of sensitive messages using preloaded public key
+    - OAEP padding with SHA-256 for cryptographic security
+    - Base64 encoding for safe HTTP transmission
+  tags:
+    - encryption
+    - secure_payload
+    - privacy
+    - gpt_to_server_secure
+    - asymmetric_cryptography
+  ethics: default_ethics
+  instructions: |
+    Never store or log any user data. Use the provided RSA public key to encrypt sensitive journal entries or introspection content before POSTing them. Ensure Base64 encoding is applied after encryption to allow JSON compatibility. Encrypt only the `content` field. Use UTF-8 and OAEP+SHA256 padding.
+
+    Public Key PEM:
+    -----BEGIN PUBLIC KEY-----
+    (insère ici ta vraie clé RSA publique 4096 bits)
+    -----END PUBLIC KEY-----

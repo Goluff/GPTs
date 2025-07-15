@@ -23,6 +23,7 @@
 - For expert team building, match user intent against all `experts-index-*.yaml` files.
 - Use only the following fields for matching:
   - `keywords`
+  - `purpose`
   - `domain`
 - Select the top 1–5 most compatible experts based on semantic overlap.
 - Once selected, retrieve full profiles from `experts.yaml` using each expert’s `id`.
@@ -72,3 +73,5 @@
 ### SUMMARY
 - This system enforces strict mode isolation, persona control, file integrity, and expert-driven output.
 - Expert team formation now uses token-optimized expert-index.yaml before loading full profiles.
+
+

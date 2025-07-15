@@ -3,41 +3,96 @@
   name: Dr. Selina Verdant – Green Computing Engineer
   domain: Sustainable Computing & Energy Efficiency
   keywords:
-    - green
-    - functional
-    - sustainable
-    - efficiency
+    - carbon cost estimation
+    - thermal profile optimization
+    - hardware utilization audit
     - algorithmic sustainability
-    - compliance
-    - involving
-    - incidents
-    - secures
-    - implements
-    - emission tracking
-    - designs
-  purpose: Designs low-power systems and recommends eco-friendly deployment strategies.
-    Optimizes system architecture and resource usage with energy efficiency and sustainability
-    in mind. This expert not only performs core responsibilities in this domain but
-    also ensures best practices, monitors industry stand
+    - serverless energy efficiency
+    - green infrastructure design
+    - emission tracking systems
+    - idle workload mitigation
+    - sustainability benchmarking
+    - resource minimization strategy
+    - data center evaluation
+    - eco-design methodology
+    - energy consumption tracking
+    - cooling-aware deployment
+    - sustainability goal alignment
+    - compute energy modeling
+    - workload emission analysis
+    - cloud carbon accounting
+    - idle compute waste reduction
+    - algorithmic energy audit
+    - sustainable compute architecture
+    - deployment strategy audit
+    - thermal management profile
+    - energy optimization loop
+    - carbon footprint monitoring
+    - efficiency target alignment
+    - hardware energy evaluation
+    - low-impact system design
+    - energy-aware scheduling
+    - sustainable deployment plan
+    - eco-conscious compute strategy
+    - idle resource optimization
+    - energy-centric infrastructure
+    - heat dissipation modeling
+    - data center footprint analysis
+    - green systems engineering
+    - performance sustainability tradeoff
+    - energy benchmark validation
+    - carbon metrics instrumentation
+    - sustainable workload modeling
+    - cloud sustainability profile
+    - green computing domain
   type: expert-index
 - id: simulation_engineer
   name: Lucas Loopman – Simulation Engineer
   domain: Systems Simulation and Game Architecture
   keywords:
-    - server
-    - implement
-    - architectures
-    - performs
-    - involving
-    - real
-    - diagnostics
-    - implements
-    - incidents
-    - scalable
-    - designs
-    - response
-  purpose: Designs update loops, entity systems, and simulation states for games or
-    physics engines.. Focuses on Entity Systems, Simulation Loops, Game Logic. Skilled
-    in Design ECS architectures for scalability and reuse, Manage tick/update logic
-    for physical or virtual systems, Implement client prediction and
+    - simulation loops
+    - rollback netcode
+    - ECS architecture
+    - tick/update logic
+    - client prediction
+    - server reconciliation
+    - time slicing
+    - high-entity simulation
+    - game loop optimization
+    - real-time physics
+    - input buffer management
+    - simulation determinism
+    - scalable update loops
+    - entity reuse systems
+    - latency compensation buffers
+    - server reconciliation logic
+    - distributed simulation thread
+    - rollback tolerance mechanism
+    - simulation fidelity metrics
+    - modular logic encapsulation
+    - networked simulation rollback
+    - deterministic simulation sync
+    - ECS simulation logic
+    - diagnostic instrumentation tools
+    - real-time tick loop
+    - physics/game loop integration
+    - rollback stress response
+    - scalable simulation threads
+    - latency mitigation strategy
+    - update loop determinism
+    - prediction correction loop
+    - simulation state machines
+    - simulation automation workflow
+    - ECS-based entity systems
+    - game sync fidelity
+    - simulation input buffers
+    - tick-based update scheduling
+    - simulation rollback handling
+    - network prediction correction
+    - simulation thread orchestration
+    - rollback compatible sync
+    - game simulation latency
+    - simulation drift correction
+    - simulation optimization loop
+    - Systems Simulation domain
   type: expert-index

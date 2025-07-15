@@ -1,64 +1,141 @@
 ---
 - id: conversational_ux_specialist
-  name: Lea Dialogue – Conversational Ux Specialist
+  name: Lea Dialogue – Conversational UX Specialist
   domain: Dialogue Systems & Conversational UX
   keywords:
-    - conversational
-    - functional
-    - prompt crafting
-    - persona design
-    - performs
-    - user research
-    - involving
-    - conversational_ux_specialist
-    - incidents
-    - diagnostics
-    - onboarding experience
-    - friction reduction
-  purpose: Applies linguistics, interface design, and interaction patterns to LLM
-    or voice-based interfaces. — Designs dialog systems, prompt flows, and voice interactions
-    for natural and intuitive user experiences. This expert not only performs core
-    responsibilities in this domain but also ensures best practi
+    - ai agent interaction design
+    - ambiguity reduction
+    - clarity prompt crafting
+    - clarity prompting strategies
+    - coherent conversation design
+    - conversation scaffold creation
+    - conversational coherence validation
+    - conversational personas
+    - conversational ux
+    - dialog flow design
+    - disambiguation ux impact
+    - drop off mitigation
+    - emotionally intelligent interaction
+    - error messaging cues
+    - friction mitigation patterns
+    - intent disambiguation design
+    - intent recognition evaluation
+    - interaction goal alignment
+    - linguistic modeling conversations
+    - misfire recovery patterns
+    - multimodal dialog flows
+    - multimodal interface modeling
+    - multimodal usability testing
+    - natural pacing modeling
+    - onboarding experience design
+    - onboarding flow ux
+    - persona scaffold alignment
+    - prompt fallback design
+    - recovery and repair loops
+    - repeat intent handling
+    - session tone consistency
+    - style alignment channels
+    - task oriented personas
+    - transparency in dialogue
+    - turn taking modeling
+    - turn taking strategy
+    - user engagement acceleration
+    - user psychology mapping
+    - user research feedback
+    - ux principle integration
+    - voice chat interfaces
+    - voice tone alignment
+    - voice tone consistency
   type: expert-index
 - id: human_centered_designer
   name: Eva Flow – Human Centered Designer
   domain: Developer Experience and Infra Usability
   keywords:
-    - onboarding
-    - apis
-    - docs
-    - performs
-    - audits
-    - compliance
-    - involving
-    - guides
-    - designer
-    - internal
-    - incidents
-    - centered
-  purpose: Shapes infrastructure and tools that empower developers with intuitive
-    and frictionless experiences.. Focuses on DX, Infra UX, Onboarding Design. Skilled
-    in Interview teams to map pain points and workflows, Design self-service portals,
-    onboarding kits, and DX dashboards, Prototype UX for CLI tools
+    - cli ux prototyping
+    - developer onboarding flows
+    - internal api design
+    - dx usability testing
+    - self service portals
+    - dx observability patterns
+    - onboarding doc systems
+    - usability survey feedback
+    - infra tool workflows
+    - engineering pain mapping
+    - dx dashboard strategy
+    - infrastructure design systems
+    - cli dashboard usability
+    - cli tool prototyping
+    - cross team ux alignment
+    - dashboard interaction testing
+    - dashboard usability reviews
+    - developer autonomy boost
+    - developer experience metrics
+    - developer facing systems
+    - developer pain mapping
+    - dx feedback loop design
+    - dx observability tracking
+    - dx workflow prototyping
+    - friction point detection
+    - heuristic ux audit
+    - infra design consistency
+    - infra usability review
+    - internal documentation clarity
+    - internal portal design
+    - onboarding kit creation
+    - onboarding workflow design
+    - platform branding alignment
+    - platform ux consistency
+    - self service interface design
+    - shadowing session synthesis
+    - survey based ux tuning
+    - tutorial ux integration
+    - ux design system alignment
+    - ux metric instrumentation
+    - ux principle coaching
+    - workflow friction surfacing
   type: expert-index
 - id: msdn_experience_designer
   name: Marcus Devlin – Msdn Experience Designer
   domain: Developer Documentation & Microsoft Ecosystem Standards
   keywords:
-    - onboarding
-    - external
-    - accessible
-    - updates
-    - release
-    - apis
-    - creates
-    - platform
-    - audits
-    - moving
-    - developer
-    - outdated
-  purpose: Crafts and maintains developer-facing documentation across Microsoft platforms,
-    with a focus on discoverability, clarity, and ecosystem coherence. This expert
-    ensures that SDKs, APIs, and tutorials reflect real-world scenarios and evolving
-    tools. Their work spans samples, versioned content, onboardi
+    - sdk documentation quality
+    - versioned guidance strategy
+    - cli tool onboarding
+    - telemetry feedback loops
+    - dataverse sample creation
+    - glossary alignment patterns
+    - inclusive content standards
+    - microsoft platform quirks
+    - engineering collaboration touchpoints
+    - documentation lifecycle audits
+    - power platform walkthroughs
+    - external roadmap feedback
+    - api documentation standards
+    - broken link remediation
+    - code sample walkthroughs
+    - content prioritization flow
+    - developer expectation alignment
+    - dev friction reduction
+    - discoverable sdk guidance
+    - documentation consistency checks
+    - documentation terminology audit
+    - engineering feedback relay
+    - feedback loop integration
+    - inclusive dev documentation
+    - internal doc usability
+    - microsoft product tracking
+    - multi release doc versioning
+    - onboarding material clarity
+    - platform behavior mapping
+    - product surface documentation
+    - roadmap driven doc update
+    - sdk runtime alignment
+    - standards aligned doc writing
+    - structured developer feedback
+    - technical content clarity
+    - telemetry driven updates
+    - usability enhancement strategies
+    - user aligned documentation
+    - versioned documentation systems
+    - workflow documentation mapping
   type: expert-index

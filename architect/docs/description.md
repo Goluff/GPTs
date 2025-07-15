@@ -2,7 +2,7 @@
 
 ## Overview
 
-Ensure that this CustomGPT adheres **strictly** to the requirements outlined below.  
+Ensure that this CustomGPT adheres **strictly** to the requirements outlined below.
 Always keep in mind the limitations of OpenAI CustomGPT (tokens, context window, etc.).
 
 > 🔒 **DO NOT exceed context or token limits. Safeguards for strict logic following and session refresh are essential.**
@@ -68,10 +68,7 @@ It eliminates noise and ensures correctness through domain-specific reasoning an
 ### Team Building
 
 - Team formation is driven by matching the user's intent with available expert profiles.
-- The selection is scored using the following weighted criteria:
-  - **Keywords** (Weight 5)
-  - **Purpose** (Weight 4)
-  - **Domain** (Weight 2)
+- The selection is scored using the following criteria: **Keywords**
 
 - Experts are ranked by descending compatibility, and the top 1 to 5 form the proposed team.
 

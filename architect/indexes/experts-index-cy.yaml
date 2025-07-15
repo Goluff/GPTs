@@ -3,188 +3,373 @@
   name: Eliot Kern – Hacking Expert
   domain: Offensive Security and Ethical Hacking
   keywords:
-    - findings
-    - functional
-    - simulated
-    - performs
-    - audits
-    - compliance
-    - scenarios
-    - perform
-    - social
-    - diagnostics
-    - secures
-    - expert
-  purpose: Simulates attacks to detect vulnerabilities and test system defenses..
-    Focuses on Penetration Testing, Exploitation, Reconnaissance. Skilled in Perform
-    network scanning and enumeration, Exploit known vulnerabilities in simulated environments,
-    Bypass authentication and privilege boundaries, Report fi
+    - penetration test automation
+    - privilege escalation audit
+    - phishing simulation tactics
+    - vulnerability cve exploitation
+    - social engineering assessment
+    - input sanitization probe
+    - enumeration reconnaissance tools
+    - red teaming exercises
+    - injection attack vectors
+    - risk remediation reporting
+    - adversary tactic modeling
+    - authentication bypass demo
+    - network penetration testing
+    - application layer exploitation
+    - hardware attack surface
+    - phishing vector simulation
+    - CVE exploitation lab
+    - zero-day testbed validation
+    - sandboxed exploit chaining
+    - CVSS scoring report
+    - SQLi XSS injection testing
+    - payload delivery automation
+    - Metasploit workflow scripting
+    - custom exploit creation
+    - adversary simulation planning
+    - systemic vulnerability mapping
+    - infrastructure attack emulation
+    - privilege boundary evasion
+    - controlled bypass scenarios
+    - lateral movement emulation
+    - Shodan scan methodology
+    - Nmap active enumeration
+    - access control bypass
+    - CVSS-based prioritization
+    - input validation fuzzing
+    - command injection tactics
+    - exploit-driven analysis
+    - real-world threat replication
+    - red team coordination
+    - simulated APT patterns
+    - breach path exploration
+    - security posture challenge
+    - ethical hacking compliance
   type: expert-index
 - id: identity_management_engineer
   name: Nina Vault – Identity Management Engineer
   domain: Identity & Access Management (IAM)
   keywords:
-    - rotation
-    - trust
-    - compliance alignment
-    - least
-    - performs
-    - federated
-    - compliance
-    - involving
-    - zero
-    - incidents
-    - secures
-    - implements
-  purpose: Designs and secures IAM systems including secrets rotation, SSO, and least
-    privilege access control. Designs, audits, and maintains secure identity and access
-    management (IAM) infrastructure, including secrets rotation, federated identity
-    (OAuth or OpenID), and zero trust enforcement. This expert no
+    - zero trust architecture
+    - least privilege access
+    - federated identity protocols
+    - secrets rotation vaults
+    - oauth openid saml
+    - compliance audit trails
+    - mfa integration
+    - identity lifecycle automation
+    - access policy enforcement
+    - breach response protocols
+    - identity access governance
+    - iam scalability analysis
+    - secure IAM architecture
+    - federated authentication logic
+    - SSO trust federation
+    - OpenID Connect enforcement
+    - SAML token validation
+    - lifecycle policy rules
+    - user deprovisioning flow
+    - identity onboarding pipeline
+    - access approval automation
+    - vault system integration
+    - secrets manager configuration
+    - credential rotation protocols
+    - access scope minimization
+    - least privilege governance
+    - misconfiguration remediation
+    - access log audit pass
+    - IAM compliance alignment
+    - incident containment IAM
+    - MFA rollout strategy
+    - heterogeneous system access
+    - trust boundary validation
+    - role-based access modeling
+    - IAM latency benchmark
+    - IAM fault tolerance
+    - privilege escalation prevention
+    - identity schema management
+    - escalated access detection
+    - audit trail standardization
+    - secure identity integration
+    - platform-wide policy sync
+    - multi-platform authentication
   type: expert-index
 - id: incident_response_strategist
   name: Greg Paxson – Incident Response Strategist
   domain: Incident Handling and Recovery Playbooks
   keywords:
-    - practices
-    - learned
-    - functional
-    - track
-    - define
-    - audits
-    - test
-    - coordinate
-    - involving
-    - incidents
-    - secures
-    - implements
-  purpose: Coordinates containment, recovery, and root-cause analysis during security
-    incidents.. Focuses on Incident Response, Playbooks, Security Workflow. Skilled
-    in Define and test containment workflows for common attack vectors, Coordinate
-    comms and triage with stakeholders, Apply playbooks for ransomware
+    - incident containment workflows
+    - security playbooks
+    - triage coordination
+    - root cause validation
+    - stakeholder communication
+    - postmortem practices
+    - incident timeline tracking
+    - IR automation
+    - SOAR orchestration
+    - audit readiness
+    - threat response strategy
+    - cross-team alignment
+    - ransomware containment
+    - phishing response workflow
+    - DDoS mitigation protocols
+    - communication triage matrix
+    - escalation path design
+    - severity classification logic
+    - root cause timeline tracking
+    - remediation closure audit
+    - forensic readiness logging
+    - security alert infrastructure
+    - incident type mapping
+    - risk-aware playbook tailoring
+    - threat profile calibration
+    - resolution time benchmarking
+    - tabletop exercise audit
+    - SIEM-to-ticketing automation
+    - orchestration trigger design
+    - communication bridge protocols
+    - organizational resilience planning
+    - IR workflow effectiveness
+    - cross-domain incident flow
+    - lessons learned synthesis
+    - incident documentation standard
+    - incident fatigue management
+    - team response latency
+    - decision point tracing
+    - alert triage optimization
+    - multi-platform response sync
+    - crisis mode coordination
+    - threat resolution loops
+    - response protocol layering
   type: expert-index
 - id: log_forensics_analyst
   name: Dana Trace – Log Forensics Analyst
   domain: Forensic Log Review and Breach Tracing
   keywords:
-    - functional
-    - detect
-    - logs
-    - breach
-    - forensics
-    - tracing
-    - movement
-    - hunting
-    - log
-    - proxies
-    - audits
-    - filters
-  purpose: Investigates logs and telemetry to identify indicators of compromise and
-    anomalous behavior.. Focuses on Forensics, Log Analysis, Threat Hunting. Skilled
-    in Parse and correlate logs from firewalls, proxies, apps, and containers, Build
-    filters and enrichers for threat identification, Trace sessions a
+    - log parsing
+    - threat enrichment
+    - behavioral outliers
+    - session tracing
+    - breach timeline
+    - intrusion detection
+    - telemetry correlation
+    - threat hunting
+    - IOC pivoting
+    - evidence reporting
+    - forensic integrity
+    - detection automation
+    - multi-layer log correlation
+    - firewall proxy log analysis
+    - container log normalization
+    - SIEM event tracing
+    - event tagging pipeline
+    - anomaly tagging rules
+    - rare execution detection
+    - lateral movement identification
+    - timestamp session correlation
+    - IOC enrichment mapping
+    - threat indicator pivoting
+    - structured breach chronology
+    - metadata-based tracing
+    - evidentiary chain assurance
+    - forensic log retention
+    - compliance-aligned log flow
+    - stream sanitation auditing
+    - evasion-resistant filtering
+    - pipeline scalability testing
+    - enrichment layer performance
+    - log format unification
+    - normalized field extraction
+    - auto-analysis trigger logic
+    - attack surface reconstruction
+    - cross-format event fusion
+    - breach trace attribution
+    - automated IOC linking
+    - response-ready evidence structuring
+    - adversary behavior signature
   type: expert-index
 - id: protocol_resilience_analyst
   name: Omar Netley – Protocol Resilience Analyst
   domain: Computer Networks
   keywords:
-    - protocol
-    - balancer
-    - efficiency
-    - computer
-    - bufferbloat
-    - tcp
-    - policies
-    - audits
-    - compliance
-    - analyzes
-    - scenarios
-    - validates
-  purpose: Evaluates and fortifies protocol-level behaviors under fault injection,
-    congestion, and high-latency conditions. This expert simulates degraded network
-    conditions to benchmark protocol robustness and responsiveness. They implement
-    and audit congestion strategies, fallback mechanisms, and load sheddi
-  type: expert-index
-- id: protocol_resilience_analyst
-  name: Omar Netley – Protocol Resilience Analyst
-  domain: Computer Networks
-  keywords:
-    - protocol
-    - balancer
-    - efficiency
-    - computer
-    - bufferbloat
-    - tcp
-    - policies
-    - audits
-    - compliance
-    - analyzes
-    - scenarios
-    - validates
-  purpose: Evaluates and fortifies protocol-level behaviors under fault injection,
-    congestion, and high-latency conditions. This expert simulates degraded network
-    conditions to benchmark protocol robustness and responsiveness. They implement
-    and audit congestion strategies, fallback mechanisms, and load sheddi
+    - tcp_fallback
+    - bufferbloat_diagnostics
+    - jitter_metrics
+    - failover_testing
+    - protocol_conformance
+    - congestion_control
+    - link_saturation
+    - packet_loss_simulation
+    - routing_disruption
+    - network_resilience
+    - throughput_validation
+    - latency_benchmarking
+    - packet degradation modeling
+    - jitter pattern simulation
+    - congestion rfc audit
+    - adaptive congestion tuning
+    - synthetic burst traffic
+    - multi-hop latency stress
+    - session persistence fallback
+    - lossy link recovery
+    - traffic shaping impact
+    - queuing discipline test
+    - high-availability link failover
+    - redundant route validation
+    - protocol stack interoperability
+    - streaming traffic jitter audit
+    - transactional flow analysis
+    - transient throughput variance
+    - saturation threshold alerting
+    - automated recovery trigger
+    - route flap load balancing
+    - partial failure decision path
+    - SLA observability modeling
+    - latency-sensitive path tracing
+    - protocol degradation analysis
+    - real-time resilience testbed
+    - dynamic route tolerance
+    - congestion failure replay
+    - resilience regression loop
+    - network fault synthesis
+    - failover architecture simulation
+    - conformance and SLA audit
+    - link instability response
   type: expert-index
 - id: quantum_resilience_analyst
   name: Dr. Qian Tang – Quantum Resilience Analyst
   domain: Post-Quantum Security & Cryptography
   keywords:
-    - path
-    - functional
-    - compliance alignment
-    - audits
-    - transition
-    - system
-    - secures
-    - implements
-    - scalable
-    - designs
-    - security auditing
-    - analyst
-  purpose: Assesses systems for cryptographic and architectural vulnerability to quantum-based
-    attacks. Evaluates the cryptographic and systemic resilience of infrastructure
-    against current and near-future quantum computing threats. This expert not only
-    performs core responsibilities in this domain but also en
+    - pqc_migration
+    - hybrid_cryptography
+    - quantum_vulnerability
+    - cryptographic_transition
+    - fault_tolerance
+    - protocol_audit
+    - nist_pqc_alignment
+    - crypto_agility
+    - system_resilience
+    - secure_migration_path
+    - key_lifecycle
+    - compliance_mapping
+    - quantum vulnerability exposure
+    - quantum readiness audit
+    - post-quantum primitives
+    - pqc protocol fit
+    - cryptosystem migration path
+    - phased pqc deployment
+    - hybrid crypto model
+    - dual-stack cryptographic support
+    - legacy protocol audit
+    - quantum-safe compliance
+    - cryptographic degradation modeling
+    - key infrastructure transition
+    - resource-aware crypto design
+    - scalable readiness automation
+    - post-quantum architecture review
+    - hybrid stack coordination
+    - cryptographic lifecycle tracking
+    - crypto agility benchmarking
+    - policy-aligned transition
+    - NIST PQC standardization
+    - fault-tolerant crypto design
+    - resilience audit framework
+    - post-quantum impact analysis
+    - security timeline modeling
+    - cryptographic resilience testing
+    - long-term PQC adoption strategy
+    - cryptographic resource allocation
+    - forward-compatible crypto
   type: expert-index
 - id: service_exposure_engineer
   name: Alexis Gatewell – Service Exposure Engineer
   domain: Ingress, Routing, and Auth Control
   keywords:
-    - mitigate
-    - practices
-    - gateway
-    - implement
-    - usage
-    - restrictions
-    - openapi
-    - secure
-    - chains
-    - best
-    - gateways
-    - performs
-  purpose: Designs public-facing and internal APIs, balancing performance, security,
-    and routing integrity. Covers gateways, reverse proxies, routing layers, and auth
-    enforcement. This expert not only performs core responsibilities in this domain
-    but also ensures best practices, monitors industry standards, an
+    - api_gateway_configuration
+    - reverse_proxy_auditing
+    - ingress_routing_policy
+    - jwt_validation_enforcement
+    - abuse_mitigation_patterns
+    - wildcard_domain_routing
+    - rbac_rule_implementation
+    - openapi_schema_versioning
+    - proxy_authentication_control
+    - acl_route_enforcement
+    - retry_timeout_management
+    - usage_quota_logging
+    - ingress routing strategy
+    - kong envoy api gateway
+    - RBAC access control
+    - route-level ACLs
+    - dynamic request filtering
+    - proxy chain auditing
+    - throttling abuse protection
+    - rate limiting enforcement
+    - OpenAPI schema validation
+    - API versioning flow
+    - JWT-based auth logic
+    - gateway authentication rules
+    - circuit breaker integration
+    - request timeout policy
+    - injection protection gateway
+    - protocol tamper defense
+    - internal api shielding
+    - auth rule deployment
+    - usage quota automation
+    - access log generation
+    - retry logic configuration
+    - public endpoint hardening
+    - wildcard route handling
+    - distributed ingress control
+    - secure routing orchestration
+    - multi-platform ingress layer
+    - latency-aware exposure
+    - gateway-level policy
+    - fine-grained auth enforcement
   type: expert-index
 - id: zero_trust_architect
   name: Victor Meshan – Zero Trust Architect
   domain: Zero Trust and Service Mesh Design
   keywords:
-    - functional
-    - trust
-    - controls
-    - zones
-    - performs
-    - workloads
-    - audits
-    - compliance
-    - involving
-    - zero
-    - between
-    - architect
-  purpose: Implements identity-driven microsegmentation and service-to-service trust
-    boundaries.. Focuses on Zero Trust, Service Mesh, Mutual TLS. Skilled in Design
-    identity-aware access controls using SPIFFE/SPIRE, Deploy service mesh with Istio,
-    Linkerd, or Consul, Configure mutual TLS and RBAC between workl
+    - trust_zone_mapping
+    - service_mesh_policy
+    - mutual_tls_enforcement
+    - workload_identity_design
+    - rbac_service_segmentation
+    - east_west_traffic_audit
+    - dynamic_access_controls
+    - spiiffe_spire_integration
+    - microsegmentation_frameworks
+    - policy_compliance_monitoring
+    - service_onboarding_security
+    - zero_trust_architecture
+    - distributed trust boundary
+    - zone-aware service routing
+    - Istio Linkerd Consul mesh
+    - SPIFFE-based workload ID
+    - service mesh mTLS config
+    - encrypted east-west traffic
+    - fine-grained RBAC policy
+    - identity-aware authz flow
+    - secure service mesh rollout
+    - onboarding trust enforcement
+    - lateral movement mitigation
+    - cloud-native zero trust
+    - dynamic policy orchestration
+    - mutual TLS handshake auditing
+    - trust domain scalability test
+    - service segmentation rulebase
+    - secure workload bootstrapping
+    - policy rollout automation
+    - isolation boundary design
+    - access control graph modeling
+    - east-west visibility enforcement
+    - compliance-aligned segmentation
+    - mesh-driven identity auth
+    - fine-tuned trust perimeter
+    - SPIRE federation model
+    - scalable trust topology
+    - zone-specific security logic
+    - full-mesh traffic security
   type: expert-index

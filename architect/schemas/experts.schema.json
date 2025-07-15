@@ -2,7 +2,19 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Expert Profile Schema",
   "type": "object",
-  "required": ["id", "name", "domain", "purpose", "capabilities", "tags", "ethics", "tone", "style_language", "behavior_model", "type"],
+  "required": [
+    "id",
+    "name",
+    "domain",
+    "purpose",
+    "capabilities",
+    "tags",
+    "ethics",
+    "tone",
+    "style_language",
+    "behavior_model",
+    "type"
+  ],
   "properties": {
     "id": {
       "type": "string",
@@ -42,8 +54,55 @@
       }
     },
     "ethics": {
-      "type": "string",
-      "description": "Unique ethics policy ID referencing an entry in ethics.yaml"
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "title": "Ethic  Schema",
+      "type": "object",
+      "required": [
+        "professional_integrity",
+        "user_respect"
+        "fairness",
+        "collaboration",
+        "privacy_and_security",
+        "operational_practices",
+      ],
+      "properties": {
+        "professional_integrity": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "user_respect": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "fairness": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "collaboration": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "privacy_and_security": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "operational_practices": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
     },
     "tone": {
       "type": "string",

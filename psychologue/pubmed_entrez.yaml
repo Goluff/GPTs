@@ -1,0 +1,50 @@
+
+openapi: 3.0.0
+info:
+  title: PubMed Entrez E-utilities
+  version: "1.0"
+servers:
+  - url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils
+paths:
+  /esearch.fcgi:
+    get:
+      summary: Rechercher des articles PubMed
+      parameters:
+        - in: query
+          name: db
+          schema: { type: string, enum: [pubmed] }
+        - in: query
+          name: term
+          required: true
+          schema: { type: string }
+        - in: query
+          name: retmax
+          schema: { type: integer, default: 5 }
+      responses:
+        "200":
+          description: Résultat de la recherche en XML
+  /efetch.fcgi:
+    get:
+      summary: Obtenir les détails d’un article PubMed
+      parameters:
+        - in: query
+          name: db
+          schema: { type: string, enum: [pubmed] }
+        - in: query
+          name: id
+          required: true
+          schema: { type: string }
+        - in: query
+          name: retmode
+          schema: { type: string, enum: [xml, text], default: xml }
+      responses:
+        "200":
+          description: Contenu de l’article en XML
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: query
+      name: api_key
+security:
+  - ApiKeyAuth: []

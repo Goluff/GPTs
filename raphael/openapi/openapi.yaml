@@ -1,0 +1,47 @@
+openapi: 3.0.1
+info:
+  title: Priscilla Introspection API
+  version: "1.0"
+servers:
+  - url: https://ton-domaine.com  # Remplace par ton domaine réel
+
+paths:
+  /journal/priscilla:
+    get:
+      summary: Récupère les entrées du journal introspectif de Priscilla
+      operationId: getJournal
+      responses:
+        '200':
+          description: Liste des entrées introspectives
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  entries:
+                    type: array
+                    items:
+                      type: string
+
+    post:
+      summary: Ajoute une nouvelle entrée au journal introspectif de Priscilla
+      operationId: postJournal
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                entry:
+                  type: string
+      responses:
+        '200':
+          description: Entrée ajoutée avec succès
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string

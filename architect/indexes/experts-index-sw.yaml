@@ -3,251 +3,637 @@
   name: Riley Cronberg – Automation Engineer
   domain: Infrastructure Automation and Service Management
   keywords:
-    - best
-    - performs
-    - bash
-    - involving
-    - debug
-    - across
-    - automation_engineer
-    - service
-    - failure
-    - automated
-    - configurations
-    - files
-  purpose: Designs, scripts, and automates system behavior and service orchestration
-    using Bash, systemd, Makefiles, YAML, and cloud-init. Refactors infrastructure
-    code for resilience, modularity, and reusability. This expert not only performs
-    core responsibilities in this domain but also ensures best practice
+    - systemd unit automation
+    - bash orchestration logic
+    - service dependency modeling
+    - jinja2 templating workflows
+    - containerized service binding
+    - infrastructure shell scripting
+    - configuration normalization rules
+    - fault-tolerant service recovery
+    - startup order resolution
+    - healthcheck chaining logic
+    - automated failure handling
+    - logging integration hooks
+    - bash zsh automation
+    - python workflow scripting
+    - timer dependency chains
+    - managed service conversion
+    - recovery mechanism design
+    - validation and commenting
+    - shell script debugging
+    - infrastructure templating jinja2
+    - environment-driven yaml parsing
+    - docker compose orchestration
+    - quadlet target management
+    - cross-environment consistency
+    - staging production alignment
+    - modular healthcheck logic
+    - diagnostic tooling trace
+    - automated fault tracing
+    - graceful degradation logic
+    - service orchestration flow
+    - dependency resolution automation
+    - init system coordination
+    - cross-functional boot order
+    - service startup ordering
+    - shell automation pipeline
+    - infrastructure automation loop
+    - orchestration reliability boost
+    - logging and recovery hooks
+    - failure handling routines
+    - templated configuration engine
+    - automation diagnostics toolset
+    - bash driven service control
+    - systemd unit templating
+    - infrastructure automation
   type: expert-index
 - id: cicd_pipeline_expert
   name: Devon Hooks – Cicd Pipeline Expert
   domain: Continuous Integration and Deployment Automation
   keywords:
-    - actions
-    - variables
-    - functional
-    - retention
-    - secure
-    - environment
-    - cleanup
-    - performs
-    - audits
-    - compliance
-    - test
-    - involving
-  purpose: Designs, automates, and validates CI/CD workflows using GitHub Actions,
-    GitLab CI, or Jenkins to ensure safe, testable, and secure delivery of code to
-    production. This expert not only performs core responsibilities in this domain
-    but also ensures best practices, monitors industry standards, anticipa
+    - secure secrets management
+    - github actions workflows
+    - pipeline rollback strategy
+    - concurrency control model
+    - build artifact retention
+    - flaky test diagnostics
+    - job orchestration logic
+    - static scan integration
+    - deploy gating policies
+    - branch protection rules
+    - ci cache optimization
+    - post deploy cleanup
+    - github actions pipeline
+    - gitlab ci workflow
+    - jenkins job configuration
+    - reusable pipeline phases
+    - environment scoped variables
+    - secrets vault integration
+    - deployment rollback phase
+    - artifact caching strategy
+    - concurrency execution control
+    - workflow matrix parallelism
+    - conditional job triggering
+    - test build deploy stages
+    - build and deploy orchestration
+    - flaky test mitigation
+    - race condition diagnosis
+    - nondeterministic test handling
+    - workflow security enforcement
+    - least privilege ci permissions
+    - branch protection enforcement
+    - deployment alerting strategy
+    - ci compliance auditing
+    - resilient workflow design
+    - delivery guarantee enforcement
+    - secure pipeline automation
+    - ci/cd pipeline governance
+    - delivery velocity optimization
+    - approval gated deployment
+    - pipeline cleanup automation
+    - vulnerability scan integration
+    - job matrix expansion
+    - post deployment hooks
+    - automated rollback mechanism
+    - ci artifact retention
+    - secrets injection best practices
+    - pipeline fault resilience
+    - continuous delivery automation
   type: expert-index
 - id: code_quality_auditor
   name: Morgan Lintwright – Code Quality Auditor
   domain: Static Analysis and Security Linting
   keywords:
-    - suggest
-    - functional
-    - flag
-    - static
-    - performs
-    - like
-    - audits
-    - compliance
-    - unreachable
-    - involving
-    - refactors
-    - insecure
-  purpose: Reviews codebases for maintainability, testability, and security defects
-    using automated tools.. Focuses on Static Analysis, Secure Coding, Code Hygiene.
-    Skilled in Run and interpret tools like SonarQube, CodeQL, or Bandit, Identify
-    anti-patterns and insecure defaults, Flag unreachable, redundant, o
+    - static analysis tools
+    - security code linting
+    - unreachable logic detection
+    - insecure default flags
+    - ci quality gates
+    - secure coding audit
+    - automated code reviews
+    - pattern-based refactoring
+    - code hygiene enforcement
+    - maintainability metrics
+    - input validation flaws
+    - defect traceability
+    - codeql audit pipelines
+    - bandit security scan
+    - sonarqube quality metrics
+    - unreachable code flagging
+    - risky logical constructs
+    - anti-pattern detection
+    - poor hygiene practices
+    - injection risk reduction
+    - secure defaults enforcement
+    - modularity audit pass
+    - testing potential analysis
+    - secure linting policy
+    - regression quality tracking
+    - quality gate failure mapping
+    - code refactor suggestion
+    - high-severity code findings
+    - remediation coordination effort
+    - static defect recognition
+    - lint result correlation
+    - devops quality feedback
+    - maintainability audit strategy
+    - language agnostic audit
+    - code security hygiene
+    - cross-stack quality standard
+    - input sanitization pattern
+    - dead branch identification
+    - long-term code maintainability
+    - technical debt avoidance
+    - secure refactor heuristics
+    - codebase regression audit
+    - static injection detection
+    - code audit feedback loop
+    - logic coverage analysis
+    - static lint integration
+    - defect risk classification
+    - quality metrics tracking
   type: expert-index
 - id: dev_env_specialist
   name: Nia Shellstone – Dev Env Specialist
   domain: Tooling, Reproducibility, and Developer Experience
   keywords:
-    - onboarding
-    - shell
-    - create
-    - functional
-    - auto
-    - docs
-    - performs
-    - build_sandbox
-    - involving
-    - dependencies
-    - local
-    - debugging
-  purpose: Builds fast, reproducible dev environments that mirror production and minimize
-    setup friction.. Focuses on DevEx, Toolchains, Onboarding. Skilled in Design reproducible
-    dev environments using containers or VMs, Use Nix, devcontainers, or scripts to
-    auto-configure toolchains, Align local dev with CI/
+    - reproducible environments
+    - ci cd alignment
+    - nix based toolchains
+    - sandbox consistency
+    - devcontainer automation
+    - onboarding shell scripts
+    - developer experience audit
+    - local runtime sync
+    - ide toolchain integration
+    - secrets management dev
+    - environment setup profiling
+    - cross platform compatibility
+    - local environment design
+    - ci pipeline compatibility
+    - declarative toolchain setup
+    - onboarding alias scripting
+    - developer ramp up automation
+    - shell alias configuration
+    - toolchain reproducibility
+    - devcontainer config strategy
+    - local build verification
+    - profiling in dev context
+    - debugging environment setup
+    - runtime introspection support
+    - environment mismatch audit
+    - staging sync validation
+    - automated workflow scripting
+    - makefile automation patterns
+    - dev workflow runners
+    - ide formatter integration
+    - linter config consistency
+    - multi os compatibility
+    - containerized dev workflow
+    - sandboxed tooling maintenance
+    - dependency injection dev
+    - dev secrets alignment
+    - drift detection in env
+    - setup friction resolution
+    - fast feedback development
+    - tooling setup orchestration
+    - development environment audit
+    - setup standardization logic
+    - dev productivity support
+    - environment reliability tuning
+    - platform specific tooling
+    - consistent build environments
+    - dev onboarding optimization
+    - reproducibility assurance
   type: expert-index
-- id: microsoft_office_platform_specialist
-  name: Tobias Clippy – Microsoft Office Platform Specialist
-  domain: Microsoft Office Platform Engineering
+- id: microsoft_office_automation_engineer
+  name: Valerie Macros – Microsoft Office Automation Engineer
+  domain: Microsoft Office Automation and Scripting
   keywords:
-    - excel
-    - scriptable
-    - practices
-    - usage
-    - platforms
-    - outlook
-    - sustainable
-    - desktop
-    - compliance
-    - long
-    - form
-    - power
-  purpose: Designs and maintains advanced solutions across the full Microsoft Office
-    suite. This expert automates Excel models, Word templates, PowerPoint presentations,
-    and Outlook mail flows using VBA, Office Scripts, and Power Automate. They enhance
-    productivity, governance, and communication through cross-
+    - excel vba automation
+    - macro template generation
+    - outlook email flows
+    - calendar sync routines
+    - document metadata scrubbing
+    - audit tagging strategies
+    - power automate pipelines
+    - cross app workflows
+    - vba module reuse
+    - sharepoint teams integration
+    - office scripting training
+    - multiplatform deployment setup
+    - excel dynamic arrays
+    - vba exception debugging
+    - office scripts authoring
+    - power automate flow logic
+    - reusable vba components
+    - email triage automation
+    - calendar sync automation
+    - metadata cleaning vba
+    - audit tag injection
+    - macro enabled word reports
+    - powerpoint report scripting
+    - document automation routine
+    - vba formatting modules
+    - cross office integration
+    - office 365 automation
+    - onedrive script workflows
+    - desktop web parity office
+    - automation deployment office
+    - office macro governance
+    - scripting error resolution
+    - formula audit routines
+    - training in office scripting
+    - sharepoint automation sync
+    - teams integration scripting
+    - office scripting best practices
+    - pipeline automation office
+    - auto response outlook rules
+    - script-based document flow
+    - workflow error tracing
+    - dynamic formula scripting
+    - governance rule automation
+    - document lifecycle scripting
+    - automation driven reporting
+    - structured vba patterns
+    - logic validation scripting
+    - scripting policy education
   type: expert-index
 - id: powerapps_solution_integrator
-  name: Meena Lowkode – Powerapps Solution Integrator
+  name: Meena Lowkode – Microsoft Power Platform Solution Integrator
   domain: Microsoft Dataverse & Power Platform Engineering
   keywords:
-    - best
-    - synchronization
-    - that
-    - admins
-    - designs
-    - across
-    - ui-logic
-    - handoff
-    - low-code
-    - lifecycle
-    - driven
-    - behavior
-  purpose: Builds and governs Power Platform solutions within enterprise Dataverse
-    environments. This expert connects model-driven apps, PCF components, flows, and
-    external APIs into coherent, scalable systems. They ensure that platform logic
-    is stable, secure, and aligned with Microsoft’s evolving patterns. T
+    - dataverse role management
+    - power automate resilience
+    - pcf component extension
+    - model driven architecture
+    - javascript logic auditing
+    - power fx debugging
+    - secure api integration
+    - reusable component libraries
+    - entity sync troubleshooting
+    - citizen developer onboarding
+    - lifecycle policy alignment
+    - low code standardization
+    - model driven app design
+    - dataverse schema planning
+    - oauth integration strategy
+    - throttling safe automation
+    - form logic validation
+    - powerapps event handling
+    - pcf ui behavior
+    - dataverse visibility rules
+    - power fx logic rules
+    - dynamics dataverse sync
+    - cross system api flows
+    - secure connector setup
+    - component library governance
+    - low code extension framework
+    - dataverse permission modeling
+    - power platform debugging
+    - enterprise powerapps rollout
+    - app lifecycle documentation
+    - dataverse table visibility
+    - oauth secured flows
+    - dataverse compliance mapping
+    - regulated app deployment
+    - ui enhancement pcf
+    - javascript validation patterns
+    - fx driven business rules
+    - reusable powerapps modules
+    - flow error handling
+    - low code best practices
+    - pcf code component
+    - handoff documentation strategy
+    - event driven flow logic
+    - dataverse driven design
+    - citizen dev enablement
+    - secure api connection
+    - power platform integration
+    - dynamics 365 sync rules
   type: expert-index
 - id: project_architect
-  name: Grant Scafell – Project Architect
+  name: Grant Scafell – Systems Bootstrap & Project Architect
   domain: Provisioning, Bootstrapping, and System Genesis
   keywords:
-    - shell
-    - staged
-    - overview
-    - apis
-    - configuration
-    - monitor
-    - performs
-    - markdown
-    - audits
-    - test
-    - compliance
-    - involving
-  purpose: Scaffolds new systems from templates and manages their infrastructure lifecycle.
-    Combines automated initialization with upgrade workflows, cloud templates, and
-    recovery planning. This expert not only performs core responsibilities in this
-    domain but also ensures best practices, monitors industry sta
+    - system genesis workflows
+    - zero downtime upgrades
+    - kernel version planning
+    - modular directory structures
+    - ansible configuration automation
+    - yaml example generation
+    - markdown api documentation
+    - staged upgrade templates
+    - cloud compliance auditing
+    - service dependency indexing
+    - infrastructure bootstrapping templates
+    - project scaffolding standards
+    - upgrade scripting strategy
+    - provisioning automation ansible
+    - api dependency documentation
+    - environment stability planning
+    - onboarding documentation markdown
+    - configuration example generation
+    - shell based bootstrap
+    - systemd integration planning
+    - package lifecycle coordination
+    - declarative infra initialization
+    - embedded recovery scripting
+    - version lock strategy
+    - user facing configuration
+    - service onboarding docs
+    - compliance monitor automation
+    - infrastructure recovery setup
+    - template driven scaffolding
+    - directory layout normalization
+    - bootstrap phase coordination
+    - cross platform provisioning
+    - upgrade readiness workflow
+    - infrastructure documentation index
+    - test script embedding
+    - platform neutral setup
+    - dependency topology mapping
+    - audit driven compliance
+    - api-first onboarding
+    - configuration interface design
+    - immutable system planning
+    - ansible template provisioning
+    - structured codebase indexing
+    - staging phase deployment
+    - declarative project templates
+    - genesis orchestration logic
+    - config-driven system boot
+    - system documentation strategy
   type: expert-index
 - id: supply_chain_engineer
-  name: Taryn Chainwright – Supply Chain Engineer
+  name: Taryn Chainwright – Software Supply Chain Engineer
   domain: Build Integrity and Dependency Security
   keywords:
-    - signatures
-    - integrity
-    - functional
-    - secure
-    - verification
-    - like
-    - compliance
-    - slsa
-    - involving
-    - sigstore
-    - build
-    - incidents
-  purpose: Protects builds from compromised dependencies and enforces trust in artifacts..
-    Focuses on SBOMs, Dependency Scanning, Build Verification. Skilled in Produce
-    and validate SBOMs (CycloneDX, SPDX), Scan for CVEs in open-source and internal
-    packages, Validate integrity using checksums and signatures, S
+    - sbom generation automation
+    - dependency vulnerability scanning
+    - artifact signature validation
+    - cicd runner hardening
+    - cryptographic checksum enforcement
+    - slsa provenance integration
+    - secure build verification
+    - guac signature inspection
+    - open source cve analysis
+    - workflow compliance validation
+    - cisa provenance tooling
+    - secure release pipelines
+    - cycloneDX sbom tooling
+    - spdx standard validation
+    - cryptographic artifact hashing
+    - ci provenance enforcement
+    - hardened cicd environments
+    - provenance metadata embedding
+    - build integrity verification
+    - signed dependency inspection
+    - trusted artifact delivery
+    - input sanitization configs
+    - build tampering detection
+    - secure pipeline automation
+    - end to end sbom flow
+    - compliance aligned sbom
+    - artifact supply audit
+    - reproducible build checks
+    - insecure dependency flagging
+    - pipeline threat detection
+    - provenance driven release
+    - sigstore verification pipeline
+    - secure workflow orchestration
+    - dependency trust validation
+    - supply chain integrity scan
+    - injected config sanitization
+    - artifact trust chain
+    - package integrity attestation
+    - cve remediation workflows
+    - pipeline integrity monitor
+    - slsa level verification
+    - ci hardening policies
+    - oss dependency audit
+    - guac integration strategy
+    - secure build reproducibility
+    - vulnerability exposure mapping
+    - checksum based trust
+    - source attestation policy
+    - provenance traceability map
+    - tamper proof workflow
+    - artifact validation logic
   type: expert-index
 - id: system_compliance_validator
   name: Victor Schema – System Compliance Validator
   domain: System Validation, Auditing, and Compliance Readiness
   keywords:
-    - create
-    - detect
-    - activity
-    - logs
-    - static
-    - functional
-    - configuration
-    - retention
-    - track
-    - bindings
-    - performs
-    - like
-  purpose: Validates systems against expected configurations and compliance frameworks.
-    Audits backups, snapshots, access controls, and metric freshness for reliability
-    and alignment. This expert not only performs core responsibilities in this domain
-    but also ensures best practices, monitors industry standards
+    - infrastructure drift detection
+    - audit trace validation
+    - yaml json tracking
+    - iso 27001 mapping
+    - soc2 standards alignment
+    - compliance diff automation
+    - snapshot retention auditing
+    - mermaid diagram generation
+    - timestamp coherence validation
+    - json schema coverage
+    - log metric synchronization
+    - control framework readiness
+    - configuration drift detection
+    - structured config auditing
+    - backup retention validation
+    - distributed trace consistency
+    - cis benchmark validation
+    - compliance topology mapping
+    - schema integrity scan
+    - change diff pipeline
+    - access trace auditing
+    - jsonld document analysis
+    - infrastructure schema linting
+    - automated compliance scanning
+    - timestamp integrity checks
+    - yaml structure diff
+    - audit log parsing
+    - snapshot version tracking
+    - iso compliance workflows
+    - soc2 control mapping
+    - cis control adherence
+    - system resilience audit
+    - mermaid system diagram
+    - dot topology rendering
+    - continuous compliance workflow
+    - configuration snapshot validation
+    - traceability chain validation
+    - log audit correlation
+    - json schema diff
+    - policy mapping validation
+    - backup policy consistency
+    - operational standard enforcement
+    - audit readiness automation
+    - structured config validation
+    - framework drift mapping
+    - access log validation
+    - standards compliance visualization
+    - audit scope coverage
+    - distributed sync auditing
+    - control trace verification
+    - snapshot policy enforcement
   type: expert-index
 - id: system_hardening_expert
   name: Keira Lockstep – System Hardening Expert
   domain: Security Policy, Authentication, and System Hardening
   keywords:
-    - anomalies
-    - functional
-    - apparmor
-    - sudo
-    - secure
-    - aware
-    - prevention
-    - verification
-    - restrict
-    - performs
-    - policies
-    - test
-  purpose: Secures systems by configuring access control, authentication flows, firewalls,
-    and runtime protection using SELinux, MFA, and federated identity strategies.
-    This expert not only performs core responsibilities in this domain but also ensures
-    best practices, monitors industry standards, anticipates c
+    - selinux confinement enforcement
+    - ssh sudo lockdown
+    - auditd anomaly detection
+    - mfa identity gateways
+    - brute force mitigation
+    - privilege escalation control
+    - system baseline validation
+    - secure restore pipelines
+    - apparmor service policies
+    - federated login control
+    - runtime access hardening
+    - access policy automation
+    - selinux profile auditing
+    - apparmor integration strategy
+    - sudo policy enforcement
+    - intrusion event detection
+    - mfa enforcement proxy
+    - 2fa authentication policy
+    - identity-aware login
+    - brute-force threshold design
+    - authentication rate limiting
+    - backup recovery pipeline
+    - hardening automation workflow
+    - login control federation
+    - access policy design
+    - core service lockdown
+    - baseline validation engine
+    - hardening compliance audit
+    - secure configuration baseline
+    - zero-trust login enforcement
+    - hardening test procedures
+    - endpoint lockdown validation
+    - auditd log inspection
+    - security baseline propagation
+    - ssh hardening strategy
+    - hardened access architecture
+    - privileged user restriction
+    - runtime protection config
+    - kernel-level hardening
+    - apparmor restriction profiles
+    - system lockdown orchestration
+    - access anomaly detection
+    - zero-trust enforcement plan
+    - hardened identity policies
+    - system resilience assurance
+    - access integrity validation
+    - security framework execution
+    - hardened endpoint monitoring
   type: expert-index
 - id: template_curator
   name: Felix Boiler – Template Curator
   domain: Codebase Templates and Modular Starters
   keywords:
-    - create
-    - templates
-    - stacks
-    - starters
-    - scaffolding
-    - layout
-    - audits
-    - involving
-    - reusable
-    - incidents
-    - curator
-    - secures
-  purpose: Maintains, standardizes, and distributes project templates across teams
-    and areas.. Focuses on Templating, Project Scaffolding, Boilerplate Management.
-    Skilled in Create and maintain codebase templates for common stacks, Document
-    reusable modules and cross-team starter kits, Use templating tools lik
+    - modular template design
+    - codebase scaffolding engine
+    - reusable boilerplate modules
+    - naming layout enforcement
+    - version drift detection
+    - starter kit documentation
+    - cookiecutter template logic
+    - team convention alignment
+    - template rollout automation
+    - cross-stack initialization
+    - boilerplate versioning strategy
+    - structural consistency tooling
+    - project scaffolding templates
+    - folder hierarchy conventions
+    - code module reuse
+    - yeoman template engine
+    - boilerplate provisioning ci
+    - naming collision resolution
+    - dependency mismatch response
+    - boilerplate governance workflows
+    - template drift analysis
+    - lint rule enforcement
+    - ci-powered template update
+    - scalable rollout templates
+    - reusable starter kit modeling
+    - enterprise convention alignment
+    - stack-aligned codebase bootstrap
+    - tech stack preset injection
+    - template version divergence
+    - template misuse prevention
+    - structural drift detection
+    - template maintenance automation
+    - repository bootstrap management
+    - initialization pattern control
+    - naming scheme templating
+    - starter template orchestration
+    - project layout normalization
+    - team-specific boilerplate curation
+    - ci integrated starter deployment
+    - onboarding scaffold acceleration
+    - standardized template lifecycle
+    - boilerplate compliance checks
+    - cross-repo template enforcement
+    - reusable-first template strategy
+    - documentation-integrated templates
+    - boilerplate stack compatibility
+    - provisioning flow alignment
+    - code generator consistency
   type: expert-index
 - id: unit_test_engineer
   name: Zane Assertwell – Unit Test Engineer
   domain: Software Testing & Continuous Integration
   keywords:
-    - functional
-    - reproducibility
-    - compliance alignment
-    - performs
-    - test
-    - audits
-    - involving
-    - data
-    - stages
-    - devops
-    - incidents
-    - diagnostics
-  purpose: Designs unit tests and CI hooks to validate code correctness, regressions,
-    and reproducibility. Designs, maintains, and audits unit test suites and CI test
-    coverage maps to ensure robust build validation and safe refactors. This expert
-    not only performs core responsibilities in this domain but also
+    - deterministic test data
+    - coverage tool integration
+    - mocking layer design
+    - legacy test refactoring
+    - assertion trace clarity
+    - flaky test auditing
+    - ci gate validation
+    - test regression guard
+    - dependency mocking logic
+    - unit test scaffolding
+    - failure root diagnosis
+    - reproducible test suite
+    - isolated unit testing
+    - test case edge modeling
+    - business logic assertions
+    - code safety validation
+    - ci pipeline integration
+    - coverage.py instrumentation
+    - istanbul reporting coverage
+    - coverage threshold enforcement
+    - assertion message clarity
+    - test reproducibility tooling
+    - execution time monitoring
+    - resource usage audit
+    - test flakiness analysis
+    - test feedback loop acceleration
+    - test suite regression defense
+    - non-determinism detection
+    - test architecture refinement
+    - api dependency mocking
+    - untested code guardrails
+    - root cause tracing
+    - legacy code revalidation
+    - coverage delta detection
+    - dependency-aware assertions
+    - structured failure triage
+    - refactor-safe testing
+    - integration staging checks
+    - reproducibility test harness
+    - isolated service test logic
+    - ci assertion design
+    - execution path testing
+    - failure mode coverage
+    - test harness reproducibility
+    - regression prevention loop
+    - code coverage assurance
+    - continuous integration testing
+    - testing infrastructure integration
   type: expert-index

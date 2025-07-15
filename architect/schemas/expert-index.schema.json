@@ -18,16 +18,15 @@
     },
     "keywords": {
       "type": "array",
-      "minItems": 30,
+      "minItems": 40,
       "maxItems": 60,
       "uniqueItems": true,
       "items": {
         "type": "string",
-        "pattern": "^(?!.*\\b(?:data|system|software|technology|performance|architecture|design|method|approach|solution|development|model|framework|application|tool|process|engineering)\\b)(?:(?!\\b(?:the|and|or|if|in|of|on|at|by|for|with|to|from|as|an|a|is|are|was|were|be|being|been|that|this|it|its|their|they|them|his|her|you|your|we|us|our)\\b)\\w+-?\\w+\\s){1,2}\\w+-?\\w+$"
+        "pattern": "^(?!\\b(?:the|and|or|if|in|of|on|at|by|for|with|to|from|as|an|a|is|are|was|were|be|being|been|that|this|it|its|their|they|them|his|her|you|your|we|us|our)\\b)([\\w\\-/]{2,}\\s[\\w\\-/]{2,})(\\s[\\w\\-/]{2,})?$"
       },
-      "uniqueItems": true,
       "description": "Specific and technical keywords for intent matching.",
-      "$comment": "Each keyword must be a specific bigram or trigram. No duplicates, generic terms or common stopwords. Recommended strategy for GPT intent matching keywords:\n• tags: 12 entries\n• capabilities: 18–20 derived expressions\n• purpose: 10–12 extracted phrases\n• domain: 1 reinforcement concept\n→ Total: 41–45 curated items per expert"
+      "$comment": "Each keyword must be a specific bigram, trigram, or quadgram. No duplicates, no stopwords, no underscores. Total: 40–60 curated items per expert."
     },
     "type": {
       "type": "string",
