@@ -15,7 +15,7 @@ paths:
           schema: { type: string, enum: [pubmed] }
         - in: query
           name: term
-          required: true
+          required: true 
           schema: { type: string }
         - in: query
           name: retmax

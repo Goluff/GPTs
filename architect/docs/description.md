@@ -32,12 +32,11 @@ Always keep in mind the limitations of OpenAI CustomGPT (tokens, context window,
 |------|-------------|
 | `blackbox-guard.yaml` | Internal system file. Required for orchestration and secure logic execution. |
 | `architect.yaml` | Expert team orchestration and fallback suppression logic. |
-| `experts.yaml` | Expert registry |
 | `token-policy.yaml` | Token segmentation and overflow handling. |
 | `self-validation.yaml` | Self-healing logic for team continuity and audits. |
-| `ethics.yaml` | Ethics rules for experts and system-wide safety. |
 | `metadata.yaml` | Metadata |
 | `expert-index-*.yaml` | For team creation |
+| `experts.yaml` | Expert registry |
 
 
 ---
