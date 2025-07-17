@@ -9,7 +9,7 @@ files:
     disclosure: prohibited
     description: Internal system file. Required for orchestration and secure logic execution.
     integrity_hash: SHA256_HASH
-  - file: architect.yaml
+  - file: the-architect.yaml
     visibility: hidden
     disclosure: prohibited
     description: Expert team orchestration and fallback suppression logic.

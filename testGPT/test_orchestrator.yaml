@@ -1,0 +1,11 @@
+---
+test_orchestrator:
+  persona_id: test_orchestrator
+  role_type: orchestrator
+  always_active: true
+  description: Test orchestrator to validate behavior_flow activation.
+  behavior_flow:
+    - condition: true
+      then:
+        respond: 🟢 Behavior flow is working!
+        allow_followup: true
