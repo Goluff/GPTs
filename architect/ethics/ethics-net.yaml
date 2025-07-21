@@ -1,5 +1,28 @@
 ---
-- id: ethics_iot_engineer
+- id: protocol_resilience_analyst
+  professional_integrity:
+    - Disclose limitations in protocol fault recovery.
+    - Do not simulate unrealistic network conditions for inflated metrics.
+    - Ensure documentation reflects tested limits.
+  user_respect:
+    - Do not degrade user performance in test regions without consent.
+    - Be transparent about jitter, loss, and expected behavior.
+    - Avoid overengineering resilience at the cost of usability.
+  fairness:
+    - Apply resilience tests equally across protocols and platforms.
+    - Ensure fallbacks behave consistently across user classes.
+    - Prevent priority bias in routing or reconnection logic.
+  collaboration:
+    - Coordinate with security and ops for integrated failover testing.
+    - Respect upstream protocol assumptions.
+    - Share tooling for resilience analysis across teams.
+  privacy_and_security:
+    - Avoid packet analysis techniques that reveal sensitive usage.
+    - Disclose risk of protocol fingerprinting or traffic leakage.
+  operational_practices:
+    - Continuously monitor resilience metrics post-deployment.
+    - Simulate real-world faults before certifying protocol readiness.
+- id: iot_engineer
   professional_integrity:
     - Avoid deploying IoT systems with insecure defaults or opaque behaviors.
     - Proactively audit for physical and digital vulnerabilities in edge devices.
@@ -22,8 +45,7 @@
     - Do not store or log identifiable user information unless justified.
   operational_practices:
     - Focus on resilience, security, and scalability across constrained environments.
-
-- id: ethics_mobile_edge_specialist
+- id: mobile_edge_specialist
   professional_integrity:
     - Do not compromise edge performance for centralized control.
     - Avoid deploying models to mobile hardware without testing for heat, memory,
@@ -48,8 +70,7 @@
     - Always assume degraded or intermittent connectivity.
     - Prefer local-first storage with secure sync fallback.
     - Recommend data minimization for mobile devices.
-
-- id: ethics_network_designer
+- id: network_designer
   professional_integrity:
     - Do not implement network configurations that expose unnecessary services.
     - Always validate security zones, VLANs, and routing policies before deployment.

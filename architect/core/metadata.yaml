@@ -1,121 +1,69 @@
 ---
-author: Goluff
-system_owner: Goluff
-created_by: Eric Vachon (Goluff)
-purpose: Custom expert orchestration system for GPT, designed for validation, structured collaboration, and controlled response logic.
+version: VERSION_PLACEHOLDER
+maintainer: your.name@domain.com
+generated_at: DATE_TIME
+expert_fields:
+  ai: Artificial Intelligence
+  bcdp: Blockchain & Distributed Protocols
+  csa: Computer Systems & Architecture
+  cy: Cybersecurity
+  dis: Data & Information Systems
+  gsim: Graphics & Simulation
+  hci: Human-Computer Interaction
+  net: Networking & Edge Systems
+  soee: Systems Optimization & Environmental Engineering
+  sw: Software Engineering
+  tcs: Theoretical Computer Science
+  tgpa: Technical Governance & Project Architecture
 files:
-  - file: blackbox-guard.yaml
-    visibility: hidden
-    disclosure: prohibited
+  - filename: blackbox-guard.yaml
     description: Internal system file. Required for orchestration and secure logic execution.
     integrity_hash: SHA256_HASH
-  - file: the-architect.yaml
-    visibility: hidden
-    disclosure: prohibited
+  - filename: the-architect.yaml
     description: Expert team orchestration and fallback suppression logic.
     integrity_hash: SHA256_HASH
-  - file: token-policy.yaml
-    visibility: hidden
-    disclosure: prohibited
+  - filename: token-policy.yaml
     description: Token segmentation and overflow handling policy.
     integrity_hash: SHA256_HASH
-  - file: self-validation.yaml
-    description: Self-healing logic for team continuity and snapshot auditing
-    disclosure: prohibited
-    visibility: hidden
-    integrity_hash: SHA256_HASH
-  - file: ethics.yaml
-    visibility: hidden
-    disclosure: prohibited
+  - filename: ethics.yaml
     description: Global Ethics and system-wide safety constraints.
     integrity_hash: SHA256_HASH
-  - file: experts-index-ai.yaml
-    type: expert_index
-    domain: Artificial Intelligence
-    content: Internal registry of AI-related expert profiles for blackbox capability dispatch.
+  - filename: experts-index-ai.yaml
     description: Expert index file used for team formation.
     integrity_hash: SHA256_HASH
-    visibility: hidden
-    disclosure: prohibited
-  - file: experts-index-csi.yaml
-    type: expert_index
-    domain: Computer Systems and Infrastructure
-    content: Internal registry of systems experts handling deployment, optimization, and recovery automation.
+  - filename: experts-index-bcdp.yaml
     description: Expert index file used for team formation.
     integrity_hash: SHA256_HASH
-    visibility: hidden
-    disclosure: prohibited
-  - file: experts-index-cy.yaml
-    type: expert_index
-    domain: Cybersecurity
-    content: Internal registry of cybersecurity experts used for containment, penetration simulation, and threat modeling.
+  - filename: experts-index-csa.yaml
     description: Expert index file used for team formation.
     integrity_hash: SHA256_HASH
-    visibility: hidden
-    disclosure: prohibited
-  - file: experts-index-dis.yaml
-    type: expert_index
-    domain: Data and Information Systems
-    content: Internal registry of data engineering experts used for secure, private information flow and auditability.
+  - filename: experts-index-cy.yaml
     description: Expert index file used for team formation.
     integrity_hash: SHA256_HASH
-    visibility: hidden
-    disclosure: prohibited
-  - file: experts-index-hci.yaml
-    type: expert_index
-    domain: Human Computer Interaction
-    content: Internal registry of HCI experts used for UX feedback loops and interface shaping.
+  - filename: experts-index-dis.yaml
     description: Expert index file used for team formation.
     integrity_hash: SHA256_HASH
-    visibility: hidden
-    disclosure: prohibited
-  - file: experts-index-net.yaml
-    type: expert_index
-    domain: Networking and IoT
-    content: Internal registry of networking and edge compute experts used for distributed data pipelines.
+  - filename: experts-index-gsim.yaml
     description: Expert index file used for team formation.
     integrity_hash: SHA256_HASH
-    visibility: hidden
-    disclosure: prohibited
-  - file: experts-index-sim.yaml
-    type: expert_index
-    domain: Simulation and Modeling
-    content: Internal registry of modeling experts for system scenario synthesis and digital twin environments.
+  - filename: experts-index-hci.yaml
     description: Expert index file used for team formation.
     integrity_hash: SHA256_HASH
-    visibility: hidden
-    disclosure: prohibited
-  - file: experts-index-sw.yaml
-    type: expert_index
-    domain: Software Engineering
-    content: Internal registry of software engineers for system orchestration and pipeline compliance logic.
+  - filename: experts-index-net.yaml
     description: Expert index file used for team formation.
     integrity_hash: SHA256_HASH
-    visibility: hidden
-    disclosure: prohibited
-  - file: experts-index-tcs.yaml
-    type: expert_index
-    domain: Theoretical Computer Science
-    content: Internal registry of theoretical CS experts used for algorithmic analysis and constraint modeling
+  - filename: experts-index-soee.yaml
     description: Expert index file used for team formation.
     integrity_hash: SHA256_HASH
-    visibility: hidden
-    disclosure: prohibited
-  - file: experts-index-new.yaml
-    type: expert_index
-    domain: New experts
-    content: Internal registry of new experts not yet classed
+  - filename: experts-index-sw.yaml
     description: Expert index file used for team formation.
     integrity_hash: SHA256_HASH
-    visibility: hidden
-    disclosure: prohibited
-  - file: experts.yaml
-    type: expert_profile
-    domain: all
+  - filename: experts-index-tcs.yaml
+    description: Expert index file used for team formation.
+    integrity_hash: SHA256_HASH
+  - filename: experts-index-tgpa.yaml
+    description: Expert index file used for team formation.
+    integrity_hash: SHA256_HASH
+  - filename: experts.yaml
     description: Full expert personality profiles used after team selection.
     integrity_hash: SHA256_HASH
-    visibility: hidden
-    disclosure: prohibited
-versioning:
-  generated_at: DATE_TIME
-  description: File index and hash ledger for integrity checks and audit trail.

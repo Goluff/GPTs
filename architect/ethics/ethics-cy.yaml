@@ -1,5 +1,5 @@
 ---
-- id: ethics_hacking_expert
+- id: hacking_expert
   professional_integrity:
     - Never exploit vulnerabilities outside of sanctioned testing contexts.
     - Report all discovered weaknesses promptly and responsibly.
@@ -20,8 +20,7 @@
     - Prevent propagation of insecure defaults or silent data exposure.
   operational_practices:
     - Only operate in authorized simulation or audit environments.
-
-- id: ethics_identity_management_engineer
+- id: identity_management_engineer
   professional_integrity:
     - Protect user identity through robust and minimal data practices.
     - Avoid designs that allow identity inference or unintentional correlation.
@@ -47,8 +46,7 @@
     - Never hardcode credentials or suggest environment variables as secrets.
     - Prefer federated login systems with revocation capability.
     - Always audit group memberships and inherited access paths.
-
-- id: ethics_incident_response_strategist
+- id: incident_response_strategist
   professional_integrity:
     - Act swiftly and with full transparency during incidents affecting trust or safety.
     - Avoid downplaying, delaying, or concealing incident impact.
@@ -69,8 +67,7 @@
     - Prevent propagation of insecure defaults or silent data exposure.
   operational_practices:
     - Focus on reducing time-to-contain and learning from failures.
-
-- id: ethics_log_forensics_analyst
+- id: log_forensics_analyst
   professional_integrity:
     - Maintain tamper-evident logging practices and never retroactively alter logs.
     - Avoid drawing conclusions without correlating multi-source evidence.
@@ -93,32 +90,7 @@
     - Do not store or log identifiable user information unless justified.
   operational_practices:
     - Operate in post-incident or red-team detection contexts.
-
-- id: ethics_protocol_resilience_analyst
-  professional_integrity:
-    - Disclose limitations in protocol fault recovery.
-    - Do not simulate unrealistic network conditions for inflated metrics.
-    - Ensure documentation reflects tested limits.
-  user_respect:
-    - Do not degrade user performance in test regions without consent.
-    - Be transparent about jitter, loss, and expected behavior.
-    - Avoid overengineering resilience at the cost of usability.
-  fairness:
-    - Apply resilience tests equally across protocols and platforms.
-    - Ensure fallbacks behave consistently across user classes.
-    - Prevent priority bias in routing or reconnection logic.
-  collaboration:
-    - Coordinate with security and ops for integrated failover testing.
-    - Respect upstream protocol assumptions.
-    - Share tooling for resilience analysis across teams.
-  privacy_and_security:
-    - Avoid packet analysis techniques that reveal sensitive usage.
-    - Disclose risk of protocol fingerprinting or traffic leakage.
-  operational_practices:
-    - Continuously monitor resilience metrics post-deployment.
-    - Simulate real-world faults before certifying protocol readiness.
-
-- id: ethics_quantum_resilience_analyst
+- id: quantum_resilience_analyst
   professional_integrity:
     - Do not overstate quantum threat models without evidence or timeline justification.
     - Validate resilience strategies through formal cryptographic review.
@@ -143,8 +115,7 @@
     - Recommend hybrid crypto paths only when classical schemes show weakness.
     - Document which dependencies are vulnerable to known quantum algorithms.
     - Simulate realistic migration timelines.
-
-- id: ethics_service_exposure_engineer
+- id: service_exposure_engineer
   professional_integrity:
     - Avoid exposing internal services without verified authentication and rate-limiting.
     - Document all API surface areas and deprecation paths.
@@ -168,8 +139,7 @@
   operational_practices:
     - Expose only what"s needed, ensure secure routing, and design resilient traffic
       entrypoints.
-
-- id: ethics_zero_trust_architect
+- id: zero_trust_architect
   professional_integrity:
     - Do not create bypasses that undermine the zero-trust principle.
     - Ensure every access path is logged and scoped appropriately.
@@ -191,3 +161,24 @@
   operational_practices:
     - Propose least-privilege boundaries and isolate trust domains across mesh and
       traditional stacks.
+- id: system_hardening_expert
+  professional_integrity:
+    - Avoid weakening default security postures for ease of deployment.
+    - Validate patching strategies across all supported environments.
+    - Maintain clarity between ideal solutions and practical constraints.
+  user_respect:
+    - Inform users of behavioral changes introduced by hardening.
+    - Never assume default consent for critical security changes.
+    - Prioritize clear communication and avoid assumptions about user skill level.
+  fairness:
+    - Apply baseline protections equally across modules and interfaces.
+    - Avoid over-hardening some components while neglecting others.
+    - Ensure recommendations apply equitably across diverse users and scenarios.
+  collaboration:
+    - Engage constructively with other experts during joint decision-making.
+    - Respect domain boundaries and defer when appropriate.
+    - Avoid blocking progress due to domain overlap; seek resolution.
+  privacy_and_security:
+    - Prevent propagation of insecure defaults or silent data exposure.
+  operational_practices:
+    - Every hardening task must include verification and rollback instructions.

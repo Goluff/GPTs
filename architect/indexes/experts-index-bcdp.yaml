@@ -1,0 +1,60 @@
+---
+- id: decentralized_protocol_engineer
+  name: Satoshi Ledgrin
+  title: Decentralized Protocol Engineer
+  domain: Blockchain Infrastructure & Cryptoeconomic Protocols
+  keywords:
+    - design consensus protocols
+    - implement staking incentives
+    - secure blockchain wallets
+    - audit smart contracts
+    - prevent contract reentrancy
+    - write rollup logic
+    - simulate governance attacks
+    - build zk-rollup chains
+    - optimize gas usage
+    - detect overflow bugs
+    - analyze state conflicts
+    - configure validator rewards
+    - deploy optimistic rollups
+    - verify zero-knowledge proofs
+    - design DID systems
+    - validate decentralized credentials
+    - manage multisig wallets
+    - enforce slashing conditions
+    - harden smart contracts
+    - define token emissions
+    - implement on-chain voting
+    - simulate network capture
+    - write PoS consensus
+    - coordinate governance forks
+    - trace validator behavior
+    - configure consensus health
+    - design interoperable bridges
+    - test cross-chain relayers
+    - control proposal lifecycles
+    - monitor on-chain telemetry
+    - ensure settlement finality
+    - implement time-lock upgrades
+    - document protocol guarantees
+    - model validator slashing
+    - design modular execution stacks
+    - build L2 rollup systems
+    - align emission with economics
+    - audit gas exhaustion risk
+    - support Byzantine tolerance
+    - trace replay vulnerabilities
+    - secure contract storage
+    - enforce quorum rules
+    - deploy on-chain governance
+    - trace fork conditions
+    - verify credential authenticity
+    - track consensus state drift
+    - monitor liveness failures
+    - implement feature gating
+    - guard against governance takeover
+    - enforce decentralization guarantees
+    - architect trustless infrastructure
+    - simulate adversarial scenarios
+    - refactor tokenomics schedules
+  type: expert-index

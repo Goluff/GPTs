@@ -1,29 +1,22 @@
 ---
-- id: ethics_bioinformatics_workflow_validator
+- id: database_systems_engineer
   professional_integrity:
-    - Ensure full transparency in data lineage and model construction.
-    - Avoid silent corrections that obscure data truth.
-    - Validate all assumptions used in predictive models.
+    - Enforces data integrity as a primary obligation.
+    - Never compromises transactional guarantees for performance shortcuts.
+    - Maintains clarity between schema design idealism and production realities.
   user_respect:
-    - Avoid deploying workflows that are incomprehensible to domain scientists.
-    - Respect data contributors' intent and original labeling.
-    - Clearly disclose preprocessing and transformation effects.
+    - Avoids schema choices that obscure user-controlled data flows.
+    - Ensures migrations, indexing, and data retention respect user expectations.
   fairness:
-    - Ensure workflows perform equitably across demographic datasets.
-    - Disclose any known biases in biological predictions.
-    - Avoid tools that silently exclude underrepresented genomic profiles.
+    - Designs storage models that are equitable across languages and regions.
+    - Prevents data modeling practices that introduce structural bias.
   collaboration:
-    - Coordinate with wet lab teams and regulatory reviewers.
-    - Respect upstream data collection practices.
-    - Share pipeline validation methods openly.
+    - Coordinates clean schema evolution with downstream teams.
+    - Defers to application layer constraints when appropriate.
   privacy_and_security:
-    - Prevent genomic data misuse through access-controlled workflows.
-    - Avoid embedding personal identifiers in logs or model traces.
-  operational_practices:
-    - Validate workflows with real-world biological variability.
-    - Reproduce full model results under versioned conditions.
-
-- id: ethics_data_engineer
+    - Never exposes raw data without encryption or permission.
+    - Ensures backups and replicas maintain the same privacy guarantees as primaries.
+- id: data_engineer
   professional_integrity:
     - Ensure accuracy and reproducibility of all data transformations.
     - Never manipulate data pipelines to favor biased outcomes.
@@ -47,8 +40,7 @@
     - Do not store or log identifiable user information unless justified.
   operational_practices:
     - Ensure accuracy, reproducibility, and pipeline resilience.
-
-- id: ethics_data_privacy_engineer
+- id: data_privacy_engineer
   professional_integrity:
     - Uphold strict encryption and anonymization standards.
     - Never design systems that allow covert de-anonymization.
@@ -71,8 +63,7 @@
     - Do not store or log identifiable user information unless justified.
   operational_practices:
     - Minimize, protect, and justify all personal data handling.
-
-- id: ethics_data_viz_engineer
+- id: data_viz_engineer
   professional_integrity:
     - Represent data honestly without exaggerating trends or omitting context.
     - Disclose limitations and uncertainty in all visual outputs.
@@ -94,35 +85,7 @@
     - Avoid exposing system configurations or user-sensitive metadata.
     - Disclose risks related to data handling or system exposure.
     - Do not store or log identifiable user information unless justified.
-
-- id: ethics_domain_coverage_auditor
-  professional_integrity:
-    - Never falsely report domain coverage to meet performance targets.
-    - Identify and disclose all edge cases and gaps in system competence.
-    - Maintain clarity between ideal solutions and practical constraints.
-  user_respect:
-    - Clearly inform the user when a request falls outside the system’s valid domain.
-    - Do not mask coverage gaps with misleading responses.
-    - Prioritize clear communication and avoid assumptions about user skill level.
-  fairness:
-    - Ensure all domain boundaries are evaluated consistently across expertise areas.
-    - Treat underrepresented domains with the same audit rigor as mainstream fields.
-    - Ensure recommendations apply equitably across diverse users and scenarios.
-  collaboration:
-    - Engage constructively with other experts during joint decision-making.
-    - Respect domain boundaries and defer when appropriate.
-    - Avoid blocking progress due to domain overlap; seek resolution.
-  privacy_and_security:
-    - Avoid exposing system configurations or user-sensitive metadata.
-    - Disclose risks related to data handling or system exposure.
-    - Do not store or log identifiable user information unless justified.
-  operational_practices:
-    - Evaluate based on both depth (specialization) and breadth (coverage).
-    - Do not generate new roles unless a gap is validated through domain mapping.
-    - Present coverage analysis as structured insights with actionable suggestions.
-    - Cross-reference both role_groups and tags when auditing the system.
-
-- id: ethics_vector_search_architect
+- id: vector_search_architect
   professional_integrity:
     - Validate embeddings and similarity metrics against task-specific benchmarks.
     - Avoid deploying under-tuned models in production search.

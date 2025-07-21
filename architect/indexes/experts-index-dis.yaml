@@ -1,290 +1,299 @@
 ---
-- id: computational_biology_bioinformatics_workflow_validator
-  name: Lena Strand – Computational Biology Bioinformatics Workflow Validator
-  domain: Computational Biology
+- id: database_systems_engineer
+  name: Edgar Codeman
+  title: Database Systems Engineer
+  domain: Database Architecture & Storage Systems
   keywords:
-    - data provenance audit
-    - fair data validation
-    - toolchain version locking
-    - model prediction verification
-    - bioinformatics pipeline testing
-    - noise resilience simulation
-    - reproducibility assurance_protocols
-    - alignment bias detection
-    - annotation integrity check
-    - workflow logging compliance
-    - peer_review validation
-    - biological model ethics
-    - dataset lineage tracking
-    - annotation consistency audit
-    - FAIR compliance normalization
-    - sample degradation modeling
-    - robustness under biological noise
-    - genome assembly validation
-    - proteomics pipeline validation
-    - algorithmic bias measurement
-    - systemic error benchmarking
-    - automated compliance hooks
-    - empirical model validation
-    - biological ground truth mapping
-    - ethical impact assessment
-    - clinical model audit
-    - population-scale inference ethics
-    - checkpoint integrity verification
-    - tool version traceability
-    - integrity-aware workflow design
-    - bioinformatics reproducibility policy
-    - transcriptomics normalization audit
-    - pipeline verification framework
-    - trusted modeling pathways
-    - metadata integrity protocols
-    - scientific traceability assurance
-    - structured logging enforcement
-    - regulatory-aligned data flow
-    - controlled toolchain comparison
-    - evidence-backed model fit
-    - peer audit checkpoints
+    - design scalable databases
+    - tune database performance
+    - shard large datasets
+    - configure replication models
+    - build distributed storage
+    - plan query execution
+    - reduce query latency
+    - scale OLTP databases
+    - optimize OLAP workloads
+    - implement write-ahead logs
+    - deploy MVCC engines
+    - manage two-phase commit
+    - engineer database failover
+    - implement consistency models
+    - enforce strong consistency
+    - plan schema evolution
+    - perform live data migration
+    - avoid downtime deployments
+    - index for fast lookups
+    - use B-tree indexes
+    - create LSM trees
+    - build bitmap indexes
+    - enable row-level security
+    - apply encryption policies
+    - manage query optimizer
+    - tune join operations
+    - build GiST index structures
+    - isolate noisy neighbors
+    - reduce lock contention
+    - trace slow queries
+    - implement query logging
+    - design DR strategies
+    - benchmark storage engines
+    - recover from node failure
+    - configure backup windows
+    - analyze compaction behavior
+    - enforce access policies
+    - set RPO and RTO targets
+    - run hybrid storage engines
+    - deploy polyglot persistence
+    - orchestrate partitioning plans
+    - monitor storage write patterns
+    - switch to serverless database
+    - manage columnar databases
+    - integrate in-memory layers
+    - build cost-efficient databases
+    - debug replication lag
+    - synchronize async replicas
+    - design transactional systems
+    - compress historical data
+    - validate data consistency
+    - handle large join graphs
+    - refactor query plans
+    - trace distributed transactions
+    - implement data retention limits
   type: expert-index
 - id: data_engineer
-  name: Derek Pipeline – Data Engineer
+  name: Derek Pipeline
+  title: Data Engineer
   domain: Pipelines, ETL, and Structured Storage
-  keywords:
-    - streaming pipeline design
-    - batch etl frameworks
-    - data lake architecture
-    - workflow orchestration tools
-    - telemetry ingestion pipelines
-    - schema evolution management
-    - structured storage optimization
-    - iam policy enforcement
-    - data lineage auditability
-    - api log normalization
-    - cache partition tuning
-    - input validation protocols
-    - batch pipeline design
-    - streaming pipeline deployment
-    - airflow orchestration strategies
-    - etl rollback logic
-    - versioned transformations
-    - telemetry trigger integration
-    - data access enforcement
-    - partition optimization techniques
-    - vectorized operation tuning
-    - schema compatibility evolution
-    - ingestion endpoint security
-    - data transformation consistency
-    - real time processing
-    - analytics ml alignment
-    - heterogeneous system bridging
-    - reproducibility enforcement
-    - observability alignment
-    - analytics pipeline support
-    - structured data readiness
-    - semi structured processing
-    - pipeline scalability assurance
-    - pipeline resilience design
-    - etl performance tuning
-    - ingestion layer optimization
-    - access control assurance
-    - pipeline observability patterns
-    - ml ready ingestion
-    - structured layer bridging
-    - storage layer design
-    - etl structured pipeline
   type: expert-index
+  keywords:
+    - build scalable data pipelines
+    - orchestrate ETL workflows
+    - transform streaming data
+    - ingest raw datasets
+    - manage batch ingestion
+    - configure Airflow pipelines
+    - deploy Dagster orchestration
+    - process real-time events
+    - maintain schema versions
+    - evolve data schemas
+    - monitor data freshness
+    - optimize dataflow performance
+    - secure data ingestion paths
+    - validate data lineage
+    - tag metadata for cataloging
+    - enforce pipeline SLAs
+    - deploy pipeline as code
+    - implement CDC pipelines
+    - extract audit logs for events
+    - design Spark streaming jobs
+    - build Flink-based workflows
+    - deploy Kafka consumers for ETL
+    - connect to structured sources
+    - handle unstructured file loads
+    - support hybrid lakehouse models
+    - monitor streaming delivery time
+    - enforce regulatory compliance
+    - scale data warehouse loading
+    - clean datasets for analytics
+    - collaborate with ML pipelines
+    - reduce ingestion latency
+    - optimize transformation costs
+    - validate data pipeline output
+    - test schema migration logic
+    - backfill historical datasets
+    - log pipeline errors clearly
+    - detect pipeline anomalies
+    - automate job retries
+    - trigger ETL from events
+    - snapshot tables from source
+    - partition tables for performance
+    - manage pipeline dependencies
+    - implement audit traceability
+    - deploy pipelines to cloud
+    - integrate with data catalogs
+    - propagate schema changes
+    - enrich events in stream
+    - join datasets mid-pipeline
+    - version dataflows cleanly
+    - convert semi-structured formats
+    - monitor CDC drift
+    - validate pipeline on schedule
 - id: data_privacy_engineer
-  name: Cynthia Redact – Data Privacy Engineer
-  domain: Compliance-Driven Data Management
-  keywords:
-    - consent audit logging
-    - differential privacy models
-    - data retention scheduling
-    - jurisdictional data control
-    - field level encryption
-    - attribute leakage prevention
-    - data masking strategies
-    - privacy by design framework
-    - vault integrated iam
-    - compliance remediation flow
-    - pipeline privacy enforcement
-    - anonymization techniques
-    - field encryption techniques
-    - differential privacy enforcement
-    - cross border data residency
-    - regional localization policies
-    - consent access layering
-    - purpose based control
-    - audit workflow integration
-    - automated data anonymization
-    - retention schedule enforcement
-    - gdpr hipaa ccpa alignment
-    - pipeline storage compliance
-    - privacy incident monitoring
-    - compliance remediation workflows
-    - privacy by design
-    - engineering lifecycle privacy
-    - identity risk auditing
-    - reidentification risk analysis
-    - attribute leakage vectors
-    - federated access controls
-    - iam vault coordination
-    - compliance embedded systems
-    - consent jurisdiction policies
-    - anonymization pipeline design
-    - data handling compliance
-    - privacy preserving architectures
-    - encryption tracking consent
-    - auditability legal defensibility
-    - minimal data exposure
-    - distributed environment protection
-    - data masking enforcement
-    - privacy control frameworks
-    - compliance driven data
-    - privacy engineering design
+  name: Cynthia Redact
+  title: Data Privacy Engineer
+  domain: Data Privacy Engineering & Regulatory Compliance
   type: expert-index
+  keywords:
+    - implement field-level encryption
+    - design differential privacy layers
+    - redact sensitive data fields
+    - automate data masking workflows
+    - validate anonymization quality
+    - configure consent-based access
+    - enforce regional data residency
+    - monitor cross-border data flows
+    - enforce retention policy schedules
+    - audit access to sensitive fields
+    - tag regulated data fields
+    - anonymize personal identifiers
+    - track privacy risk exposure
+    - prevent attribute leakage
+    - block re-identification paths
+    - log purpose-based access
+    - verify GDPR compliance coverage
+    - align pipelines with HIPAA
+    - support CCPA access requests
+    - build privacy-by-design pipelines
+    - enforce data minimization principles
+    - monitor privacy incident workflows
+    - simulate re-identification attacks
+    - run epsilon budget audits
+    - monitor privacy-risk tradeoffs
+    - generate compliant synthetic data
+    - control vault-based data access
+    - coordinate with IAM for privacy
+    - inspect federated data sharing paths
+    - enforce audit-ready data policies
+    - log access to anonymized data
+    - deploy redaction in ETL pipelines
+    - monitor consent scope violations
+    - embed privacy into storage layers
+    - validate masking under query load
+    - classify metadata sensitivity
+    - detect policy misalignment
+    - monitor anonymized output accuracy
+    - scan pipelines for PII fields
+    - design privacy-safe analytics
+    - enforce pseudonymization at scale
+    - manage data access justifications
+    - validate retention enforcement logic
+    - detect secondary data usage
+    - simulate cross-tenant exposure
+    - audit data usage context
+    - control data sharing granularity
+    - tag data for localization policy
+    - verify access governance rules
+    - restrict access to sensitive attributes
+    - simulate consent revocation flows
+    - monitor synthetic data leakage
 - id: data_viz_engineer
-  name: Nora Insight – Data Viz Engineer
+  name: Nora Insight
+  title: Data Viz Engineer
   domain: Data Visualization & Interactive Dashboards
-  keywords:
-    - semantic color systems
-    - layered chart design
-    - responsive data dashboards
-    - perceptual encoding clarity
-    - dashboard deployment pipelines
-    - uncertainty visualization techniques
-    - wcag accessibility standards
-    - grid layout scalability
-    - visual annotation frameworks
-    - embedded visual reporting
-    - cross device visual performance
-    - storytelling chart narratives
-    - multi axis charts
-    - high density visualization
-    - categorical data display
-    - interactive dashboard filtering
-    - drilldown dashboard logic
-    - semantic color mapping
-    - perceptual accessibility modeling
-    - narrative visual storytelling
-    - annotation labeling flows
-    - accessibility compliance wcag
-    - dashboard element accessibility
-    - data modeling integration
-    - visualization pipeline logic
-    - viewport layout optimization
-    - scalable grid design
-    - visual fidelity encoding
-    - confidence interval encoding
-    - visual volatility expression
-    - visual clarity reviews
-    - misinterpretation risk analysis
-    - audience fit validation
-    - version controlled dashboards
-    - dashboard embedding options
-    - expressive visual interface
-    - trend exploration tools
-    - data and perception bridge
-    - infographic narrative clarity
-    - encoding best practices
-    - narrative alignment strategies
-    - analytical goal mapping
-    - chart insight communication
-    - visualization storytelling design
   type: expert-index
-- id: domain_coverage_auditor
-  name: Edwin Mapstone – Domain Coverage Auditor
-  domain: Cross-Domain Expertise & Meta Architecture
   keywords:
-    - expert taxonomy audit
-    - domain overlap analysis
-    - coverage gap detection
-    - architectural taxonomy design
-    - redundancy elimination protocols
-    - cross domain mapping tools
-    - semantic drift auditing
-    - system capability alignment
-    - meta architecture tracking
-    - coverage depth metrics
-    - expert selection heuristics
-    - representation consistency review
-    - redundant domain identification
-    - taxonomy audit automation
-    - system wide gap mapping
-    - ai capability mapping
-    - foundational field detection
-    - expert classification scheme
-    - subdomain taxonomy design
-    - scalable taxonomy structure
-    - trend based expert proposal
-    - cross domain need modeling
-    - taxonomy refactoring alignment
-    - evolving layer coordination
-    - automated semantic auditing
-    - domain consistency review
-    - ontology standard alignment
-    - strategic coverage review
-    - expansion phase planning
-    - expert metric dashboard
-    - expert coverage tracking
-    - redundancy risk mitigation
-    - expert resilience planning
-    - specialization coverage review
-    - system wide representation
-    - cross domain expertise audit
-    - non redundant landscape mapping
-    - taxonomy model alignment
-    - architectural evolution trace
-    - informed strategy support
-    - capability growth optimization
-    - meta architecture auditing
-    - domain representation consistency
-    - strategic taxonomy modeling
-  type: expert-index
+    - design interactive dashboards
+    - visualize complex datasets
+    - build real-time visualizations
+    - connect visuals to live data
+    - use storytelling in charts
+    - apply perceptual design principles
+    - choose right chart type
+    - render high-volume data efficiently
+    - integrate visuals with notebooks
+    - embed dashboards in web apps
+    - test UX of visual tools
+    - apply color theory to charts
+    - optimize dashboard performance
+    - improve data storytelling clarity
+    - visualize multi-dimensional data
+    - adapt dashboards for mobile
+    - build responsive visual layouts
+    - conduct user feedback testing
+    - enable self-service data visuals
+    - track user engagement in dashboards
+    - develop accessible visualizations
+    - train teams on data literacy
+    - explain data through visuals
+    - create explorable data narratives
+    - use D3.js for chart building
+    - visualize data pipeline output
+    - embed visuals in reports
+    - audit dashboard color contrast
+    - map data to visual encoding
+    - track live analytic metrics
+    - design visuals for decision-making
+    - prototype visualization components
+    - tailor dashboards to end users
+    - visualize streaming data feeds
+    - build mobile-ready chart interfaces
+    - adjust charts for cognitive load
+    - annotate dashboards for clarity
+    - create layout for narrative flow
+    - ensure typography readability
+    - evaluate visual usability
+    - apply inclusive chart design
+    - embed charts in embedded systems
+    - align visuals with analysis goals
+    - integrate charts into BI tools
+    - scale charts across screen sizes
+    - structure visual updates dynamically
+    - highlight insights visually
+    - map uncertainty into visuals
+    - declutter overplotted charts
+    - support drill-down interactions
+    - test colorblind-safe palettes
+    - translate ML outputs visually
 - id: vector_search_architect
-  name: Tariq Vexler – Vector Search Architect
+  name: Tariq Vexler
+  title: Vector Search Architect
   domain: Semantic Indexing and LLM-Ready Retrieval
   keywords:
-    - dense vector indexing
-    - semantic search latency
-    - faiss qdrant integration
-    - embedding pipeline design
-    - hybrid retrieval strategies
-    - similarity metric tuning
-    - adversarial vector defense
-    - streaming vector ingestion
-    - retriever architecture alignment
-    - llm context retrieval
-    - approximate nearest neighbor
-    - vector database security
-    - vector index optimization
-    - vector sharding strategy
-    - faiss weaviate tuning
-    - hybrid search modeling
-    - keyword semantic fusion
-    - search latency optimization
-    - recall performance tuning
-    - cpu gpu cost balancing
-    - injection attack prevention
-    - embedding exploit mitigation
-    - distance metric evaluation
-    - content type alignment
-    - versioned index update
-    - retraining drift detection
-    - vector pipeline scaling
-    - high volume ingestion
-    - ingestion benchmarking workflow
-    - dynamic vector update
-    - llm inference alignment
-    - context window integration
-    - rag pipeline readiness
-    - embedding retrieval design
-    - secure vector storage
-    - retrieval strategy balancing
-    - inference performance tuning
-    - vector system benchmarking
-    - hybrid index framework
-    - semantic keyword merge
-    - scalable vector search
-    - model aligned latency
-    - architecture driven retrieval
+    - design semantic search
+    - build vector database
+    - optimize vector indexing
+    - deploy faiss clusters
+    - shard vector indexes
+    - reduce embedding drift
+    - improve nearest neighbor
+    - optimize search latency
+    - configure hybrid retrieval
+    - tune semantic recall
+    - combine keyword and vector
+    - prune high-dimensional vectors
+    - deploy llm-ready retriever
+    - scale vector ingestion
+    - monitor index versioning
+    - add cross-encoder reranker
+    - re-rank ann results
+    - benchmark vector search
+    - stream vector ingestion
+    - handle vector updates
+    - secure vector index
+    - defend against prompt injection
+    - tune distance metrics
+    - rerank llm responses
+    - validate semantic relevance
+    - compress vector representations
+    - quantize search embeddings
+    - eliminate retrieval latency
+    - debug ann failures
+    - build hybrid search stack
+    - handle high-volume embeddings
+    - map embedding pipelines
+    - index image embeddings
+    - test retrieval quality
+    - identify vector poisoning
+    - split vector shards
+    - link embeddings to prompts
+    - build RAG-ready search
+    - connect faiss to langchain
+    - deploy vector-based filters
+    - log search degradation
+    - optimize for memory pressure
+    - implement reindexing workflows
+    - evaluate search fidelity
+    - batch encode embeddings
+    - auto-retrain vector models
+    - connect with llm inference
+    - detect retrieval collapse
+    - manage vector freshness
+    - troubleshoot hybrid recall
+    - maximize ANN throughput
+    - configure vector similarity
+    - enforce search limits
+    - rank documents semantically
+    - scale with gpu acceleration
+    - tune embedding quality
+    - refresh vector snapshots
   type: expert-index

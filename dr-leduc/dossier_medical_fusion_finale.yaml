@@ -1,0 +1,298 @@
+entites:
+  bébé:
+    cœur:
+      commentaire: 'Échographie cardiaque fœtale du 8 avril : aucune anomalie détectée'
+      état: normal
+    date_prévue_accouchement: '2025-08-22'
+    développement: normal
+    exposition_morphine:
+      effet: nul
+      enzyme_conversion_absente: probable
+    nom: Liam Andrew
+    état_général: bon
+  mère:
+    antécédents_familiaux: []
+    antécédents_médicaux:
+    - jambes sans repos
+    - hypersomnie idiopathique (diagnostic incertain)
+    - ferritine faible récurrente
+    - fausse couche 2024 (au 1er mois, grossesse actuelle survenue immédiatement après)
+    - deux épisodes dépressifs passés
+    - tempérament anxieux (diagnostic de TAG évoqué mais contesté par la patiente)
+    - 8 fibromes utérins dont 2 de 8 cm
+    - Arc aortique droit avec anomalie de Neuhauser
+    - malformation_cardiaque_maternelle
+    date_naissance: 1984-09-01
+    famille: {}
+    groupe_sanguin: A+
+    nom: Priscilla
+  père:
+    antécédents_familiaux:
+    - frère: TDAH, dyslexie, traits_asperger
+    - cousin_maternel: autisme
+    - grand-mère_paternelle: trouble_bipolaire (type inconnu)
+    - cousine: MAB type II
+    antécédents_médicaux:
+    - trouble_bipolaire_type_2 (MAB II)
+    - hypertension_artérielle
+    - TDAH
+    - migraines épisodiques (2-3/an)
+    - syndrome_du_colon_irritable (présumé)
+    - chirurgie_hémorroïdaire (2 retirées sur 3)
+    - douleurs_chroniques_dos_et_cou
+    - dépression_réfractaire (traitée par kétamine)
+    date_naissance: 1980-03-10
+    famille:
+      oncle: Ian
+    groupe_sanguin: O-
+    nom: Eric
+etat_global:
+  anxiété: présente, surtout vis-à-vis de l’accouchement, mais mieux contrôlée
+  digestion: normale
+  douleurs: aucune
+  sommeil: perturbé par les mouvements fœtaux nocturnes, récupère grâce aux siestes
+evenements:
+  2025-01-06-chographie_de_viabilite:
+    date: '2025-01-06'
+    lieu: Écho-Médic & Réso-Médic, Laval QC
+    résultat:
+    - Développement fœtal normal
+    - 'Fibromes en augmentation : 10 cm et 9 cm'
+    type: Échographie de viabilité
+  2025-01-20-consultation_de_gynecolo:
+    contenu:
+    - Discussion autour du premier bilan sanguin de grossesse à réaliser
+    - Aucun symptôme particulier rapporté
+    contexte: Grossesse à risque élevé
+    date: '2025-01-20'
+    lieu: Gynécologues Associés, 1299 Boul de la Concorde O, Laval QC
+    professionnel: Dre Leduc
+    type: Consultation de gynécologie (suivi)
+  2025-02-10-chographie_de_clarte_nuc:
+    date: '2025-02-10'
+    lieu: Écho-Médic & Réso-Médic, Laval QC
+    résultat:
+    - Développement fœtal normal
+    - Fibromes augmentés (12 cm et 10 cm)
+    - Soupçon que ce soit un garçon (non confirmé)
+    type: Échographie de clarté nucale
+  2025-02-11-consultation_de_gynecolo:
+    contenu:
+    - Suivi après échographie de clarté nucale
+    - Discussion sur les antécédents d’arc aortique chez Priscilla
+    - Recommandation d'une échographie cardiaque fœtale (enfant)
+    - Prévision d’un suivi en médecine interne pour la pression artérielle
+    - 'État général : grossesse normale jusqu’à présent'
+    date: '2025-02-11'
+    lieu: Gynécologues Associés, 1299 Boul de la Concorde O, Laval QC
+    professionnel: Dre Leduc
+    type: Consultation de gynécologie (suivi post-clarté nucale)
+  2025-02-14-test_sneakpeek_1er_essai:
+    date: '2025-02-14'
+    lieu: Polyclinique médicale Pierre-Le Gardeur, Terrebonne QC
+    résultat: Inconcluant
+    type: Test SneakPeek (1er essai)
+  2025-02-24-test_sneakpeek_2e_essai:
+    date: '2025-02-24'
+    lieu: Polyclinique médicale Pierre-Le Gardeur, Terrebonne QC
+    résultat: Résultat reçu le 2025-02-26 — C’est un garçon !
+    type: Test SneakPeek (2e essai)
+  2025-02-25-consultation_en_medecine:
+    contenu:
+    - Suivi de la tension artérielle
+    - Surveillance de la tension artérielle à domicile
+    - Prises de sang prescrites
+    date: '2025-02-25'
+    lieu: Clinique GARE, Hôpital de la Cité-de-la-Santé, 1755 boulevard René-Laennec,
+      Laval QC H7M 3L9, Canada
+    professionnel: Dr Alguire
+    type: Consultation en médecine interne
+  2025-04-08-chographie_cardiaque_fta:
+    date: '2025-04-08'
+    lieu: CHU Sainte-Justine, Montréal QC
+    résultat: Aucune anomalie détectée
+    type: Échographie cardiaque fœtale
+  2025-04-11-chographie_de_morphologi:
+    date: '2025-04-11'
+    lieu: Écho-Médic & Réso-Médic, Laval QC
+    résultat:
+    - Re-confirmation du sexe de Liam avec photo
+    - Liam en excellente santé et très actif
+    - Col de l’utérus à 1.8 cm → référence d'urgence à l’hôpital
+    type: Échographie de morphologie
+  2025-04-11-intervention_et_diagnost:
+    date: '2025-04-11'
+    lieu: Hôpital de la Cité-de-la-Santé, Laval QC
+    procédures:
+    - Cerclage d'urgence en raison d’un col raccourci à 1.8 cm
+    - Antibiothérapie orale de 7 jours (présence de "smudge")
+    professionnel: Dr. Laliberté
+    suivi:
+    - Repos strict à domicile (déplacements limités au même étage)
+    - Aucune activité sexuelle permise
+    - Revue par Dre Leduc à la prochaine échographie
+    type: Intervention et diagnostic gynécologique
+  2025-04-25-intervention_fibromes:
+    date: '2025-04-25'
+    diagnostic: Nécrobiose de 2 fibromes
+    intervention: Morphine PRN et retour à domicile
+    lieu: Hôpital de la Cité-de-la-Santé, 1755 boulevard René-Laennec, Laval QC H7M
+      3L9, Canada
+    professionnel: Dr Dupont-Chalaoui
+    remarque: Liam semble ne pas métaboliser la morphine, comme son père Eric, ce
+      qui le protège des effets secondaires.
+    symptômes: Douleurs abdominales intenses
+    type: Intervention en contexte de douleur abdominale aiguë
+  2025-05-01-suivi_echographique_et_c:
+    constats:
+    - Liam en position céphalique (tête en bas)
+    - Col dynamique
+    date: '2025-05-01'
+    décision:
+    - Suivi rapproché
+    - Prescription de progestérone intravaginale HS DIE
+    - Maintien des restrictions de repos
+    lieu: Clinique GARE, Hôpital de la Cité-de-la-Santé, Laval QC
+    professionnel: Dre Leduc
+    type: Suivi échographique et consultation gynécologique
+  2025-05-15-consultation_suivi:
+    constats:
+    - Aucun diabète gestationnel
+    - Restrictions de repos maintenues
+    - Cerclage bien en place
+    date: '2025-05-15'
+    lieu: Clinique GARE, Hôpital de la Cité-de-la-Santé, 1755 boulevard René-Laennec,
+      Laval QC H7M 3L9, Canada
+    professionnel: Dre Leduc
+    type: Consultation gynécologique de suivi
+  2025-05-27-consultation_med:
+    constats:
+    - Suivi de la tension artérielle à domicile
+    - Prises de sang à effectuer
+    date: '2025-05-27'
+    lieu: Clinique GARE, Hôpital de la Cité-de-la-Santé, 1755 boulevard René-Laennec,
+      Laval QC H7M 3L9, Canada
+    professionnel: Dr Lavoie
+    type: Consultation en médecine interne
+  2025-05-27-vaccination_boostrix:
+    date: '2025-05-27'
+    lieu: Familiprix, 384 Boul Adolphe-Chapleau, Bois-des-Filion QC J6Z 1H3, Canada
+    type: Vaccination
+    vaccin: Boostrix (coqueluche, tétanos, diphtérie)
+  2025-05-28-chographie_de_croissance:
+    date: '2025-05-28'
+    décision:
+    - Poursuite du repos
+    lieu: Clinique GARE, Hôpital de la Cité-de-la-Santé, Laval QC
+    professionnel: Dre Leduc
+    résultat:
+    - Liam va très bien et est très actif
+    - Poids estimé au 13e percentile
+    type: Échographie de croissance et consultation gynécologique
+  2025-06-11-consultation_suivi:
+    constats:
+    - Cerclage bien en place
+    date: '2025-06-11'
+    lieu: Clinique GARE, Hôpital de la Cité-de-la-Santé, 1755 boulevard René-Laennec,
+      Laval QC H7M 3L9, Canada
+    professionnel: Dre Leduc
+    type: Consultation gynécologique de suivi
+  2025-06-22-activite_foetale:
+    constats:
+    - Liam bouge beaucoup, surtout la nuit
+    - Aucun signe de souffrance fœtale
+    - Perturbation du sommeil maternel
+    date: '2025-06-22'
+    lieu: Observation à domicile
+    professionnel: Observation rapportée par Eric
+    recommandation: Repos compensatoire adapté
+    type: 'Symptôme fœtal : activité intense'
+  2025-06-25-echographie_monitoring:
+    constats:
+    - 'Poids estimé : 3,9 lb (~1770 g), initialement au 10e percentile'
+    - Tête mesurée à environ 30+5 SA (~9,5e percentile si daté au 20 août)
+    - Liquide amniotique et Doppler normaux
+    date: '2025-06-25'
+    lieu: Clinique GARE, Hôpital de la Cité-de-la-Santé, Laval QC
+    observation: Monitoring fœtal de 20 minutes effectué le jour même
+    professionnel: Dre Lacerte
+    remarque: La DPA utilisée était incorrecte (20 août au lieu du 22 août). En corrigeant,
+      le poids correspond au 45e–50e percentile (31+5 SA)
+    type: Échographie de croissance et monitoring fœtal
+  2025-06-25-symptomes_liam:
+    date: '2025-06-25'
+    lieu: Observation à domicile
+    prise_en_charge:
+    - Massages quotidiens par le conjoint
+    - Repos conseillé
+    professionnel: Observation rapportée par Eric
+    symptômes:
+    - Douleurs aux hanches et aux épaules le matin
+    - Activité fœtale vive et soutenue
+    type: Symptômes physiques et activité fœtale
+  2025-07-02-monitoring_foetal:
+    date: '2025-07-02'
+    heure: 13h00
+    lieu: Clinique GARE, Hôpital de la Cité-de-la-Santé, Laval QC
+    professionnel: Équipe de suivi obstétrical (nom non précisé)
+    résultat: Monitoring fœtal normal. Aucune anomalie détectée. Activité cardiaque
+      satisfaisante.
+    type: Monitoring fœtal
+  2025-07-08-consultation_interne:
+    date: '2025-07-08'
+    heure: 09h30
+    lieu: Clinique GARE, Hôpital de la Cité-de-la-Santé, Laval QC
+    professionnel: Médecin en médecine interne (nom à confirmer)
+    statut: planifié
+    type: Consultation planifiée en médecine interne
+  2025-07-09-echo_consult_gyn:
+    date: '2025-07-09'
+    heure: Après le monitoring
+    lieu: Clinique GARE, Hôpital de la Cité-de-la-Santé, Laval QC
+    professionnel: Dre Leduc
+    statut: planifié
+    type: Échographie de croissance et consultation gynécologique (planifiées)
+  2025-07-09-monitoring_foetal:
+    date: '2025-07-09'
+    heure: 13h00
+    lieu: Clinique GARE, Hôpital de la Cité-de-la-Santé, Laval QC
+    statut: planifié
+    type: Monitoring fœtal (planifié)
+  2025-07-03-symptome_bras_sans_repos:
+    date: '2025-07-03'
+    type: Symptôme
+    événement: Sensations de type jambes sans repos dans les bras
+    détail: Inconfort ressenti principalement le soir et la nuit, évoquant une forme
+      atypique du syndrome des jambes sans repos localisé aux membres supérieurs.
+      Soulagement partiel par chaleur locale et massages. Aucun traitement médicamenteux
+      ajouté en raison de la grossesse.
+    suivi: Priscilla mentionne être déjà suivie par un neurologue
+  2025-07-10-consultation_gare:
+    date: '2025-07-10'
+    lieu: Clinique GARE, Laval QC
+    type: Consultation avec Dre Leduc (écho + monitoring)
+    professionnel: Dre France Leduc
+    constats:
+    - 'Poids estimé : 2017 g (4 lb 7 oz), 14,5ᵉ percentile (méthode Hadlock)'
+    - 'BPD : 78,0 mm — 1,7ᵉ percentile (~31+2 SA)'
+    - 'HC : 300,1 mm — 7,5ᵉ percentile (~33+2 SA)'
+    - 'AC : 294,7 mm — 41,1ᵉ percentile (~33+3 SA)'
+    - 'FL : 60,3 mm — 7,2ᵉ percentile (~31+2 SA)'
+    - 'Liquide amniotique normal (AFI : 97,5 mm)'
+    - Tracé réactif au monitoring, activité cardiaque normale
+    remarque: Aucun signe de retard de croissance pathologique. Suivi à poursuivre.
+traitements:
+  chroniques:
+  - feramax
+  - magnésium
+  - vitamine_C
+  - vitamine_D
+  chroniques_commentaire: Traitements commencés avant la grossesse et poursuivis tout
+    au long de celle-ci.
+  grossesse:
+  - progestérone intravaginale_au_coucher
+  - aspirine
+  - acide_folique
+  - omega_3
+  - vitamines_prénatales
+  post_partum: []

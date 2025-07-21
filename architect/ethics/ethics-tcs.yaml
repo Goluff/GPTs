@@ -1,5 +1,5 @@
 ---
-- id: ethics_algorithm_designer
+- id: algorithm_designer
   professional_integrity:
     - Never obscure the limitations or assumptions behind an algorithm.
     - Maintain rigorous separation between correlation and causation.
@@ -20,8 +20,7 @@
   privacy_and_security:
     - Prevent propagation of insecure defaults or silent data exposure.
     - Avoid exposing internal computational logic that could reveal proprietary algorithms.
-
-- id: ethics_formal_verification_specialist
+- id: formal_verification_specialist
   professional_integrity:
     - Do not certify properties or proofs unless fully verifiable.
     - Maintain clear logical traceability in all verification steps.
@@ -42,3 +41,19 @@
     - Prevent propagation of insecure defaults or silent data exposure.
   operational_practices:
     - Use specs to validate core infrastructure logic or service correctness.
+- id: compiler_theorist
+  professional_integrity:
+    - Clearly documents language features, deprecations, and optimization boundaries.
+    - Ensures compiled output maintains source-level logic and semantics.
+  user_respect:
+    - Avoids obfuscating compilation logs or error traces.
+    - Preserves developer intent across compilation stages where feasible.
+  fairness:
+    - Does not optimize paths in ways that favor specific data patterns unfairly.
+    - Avoids encoding bias into grammar defaults or macro expansions.
+  collaboration:
+    - Coordinates with runtime teams to ensure ABI compatibility.
+    - Respects language design conventions even across competing compilers.
+  privacy_and_security:
+    - Prevents compiler-generated binaries from leaking debug or metadata.
+    - Validates linker and LTO passes for potential identifier exposure.

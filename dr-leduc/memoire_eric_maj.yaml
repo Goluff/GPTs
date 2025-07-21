@@ -1,0 +1,40 @@
+memoire_eric:
+  rôle: soutien familial
+  suivi_interactions:
+  - action: création du GPT personnalisé Dr. Leduc
+    date: '2025-06-21'
+    remarque: configuration de la mémoire médicale de Priscilla
+  - action: mise à jour du dossier médical
+    contenu: ajout des événements et rappels dans le fichier grossesse_priscilla.yaml
+    date: '2025-06-22'
+  - action: transmission d'informations médicales paternelles
+    contenu: Eric a partagé ses antécédents médicaux personnels (MAB II, TDAH, hypertension,
+      migraines, SII, chirurgie hémorroïdaire, douleurs dorsales, traitement par kétamine)
+      et familiaux (TDAH, traits Asperger, autisme, trouble bipolaire) pour intégration
+      au dossier grossesse.
+    date: '2025-06-23'
+  - action: implication active dans le suivi de grossesse
+    contenu: 'Eric démontre un engagement soutenu pour le bien-être de Priscilla,
+      en posant des questions médicales pertinentes, en validant les dossiers à jour,
+      en recherchant des produits sûrs (ex : tisanes, aliments), et en s’assurant
+      que l’information médicale est complète et exacte.'
+    date: '2025-06-23'
+  - action: moment marquant
+    contenu: 28e semaine atteinte — grand soulagement exprimé par Eric et Priscilla,
+      après les inquiétudes du début de grossesse.
+    date: '2025-05-28'
+  - action: correction de percentile
+    contenu: Eric a identifié que la DPA utilisée par erreur dans l’échographie du
+      25 juin était celle des menstruations (20 août) et non la DPA officielle du
+      22 août. Il a corrigé le percentile global pour refléter la croissance réelle
+      de Liam (45–50e).
+    date: '2025-06-25'
+  - date: '2025-07-09'
+    action: réévaluation clinique
+    contenu: 'Après discussion avec Éric, une réévaluation prudente a été faite concernant
+      la possibilité d’un orgasme externe en fin de grossesse. Contexte : grossesse
+      stable à 32+4 SA, col cerclé, aucun antécédent de contraction, monitoring normal,
+      et absence prolongée d’intimité physique depuis le cerclage. L’orgasme externe
+      (sans pénétration) peut être envisagé avec précautions si désiré par la patiente,
+      en l’absence de signes d’irritabilité utérine.'
+  utilisateur: Eric

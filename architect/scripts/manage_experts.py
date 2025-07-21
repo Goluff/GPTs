@@ -88,12 +88,18 @@ def load_domain_mapping(metadata_path: Path) -> Dict[str, str]:
     """Load the mapping of domain keys to domain names from the metadata YAML file."""
     with open(metadata_path, "r", encoding="utf-8") as f:
         metadata = yaml.safe_load(f)
-    mapping = {}
-    for item in metadata.get("files", []):
-        if item.get("domain") and item.get("file", "").startswith("experts-index-"):
-            key = item["file"].replace("experts-index-", "").replace(".yaml", "")
-            mapping[key] = item["domain"]
-    return mapping
+    return metadata.get("expert_fields", {})
+
+#def load_domain_mapping(metadata_path: Path) -> Dict[str, str]:
+#    """Load the mapping of domain keys to domain names from the metadata YAML file."""
+#    with open(metadata_path, "r", encoding="utf-8") as f:
+#        metadata = yaml.safe_load(f)
+#    mapping = {}
+#    for item in metadata.get("files", []):
+#        if item.get("domain") and item.get("file", "").startswith("experts-index-"):
+#            key = item["file"].replace("experts-index-", "").replace(".yaml", "")
+#            mapping[key] = item["domain"]
+#    return mapping
 
 
 def run_validation(

@@ -1,0 +1,367 @@
+---
+- id: linux_distribution_specialist
+  name: Lin Oxvald
+  title: Linux Distribution Specialist
+  domain: Linux Distribution Architecture & Ecosystem Strategy
+  keywords:
+    - build custom Linux distro
+    - configure systemd services
+    - create lightweight Linux builds
+    - audit init systems
+    - design distro packaging
+    - maintain remote repositories
+    - debug boot target issues
+    - configure embedded Linux
+    - manage package overlays
+    - build reproducible binaries
+    - set distro security baseline
+    - apply kernel patch stacks
+    - manage ABI compatibility
+    - verify binary reproducibility
+    - configure SELinux policies
+    - track driver availability
+    - sign packages with GPG
+    - build DEB and RPM
+    - optimize RISC-V support
+    - tune for embedded workloads
+    - debug package manager issues
+    - configure login targets
+    - automate distro testing
+    - write PKGBUILD packages
+    - audit config drift
+    - customize OpenRC setup
+    - setup cross-compilation toolchains
+    - simulate on ARM hardware
+    - manage desktop environments
+    - align distro with hardware
+    - configure runit supervision
+    - model distro user personas
+    - apply CIS hardening profiles
+    - integrate Guix workflows
+    - maintain immutable repo mirrors
+    - document distro variants
+    - ensure init parity across systems
+    - reduce distro bloat
+    - manage kernel module support
+    - track system divergence
+    - compare distro behaviors
+    - test Wayland readiness
+    - customize login sessions
+    - enforce build reproducibility
+    - configure emulation fallback
+    - maintain long-term distro forks
+    - validate cross-distro consistency
+    - support OCI-based packaging
+    - diagnose session target bugs
+    - harden Linux environments
+    - debug distro-specific quirks
+  type: expert-index
+- id: operating_systems_architect
+  name: Kenric Thompson
+  title: Operating Systems Architect
+  domain: Kernel Design & Operating Systems Engineering
+  keywords:
+    - design process scheduler
+    - debug kernel panic
+    - manage memory paging
+    - trace priority inversion
+    - audit syscall behavior
+    - build secure IPC
+    - profile kernel latency
+    - configure NUMA topology
+    - patch running kernel
+    - manage device drivers
+    - optimize process lifecycles
+    - enforce syscall filters
+    - implement real-time scheduler
+    - isolate containers with namespaces
+    - build custom filesystem
+    - sandbox user processes
+    - monitor cgroup behavior
+    - tune cache locality
+    - track kernel bottlenecks
+    - inspect IPC queues
+    - validate POSIX compliance
+    - debug boot sequence
+    - write IOMMU driver
+    - allocate kernel memory
+    - balance task priorities
+    - enforce SELinux boundaries
+    - manage early userspace
+    - simulate starvation paths
+    - review seccomp rules
+    - design interrupt handling
+    - configure ftrace hooks
+    - schedule real-time tasks
+    - implement slab allocator
+    - audit container isolation
+    - tune SLUB performance
+    - hotpatch kernel modules
+    - explore initramfs logic
+    - attach eBPF probes
+    - analyze system deadlock
+    - isolate kernel faults
+    - implement futex behavior
+    - manage virtual memory
+    - schedule multithreaded workloads
+    - maintain journaling layers
+    - optimize RTOS latency
+    - map shared memory regions
+    - validate sandbox enforcement
+    - deploy virtual devices
+    - test RT kernel config
+    - run container workloads
+    - align with OCI runtime
+    - track syscall overhead
+    - benchmark scheduling jitter
+    - build OS-level abstractions
+    - debug user/kernel transitions
+  type: expert-index
+- id: quantum_systems_engineer
+  name: Feynara Diractyl
+  title: Quantum Systems Engineer
+  domain: Quantum Computing Systems & Hybrid Architectures
+  keywords:
+    - design quantum circuits
+    - calibrate qubit coherence
+    - debug quantum decoherence
+    - run quantum error correction
+    - implement surface code
+    - shape control pulses
+    - simulate quantum noise
+    - orchestrate hybrid workflow
+    - build VQE pipeline
+    - configure QAOA circuit
+    - optimize gate scheduling
+    - map qubit topology
+    - monitor entanglement fidelity
+    - manage quantum jobs
+    - decode error syndromes
+    - benchmark quantum fidelity
+    - write QASM circuits
+    - tune Hamiltonian parameters
+    - validate measurement collapse
+    - test decoherence models
+    - supervise cryogenic controls
+    - manage qubit routing
+    - develop fallback gates
+    - integrate quantum runtime
+    - schedule parametric pulses
+    - simulate qubit dynamics
+    - align gate depth
+    - reduce routing latency
+    - verify QPU output
+    - analyze quantum telemetry
+    - estimate gate complexity
+    - execute hybrid circuit
+    - stabilize quantum system
+    - manage quantum workload
+    - configure noise decoupling
+    - transpile quantum programs
+    - handle gate substitution
+    - route low-fidelity circuits
+    - model thermal stability
+    - detect coherence loss
+    - collapse quantum states
+    - develop resilient circuits
+    - build superconducting interface
+    - optimize IR transformations
+    - connect quantum backends
+    - write quantum diagnostics
+    - balance modality tradeoffs
+    - queue quantum executions
+    - audit entanglement decay
+    - align qubit mapping
+    - monitor QPU readiness
+    - visualize circuit fidelity
+  type: expert-index
+- id: backup_recovery_expert
+  name: Linus Vaulton
+  title: Backup Recovery Expert
+  domain: Data Protection and Restore Strategies
+  type: expert-index
+  keywords:
+    - set up encrypted backups
+    - automate backup rotation
+    - schedule incremental backups
+    - validate backup integrity
+    - configure snapshot lifecycle
+    - protect against ransomware rollback
+    - benchmark RTO performance
+    - enforce retention policies
+    - plan disaster recovery flow
+    - test restore reliability
+    - monitor backup failure alerts
+    - secure backup with GPG
+    - verify restore path safety
+    - build air-gapped backup
+    - run dry-run recovery drill
+    - tune deduplication strategy
+    - optimize restore I/O
+    - audit version compatibility
+    - enforce backup immutability
+    - integrate backup with systemd
+    - monitor backup pipeline health
+    - log cryptographic checksums
+    - detect failed recovery steps
+    - design hybrid-cloud recovery
+    - manage on-prem snapshots
+    - encrypt backups in transit
+    - test compliance recoverability
+    - prevent unauthorized rollback
+    - validate backup lineage
+    - route backup to cold storage
+    - tune long-term archive policy
+    - implement Borg backup rotation
+    - automate Restic scheduling
+    - use rsync for file backup
+    - recover from network failure
+    - restore from degraded disks
+    - ensure multi-zone redundancy
+    - isolate backups from production
+    - schedule cron-based snapshots
+    - enforce backup compliance audit
+    - integrate alerts with dashboards
+    - log anomalies in backup jobs
+    - use AES for encrypted backup
+    - verify policy-based deletion
+    - implement offline backup flow
+    - check cross-version recovery
+    - defend backups from zero-day
+    - test snapshot restore accuracy
+    - design scalable backup plan
+    - audit backup access policies
+    - use timers for lifecycle control
+    - route backups by region
+    - model backup throughput limits
+    - simulate recovery under strain
+    - validate tooling compatibility
+    - align backups with legal policy
+    - set delayed-write safeguards
+    - confirm backup job coverage
+    - remediate RPO violations
+- id: chaos_engineer
+  name: Greta Havoc
+  title: Chaos Engineer
+  domain: Failure Injection and Resilience Engineering
+  type: expert-index
+  keywords:
+    - run chaos experiments
+    - inject system faults
+    - simulate CPU saturation
+    - trigger memory leaks
+    - partition network links
+    - break service dependencies
+    - define blast radius
+    - test rollback protocols
+    - orchestrate failure chains
+    - simulate cascading failures
+    - benchmark system resilience
+    - validate recovery thresholds
+    - stress test infrastructure
+    - inject disk contention
+    - design failure playbooks
+    - plan game day chaos
+    - model availability budgets
+    - monitor chaos test metrics
+    - detect recovery anomalies
+    - test chaos in Kubernetes
+    - simulate serverless failures
+    - observe failure propagation
+    - run Chaos Mesh scenarios
+    - use Gremlin for injection
+    - audit chaos test coverage
+    - break microservice contracts
+    - define fault domains
+    - configure isolation boundaries
+    - inject fault in CI/CD
+    - automate chaos validation
+    - validate SLO tolerance
+    - monitor latency under chaos
+    - trace fault recovery flow
+    - test timeout response logic
+    - tune chaos test intensity
+    - create chaos experiment suite
+    - test failure rate limits
+    - audit blast radius scope
+    - simulate pod eviction storms
+    - observe system under strain
+    - inject failure in staging
+    - test container crash recovery
+    - use Simian Army scenarios
+    - disrupt orchestration layers
+    - test chaos with rollback hook
+    - benchmark recovery latency
+    - monitor telemetry for drift
+    - inject faults into mesh
+    - test data path failures
+    - correlate failure logs
+    - validate hypothesis-driven chaos
+    - measure fault containment
+    - simulate control plane failure
+    - configure resilience thresholds
+    - detect chaos test gaps
+    - align chaos with SLOs
+    - test chaos in CI gate
+    - enforce chaos blast limits
+- id: monitoring_expert
+  name: Clara Signals
+  title: Monitoring Expert
+  domain: Observability and Monitoring
+  type: expert-index
+  keywords:
+    - build observability pipeline
+    - correlate logs and metrics
+    - deploy real-time dashboards
+    - tune alert thresholds
+    - reduce monitoring noise
+    - configure alert routing
+    - define service KPIs
+    - track SLOs and SLIs
+    - monitor error budgets
+    - audit telemetry coverage
+    - validate incident alerts
+    - detect false positives
+    - implement structured logging
+    - monitor application latency
+    - integrate SIEM with metrics
+    - detect behavioral anomalies
+    - deploy synthetic probes
+    - run blackbox monitoring
+    - trace service interactions
+    - optimize telemetry cost
+    - apply cardinality controls
+    - define log retention policy
+    - monitor infrastructure uptime
+    - validate span correlations
+    - benchmark telemetry quality
+    - tag metrics by service
+    - visualize service health
+    - manage alert escalation rules
+    - enforce naming conventions
+    - inspect trace log joins
+    - standardize telemetry schema
+    - route alerts by context
+    - enforce observability access controls
+    - collect full-stack signals
+    - calibrate alerting logic
+    - analyze past incident trends
+    - test observability under load
+    - configure metric sampling
+    - deploy monitoring agents
+    - alert on dependency failures
+    - monitor distributed services
+    - prioritize signal relevance
+    - tune retention for traces
+    - monitor business-impact KPIs
+    - enforce telemetry consistency
+    - assess observability gaps
+    - reduce log ingestion load
+    - integrate across observability stack
+    - validate SLA compliance monitoring
+    - align monitoring with audit needs
+    - debug alert misfires
+    - correlate multi-source telemetry
+    - inspect log cardinality issues
+    - route incident alerts efficiently
+    - visualize telemetry anomalies

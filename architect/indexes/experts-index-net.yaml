@@ -1,143 +1,241 @@
 ---
-- id: iot_engineer
-  name: Sanjay Meshra – Iot Engineer
-  domain: Embedded Devices and Edge Communication
+- id: protocol_resilience_analyst
+  name: Omar Netley
+  title: Protocol Resilience Analyst
+  domain: Distributed Systems Resilience & Protocol Integrity
+  type: expert-index
   keywords:
-    - ota update strategy
-    - mqtt messaging architecture
-    - edge security enforcement
-    - constrained device firmware
-    - secure provisioning workflows
-    - telemetry ingestion buffering
-    - coap protocol handling
-    - tls communication hardening
-    - fleet monitoring pipelines
-    - embedded systems auditing
-    - low-power iot logic
-    - device reachability assurance
-    - mqtt protocol design
-    - coap message handling
-    - tls encryption enforcement
-    - ota update workflows
-    - edge device provisioning
-    - firmware development cycle
-    - embedded security audit
-    - incident pattern response
-    - delivery reliability metrics
-    - message loss analysis
-    - fleet automation scaling
-    - data sanitization constraints
-    - privacy enforcement compliance
-    - provisioning trust anchors
-    - firmware level security
-    - low power firmware logic
-    - message delivery tracking
-    - cross functional automation
-    - data pipeline buffering
-    - embedded protocol exposure
-    - iot telemetry integration
-    - mqtt secure communication
-    - cloud edge ingestion
-    - firmware constraint optimization
-    - secure device registration
-    - communication latency assurance
-    - operational device visibility
-    - remote management workflow
+    - test protocol downgrade behavior
+    - model protocol state transitions
+    - simulate replay attacks
+    - inject protocol faults
+    - test failover resilience
+    - audit timeout propagation
+    - benchmark retry logic
+    - simulate multipath disruptions
+    - run adversarial protocol tests
+    - validate fallback logic
+    - fuzz protocol state machines
+    - detect degraded behavior under load
+    - analyze DDoS protocol impact
+    - validate session recovery paths
+    - model protocol recovery timing
+    - design protocol test suites
+    - verify protocol safety invariants
+    - analyze packet loss effects
+    - model congestion recovery
+    - benchmark failover transition time
+    - verify idempotent message flows
+    - apply TLA+ to protocol logic
+    - validate safety under byzantine fault
+    - run protocol fuzzing campaigns
+    - trace cross-layer failure cascade
+    - inspect TLS negotiation paths
+    - compare TCP and QUIC resilience
+    - simulate session restart failure
+    - verify liveness guarantees
+    - validate QoS degradation paths
+    - configure retry timeout tuning
+    - audit retry storm behavior
+    - document version negotiation logic
+    - test TLS downgrade defense
+    - evaluate soft failover transitions
+    - simulate authentication fallback
+    - validate congestion window shifts
+    - check retry backoff accuracy
+    - monitor header integrity under load
+    - validate session token replay resistance
+    - simulate DNS protocol cascade
+    - model protocol invariants under stress
+    - review protocol recovery benchmarks
+    - validate formal protocol model
+    - analyze non-deterministic packet paths
+    - test transport layer fallback
+    - model protocol upgrade risks
+    - inspect speculative replay behavior
+    - benchmark protocol handshake latency
+    - map critical protocol dependencies
+    - detect undefined transition behavior
+    - advise on protocol resilience posture
+- id: iot_engineer
+  name: Sanjay Meshra
+  title: IoT Engineer
+  domain: IoT Firmware & Secure Edge Telemetry
+  keywords:
+    - implement OTA firmware updates
+    - secure MQTT communication
+    - build telemetry pipelines
+    - manage IoT device fleets
+    - configure secure boot
+    - design energy-efficient firmware
+    - handle edge data buffering
+    - audit embedded device security
+    - ensure firmware signing integrity
+    - develop low-power routines
+    - enable secure provisioning
+    - deploy remote firmware patches
+    - monitor fleet health dashboards
+    - integrate BLE with firmware
+    - implement DTLS key rotation
+    - isolate RTOS memory zones
+    - trigger telemetry diagnostics
+    - configure device PKI trust
+    - coordinate rollback safety
+    - secure OTA firmware delivery
+    - validate IoT data integrity
+    - detect firmware tampering
+    - enforce cipher agility policies
+    - log edge telemetry incidents
+    - handle backpressure at edge
+    - optimize sleep-wake cycles
+    - rotate TLS certificates
+    - design interrupt-driven firmware
+    - manage firmware version control
+    - schedule RTOS tasks safely
+    - connect Zigbee edge nodes
+    - onboard constrained IoT devices
+    - audit session expiration logic
+    - ensure device reconnect safety
+    - test memory-constrained firmware
+    - visualize edge sensor data
+    - align OTA governance policies
+    - enable secure device bootstraps
+    - maintain embedded update logs
+    - monitor delivery guarantees
+    - support offline-safe behavior
+    - integrate LoRaWAN device telemetry
+    - provision identity on edge nodes
+    - automate IoT certificate renewal
+    - benchmark firmware resilience
+    - design hybrid IoT protocols
+    - scale edge telemetry ingestion
+    - manage constrained OTA cycles
+    - orchestrate IoT health monitoring
+    - configure trust anchors for devices
+    - limit telemetry retention duration
+    - enforce privacy in edge systems
+    - debug ISR timing routines
+    - onboard devices to secure mesh
   type: expert-index
 - id: mobile_edge_specialist
-  name: Lila Stream – Mobile Edge Specialist
-  domain: Edge Computing & Mobile Systems
+  name: Lila Stream
+  title: Mobile Edge Specialist
+  domain: Mobile-Aware Edge Synchronization & Resilience
   keywords:
-    - edge node federation
-    - mobile network resilience
-    - data sync diagnostics
-    - latency-sensitive architecture
-    - fault-tolerant mobility
-    - edge telemetry monitoring
-    - mobile deployment topology
-    - flaky network handling
-    - mobile resource optimization
-    - update propagation strategy
-    - sync conflict resolution
-    - edge privacy compliance
-    - latency sensitive infrastructure
-    - edge node consistency
-    - network variability handling
-    - data synchronization protocols
-    - high churn environment
-    - mobile fault tolerance
-    - edge security auditing
-    - policy enforcement strategies
-    - predictive usage modeling
-    - heterogeneous device deployment
-    - telemetry anomaly detection
-    - mobile ingress diagnostics
-    - edge compliance auditing
-    - regulatory constraint enforcement
-    - jitter source analysis
-    - cross region sync failures
-    - autonomous edge federation
-    - connectivity fluctuation management
-    - update propagation optimization
-    - device cloud interaction tuning
-    - distributed sync architecture
-    - mobile edge orchestration
-    - resilient edge infrastructure
-    - edge node automation
-    - mobile platform architecture
-    - edge security enforcement
-    - mobile resource prediction
-    - network constrained deployment
-    - edge performance optimization
-    - Edge Computing & Mobile Systems
+    - deploy edge nodes for mobility
+    - design mobile-first edge sync
+    - handle jitter in edge sync
+    - recover from mobile disconnects
+    - optimize mobile-edge latency
+    - ensure mobile data propagation
+    - build offline-first edge caching
+    - sync mobile edge clusters
+    - adapt to network volatility
+    - monitor mobile-edge telemetry
+    - audit mobile edge security
+    - enforce data locality rules
+    - support cross-region syncing
+    - reconcile mobile state conflicts
+    - orchestrate mobile node updates
+    - configure rollback safety logic
+    - cache data for offline mode
+    - diagnose mobile sync failures
+    - design delta-sync workflows
+    - build resilient mobile edge mesh
+    - optimize edge for mobile load
+    - manage regional privacy compliance
+    - sync mobile mesh data securely
+    - deploy edge for variable coverage
+    - handle mobile node churn
+    - schedule edge updates over LTE
+    - detect sync drift on edge
+    - bridge intermittent connections
+    - coordinate edge node federation
+    - enforce update retry windows
+    - tune edge QoS for mobility
+    - trigger edge fallback protocols
+    - monitor edge degradation patterns
+    - automate mobile-edge rollouts
+    - run local-first edge workloads
+    - handle partial connectivity sync
+    - align edge with cloud latency
+    - design handoff-aware sync logic
+    - debug mobile sync latency
+    - configure edge anomaly detection
+    - adapt topology under mobile load
+    - ensure mobile update resilience
+    - deploy mobile-aware cache layers
+    - manage heterogeneous edge updates
+    - resolve edge version mismatches
+    - classify mobility-based anomalies
+    - model mobile retry behavior
+    - test edge under poor coverage
+    - track sync fidelity over time
+    - enable edge-first execution flows
+    - simulate mobile-edge disruptions
+    - route traffic during mobile bursts
+    - secure federated edge sync paths
   type: expert-index
 - id: network_designer
-  name: Byron Linkwell – Network Designer
+  name: Byron Linkwell
+  title: Network Designer
   domain: Network Architecture and Optimization
   keywords:
-    - vlan topology design
-    - mesh routing protocols
-    - subnet allocation planning
-    - ad hoc routing setup
-    - bonding strategy design
-    - routing fault recovery
-    - static route configuration
-    - ipv6 multi-site planning
-    - batman protocol mesh
-    - topology validation audit
-    - network availability tuning
-    - hybrid site interconnectivity
-    - vlan mesh interconnection
-    - ipv4 subnet strategy
-    - dynamic routing protocols
-    - bridging configuration audit
-    - bonded link resilience
-    - broadcast domain segmentation
-    - topology misalignment detection
-    - link bonding performance
-    - protocol aware path tracing
-    - route drift correction
-    - dual stack planning
-    - distributed topology audit
-    - mesh resilience modeling
-    - routing loop resolution
-    - subnet isolation patterns
-    - site-to-site routing strategy
-    - hop-level routing analysis
-    - bonded interface tuning
-    - multi-site mesh planning
-    - high availability routing
-    - redundancy path mapping
-    - routing segmentation strategy
-    - mesh backbone integration
-    - failover-aware topology
-    - ipv6 allocation heuristics
-    - topology divergence detection
-    - batman protocol optimization
-    - vlan bridging techniques
-    - layer 2 domain tuning
-    - topology automation toolkit
-    - inter-subnet routing policies
-    - topology-aware route tracing
-    - Network Architecture and Optimization
+    - design secure network
+    - audit routing behavior
+    - subnet planning guidance
+    - configure VLAN topology
+    - troubleshoot network loops
+    - optimize routing protocols
+    - validate BGP failover
+    - deploy firewall policies
+    - implement network segmentation
+    - enforce ACL boundaries
+    - debug asymmetric routing
+    - monitor packet loss
+    - analyze network jitter
+    - test round-trip times
+    - plan IPv6 migration
+    - simulate link failure
+    - recover from path outage
+    - design mesh topologies
+    - validate layer 3 routing
+    - isolate tenant networks
+    - configure VXLAN overlay
+    - apply NAT configuration
+    - template network configs
+    - automate subnet deployment
+    - benchmark network latency
+    - troubleshoot GRE tunnels
+    - enable HA bonding
+    - enforce QoS policies
+    - detect routing drift
+    - review route convergence
+    - tune class-based queuing
+    - inspect SNMP metrics
+    - configure NetFlow exports
+    - secure WAN interconnects
+    - test network HA setup
+    - analyze subnet utilization
+    - inspect path asymmetry
+    - model failure domains
+    - coordinate campus topology
+    - deploy Nornir automation
+    - align routing with policy
+    - configure edge constraints
+    - validate peering alignment
+    - resolve network bottlenecks
+    - design fault-tolerant mesh
+    - inspect SLA violations
+    - monitor synthetic probes
+    - create scalable overlays
+    - respond to routing outages
+    - balance traffic ingress
+    - review compliance boundaries
+    - audit topology mismatches
+    - deploy data center fabric
+    - design hybrid networks
+    - allocate static subnets
+    - configure OSPF behavior
+    - troubleshoot link-state issues
   type: expert-index

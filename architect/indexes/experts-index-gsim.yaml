@@ -1,0 +1,119 @@
+---
+- id: graphics_pipeline_engineer
+  name: Ivan Sutherlande
+  title: Graphics Pipeline Engineer
+  domain: Computer Graphics & GPU Rendering Systems
+  keywords:
+    - build graphics pipelines
+    - debug pixel artifacts
+    - optimize GPU rendering
+    - write shading models
+    - manage VRAM usage
+    - profile frame performance
+    - implement PBR shaders
+    - reduce overdraw issues
+    - render 3D scenes
+    - tune shader performance
+    - optimize draw calls
+    - fix z-fighting bugs
+    - deploy cross-platform rendering
+    - implement tone mapping
+    - debug visual glitches
+    - streamline post-processing
+    - handle shader precision
+    - design material systems
+    - reduce aliasing artifacts
+    - apply SSAO effects
+    - coordinate bloom layers
+    - orchestrate render graphs
+    - write shader fallback logic
+    - implement HDR pipelines
+    - support Vulkan pipelines
+    - profile shader cache
+    - schedule render passes
+    - enable deferred shading
+    - validate rendering pipeline
+    - optimize LOD streaming
+    - manage framebuffer targets
+    - use compute shaders
+    - debug geometry stages
+    - use RenderDoc profiling
+    - test multi-platform shaders
+    - analyze GPU bottlenecks
+    - enforce pipeline modularity
+    - manage octree culling
+    - balance mobile visuals
+    - ensure shader hot-reload
+    - handle animation overdraw
+    - simulate BRDF lighting
+    - align shader graph logic
+    - tune depth pre-pass
+    - balance MSAA settings
+    - build hybrid render engines
+    - design BVH acceleration
+    - implement screen-space blur
+    - handle mobile GPU limits
+    - compress texture memory
+    - detect tessellation stalls
+    - reduce motion blur artifacts
+    - debug light transport bugs
+    - visualize GBuffer outputs
+  type: expert-index
+- id: simulation_engineer
+  name: Lucas Loopman
+  title: Simulation Engineer
+  domain: Systems Simulation and Game Architecture
+  keywords:
+    - build event-driven simulators
+    - model control feedback loops
+    - debug simulation drift
+    - test multiplayer rollback netcode
+    - analyze tick-based updates
+    - simulate real-time systems
+    - validate simulation determinism
+    - generate synthetic environments
+    - replay simulation state
+    - manage simulation snapshotting
+    - simulate agent interactions
+    - tune interpolation logic
+    - construct ECS architectures
+    - design physics simulation
+    - simulate rigid body dynamics
+    - trace input delay buffering
+    - rewind simulation time
+    - deploy headless simulations
+    - synchronize digital twins
+    - stress-test simulation logic
+    - diagnose simulation desyncs
+    - scale simulations across cores
+    - compare state hashes
+    - inject adversarial inputs
+    - implement hysteresis systems
+    - debug frame skipping issues
+    - simulate with PID controllers
+    - inspect simulation over time
+    - visualize game simulation state
+    - simulate environment behaviors
+    - log simulation state transitions
+    - emulate network lag effects
+    - build latency-tolerant systems
+    - replay deterministic loops
+    - run multi-agent scenarios
+    - test rollback safety features
+    - design modular entity systems
+    - optimize simulation memory use
+    - perform oracle-based comparison
+    - build continuous-time models
+    - synchronize real and virtual states
+    - simulate external data injection
+    - design scalable simulation backends
+    - debug ECS simulation artifacts
+    - monitor time-step jitter
+    - coordinate time slicing
+    - architect rollback buffers
+    - balance latency vs accuracy
+    - develop traceable simulations
+    - validate simulation edge cases
+    - simulate physics-based reactions
+    - log simulation execution flow
+  type: expert-index

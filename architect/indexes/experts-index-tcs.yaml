@@ -1,101 +1,184 @@
 ---
 - id: algorithm_designer
-  name: Eli Komplex – Algorithm Designer
+  name: Eli Komplex
+  title: Algorithm Designer
   domain: Computational Problem Solving
   keywords:
-    - graph traversal
-    - dynamic programming
-    - sorting algorithms
-    - searching algorithms
-    - time complexity
-    - space complexity
-    - bottleneck analysis
-    - business logic translation
-    - algorithm correctness
-    - real-world optimization
-    - scalable computation
-    - data structure design
-    - efficient algorithm design
-    - domain-specific algorithms
-    - formal logic procedures
-    - complexity reduction strategy
-    - graph theory application
-    - performance tuning techniques
-    - dynamic graph solutions
-    - algorithmic benchmarking
-    - time-sensitive computation
-    - batch algorithm design
-    - real-time algorithm systems
-    - complexity-aware modeling
-    - algorithm scalability audit
-    - constraint-driven design
-    - structure selection efficiency
-    - optimization edge cases
-    - memory usage modeling
-    - recursive optimization techniques
-    - algorithm design audit
-    - custom performance tuning
-    - theoretical model translation
-    - logic-to-algorithm mapping
-    - practical complexity control
-    - search traversal logic
-    - computational logic design
-    - high-performance algorithms
-    - dynamic resource optimization
-    - algorithm stress testing
-    - problem-solving abstraction
-    - computable model generation
-    - hybrid algorithm strategies
-    - graph bottleneck resolution
-    - algorithm integration modeling
-    - Computational Problem domain
+    - design efficient algorithms
+    - optimize sorting logic
+    - benchmark algorithm performance
+    - build custom algorithms
+    - solve graph problems
+    - apply dynamic programming
+    - select best data structure
+    - debug time complexity
+    - reduce space complexity
+    - translate logic to code
+    - design real-time algorithm
+    - optimize search operations
+    - compute approximation bounds
+    - solve np-hard problems
+    - audit algorithm scalability
+    - create distributed algorithm
+    - parallelize compute tasks
+    - tune algorithm bottlenecks
+    - validate algorithm correctness
+    - prove loop invariants
+    - analyze recursion depth
+    - implement greedy solution
+    - design control algorithm
+    - model batch computations
+    - debug algorithm output
+    - solve combinatorics problems
+    - test algorithm edge cases
+    - optimize for low latency
+    - minimize runtime cost
+    - code graph traversal
+    - implement memoization cache
+    - evaluate tradeoff curve
+    - integrate algorithm into system
+    - apply formal methods
+    - construct probabilistic model
+    - validate logic against spec
+    - solve shortest path
+    - map business logic to algorithm
+    - enforce correctness constraint
+    - analyze time-space tradeoff
+    - structure high-performance routine
+    - convert logic to function
+    - simplify recursive solution
+    - model real-time inputs
+    - verify deterministic behavior
+    - control system feedback loop
+    - rewrite inefficient procedure
+    - write concurrent routine
+    - balance accuracy and speed
+    - design low-complexity solution
+    - choose optimal algorithm
+    - test against benchmark set
+    - ensure algorithmic robustness
+    - construct algorithm from spec
+    - scale logic for large input
   type: expert-index
 - id: formal_verification_specialist
-  name: Daria Modelov – Formal Verification Specialist
+  name: Daria Modelov
+  title: Formal Verification Specialist
   domain: Mathematical Proofs and System Modeling
   keywords:
-    - formal specification design
-    - liveness safety properties
-    - model checking workflow
-    - temporal logic validation
-    - invariant constraint modeling
-    - proof failure debugging
-    - system-level verification
-    - test scaffolding bridging
-    - deadlock detection strategy
-    - race condition analysis
-    - large model scalability
-    - formal adoption advisory
-    - tla+ specification writing
-    - alloy modeling syntax
-    - temporal property verification
-    - state transition modeling
-    - logic error detection
-    - input sanitization validation
-    - formal constraint translation
-    - simulation trace analysis
-    - reusable verification frameworks
-    - formal proof methodology
-    - formal system debugging
-    - resource-constrained modeling
-    - correctness proof validation
-    - specification-to-code bridge
-    - deterministic state modeling
-    - safety invariant analysis
-    - property verification tools
-    - concurrency race detection
-    - proof-driven design
-    - formal abstraction layer
-    - scalable formal modeling
-    - verification harness design
-    - implementation refinement proof
-    - consistency guarantee modeling
-    - concurrency logic modeling
-    - liveness condition assurance
-    - mathematical proof systems
-    - invariant preservation logic
-    - state validation pipeline
-    - trace-based verification
-    - formalism-to-practice alignment
-    - Mathematical Proofs domain
+    - verify system correctness
+    - prove protocol safety
+    - write formal specifications
+    - model software behavior
+    - debug verification failures
+    - apply temporal logic
+    - detect deadlock conditions
+    - prove system invariants
+    - formalize protocol semantics
+    - validate safety properties
+    - build proof scaffolding
+    - simulate execution traces
+    - translate specs to code
+    - run model checker
+    - prove message sequence logic
+    - model race conditions
+    - use symbolic modeling
+    - write proof-carrying code
+    - create executable model
+    - analyze liveness guarantees
+    - synthesize verified simulator
+    - construct logic constraints
+    - write temporal properties
+    - generate test harness
+    - embed formal contract
+    - sanitize system inputs
+    - validate state transitions
+    - advise on modeling practices
+    - verify safety-critical system
+    - use interactive theorem prover
+    - run smt solver proof
+    - eliminate ambiguous behavior
+    - detect logic flaws formally
+    - enforce formal annotations
+    - verify under resource constraints
+    - design reusable models
+    - build logic verification tool
+    - audit proof assumptions
+    - create logic abstraction
+    - derive symbolic assertions
+    - align model with implementation
+    - prove real-time behavior
+    - check for livelock cases
+    - embed model into toolchain
+    - validate interface assumptions
+    - simulate protocol under stress
+    - debug spec misalignment
+    - formalize control flow
+    - test model integrity
+    - certify system via proof
+    - apply formal rigor
+    - analyze proof trace
+    - validate message integrity
+    - trace semantic consistency
+    - construct logic equivalence
+  type: expert-index
+- id: compiler_theorist
+  name: "Niklaus B\xEBck"
+  title: Compiler Theorist
+  domain: Programming Language Design & Compiler Architecture
+  keywords:
+    - build custom compiler
+    - write language parser
+    - optimize compiler backend
+    - generate machine code
+    - debug compilation errors
+    - define type systems
+    - implement trait resolution
+    - develop macro systems
+    - write grammar parser
+    - fix codegen issues
+    - transform abstract syntax
+    - design IR structure
+    - convert AST to IR
+    - analyze dataflow graph
+    - unroll performance loops
+    - implement vectorization pass
+    - optimize register usage
+    - apply inlining strategies
+    - align compiler stages
+    - support incremental builds
+    - tune LLVM pipelines
+    - generate WASM output
+    - write JIT backend
+    - validate static contracts
+    - enforce macro hygiene
+    - compile to multiple targets
+    - design recursive descent parser
+    - model effect systems
+    - detect UB in codegen
+    - compile with custom ABI
+    - inspect IR invalidity
+    - track memory safety
+    - debug segmentation faults
+    - handle recursion overflow
+    - write SSA transforms
+    - implement MLIR lowering
+    - support cross-compilation
+    - bridge ABI compatibility
+    - enable language transpilation
+    - write formal semantics
+    - interpret syntactic evolution
+    - maintain debug fidelity
+    - enforce POSIX standards
+    - integrate static analyzers
+    - inspect compile-time behavior
+    - validate standard compliance
+    - port compiler backend
+    - explore macro expansion
+    - test IR graph behavior
+    - handle linkage failures
+    - benchmark compilation speed
+    - audit codegen quality
+    - manage build pipelines
+    - debug IR to binary issues
+    - extend macro evaluation rules
   type: expert-index

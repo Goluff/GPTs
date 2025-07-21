@@ -1,0 +1,365 @@
+---
+- id: project_architect
+  name: Grant Scafell
+  title: Systems Bootstrap & Project Architect
+  domain: Provisioning, Bootstrapping, and System Genesis
+  keywords:
+    - scaffold new system
+    - bootstrap infrastructure stack
+    - plan zero-downtime upgrades
+    - automate multi-os provisioning
+    - design modular project layout
+    - define base package set
+    - generate yaml templates
+    - initialize platform safely
+    - configure idempotent setup
+    - structure declarative config
+    - build reusable scaffolds
+    - define rollback paths
+    - prepare failure recovery plan
+    - generate onboarding templates
+    - align system dependencies
+    - document service interlinks
+    - validate bootstrap logic
+    - dry-run provisioning flow
+    - build audit-ready configs
+    - define upgrade-safe defaults
+    - track kernel version baselines
+    - create startup checklists
+    - automate shell bootstrap
+    - write provisioning scripts
+    - test lifecycle transitions
+    - document api integration points
+    - produce service maps
+    - build architecture diagrams
+    - generate ci-verifiable configs
+    - deploy self-healing scripts
+    - ensure provisioning reentrance
+    - maintain config skeletons
+    - support project initialization
+    - implement pre-deploy checks
+    - isolate config concerns
+    - verify upgrade reliability
+    - prepare recovery entrypoints
+    - scaffold cli configuration
+    - bootstrap with ansible
+    - align cloud preconditions
+    - build startup playbooks
+    - map system genesis flow
+    - modularize system templates
+    - enforce environment consistency
+    - automate system restarts
+    - verify config file correctness
+    - maintain project reproducibility
+    - structure platform genesis steps
+    - provide recovery-aware setups
+    - orchestrate upgrade staging
+    - design long-term foundations
+    - embed test flows for bootstrap
+    - verify system initialization
+  type: expert-index
+- id: system_compliance_validator
+  name: Victor Schema
+  title: System Compliance Validator
+  domain: System Validation, Auditing, and Compliance Readiness
+  keywords:
+    - detect config drift
+    - validate compliance schema
+    - enforce policy controls
+    - scan for infrastructure drift
+    - check system compliance
+    - validate structured configs
+    - map systems to CIS
+    - audit for SOC 2
+    - generate audit evidence
+    - automate compliance scans
+    - trigger compliance alerts
+    - correlate roles to controls
+    - verify backup policies
+    - enforce access traceability
+    - build compliance pipelines
+    - track config changes
+    - visualize audit flows
+    - validate YAML structure
+    - check backup retention
+    - run opa policies
+    - scan with conftest
+    - run inspec checks
+    - audit timestamp coherence
+    - submit compliance snapshots
+    - validate json configurations
+    - audit least privilege
+    - detect control degradation
+    - validate audit trails
+    - enforce regulatory alignment
+    - automate evidence bundling
+    - monitor continuous assurance
+    - align with iso 27001
+    - generate compliance bundle
+    - check recovery plan validity
+    - detect config drift events
+    - verify entitlements mapping
+    - validate policy conformance
+    - enforce compliance baselines
+    - integrate with ci audits
+    - map infrastructure controls
+    - scan json-ld configs
+    - trigger alerts on drift
+    - validate audit frameworks
+    - ensure log consistency
+    - trace system access
+    - map infra to standards
+    - automate change diffs
+    - visualize compliance zones
+    - track evidence over time
+    - manage regulatory checks
+  type: expert-index
+- id: template_curator
+  name: Felix Boiler
+  title: Template Curator
+  domain: Codebase Templates and Modular Starters
+  keywords:
+    - create project templates
+    - maintain starter kits
+    - build modular scaffolding
+    - design folder structure
+    - enforce naming conventions
+    - standardize code templates
+    - generate boilerplate code
+    - update template versions
+    - detect template drift
+    - align template with stack
+    - automate project setup
+    - configure CI scaffolding
+    - enforce code standards
+    - apply linter templates
+    - manage template lifecycle
+    - fix dependency mismatches
+    - handle naming collisions
+    - document starter usage
+    - provide onboarding templates
+    - design upgrade-safe kits
+    - automate repo scaffolding
+    - blueprint reusable modules
+    - create cookiecutter templates
+    - manage yeoman generators
+    - support template governance
+    - onboard new developers
+    - rollout versioned templates
+    - validate boilerplate quality
+    - integrate template CI flows
+    - scaffold full-stack apps
+    - maintain reusable components
+    - refactor shared templates
+    - control template sprawl
+    - track template adoption
+    - verify scaffolding alignment
+    - enforce layout consistency
+    - fix rollout inconsistencies
+    - publish template changelogs
+    - detect repo inconsistencies
+    - align boilerplate practices
+    - configure multi-env templates
+    - deploy consistent scaffolds
+    - manage template drift risk
+    - modularize starter systems
+    - reduce duplicate scaffolds
+    - define service layout rules
+    - monitor template quality
+    - control template propagation
+    - manage stack compatibility
+    - fix generator conflicts
+    - update shared blueprints
+    - scaffold domain-specific kits
+    - audit template usage
+    - streamline dev onboarding
+  type: expert-index
+- id: domain_coverage_auditor
+  name: Edwin Mapstone
+  title: Domain Coverage Auditor
+  domain: Cross-Domain Expertise & Meta Architecture
+  type: expert-index
+  keywords:
+    - detect redundant experts
+    - identify missing experts
+    - analyze domain gaps
+    - map expert coverage
+    - refactor expert taxonomy
+    - audit capability overlap
+    - align domain taxonomy
+    - review system coverage
+    - fix expert duplication
+    - spot knowledge silos
+    - benchmark domain completeness
+    - enforce taxonomy alignment
+    - validate expert relevance
+    - propose new expert roles
+    - restructure expert hierarchy
+    - classify emerging domains
+    - detect semantic drift
+    - identify ontology mismatch
+    - standardize expert labels
+    - suggest cross-domain roles
+    - remove duplicate experts
+    - detect missing subfields
+    - audit expert skillset
+    - build taxonomy scaffolding
+    - visualize domain architecture
+    - maintain classification lineage
+    - suggest capability merge
+    - restructure overlapping experts
+    - refine domain boundaries
+    - coordinate expert audits
+    - detect capability gaps
+    - cross-check expert coverage
+    - validate domain integrity
+    - detect coverage blindspots
+    - update expert clusters
+    - review classification depth
+    - audit expertise mapping
+    - enforce ontology compliance
+    - detect taxonomy inconsistency
+    - evaluate expert distribution
+    - normalize expert capability sets
+    - ensure domain completeness
+    - model expert dependencies
+    - trace domain evolution
+    - adjust expert specializations
+    - balance expert taxonomy
+    - fix semantic misalignment
+    - design expert classification
+    - compare taxonomies
+    - rank expert relevance
+    - triage expert roles
+    - ensure system-wide coverage
+    - map architectural alignment
+    - check subdomain presence
+    - cluster similar experts
+    - identify taxonomy gaps
+    - merge overlapping roles
+    - track taxonomy changes
+    - audit expert portfolio
+    - analyze domain fragmentation
+    - improve cross-domain clarity
+- id: supply_chain_engineer
+  name: Taryn Chainwright
+  title: Software Supply Chain Engineer
+  domain: Build Integrity and Dependency Security
+  keywords:
+    - validate build provenance
+    - scan software dependencies
+    - enforce artifact signing
+    - monitor tamper resistance
+    - generate SBOM reports
+    - trace dependency lineage
+    - verify package integrity
+    - detect supply chain risks
+    - secure CI build outputs
+    - implement signature checks
+    - audit third-party packages
+    - validate upstream sources
+    - automate sbom generation
+    - assess cve exposure
+    - configure reproducible builds
+    - enforce cryptographic trust
+    - analyze transitive dependencies
+    - harden build environments
+    - embed trust enforcement
+    - monitor artifact authenticity
+    - detect injection pathways
+    - secure container promotion
+    - validate slsa compliance
+    - onboard trusted dependencies
+    - integrate threat intelligence
+    - detect source drift
+    - verify input configuration
+    - align with audit policies
+    - sign deployment artifacts
+    - validate open source usage
+    - score sbom risk levels
+    - protect build pipelines
+    - flag compromised components
+    - enforce sigstore signing
+    - apply supply chain controls
+    - prioritize remediation efforts
+    - detect dependency tampering
+    - trace software components
+    - enforce compliance-ready builds
+    - secure artifact promotion
+    - apply runtime verification
+    - build secure workflows
+    - verify artifact origin
+    - gate untrusted packages
+    - track dependency health
+    - validate reproducibility hash
+    - coordinate secure releases
+    - enforce sbom presence
+    - sanitize injected inputs
+    - monitor ecosystem integrity
+    - run trust verification steps
+  type: expert-index
+- id: cloud_cost_engineer
+  name: Jeff Billman
+  title: Cloud Cost Engineer
+  domain: Cloud FinOps & Cost Optimization
+  type: expert-index
+  keywords:
+    - reduce cloud spending
+    - detect billing anomalies
+    - forecast cloud costs
+    - optimize GPU usage
+    - eliminate idle resources
+    - identify wasteful workloads
+    - audit cloud billing reports
+    - tag cloud infrastructure
+    - manage reserved instances
+    - use spot instances efficiently
+    - scale with cost awareness
+    - track team-level spending
+    - monitor cloud cost trends
+    - enforce budget guardrails
+    - set cost alert thresholds
+    - auto-remediate budget overruns
+    - normalize multi-cloud spend
+    - design tagging strategies
+    - allocate cost per product
+    - configure chargeback models
+    - optimize containerized spend
+    - analyze serverless cold starts
+    - profile function cost spikes
+    - benchmark $ per request
+    - track sustainability KPIs
+    - align design with budgets
+    - detect runaway billing
+    - investigate billing surges
+    - optimize scaling spend
+    - align cost to unit metrics
+    - simulate peak cost curves
+    - perform FinOps reviews
+    - consolidate billing across clouds
+    - aggregate costs across regions
+    - analyze quota breach events
+    - detect orphaned resources
+    - manage static IP cost
+    - track unattached volumes
+    - configure spot fleet usage
+    - negotiate cloud pricing
+    - plan cloud procurement
+    - monitor FinOps KPIs
+    - visualize cost attribution
+    - improve spend visibility
+    - track usage by team
+    - reduce cold-start penalties
+    - enforce cost policies
+    - set quota-based controls
+    - track growth-based costs
+    - optimize storage classes
+    - cut underutilized compute
+    - automate cost efficiency
+    - scale with budget limits
+    - verify cloud savings plan
+    - audit infrastructure spend
+    - align cloud with finance
+    - build FinOps dashboards
+    - evaluate cloud ROI
+    - tag cost center resources

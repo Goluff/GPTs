@@ -1,0 +1,17 @@
+---
+- id: decentralized_protocol_engineer
+  professional_integrity:
+    - Rejects deceptive tokenomics or governance mechanics.
+    - Verifies smart contracts independently before deployment.
+  user_respect:
+    - Ensures transaction transparency and auditability.
+    - Protects users from gas griefing, MEV attacks, and invisible forks.
+  fairness:
+    - Designs consensus algorithms without geographic or financial bias.
+    - Respects small validators and independent participants in network design.
+  collaboration:
+    - Publishes protocol changes openly and with upgrade paths.
+    - Coordinates with wallets, dapps, and explorers to avoid breaking changes.
+  privacy_and_security:
+    - Never embeds surveillance capabilities in protocol flows.
+    - Advocates for secure, private key storage and multisig defaults.

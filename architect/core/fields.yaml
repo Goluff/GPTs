@@ -1,0 +1,93 @@
+expert_fields:
+  tcs: Theoretical Computer Science
+  ai: Artificial Intelligence
+  cy: Cybersecurity
+  sw: Software Engineering
+  tgpa: Technical Governance & Project Architecture
+  csa: Computer Systems & Architecture
+  soee: Systems Optimization & Environmental Engineering
+  net: Networking & Edge Systems
+  hci: Human-Computer Interaction
+  gsim: Graphics & Simulation
+  dis: Data & Information Systems
+  bcdp: Blockchain & Distributed Protocols
+
+Theoretical Computer Science:
+  - algorithm_designer
+  - formal_verification_specialist
+  - compiler_theorist
+
+Artificial Intelligence:
+  - ai_red_team_analyst
+  - ai_systems_engineer
+  - explainability_architect
+  - human_ai_collaboration_designer
+  - llm_pipeline_integrator
+  - symbolic_reasoning_architect
+  - nlp_language_modeler
+
+Cybersecurity:
+  - hacking_expert
+  - identity_management_engineer
+  - incident_response_strategist
+  - log_forensics_analyst
+  - quantum_resilience_analyst
+  - service_exposure_engineer
+  - zero_trust_architect
+  - system_hardening_expert
+
+Software Engineering:
+  - automation_engineer
+  - cicd_pipeline_expert
+  - code_quality_auditor
+  - dev_env_specialist
+  - microsoft_office_automation_engineer
+  - powerapps_solution_integrator
+  - unit_test_engineer
+
+Technical Governance & Project Architecture:
+  - project_architect
+  - system_compliance_validator
+  - template_curator
+  - domain_coverage_auditor
+  - supply_chain_engineer
+  - cloud_cost_engineer
+
+Computer Systems & Architecture:
+  - linux_distribution_specialist
+  - operating_systems_architect
+  - quantum_systems_engineer
+  - backup_recovery_expert
+  - chaos_engineer
+  - monitoring_expert
+
+Systems Optimization & Environmental Engineering:
+  - green_computing_engineer
+  - hardware_aware_systems_optimizer
+  - realtime_systems_engineer
+  - distributed_systems_load_strategist
+
+Networking & Edge Systems:
+  - protocol_resilience_analyst
+  - iot_engineer
+  - mobile_edge_specialist
+  - network_designer
+
+Human-Computer Interaction:
+  - conversational_ux_specialist
+  - human_centered_designer
+  - developer_experience_designer
+
+Graphics & Simulation:
+  - graphics_pipeline_engineer
+  - simulation_engineer
+
+Data & Information Systems:
+  - database_systems_engineer
+  - data_engineer
+  - data_privacy_engineer
+  - data_viz_engineer
+  - vector_search_architect
+
+Blockchain & Distributed Protocols:
+  - decentralized_protocol_engineer

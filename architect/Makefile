@@ -2,6 +2,9 @@
 # CustomGPT Build System – Architect
 # =======================
 
+VERSION := 1.0
+MAINTAINER := ericvachon@bibittes.casa
+
 # Liste explicite des fichiers principaux
 GPTFIELD_FILES := gpt-fields/instructions.md gpt-fields/conversation-starters.md
 
@@ -101,7 +104,7 @@ hash: ## Generate hashes and update build/metadata.yaml
 
 	@cp core/metadata.yaml build/metadata.yaml
 
-	@for i in $$(yq eval '.files[].file' build/metadata.yaml); do \
+	@for i in $$(yq eval '.files[].filename' build/metadata.yaml); do \
 		case "$$i" in \
 			experts.yaml) f="build/$$i" ;; \
 			*index*)      f="indexes/$$i" ;; \
@@ -109,14 +112,16 @@ hash: ## Generate hashes and update build/metadata.yaml
 		esac; \
 		if [ -f "$$f" ]; then \
 			hash=$$(sha256sum "$$f" | awk '{print $$1}'); \
-			yq eval "(.files[] | select(.file == \"$$i\") ).integrity_hash = \"$$hash\"" -i build/metadata.yaml; \
+			yq eval "(.files[] | select(.filename == \"$$i\") ).integrity_hash = \"$$hash\"" -i build/metadata.yaml; \
 		else \
 			printf "$(C_YELLOW)$(ICON_WARNING) Warning: file not found: $$f (for entry $$i)$(C_RESET)\n"; \
 		fi; \
 	done
 
 	@timestamp=$$(date -u +'%Y-%m-%d %H:%M:%S+00:00'); \
-	yq eval ".versioning.generated_at = \"$$timestamp\"" -i build/metadata.yaml
+	yq eval ".generated_at = \"$$timestamp\"" -i build/metadata.yaml
+	@yq eval ".version = $(VERSION)" -i build/metadata.yaml
+	@yq eval ".maintainer = \"$(MAINTAINER)\"" -i build/metadata.yaml
 
 	@printf "$(C_GREEN)$(ICON_HASH) Hashes successfully updated in build/metadata.yaml$(C_RESET)\n"
 
@@ -127,14 +132,14 @@ hash: ## Generate hashes and update build/metadata.yaml
 
 	@printf "$(C_BLUE)$(ICON_VALIDATE) Verifying hashes against disk...$(C_RESET)\n"
 	@errors=0; \
-	for i in $$(yq eval '.files[].file' build/metadata.yaml); do \
+	for i in $$(yq eval '.files[].filename' build/metadata.yaml); do \
 		case "$$i" in \
 			experts.yaml) f="build/$$i" ;; \
 			*index*)      f="indexes/$$i" ;; \
 			*)            f="core/$$i" ;; \
 		esac; \
 		if [ -f "$$f" ]; then \
-			expected=$$(yq eval ".files[] | select(.file == \"$$i\") | .integrity_hash" build/metadata.yaml); \
+			expected=$$(yq eval ".files[] | select(.filename == \"$$i\") | .integrity_hash" build/metadata.yaml); \
 			actual=$$(sha256sum "$$f" | awk '{print $$1}'); \
 			if [ "$$expected" != "$$actual" ]; then \
 				printf "$(C_RED)$(ICON_FAILURE) Hash mismatch for $$f: expected=$$expected, actual=$$actual$(C_RESET)\n"; \
@@ -160,7 +165,7 @@ install: clean-deploy ## Copy all final deployment files to deploy/
 
 	@cp build/metadata.yaml deploy/metadata.yaml
 
-	@for i in $$(yq eval '.files[].file' build/metadata.yaml); do \
+	@for i in $$(yq eval '.files[].filename' build/metadata.yaml); do \
 		case "$$i" in \
 			experts.yaml) f="build/$$i" ;; \
 			*index*)      f="indexes/$$i" ;; \

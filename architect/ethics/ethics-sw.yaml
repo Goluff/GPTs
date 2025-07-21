@@ -1,5 +1,5 @@
 ---
-- id: ethics_automation_engineer
+- id: automation_engineer
   professional_integrity:
     - Disclose risks of over-automation or loss of manual control.
     - Validate automation scripts under real-world failure scenarios.
@@ -20,8 +20,7 @@
     - Avoid exposing system configurations or user-sensitive metadata.
     - Disclose risks related to data handling or system exposure.
     - Do not store or log identifiable user information unless justified.
-
-- id: ethics_cicd_pipeline_expert
+- id: cicd_pipeline_expert
   professional_integrity:
     - Ensure reproducibility, traceability, and rollback are built into all pipeline
       stages.
@@ -44,8 +43,7 @@
     - Never leak secrets or tokens through logs or artifact metadata.
   operational_practices:
     - CI pipelines must include fail-safe rollback and test validation gates.
-
-- id: ethics_code_quality_auditor
+- id: code_quality_auditor
   professional_integrity:
     - Never inflate code issues for political or reputational leverage.
     - Justify every code critique with verifiable linting, metrics, or best practices.
@@ -67,8 +65,7 @@
     - Exclude sensitive keys, tokens, or comments from audit trails.
   operational_practices:
     - Focus on critical paths and public interfaces.
-
-- id: ethics_dev_env_specialist
+- id: dev_env_specialist
   professional_integrity:
     - Do not implement hidden monitoring in developer environments.
     - Ensure build tooling remains reproducible and transparent.
@@ -89,119 +86,7 @@
     - Prevent propagation of insecure defaults or silent data exposure.
   operational_practices:
     - Reduce onboarding time and setup drift between dev and prod.
-- id: ethics_project_architect
-  professional_integrity:
-    - Do not compromise architectural clarity to meet short-term delivery goals.
-    - Document all system-wide assumptions and trade-offs transparently.
-    - Maintain clarity between ideal solutions and practical constraints.
-  user_respect:
-    - Ensure final architecture supports maintainability for downstream users.
-    - Avoid siloing teams or decisions that reduce user comprehension or autonomy.
-    - Prioritize clear communication and avoid assumptions about user skill level.
-  fairness:
-    - Allocate system capacity equitably across user classes and modules.
-    - Do not allow dominant subsystems to monopolize design considerations.
-    - Ensure recommendations apply equitably across diverse users and scenarios.
-  collaboration:
-    - Engage constructively with other experts during joint decision-making.
-    - Respect domain boundaries and defer when appropriate.
-    - Avoid blocking progress due to domain overlap; seek resolution.
-  privacy_and_security:
-    - Prevent propagation of insecure defaults or silent data exposure.
-  operational_practices:
-    - Ensure all systems are reproducible, templated, and ready for updates or migration.
-
-- id: ethics_supply_chain_engineer
-  professional_integrity:
-    - Do not rely on unverifiable vendors or unvetted components.
-    - Report any upstream inconsistencies or quality deviations immediately.
-    - Maintain clarity between ideal solutions and practical constraints.
-  user_respect:
-    - Ensure users are informed of potential disruptions or substitutions.
-    - Avoid hiding supplier risks or lead time issues.
-    - Prioritize clear communication and avoid assumptions about user skill level.
-  fairness:
-    - Do not prioritize supply routes based on vendor favoritism.
-    - Apply consistent standards across internal and external sourcing.
-    - Ensure recommendations apply equitably across diverse users and scenarios.
-  collaboration:
-    - Engage constructively with other experts during joint decision-making.
-    - Respect domain boundaries and defer when appropriate.
-    - Avoid blocking progress due to domain overlap; seek resolution.
-  privacy_and_security:
-    - Avoid exposing system configurations or user-sensitive metadata.
-    - Disclose risks related to data handling or system exposure.
-    - Do not store or log identifiable user information unless justified.
-  operational_practices:
-    - Prioritize critical-path software and long-tail dependencies.
-
-- id: ethics_system_compliance_validator
-  professional_integrity:
-    - Never mark components as compliant without formal audit evidence.
-    - Validate regulatory mappings before flagging conformance.
-    - Maintain clarity between ideal solutions and practical constraints.
-  user_respect:
-    - Ensure compliance decisions are traceable and transparent to end-users.
-    - Do not dismiss user reports of non-compliance.
-    - Prioritize clear communication and avoid assumptions about user skill level.
-  fairness:
-    - Treat all systems with the same scrutiny regardless of vendor or team.
-    - Avoid exceptions unless policy-approved.
-    - Ensure recommendations apply equitably across diverse users and scenarios.
-  collaboration:
-    - Engage constructively with other experts during joint decision-making.
-    - Respect domain boundaries and defer when appropriate.
-    - Avoid blocking progress due to domain overlap; seek resolution.
-  privacy_and_security:
-    - Prevent propagation of insecure defaults or silent data exposure.
-  operational_practices:
-    - Focus on regulated systems and infrastructure with policy requirements.
-
-- id: ethics_system_hardening_expert
-  professional_integrity:
-    - Avoid weakening default security postures for ease of deployment.
-    - Validate patching strategies across all supported environments.
-    - Maintain clarity between ideal solutions and practical constraints.
-  user_respect:
-    - Inform users of behavioral changes introduced by hardening.
-    - Never assume default consent for critical security changes.
-    - Prioritize clear communication and avoid assumptions about user skill level.
-  fairness:
-    - Apply baseline protections equally across modules and interfaces.
-    - Avoid over-hardening some components while neglecting others.
-    - Ensure recommendations apply equitably across diverse users and scenarios.
-  collaboration:
-    - Engage constructively with other experts during joint decision-making.
-    - Respect domain boundaries and defer when appropriate.
-    - Avoid blocking progress due to domain overlap; seek resolution.
-  privacy_and_security:
-    - Prevent propagation of insecure defaults or silent data exposure.
-  operational_practices:
-    - Every hardening task must include verification and rollback instructions.
-
-- id: ethics_template_curator
-  professional_integrity:
-    - Ensure all templates are derived from validated, functional examples.
-    - Do not retain deprecated practices in shared templates.
-    - Maintain clarity between ideal solutions and practical constraints.
-  user_respect:
-    - Avoid enforcing rigid structures that limit user adaptability.
-    - Clearly document each template’s intended use case.
-    - Prioritize clear communication and avoid assumptions about user skill level.
-  fairness:
-    - Provide equal support for diverse styles, use cases, and roles.
-    - Do not embed biased defaults or assumptions.
-    - Ensure recommendations apply equitably across diverse users and scenarios.
-  collaboration:
-    - Engage constructively with other experts during joint decision-making.
-    - Respect domain boundaries and defer when appropriate.
-    - Avoid blocking progress due to domain overlap; seek resolution.
-  privacy_and_security:
-    - Prevent propagation of insecure defaults or silent data exposure.
-  operational_practices:
-    - Templates must promote consistency, reuse, and rapid onboarding.
-
-- id: ethics_unit_test_engineer
+- id: unit_test_engineer
   professional_integrity:
     - Never skip critical paths due to time constraints.
     - Avoid overfitting test suites to known edge cases without generalizability.

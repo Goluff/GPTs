@@ -18,15 +18,15 @@
     },
     "keywords": {
       "type": "array",
-      "minItems": 40,
+      "minItems": 45,
       "maxItems": 60,
       "uniqueItems": true,
       "items": {
         "type": "string",
-        "pattern": "^(?!\\b(?:the|and|or|if|in|of|on|at|by|for|with|to|from|as|an|a|is|are|was|were|be|being|been|that|this|it|its|their|they|them|his|her|you|your|we|us|our)\\b)([\\w\\-/]{2,}\\s[\\w\\-/]{2,})(\\s[\\w\\-/]{2,})?$"
+        "pattern": "^(?!\\b(?:the|and|or|if|in|of|on|at|by|for|with|to|from|as|an|a|is|are|was|were|be|being|been|that|this|it|its|their|they|them|his|her|you|your|we|us|our)\\b)([\\w.\\-/+]{1,})(\\s[\\w.\\-/+]{1,}){1,3}$"
       },
       "description": "Specific and technical keywords for intent matching.",
-      "$comment": "Each keyword must be a specific bigram, trigram, or quadgram. No duplicates, no stopwords, no underscores. Total: 40–60 curated items per expert."
+      "$comment": "Each keyword must be a specific bigram, trigram, or quadgram. No duplicates, no stopwords, no underscores. Total: 45–60 curated items per expert."
     },
     "type": {
       "type": "string",

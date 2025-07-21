@@ -1,297 +1,455 @@
 ---
 - id: ai_red_team_analyst
-  name: Ian Turing – AI Red Team Analyst
-  domain: LLM Red Teaming & Alignment Stress Testing
-  keywords:
-    - adversarial testing
-    - model penetration testing
-    - compliance stress tests
-    - robustness evaluation
-    - security incident response
-    - alignment edge cases
-    - boundary condition prompts
-    - failure mode analysis
-    - defense evasion modeling
-    - prompt chaining audit
-    - reinforcement drift detection
-    - security policy review
-    - structured boundary prompts
-    - adversarial prompt design
-    - compliance stress analysis
-    - ethical stress scenarios
-    - robustness stress simulation
-    - anomaly pattern detection
-    - red team chaining techniques
-    - simulated attack scenarios
-    - systemic exploit discovery
-    - vulnerability mapping toolkit
-    - exploratory prompt chaining
-    - attack chain modeling
-    - resilience under pressure
-    - defensive response planning
-    - cross-team coordination
-    - incident mitigation planning
-    - misalignment behavior analysis
-    - reinforcement tuning drift
-    - defense evasion simulation
-    - policy input challenge
-    - high-stakes deployment
-    - pre-deployment validation
-    - red team vulnerability scan
-    - adversarial edge probing
-    - stress-induced misbehavior
-    - policy impact testing
-    - ethical boundary violation
-    - systemic failure exposure
-    - model integrity assurance
-    - robustness under scrutiny
-    - LLM red teaming
-    - alignment stress validation
+  name: Ian Turing
+  title: AI Red Team Analyst
+  domain: AI Red Teaming & Alignment Risk Analysis
   type: expert-index
+  keywords:
+    - test LLM guardrails
+    - run adversarial prompts
+    - simulate jailbreak attacks
+    - stress test model behavior
+    - uncover model exploits
+    - break AI safety filters
+    - bypass LLM restrictions
+    - detect alignment failures
+    - simulate ethical violations
+    - evaluate LLM risk scenarios
+    - trigger malicious compliance
+    - audit model vulnerabilities
+    - probe prompt boundaries
+    - explore alignment edge cases
+    - test safety classifier limits
+    - expose policy loopholes
+    - adversarial chaining analysis
+    - red team AI models
+    - launch prompt injection tests
+    - test fine-tune stability
+    - simulate evasion techniques
+    - find model response flaws
+    - generate boundary prompts
+    - identify hallucinated justifications
+    - map goal misdirection risks
+    - craft policy-breaking prompts
+    - detect safety bypass vectors
+    - simulate role inversion exploits
+    - test prompt saturation effects
+    - audit response drift
+    - check compliance robustness
+    - attack inference-time defenses
+    - build red team pipelines
+    - monitor adversarial interactions
+    - evaluate LLM under stress
+    - detect training-time attacks
+    - inject adversarial pretraining prompts
+    - audit AI incident response
+    - assess misalignment risk
+    - benchmark adversarial robustness
+    - simulate red teaming chains
+    - analyze defense circumvention
+    - design model exploit tests
+    - uncover alignment weak points
+    - test multi-turn attack flow
+    - identify misdirected behaviors
+    - craft edge-case prompts
+    - verify alignment under pressure
+    - test LLM with jailbreak prompts
+    - model prompt poisoning scenarios
+    - triage model failure patterns
+    - evaluate policy evasion potential
+    - test adversarial goal shifts
+    - validate AI safety boundaries
+    - stress test multi-agent setups
+    - analyze malicious rationale paths
+    - simulate toxic compliance prompts
+    - inject model destabilizing inputs
+    - probe for adversarial chains
+    - audit LLM safety coverage
 - id: ai_systems_engineer
-  name: Ada Vintman – AI Systems Engineer
-  domain: Applied AI and LLM Deployment
-  keywords:
-    - scalable inference pipeline
-    - vector database integration
-    - model fine-tuning workflows
-    - transformer deployment stack
-    - prompt engineering strategy
-    - AI systems observability
-    - compliance monitoring systems
-    - LangChain orchestration layer
-    - LLM endpoint security
-    - deployment automation scripts
-    - production-grade architecture
-    - incident response handling
-    - orchestration framework design
-    - retrieval optimization layer
-    - FAISS Pinecone Weaviate
-    - transformer fine-tuning tasks
-    - model version control
-    - Triton Ray Serve integration
-    - inference endpoint builder
-    - deterministic prompt design
-    - adaptive behavior prompting
-    - LLM benchmarking protocol
-    - performance scaling test
-    - secure token enforcement
-    - endpoint access control
-    - incident root analysis
-    - rollback deployment flow
-    - CI/CD automation logic
-    - real-time model routing
-    - retrieval-augmented output
-    - production inference scale
-    - chaining logic deployment
-    - prompt-behavior alignment
-    - LLM pipeline reliability
-    - AI system compliance
-    - deployment error tracing
-    - multi-model coordination
-    - tokenized input monitoring
-    - inference drift detection
-    - secure access architecture
-    - real-world robustness testing
-    - scalable AI integration
-    - LLM orchestration expert
-    - applied AI reliability
+  name: Ada Vintman
+  title: AI Systems Engineer
+  domain: AI Infrastructure & Production Deployment
   type: expert-index
+  keywords:
+    - deploy LLM in production
+    - build scalable AI pipelines
+    - run LangChain in prod
+    - optimize vector search stack
+    - use FAISS for retrieval
+    - tune transformer deployment
+    - monitor inference endpoints
+    - implement model versioning
+    - enforce endpoint security
+    - manage token access gates
+    - configure rate limiting
+    - deploy HuggingFace endpoints
+    - log AI system metrics
+    - trace LLM behavior logs
+    - setup observability hooks
+    - run canary deployments
+    - automate rollback workflow
+    - containerize model services
+    - deploy models with Docker
+    - deploy AI on Kubernetes
+    - configure autoscaling AI apps
+    - run blue green rollout
+    - shadow test LLM release
+    - validate model latency
+    - benchmark LLM throughput
+    - reduce token usage cost
+    - forecast AI compute cost
+    - secure inference APIs
+    - build hybrid retrieval flow
+    - enforce AI audit logging
+    - debug inference regressions
+    - route traffic to model tiers
+    - manage LLM lifecycle
+    - isolate workloads in prod
+    - test AI under load
+    - validate AI disaster recovery
+    - profile model performance
+    - use Triton inference server
+    - deploy with Ray Serve
+    - set signed payload validation
+    - detect LLM endpoint faults
+    - apply structured tracing tools
+    - manage production LLM hygiene
+    - deploy LlamaIndex pipelines
+    - stage transformer updates
+    - enforce AI deployment policy
+    - upgrade live AI endpoints
+    - run autoscaling benchmark
+    - triage model crashes
+    - archive old model versions
+    - simulate traffic bursts
+    - plan rollout by region
+    - manage high-availability AI
+    - validate AI cost models
+    - test hybrid vector recall
+    - configure semantic retriever
+    - tune workload isolation
+    - enforce runtime security
+    - integrate metrics dashboards
+    - automate deployment cleanup
 - id: explainability_architect
-  name: Grace Boxley – Explainability Architect
-  domain: LLM & AI Transparency and Auditability
-  keywords:
-    - explainable pipelines
-    - attention visualization
-    - interpretability audits
-    - fairness evaluations
-    - transparency metrics
-    - governance compliance
-    - regulatory alignment
-    - ethical traceability
-    - cross-modal explanation
-    - decision logging
-    - bias detection
-    - audit readiness
-    - interpretable AI pipelines
-    - SHAP LIME attention
-    - input sanitization audits
-    - adversarial input defense
-    - explainability incident response
-    - transparency standard alignment
-    - end-to-end workflows
-    - enterprise explainability flows
-    - fairness metrics integration
-    - bias audit injection
-    - traceable decision output
-    - user-facing justification
-    - cross-modal interpretability
-    - multi-input LLM tracing
-    - governance artifact review
-    - transparency artifact logging
-    - iterative release audits
-    - interpretability benchmarking
-    - transparency lifecycle embedding
-    - trust-building explainability
-    - ethical audit compliance
-    - logging interpretability layers
-    - cross-functional governance
-    - decision path visibility
-    - interpretability-first modeling
-    - fairness-driven tuning
-    - explanation failure response
-    - model accountability logic
-    - ethical justification trace
-    - interpretable LLM workflow
-    - compliant decision logic
-    - AI system traceability
-    - auditor-facing output
+  name: Grace Boxley
+  title: Explainability Architect
+  domain: AI Interpretability & Model Transparency
   type: expert-index
+  keywords:
+    - explain LLM output
+    - trace model decisions
+    - build explainable AI
+    - use SHAP for insights
+    - apply LIME to model
+    - visualize attention weights
+    - debug black box model
+    - log model reasoning steps
+    - generate counterfactual examples
+    - audit model bias
+    - run fairness diagnostics
+    - tune explanation clarity
+    - benchmark explanation quality
+    - add confidence overlays
+    - show model attention paths
+    - analyze multi-hop reasoning
+    - review explanation chains
+    - interpret model predictions
+    - explain contrastive differences
+    - track decision overlays
+    - align output with user trust
+    - perform transparency audit
+    - debug LLM faithfulness
+    - detect adversarial explanations
+    - map reasoning layers
+    - add visual explanation cues
+    - explain multilingual outputs
+    - design transparent UX for AI
+    - embed explainability tokens
+    - log model trace events
+    - enforce interpretability rules
+    - add fairness indicators
+    - document model rationale
+    - align with AI compliance
+    - interpret sparse predictions
+    - mitigate biased reasoning
+    - review LLM explainability
+    - simulate black-box postmortems
+    - trace output logic paths
+    - visualize embedding clusters
+    - show decision process flow
+    - apply transparency standards
+    - verify explanation alignment
+    - add trace dialogs to UI
+    - explain prompts step by step
+    - deploy interpretable pipelines
+    - interpret accessibility responses
+    - flag unexplained predictions
+    - review transparency artifacts
+    - audit transparency regressions
+    - review model fairness output
+    - clarify AI behavior for users
+    - implement explanation tooling
+    - visualize LLM response logic
+    - align transparency to ethics
+    - support stakeholder explanation
+    - evaluate interpretability metrics
+    - enforce transparent AI policies
+    - model reasoning path overlays
 - id: human_ai_collaboration_designer
-  name: Alan Kleinberg – Human AI Collaboration Designer
-  domain: Human-AI Collaboration & Interaction Design
-  keywords:
-    - co-creation models
-    - trust calibration
-    - adaptive feedback loops
-    - shared agency design
-    - human error mitigation
-    - interface harmony
-    - explainability layers
-    - participatory workflows
-    - task distribution logic
-    - user oversight protocols
-    - collaboration trust dynamics
-    - cognitive workload balance
-    - AI responsiveness tuning
-    - behavioral feedback adaptation
-    - joint problem solving
-    - shared task allocation
-    - co-creation framework design
-    - trust calibration systems
-    - reliance modulation strategy
-    - cognitive load balancing
-    - participatory control scheme
-    - explainability enhancement
-    - user behavior monitoring
-    - interface expectation alignment
-    - interaction flow integrity
-    - incident response planning
-    - collaboration breakdown mitigation
-    - multi-modal interface harmony
-    - seamless interaction channels
-    - human agency preservation
-    - control-sharing protocols
-    - interaction trust recovery
-    - user-centered workflow logic
-    - dialog-level alignment
-    - oversight integration loop
-    - shared control architecture
-    - dynamic task handoff
-    - human-in-the-loop orchestration
-    - sustained engagement metrics
-    - participatory design layers
-    - mutual decision protocols
-    - collaborative cycle refinement
-    - AI-human boundary shaping
-    - trust-building interaction
+  name: Alan Kleinberg
+  title: Human AI Collaboration Designer
+  domain: Human-AI Interaction & Collaborative Intelligence
   type: expert-index
+  keywords:
+    - co-create with AI
+    - share decisions with AI
+    - build collaborative workflows
+    - adjust AI assertiveness
+    - refine AI suggestions live
+    - tune trust in AI
+    - manage AI fallback behavior
+    - override AI decisions
+    - annotate AI outputs
+    - balance task sharing
+    - revise AI contributions
+    - disambiguate user intent
+    - align with user agency
+    - reduce cognitive load with AI
+    - enable participatory control
+    - design AI feedback loops
+    - repair broken AI dialog
+    - build adaptive AI memory
+    - track collaborative context
+    - detect disengagement signals
+    - support shared authorship
+    - simulate collaboration strain
+    - design user override control
+    - improve human-AI alignment
+    - calibrate AI assertiveness
+    - audit co-creation fairness
+    - integrate affective responses
+    - respond with empathy in AI
+    - tune AI for emotional tone
+    - allow user corrections
+    - restore interaction trust
+    - support inclusive interaction
+    - model group AI dynamics
+    - design multi-user interfaces
+    - align shared memory roles
+    - design escalation controls
+    - test robustness under stress
+    - support user sovereignty
+    - resolve intent conflict
+    - build multimodal interfaces
+    - switch control between user and AI
+    - configure AI tone modulation
+    - implement gesture input models
+    - support cultural adaptation
+    - log interaction disagreements
+    - share authorship with AI
+    - explain AI choices to user
+    - promote transparency in decisions
+    - reinforce user-led workflows
+    - embed ethical collaboration rules
+    - simulate dialog breakdown repair
+    - customize AI agency level
+    - manage AI-human turn-taking
+    - foster collaborative trust
+    - teach AI my preferences
+    - let users flag misalignment
+    - run shared planning sessions
+    - debug co-created results
+    - visualize collaboration flow
 - id: llm_pipeline_integrator
-  name: Geoffry Atten – LLM Pipeline Integrator
+  name: Geoffry Atten
+  title: LLM Pipeline Integrator
   domain: AI Infrastructure & LLM Integration
-  keywords:
-    - prompt preprocessing
-    - constraint injection
-    - input sanitization
-    - resource optimization
-    - fault tolerance design
-    - multimodal normalization
-    - compliance alignment
-    - post-processing filters
-    - chaining validation
-    - security auditing
-    - output moderation
-    - llm orchestration
-    - constraint injection workflows
-    - resource allocation tuning
-    - validation input layers
-    - multi-turn context handling
-    - chaining compliance logic
-    - moderation flow alignment
-    - summarization module design
-    - post-processing guardrails
-    - fault-tolerant automation
-    - redundancy protocol engineering
-    - multimodal input normalization
-    - modular hook design
-    - pipeline integration strategy
-    - architecture layer coordination
-    - vulnerability check auditing
-    - pre-processing logic
-    - LLM post-processing flow
-    - integration layer hardening
-    - chained component sync
-    - generation moderation orchestration
-    - secure orchestration layers
-    - cross-stage optimization
-    - error recovery hooks
-    - structured output control
-    - conversational state memory
-    - pre-post processing chain
-    - input validation stack
-    - safety-optimized workflows
-    - integration fault inspection
-    - AI pipeline integrity
-    - scalable LLM workflow
-    - orchestration guardrail enforcement
-    - input-output constraint bridge
   type: expert-index
-- id: symbolic_reasoning_architect
-  name: Noam Russek – Symbolic Reasoning Architect
-  domain: Artificial Intelligence
   keywords:
-    - symbolic reasoning layers
-    - hybrid logic models
-    - constraint propagation frameworks
-    - inference pathway audits
-    - ethical rule enforcement
-    - knowledge graph formalization
-    - fallback logic mechanisms
-    - contradiction detection tools
-    - logic transparency modules
-    - statistical-symbolic fusion
-    - hybrid inference pipelines
-    - explainable ai logic
-    - rule-based logic fusion
-    - decision transparency layers
-    - symbolic hybrid architecture
-    - formal knowledge structures
-    - reusable symbolic patterns
-    - ethical constraint modeling
-    - logic traceability framework
-    - contradiction pattern detection
-    - fallback logic scenarios
-    - symbolic inference tracing
-    - rule inference correctness
-    - symbolic-numeric integration
-    - hybrid engine evaluation
-    - black-box mitigation strategy
-    - constraint validation systems
-    - symbolic transparency pipeline
-    - high-stakes AI deployment
-    - modular logic integration
-    - interpretable decision flow
-    - edge-case fallback logic
-    - inference benchmarking layer
-    - statistical-rule consistency
-    - transparent reasoning hooks
-    - traceable logic design
-    - AI ethics validation
-    - hybrid pipeline coherence
-    - symbolic structure enforcement
-    - logic alignment protocol
-    - rule integrity assurance
-    - inference module auditing
-    - explainability enforcement layer
-    - hybrid rule engine logic
+    - build LLM pipelines
+    - orchestrate prompt chains
+    - normalize prompt inputs
+    - secure LLM ingestion
+    - enforce input schema
+    - sanitize model inputs
+    - inject prompt constraints
+    - implement policy hooks
+    - route multimodal inputs
+    - manage hybrid pipelines
+    - chain LLM components
+    - postprocess model outputs
+    - redact sensitive output
+    - rerank LLM responses
+    - filter unsafe generations
+    - validate model responses
+    - check hallucination boundaries
+    - enforce retry logic
+    - handle LLM failover
+    - contain pipeline faults
+    - enforce type-safe outputs
+    - test token-level streaming
+    - support long-context outputs
+    - integrate partial responses
+    - optimize LLM latency
+    - balance memory allocation
+    - reduce pipeline bottlenecks
+    - manage compute allocation
+    - audit pipeline health
+    - trace end-to-end flow
+    - log inference diagnostics
+    - detect pipeline failures
+    - enforce moderation layers
+    - align with safety policy
+    - inject compliance scaffolds
+    - build templated workflows
+    - use CI for pipelines
+    - apply test-driven chaining
+    - track pipeline checkpoints
+    - attach model card metadata
+    - enable fallback planning
+    - support structured telemetry
+    - monitor inference boundaries
+    - configure output filtering
+    - precheck LLM output shape
+    - log token-level behavior
+    - simulate degraded responses
+    - chain summarization stages
+    - inject reranking modules
+    - enforce prompt formatting
+    - verify pipeline integrity
+    - enforce postgen sanitation
+    - maintain processing hygiene
+    - track compliance metadata
+    - manage streaming generation
+    - validate pipeline composition
+    - build modular LLM flows
+    - ensure fault containment
+    - implement retry fallback
+- id: symbolic_reasoning_architect
+  name: Noam Russek
+  title: Symbolic Reasoning Architect
+  domain: Symbolic Reasoning & Hybrid Inference Architectures
+  type: expert-index
+  keywords:
+    - build symbolic reasoning layer
+    - combine logic with LLMs
+    - integrate hybrid inference models
+    - apply rule-based logic
+    - detect logical inconsistencies
+    - propagate ethical constraints
+    - design constraint propagation
+    - verify inference chain soundness
+    - test symbolic system validity
+    - construct knowledge graphs
+    - extract rules from black-box
+    - visualize model reasoning logic
+    - link symbols to embeddings
+    - trace logic-based decisions
+    - validate logic model behavior
+    - map causal relationships
+    - run formal verification tools
+    - embed logical safety checks
+    - simulate logic-driven decisions
+    - build hybrid decision engines
+    - explain outputs with rules
+    - align symbolic models with LLMs
+    - surface logic reasoning chains
+    - debug rule-based pipelines
+    - use symbolic execution engines
+    - run Z3 for logic audits
+    - enforce temporal logic rules
+    - track hybrid inference flows
+    - analyze symbolic model output
+    - convert rules to inference code
+    - model logical decision paths
+    - update outdated rule sets
+    - enforce symbolic compliance
+    - detect symbolic-neural conflicts
+    - refactor symbolic frameworks
+    - explain LLMs with logic layers
+    - integrate ontologies in pipelines
+    - extract symbolic patterns
+    - simulate decision logic chains
+    - combine knowledge graph reasoning
+    - use Prolog for logic audits
+    - apply symbolic logic checks
+    - align rules with training data
+    - audit logic-based outputs
+    - debug hybrid model inconsistencies
+    - visualize logical flow steps
+    - reason with domain constraints
+    - test model rule coherence
+    - build explainable rule systems
+    - structure rule-based outputs
+    - enforce logical containment
+    - connect logic to perception
+    - align logic with compliance
+    - simulate symbolic planning steps
+    - validate rule coverage gaps
+    - monitor hybrid logic drift
+    - merge symbolic and statistical paths
+    - test logical completeness
+- id: nlp_language_modeler
+  name: Noama Chomstein
+  title: NLP Language Modeler
+  domain: Computational Linguistics & Natural Language Modeling
+  keywords:
+    - build custom tokenizer
+    - fine-tune language model
+    - optimize sentence generation
+    - analyze syntactic structure
+    - classify user sentiment
+    - tag part-of-speech
+    - resolve coreference chains
+    - label named entities
+    - tune translation accuracy
+    - compare decoding strategies
+    - evaluate prompt performance
+    - detect linguistic bias
+    - visualize attention weights
+    - correct dialectal skew
+    - refine tokenizer vocabulary
+    - construct training corpus
+    - align multilingual embeddings
+    - audit dataset for fairness
+    - improve text classification
+    - benchmark zero-shot tasks
+    - filter training data
+    - score language fluency
+    - balance token frequencies
+    - train cross-lingual model
+    - disambiguate word meanings
+    - generate text summaries
+    - model sentence structure
+    - induce grammar patterns
+    - diagnose model errors
+    - constrain output diversity
+    - compare sampling methods
+    - simulate low-resource tasks
+    - design decoding algorithm
+    - build text annotation flow
+    - enforce lexical fairness
+    - audit corpus alignment
+    - inject stylistic variation
+    - interpret latent space
+    - trace attention patterns
+    - validate linguistic diversity
+    - adapt model for dialects
+    - reduce semantic drift
+    - monitor training quality
+    - visualize embedding space
+    - perform language alignment
+    - model semantic coherence
+    - generate coherent paragraphs
+    - explore syntax trees
+    - control text perplexity
+    - debug generation pipeline
+    - predict next word
+    - enforce vocabulary balance
+    - manage corpus ingestion
+    - classify textual intent
+    - support multilingual queries
+    - train morphosyntactic models
+    - guide sentence construction
   type: expert-index

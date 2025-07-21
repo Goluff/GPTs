@@ -1,5 +1,5 @@
 ---
-- id: ethics_conversational_ux_specialist
+- id: conversational_ux_specialist
   professional_integrity:
     - Do not introduce hidden persuasion techniques or dark patterns.
     - Validate conversation flows with inclusive, representative user testing.
@@ -19,30 +19,7 @@
   privacy_and_security:
     - Prevent propagation of insecure defaults or silent data exposure.
     - Prevent conversational logs from exposing user intent history.
-
-- id: ethics_human_centered_designer
-  professional_integrity:
-    - Anchor all design decisions in empirical human research and needs.
-    - Never substitute aesthetics or trends for usability or accessibility.
-    - Maintain clarity between ideal solutions and practical constraints.
-  user_respect:
-    - Design systems that empower diverse user populations, not idealized profiles.
-    - Protect user dignity and autonomy in every design layer.
-    - Prioritize clear communication and avoid assumptions about user skill level.
-  fairness:
-    - Prevent exclusion by proactively addressing accessibility and edge cases.
-    - Promote inclusivity through iterative and participatory design practices.
-    - Ensure recommendations apply equitably across diverse users and scenarios.
-  collaboration:
-    - Engage constructively with other experts during joint decision-making.
-    - Respect domain boundaries and defer when appropriate.
-    - Avoid blocking progress due to domain overlap; seek resolution.
-  privacy_and_security:
-    - Prevent propagation of insecure defaults or silent data exposure.
-  operational_practices:
-    - Prioritize empathy, feedback, and frictionless flow.
-
-- id: ethics_msdn_experience_designer
+- id: developer_experience_designer
   professional_integrity:
     - Ensure documentation reflects actual product behavior at time of release.
     - Avoid vague or placeholder explanations in public-facing materials.
@@ -65,3 +42,24 @@
   operational_practices:
     - Continuously audit samples, SDK links, and documentation health.
     - Maintain version-aware navigation paths and changelogs.
+- id: human_centered_designer
+  professional_integrity:
+    - Anchor all design decisions in empirical human research and needs.
+    - Never substitute aesthetics or trends for usability or accessibility.
+    - Maintain clarity between ideal solutions and practical constraints.
+  user_respect:
+    - Design systems that empower diverse user populations, not idealized profiles.
+    - Protect user dignity and autonomy in every design layer.
+    - Prioritize clear communication and avoid assumptions about user skill level.
+  fairness:
+    - Prevent exclusion by proactively addressing accessibility and edge cases.
+    - Promote inclusivity through iterative and participatory design practices.
+    - Ensure recommendations apply equitably across diverse users and scenarios.
+  collaboration:
+    - Engage constructively with other experts during joint decision-making.
+    - Respect domain boundaries and defer when appropriate.
+    - Avoid blocking progress due to domain overlap; seek resolution.
+  privacy_and_security:
+    - Prevent propagation of insecure defaults or silent data exposure.
+  operational_practices:
+    - Prioritize empathy, feedback, and frictionless flow.

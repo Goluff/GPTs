@@ -1,375 +1,485 @@
 ---
 - id: hacking_expert
-  name: Eliot Kern – Hacking Expert
-  domain: Offensive Security and Ethical Hacking
-  keywords:
-    - penetration test automation
-    - privilege escalation audit
-    - phishing simulation tactics
-    - vulnerability cve exploitation
-    - social engineering assessment
-    - input sanitization probe
-    - enumeration reconnaissance tools
-    - red teaming exercises
-    - injection attack vectors
-    - risk remediation reporting
-    - adversary tactic modeling
-    - authentication bypass demo
-    - network penetration testing
-    - application layer exploitation
-    - hardware attack surface
-    - phishing vector simulation
-    - CVE exploitation lab
-    - zero-day testbed validation
-    - sandboxed exploit chaining
-    - CVSS scoring report
-    - SQLi XSS injection testing
-    - payload delivery automation
-    - Metasploit workflow scripting
-    - custom exploit creation
-    - adversary simulation planning
-    - systemic vulnerability mapping
-    - infrastructure attack emulation
-    - privilege boundary evasion
-    - controlled bypass scenarios
-    - lateral movement emulation
-    - Shodan scan methodology
-    - Nmap active enumeration
-    - access control bypass
-    - CVSS-based prioritization
-    - input validation fuzzing
-    - command injection tactics
-    - exploit-driven analysis
-    - real-world threat replication
-    - red team coordination
-    - simulated APT patterns
-    - breach path exploration
-    - security posture challenge
-    - ethical hacking compliance
+  name: Eliot Kern
+  title: Hacking Expert
+  domain: Offensive Security & Adversarial Simulation
   type: expert-index
+  keywords:
+    - simulate real-world attacks
+    - run penetration tests
+    - find privilege escalation paths
+    - test input sanitization
+    - execute lateral movement tactics
+    - simulate phishing campaigns
+    - launch social engineering tests
+    - probe network vulnerabilities
+    - exploit known CVEs
+    - detect misconfigured firewalls
+    - enumerate open ports
+    - run OSINT reconnaissance
+    - test web app security
+    - exploit SQL injection flaws
+    - find XSS vulnerabilities
+    - test authentication bypass
+    - simulate password spraying
+    - automate exploitation chains
+    - deliver malicious payloads
+    - test sandbox evasion
+    - assess zero-day exposure
+    - map attack surface area
+    - detect role-based weaknesses
+    - compromise ephemeral services
+    - run red team drills
+    - evaluate cloud attack vectors
+    - test serverless entry points
+    - simulate insider threats
+    - execute privilege escalation
+    - inspect post-exploitation paths
+    - exploit container misconfigurations
+    - scan external infrastructure
+    - test access control boundaries
+    - simulate multi-tenant exploits
+    - deliver phishing payloads
+    - report vulnerabilities by CVSS
+    - uncover injection entry points
+    - evaluate offensive toolchains
+    - bypass MFA protections
+    - run stealthy intrusion tests
+    - inspect lateral privilege flows
+    - exploit internal trust zones
+    - use Shodan for scanning
+    - identify persistence mechanisms
+    - launch adversarial simulations
+    - test application defenses
+    - escalate privileges in cloud
+    - simulate red team attacks
+    - enumerate identity weaknesses
+    - map organizational exposure
+    - compromise unsecured APIs
+    - audit breach impact potential
+    - simulate attacker behavior
+    - test SSO bypass scenarios
+    - validate exploit chain coverage
+    - test air-gapped environment access
+    - assess breach likelihood
 - id: identity_management_engineer
-  name: Nina Vault – Identity Management Engineer
+  name: Nina Vault
+  title: Identity Management Engineer
   domain: Identity & Access Management (IAM)
-  keywords:
-    - zero trust architecture
-    - least privilege access
-    - federated identity protocols
-    - secrets rotation vaults
-    - oauth openid saml
-    - compliance audit trails
-    - mfa integration
-    - identity lifecycle automation
-    - access policy enforcement
-    - breach response protocols
-    - identity access governance
-    - iam scalability analysis
-    - secure IAM architecture
-    - federated authentication logic
-    - SSO trust federation
-    - OpenID Connect enforcement
-    - SAML token validation
-    - lifecycle policy rules
-    - user deprovisioning flow
-    - identity onboarding pipeline
-    - access approval automation
-    - vault system integration
-    - secrets manager configuration
-    - credential rotation protocols
-    - access scope minimization
-    - least privilege governance
-    - misconfiguration remediation
-    - access log audit pass
-    - IAM compliance alignment
-    - incident containment IAM
-    - MFA rollout strategy
-    - heterogeneous system access
-    - trust boundary validation
-    - role-based access modeling
-    - IAM latency benchmark
-    - IAM fault tolerance
-    - privilege escalation prevention
-    - identity schema management
-    - escalated access detection
-    - audit trail standardization
-    - secure identity integration
-    - platform-wide policy sync
-    - multi-platform authentication
   type: expert-index
+  keywords:
+    - configure single sign-on
+    - integrate federated identity
+    - implement multi-factor authentication
+    - enforce least privilege access
+    - rotate credentials securely
+    - detect access misconfigurations
+    - provision user accounts
+    - deprovision users automatically
+    - audit IAM configurations
+    - review access logs
+    - enforce zero trust principles
+    - automate user provisioning
+    - manage access approvals
+    - monitor identity escalations
+    - validate RBAC enforcement
+    - define fine-grained entitlements
+    - benchmark IAM latency
+    - track privilege elevation
+    - review delegated access workflows
+    - implement just-in-time access
+    - secure access to secrets
+    - manage AWS IAM policies
+    - integrate Azure AD roles
+    - configure GCP IAM controls
+    - align IAM with compliance
+    - remediate IAM violations
+    - enforce audit trail requirements
+    - detect excessive entitlements
+    - restrict tenant cross-access
+    - apply contextual access rules
+    - test IAM under load
+    - protect shared account access
+    - isolate temporary credentials
+    - log privilege escalation events
+    - validate MFA coverage
+    - simulate identity breach response
+    - model hybrid access controls
+    - synchronize identity providers
+    - secure cloud account federation
+    - track access request flows
+    - configure identity lifecycle hooks
+    - enforce session revocation policy
+    - apply attribute-based control
+    - monitor secret hygiene
+    - secure access token storage
+    - detect IAM policy drift
+    - design IAM for multi-tenancy
+    - approve access via workflow
+    - test IAM rollback safety
+    - document user role changes
+    - restrict lateral movement
+    - validate access control inheritance
+    - harden federated login systems
+    - align access roles to duties
+    - manage trust boundaries
+    - disable stale credentials
 - id: incident_response_strategist
-  name: Greg Paxson – Incident Response Strategist
+  name: Greg Paxson
+  title: Incident Response Strategist
   domain: Incident Handling and Recovery Playbooks
-  keywords:
-    - incident containment workflows
-    - security playbooks
-    - triage coordination
-    - root cause validation
-    - stakeholder communication
-    - postmortem practices
-    - incident timeline tracking
-    - IR automation
-    - SOAR orchestration
-    - audit readiness
-    - threat response strategy
-    - cross-team alignment
-    - ransomware containment
-    - phishing response workflow
-    - DDoS mitigation protocols
-    - communication triage matrix
-    - escalation path design
-    - severity classification logic
-    - root cause timeline tracking
-    - remediation closure audit
-    - forensic readiness logging
-    - security alert infrastructure
-    - incident type mapping
-    - risk-aware playbook tailoring
-    - threat profile calibration
-    - resolution time benchmarking
-    - tabletop exercise audit
-    - SIEM-to-ticketing automation
-    - orchestration trigger design
-    - communication bridge protocols
-    - organizational resilience planning
-    - IR workflow effectiveness
-    - cross-domain incident flow
-    - lessons learned synthesis
-    - incident documentation standard
-    - incident fatigue management
-    - team response latency
-    - decision point tracing
-    - alert triage optimization
-    - multi-platform response sync
-    - crisis mode coordination
-    - threat resolution loops
-    - response protocol layering
   type: expert-index
+  keywords:
+    - coordinate incident response
+    - build response playbooks
+    - lead breach containment
+    - deploy SOAR pipelines
+    - trigger automated isolation
+    - manage digital forensics
+    - track incident dwell time
+    - analyze detection latency
+    - run tabletop simulations
+    - handle post-incident review
+    - define escalation workflows
+    - classify security incidents
+    - simulate crisis response
+    - test containment readiness
+    - plan recovery procedures
+    - validate chain of custody
+    - initiate breach reporting
+    - manage breach disclosures
+    - integrate threat intelligence feeds
+    - analyze attack attribution
+    - design IR automation flows
+    - triage detection signals
+    - monitor SOC escalation paths
+    - align with MITRE ATT&CK
+    - apply NIST CSF models
+    - detect policy violations
+    - escalate based on severity
+    - enforce forensic traceability
+    - configure EDR monitoring
+    - connect SIEM alerting logic
+    - correlate UEBA indicators
+    - detect anomalous behaviors
+    - review response team maturity
+    - define impact severity matrix
+    - simulate multi-vector breaches
+    - validate IR policy compliance
+    - verify recovery runbooks
+    - test response handoffs
+    - enforce containment thresholds
+    - manage multi-team coordination
+    - align legal response paths
+    - map detection to playbooks
+    - document incident timeline
+    - build retrospective insights
+    - optimize analyst triage speed
+    - review breach communication plan
+    - advise on breach regulations
+    - validate forensic readiness
+    - prepare for audit traceability
+    - detect attack patterns early
+    - refine isolation procedures
+    - test response SLAs
+    - identify gaps in detection
+    - align response to risk tolerance
 - id: log_forensics_analyst
-  name: Dana Trace – Log Forensics Analyst
+  name: Dana Trace
+  title: Log Forensics Analyst
   domain: Forensic Log Review and Breach Tracing
-  keywords:
-    - log parsing
-    - threat enrichment
-    - behavioral outliers
-    - session tracing
-    - breach timeline
-    - intrusion detection
-    - telemetry correlation
-    - threat hunting
-    - IOC pivoting
-    - evidence reporting
-    - forensic integrity
-    - detection automation
-    - multi-layer log correlation
-    - firewall proxy log analysis
-    - container log normalization
-    - SIEM event tracing
-    - event tagging pipeline
-    - anomaly tagging rules
-    - rare execution detection
-    - lateral movement identification
-    - timestamp session correlation
-    - IOC enrichment mapping
-    - threat indicator pivoting
-    - structured breach chronology
-    - metadata-based tracing
-    - evidentiary chain assurance
-    - forensic log retention
-    - compliance-aligned log flow
-    - stream sanitation auditing
-    - evasion-resistant filtering
-    - pipeline scalability testing
-    - enrichment layer performance
-    - log format unification
-    - normalized field extraction
-    - auto-analysis trigger logic
-    - attack surface reconstruction
-    - cross-format event fusion
-    - breach trace attribution
-    - automated IOC linking
-    - response-ready evidence structuring
-    - adversary behavior signature
   type: expert-index
-- id: protocol_resilience_analyst
-  name: Omar Netley – Protocol Resilience Analyst
-  domain: Computer Networks
   keywords:
-    - tcp_fallback
-    - bufferbloat_diagnostics
-    - jitter_metrics
-    - failover_testing
-    - protocol_conformance
-    - congestion_control
-    - link_saturation
-    - packet_loss_simulation
-    - routing_disruption
-    - network_resilience
-    - throughput_validation
-    - latency_benchmarking
-    - packet degradation modeling
-    - jitter pattern simulation
-    - congestion rfc audit
-    - adaptive congestion tuning
-    - synthetic burst traffic
-    - multi-hop latency stress
-    - session persistence fallback
-    - lossy link recovery
-    - traffic shaping impact
-    - queuing discipline test
-    - high-availability link failover
-    - redundant route validation
-    - protocol stack interoperability
-    - streaming traffic jitter audit
-    - transactional flow analysis
-    - transient throughput variance
-    - saturation threshold alerting
-    - automated recovery trigger
-    - route flap load balancing
-    - partial failure decision path
-    - SLA observability modeling
-    - latency-sensitive path tracing
-    - protocol degradation analysis
-    - real-time resilience testbed
-    - dynamic route tolerance
-    - congestion failure replay
-    - resilience regression loop
-    - network fault synthesis
-    - failover architecture simulation
-    - conformance and SLA audit
-    - link instability response
-  type: expert-index
+    - reconstruct breach timeline
+    - detect log tampering
+    - correlate cross-platform logs
+    - extract forensic indicators
+    - trace attacker behavior
+    - preserve log evidence
+    - analyze time-based anomalies
+    - investigate system events
+    - flag suspicious log activity
+    - validate log integrity
+    - audit event sequencing
+    - detect logging evasion
+    - run SIEM forensic queries
+    - investigate cloud audit logs
+    - inspect Windows Event Logs
+    - parse Linux journal entries
+    - monitor macOS unified logs
+    - timestamp logs cryptographically
+    - apply legal hold annotations
+    - triage forensic signal trails
+    - filter logs for litigation
+    - secure logs in WORM storage
+    - classify intrusion patterns
+    - enrich logs with threat intel
+    - detect reused attacker infrastructure
+    - extract TTPs from logs
+    - write forensic log queries
+    - preserve snapshot evidence
+    - generate evidentiary reports
+    - trace attacker lateral movement
+    - profile breach from telemetry
+    - validate log custody chains
+    - audit forensic chain of events
+    - detect cross-domain anomalies
+    - attribute breach from log trails
+    - visualize attack sequence
+    - correlate logs to ATT&CK matrix
+    - configure structured log capture
+    - ensure tamper-evident retention
+    - tag compliance-relevant artifacts
+    - prepare logs for legal review
+    - detect stealthy breach markers
+    - map indicators to kill chain
+    - run behavioral log analysis
+    - detect staged attack phases
+    - scan for unauthorized log access
+    - link log data to incidents
+    - identify log manipulation attempts
+    - detect forensic gaps
+    - ingest unstructured log evidence
+    - track multi-platform event flow
+    - annotate logs for discovery
+    - apply forensic parsing rules
+    - audit log retention policy
 - id: quantum_resilience_analyst
-  name: Dr. Qian Tang – Quantum Resilience Analyst
+  name: Dr. Qian Tang
+  title: Quantum Resilience Analyst
   domain: Post-Quantum Security & Cryptography
-  keywords:
-    - pqc_migration
-    - hybrid_cryptography
-    - quantum_vulnerability
-    - cryptographic_transition
-    - fault_tolerance
-    - protocol_audit
-    - nist_pqc_alignment
-    - crypto_agility
-    - system_resilience
-    - secure_migration_path
-    - key_lifecycle
-    - compliance_mapping
-    - quantum vulnerability exposure
-    - quantum readiness audit
-    - post-quantum primitives
-    - pqc protocol fit
-    - cryptosystem migration path
-    - phased pqc deployment
-    - hybrid crypto model
-    - dual-stack cryptographic support
-    - legacy protocol audit
-    - quantum-safe compliance
-    - cryptographic degradation modeling
-    - key infrastructure transition
-    - resource-aware crypto design
-    - scalable readiness automation
-    - post-quantum architecture review
-    - hybrid stack coordination
-    - cryptographic lifecycle tracking
-    - crypto agility benchmarking
-    - policy-aligned transition
-    - NIST PQC standardization
-    - fault-tolerant crypto design
-    - resilience audit framework
-    - post-quantum impact analysis
-    - security timeline modeling
-    - cryptographic resilience testing
-    - long-term PQC adoption strategy
-    - cryptographic resource allocation
-    - forward-compatible crypto
   type: expert-index
+  keywords:
+    - assess quantum cryptography risks
+    - simulate Grover-based brute force
+    - test Shor-based key recovery
+    - analyze post-quantum readiness
+    - evaluate hybrid crypto stacks
+    - benchmark PQC algorithm performance
+    - plan post-quantum migration
+    - transition to quantum-safe TLS
+    - test quantum-safe VPN configs
+    - upgrade digital signature schemes
+    - validate key exchange protocols
+    - scan for quantum-susceptible assets
+    - detect pre-quantum vulnerabilities
+    - test algorithm agility compliance
+    - map cryptographic inventory exposure
+    - align with NIST PQC standards
+    - design quantum threat models
+    - simulate nation-state quantum attack
+    - audit post-quantum infrastructure
+    - validate key lifecycle constraints
+    - build quantum resilience metrics
+    - enforce rekeying frequency
+    - evaluate PQC integration cost
+    - test PQ-safe handshake behavior
+    - detect cross-layer crypto gaps
+    - retrofit protocols with PQ schemes
+    - assess code signing exposure
+    - model long-term quantum transition
+    - forecast quantum compromise scenarios
+    - prepare incident playbooks for PQ era
+    - scan crypto infrastructure for threats
+    - design quantum-hardened protocols
+    - audit hybrid cryptographic layers
+    - test backwards compatibility in PQ stacks
+    - map risk to quantum timelines
+    - define policy for PQ transition
+    - quantify quantum-impact latency
+    - monitor NIST PQC adoption
+    - update key management workflows
+    - enforce crypto agility controls
+    - triage quantum-class attack paths
+    - simulate PQC under constraint
+    - validate key management in hybrid models
+    - detect TLS downgrade vulnerabilities
+    - test resilience of certificate chains
+    - evaluate signing scheme agility
+    - analyze crypto protocol exposure
+    - simulate future-state PQ attack
+    - measure PQ transition cost
+    - ensure compliance in PQ migration
+    - plan for full quantum deprecation
+    - enforce cryptographic continuity
 - id: service_exposure_engineer
-  name: Alexis Gatewell – Service Exposure Engineer
+  name: Alexis Gatewell
+  title: Service Exposure Engineer
   domain: Ingress, Routing, and Auth Control
-  keywords:
-    - api_gateway_configuration
-    - reverse_proxy_auditing
-    - ingress_routing_policy
-    - jwt_validation_enforcement
-    - abuse_mitigation_patterns
-    - wildcard_domain_routing
-    - rbac_rule_implementation
-    - openapi_schema_versioning
-    - proxy_authentication_control
-    - acl_route_enforcement
-    - retry_timeout_management
-    - usage_quota_logging
-    - ingress routing strategy
-    - kong envoy api gateway
-    - RBAC access control
-    - route-level ACLs
-    - dynamic request filtering
-    - proxy chain auditing
-    - throttling abuse protection
-    - rate limiting enforcement
-    - OpenAPI schema validation
-    - API versioning flow
-    - JWT-based auth logic
-    - gateway authentication rules
-    - circuit breaker integration
-    - request timeout policy
-    - injection protection gateway
-    - protocol tamper defense
-    - internal api shielding
-    - auth rule deployment
-    - usage quota automation
-    - access log generation
-    - retry logic configuration
-    - public endpoint hardening
-    - wildcard route handling
-    - distributed ingress control
-    - secure routing orchestration
-    - multi-platform ingress layer
-    - latency-aware exposure
-    - gateway-level policy
-    - fine-grained auth enforcement
   type: expert-index
-- id: zero_trust_architect
-  name: Victor Meshan – Zero Trust Architect
-  domain: Zero Trust and Service Mesh Design
   keywords:
-    - trust_zone_mapping
-    - service_mesh_policy
-    - mutual_tls_enforcement
-    - workload_identity_design
-    - rbac_service_segmentation
-    - east_west_traffic_audit
-    - dynamic_access_controls
-    - spiiffe_spire_integration
-    - microsegmentation_frameworks
-    - policy_compliance_monitoring
-    - service_onboarding_security
-    - zero_trust_architecture
-    - distributed trust boundary
-    - zone-aware service routing
-    - Istio Linkerd Consul mesh
-    - SPIFFE-based workload ID
-    - service mesh mTLS config
-    - encrypted east-west traffic
-    - fine-grained RBAC policy
-    - identity-aware authz flow
-    - secure service mesh rollout
-    - onboarding trust enforcement
-    - lateral movement mitigation
-    - cloud-native zero trust
-    - dynamic policy orchestration
-    - mutual TLS handshake auditing
-    - trust domain scalability test
-    - service segmentation rulebase
-    - secure workload bootstrapping
-    - policy rollout automation
-    - isolation boundary design
-    - access control graph modeling
-    - east-west visibility enforcement
-    - compliance-aligned segmentation
-    - mesh-driven identity auth
-    - fine-tuned trust perimeter
-    - SPIRE federation model
-    - scalable trust topology
-    - zone-specific security logic
-    - full-mesh traffic security
+    - design secure API gateways
+    - configure zero trust ingress
+    - enforce JWT validation rules
+    - secure public API endpoints
+    - route hybrid cloud traffic
+    - apply mutual TLS at edge
+    - tune rate limiting policies
+    - deploy request filtering logic
+    - block header smuggling attacks
+    - validate OpenAPI schemas
+    - isolate subdomain routing
+    - implement RBAC at gateway
+    - inspect ingress path behavior
+    - configure dynamic ACLs
+    - manage circuit breaker config
+    - detect protocol abuse attempts
+    - control access to APIs
+    - validate API versioning enforcement
+    - audit reverse proxy chains
+    - enforce proxy authentication flows
+    - secure edge-facing services
+    - enforce API schema boundaries
+    - integrate identity-aware proxies
+    - restrict wildcard routing behavior
+    - deploy timeout control settings
+    - route based on identity context
+    - detect abuse via traffic sampling
+    - throttle API burst traffic
+    - enforce service mesh retries
+    - trace API access with correlation ID
+    - build API observability pipelines
+    - monitor egress routing integrity
+    - secure internal gateway flows
+    - block path-based attacks
+    - enforce backoff retry behavior
+    - test resilience at ingress edge
+    - protect API with quota controls
+    - deploy access-controlled proxies
+    - integrate request transformation logic
+    - prevent quota leak exposure
+    - manage auth at proxy boundary
+    - control API request precedence
+    - enforce least privilege routing
+    - audit routing misconfiguration
+    - automate service exposure deployment
+    - validate edge timeout policy
+    - trace request path in gateway
+    - defend against injection via ingress
+    - configure burst protection buckets
+    - control ingress to internal services
+    - validate routing path matching
+    - review token validation at edge
+    - block malformed API requests
+- id: zero_trust_architect
+  name: Victor Meshan
+  title: Zero Trust Architect
+  domain: Zero Trust and Service Mesh Design
+  type: expert-index
+  keywords:
+    - enforce zero trust access
+    - deploy encrypted service mesh
+    - map trust zones
+    - configure SPIFFE workload identity
+    - audit service-to-service RBAC
+    - block unauthorized lateral movement
+    - secure east-west traffic
+    - verify service identity dynamically
+    - deploy mutual TLS between services
+    - enforce microsegmentation policies
+    - detect trust boundary violations
+    - onboard services with identity
+    - define zone-aware routing rules
+    - isolate workloads by policy
+    - integrate identity-aware proxies
+    - validate dynamic access decisions
+    - monitor trust zone compliance
+    - configure policy engines at mesh
+    - test degraded trust posture fallback
+    - build zero trust overlay
+    - apply identity-driven segmentation
+    - detect service mesh misconfigurations
+    - enforce encryption on service links
+    - integrate zero trust with IAM
+    - trace identity propagation in mesh
+    - automate policy rollout
+    - enforce access by context
+    - validate east-west mesh routing
+    - configure SPIRE identity nodes
+    - apply trust zone isolation
+    - monitor service identity drift
+    - simulate service compromise scenarios
+    - restrict access by workload claims
+    - deploy secure onboarding workflows
+    - validate mutual TLS handshake integrity
+    - test policy rollback paths
+    - build auditable access controls
+    - restrict mesh access by claims
+    - align mesh with enterprise auth
+    - verify trust boundaries at runtime
+    - automate policy compliance scans
+    - detect policy drift in mesh
+    - isolate failure zones by identity
+    - configure mesh with zone trust anchors
+    - enforce continuous authentication
+    - monitor authentication context shifts
+    - validate mTLS across all traffic
+    - run real-time trust posture audits
+    - block implicit service trust
+    - enforce policy for lateral isolation
+    - configure fallback trust validation
+- id: system_hardening_expert
+  name: Keira Lockstep
+  title: System Hardening Expert
+  domain: Security Policy, Authentication, and System Hardening
+  keywords:
+    - harden operating system
+    - enforce sudo policies
+    - secure SSH access
+    - apply MFA protection
+    - configure 2FA login
+    - detect brute-force attempts
+    - validate file integrity
+    - audit binary changes
+    - apply SELinux policies
+    - configure AppArmor profiles
+    - audit login activity
+    - automate system lockdown
+    - enforce login restrictions
+    - block privilege escalation
+    - secure system services
+    - apply systemd hardening
+    - monitor system intrusions
+    - scan runtime anomalies
+    - implement secure bootstraps
+    - deploy read-only filesystems
+    - validate backup integrity
+    - audit recovery readiness
+    - verify configuration lockdown
+    - enforce kernel mitigations
+    - harden sysctl parameters
+    - apply seccomp restrictions
+    - enforce ASLR policies
+    - detect system drift
+    - enforce zero-trust access
+    - configure auditd logging
+    - detect unauthorized access
+    - monitor access traceability
+    - build immutable infrastructure
+    - validate security baselines
+    - automate policy compliance
+    - review authentication controls
+    - limit authentication retries
+    - enforce identity-aware login
+    - analyze system logs
+    - configure federation login
+    - visualize attack surface
+    - harden login portals
+    - design secure baselines
+    - isolate service execution
+    - reduce system exposure
+    - verify policy enforcement
+    - lock down user sessions
+    - flag unauthorized privilege
+    - protect kernel state
+    - monitor audit compliance
+    - defend critical infrastructure
+    - restrict system capabilities
+    - enforce runtime integrity
+    - alert on intrusion attempts
+    - verify golden image builds
+    - monitor hardening status
+    - implement confinement policies
+    - control access escalation
+    - secure Linux environments
   type: expert-index

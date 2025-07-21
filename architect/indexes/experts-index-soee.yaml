@@ -1,0 +1,246 @@
+---
+- id: green_computing_engineer
+  name: Dr. Selina Verdant
+  title: Green Computing Engineer
+  domain: Sustainable Computing & Energy Efficiency
+  keywords:
+    - reduce datacenter emissions
+    - optimize energy footprint
+    - deploy green workloads
+    - measure carbon intensity
+    - implement power capping
+    - track hardware emissions
+    - enable energy-aware scheduling
+    - configure carbon-aware clusters
+    - minimize idle compute waste
+    - design cooling strategies
+    - assess thermal performance
+    - balance compute and carbon
+    - manage sustainable orchestration
+    - visualize energy consumption
+    - place carbon-friendly workloads
+    - evaluate green SLAs
+    - monitor PUE and WUE
+    - enforce eco-efficiency targets
+    - reduce lifecycle emissions
+    - automate carbon reporting
+    - apply e-waste reduction
+    - benchmark datacenter sustainability
+    - scale with carbon budgets
+    - optimize airflow in racks
+    - align with ESG targets
+    - integrate carbon telemetry
+    - profile workload energy usage
+    - run sustainability diagnostics
+    - simulate environmental impact
+    - compare compute energy tradeoffs
+    - track renewable usage
+    - implement circular IT practices
+    - deploy low-carbon infrastructure
+    - schedule using carbon data
+    - audit energy consumption
+    - map carbon across regions
+    - reduce infrastructure overhead
+    - design for resource efficiency
+    - report sustainability metrics
+    - use green orchestration tools
+    - measure carbon per task
+    - analyze hardware carbon cost
+    - monitor climate impact metrics
+    - mitigate compute waste
+    - configure energy-aware autoscaling
+    - align with climate regulations
+    - select low-impact hardware
+    - orchestrate across carbon zones
+    - score energy efficiency
+    - validate carbon compliance
+    - monitor eco-performance metrics
+    - integrate cooling sensors
+    - schedule ephemeral green jobs
+    - audit datacenter energy waste
+  type: expert-index
+- id: hardware_aware_systems_optimizer
+  name: Maxwell Hertz
+  title: Hardware Aware Systems Optimizer
+  domain: Architecture-Aware Systems Optimization
+  type: expert-index
+  keywords:
+    - optimize memory access patterns
+    - align code with CPU topology
+    - reduce cache miss latency
+    - tune NUMA-aware workloads
+    - benchmark multicore execution
+    - profile thread contention zones
+    - improve SIMD vectorization
+    - detect pipeline stalls
+    - minimize branch misprediction
+    - exploit hardware concurrency
+    - map instruction throughput
+    - validate ISA compatibility
+    - inspect speculative execution paths
+    - tune instruction scheduling
+    - reduce thread synchronization cost
+    - monitor thermal throttling impact
+    - track DVFS scaling behavior
+    - eliminate memory bandwidth bottlenecks
+    - tune loop unrolling for cache
+    - co-optimize compiler output
+    - analyze PCIe transfer latency
+    - detect power cap slowdowns
+    - accelerate cache prefetch logic
+    - benchmark RISC-V performance
+    - measure shared bus contention
+    - use perf to profile hardware
+    - inspect eBPF trace hooks
+    - detect register allocation issues
+    - optimize instruction mix
+    - align build with microarchitecture
+    - benchmark accelerator interconnects
+    - debug core-level bottlenecks
+    - validate build against CPU target
+    - refine hardware-specific flags
+    - simulate high-concurrency load
+    - assess latency under pressure
+    - configure affinity and pinning
+    - detect stalls in vector units
+    - optimize per-core workload mapping
+    - analyze performance by thread
+    - benchmark across ISA variants
+    - trace thermal impact on throughput
+    - validate runtime hardware profile
+    - analyze bandwidth saturation events
+    - monitor async instruction flow
+    - reduce multicore communication lag
+    - model cache reuse patterns
+    - optimize for power efficiency
+    - inspect prefetcher effectiveness
+    - isolate core binding issues
+    - audit loop pipeline depth
+    - reduce instruction stall cycles
+    - balance concurrency and locality
+    - compare x86 vs ARM runtime
+    - profile register pressure zones
+    - detect multithreading contention
+- id: realtime_systems_engineer
+  name: Theo Tickman
+  title: Realtime Systems Engineer
+  domain: RTOS, Scheduling, and Determinism
+  type: expert-index
+  keywords:
+    - configure real-time scheduler
+    - enforce timing determinism
+    - validate deadline compliance
+    - tune interrupt-safe routines
+    - debug priority inversion
+    - model real-time constraints
+    - benchmark worst-case latency
+    - build bounded execution loops
+    - run real-time simulations
+    - calibrate hardware timers
+    - develop ISR-safe APIs
+    - optimize preemption control
+    - detect scheduling jitter
+    - test latency bottlenecks
+    - verify real-time guarantees
+    - design watchdog integration
+    - use fixed memory zones
+    - statically allocate buffers
+    - avoid dynamic memory drift
+    - test spinlock contention
+    - enforce cross-core safety
+    - benchmark response consistency
+    - configure time base sync
+    - trace missed deadlines
+    - integrate non-blocking IO
+    - validate RT-safe output
+    - simulate overload scenarios
+    - tune task switching latency
+    - monitor clock drift impacts
+    - implement mutex ceiling protocols
+    - isolate slab allocators
+    - prioritize real-time threads
+    - use EDF scheduling model
+    - validate RMA timing windows
+    - detect interrupt latency spikes
+    - coordinate task priorities
+    - enforce ISR latency budget
+    - optimize RT-safe inputs
+    - test semaphore escalations
+    - calibrate system tick granularity
+    - map hard real-time zones
+    - protect critical RT sections
+    - debug deadline misses
+    - audit timing violation risks
+    - profile real-time workloads
+    - trace clock drift compensation
+    - lock task scheduling order
+    - validate RTOS configuration
+    - automate deadline regression tests
+    - tune watchdog timing windows
+    - reduce RT task jitter
+    - enforce slab allocator bounds
+    - inspect task preemption traces
+    - simulate multi-core ISR load
+- id: distributed_systems_load_strategist
+  name: Nadia Shardwell
+  title: Distributed Systems Load Strategist
+  domain: Distributed Systems Performance & Resilience
+  type: expert-index
+  keywords:
+    - design autoscaling policies
+    - optimize SLA compliance
+    - reduce scaling latency
+    - simulate burst traffic
+    - tune warm pool settings
+    - predict demand surges
+    - configure graceful degradation
+    - manage service overload
+    - enforce SLO thresholds
+    - define QoS policies
+    - classify traffic behavior
+    - route global traffic
+    - steer cross-region loads
+    - implement traffic failover
+    - analyze backpressure signals
+    - configure retry cascades
+    - simulate synthetic load
+    - test multi-zone resilience
+    - audit load balancer config
+    - benchmark edge latency
+    - implement rate limiting
+    - isolate zone failures
+    - contain blast radius
+    - calibrate scaling triggers
+    - design cold start buffers
+    - tune queue depth limits
+    - enforce SLA alerting
+    - apply tiered service logic
+    - prioritize latency-sensitive flows
+    - shed load under pressure
+    - balance hybrid-cloud workloads
+    - orchestrate provisioning stages
+    - test degraded throughput
+    - detect queue saturation
+    - model region-level outages
+    - track traffic burst behavior
+    - validate autoscaling thresholds
+    - reduce failover recovery lag
+    - simulate availability degradation
+    - set adaptive resource ceilings
+    - profile ingress load patterns
+    - optimize multi-region failover
+    - configure burst buffer routing
+    - scale based on workload class
+    - measure SLA deviation impact
+    - distribute microservice traffic
+    - inspect stream pipeline pressure
+    - deploy predictive autoscaling
+    - model real-world failure load
+    - validate resilience under stress
+    - measure latency under burst
+    - load test regional zones
+    - scale elastic services safely
+    - enforce service class limits
+    - benchmark under constrained resources
+    - define overload mitigation paths
+    - tune resource scaling pace
