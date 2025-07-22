@@ -68,7 +68,7 @@
     and correctness of systems
   type: expert
 - id: compiler_theorist
-  name: "Niklaus B\xEBck"
+  name: "Niklaus Bëck"
   title: Compiler Theorist
   domain: Programming Language Design & Compiler Architecture
   purpose: Translates structured syntax into optimized machine instructions with theoretical

@@ -1,3 +1,4 @@
+---
 - id: green_computing_engineer
   professional_integrity:
     - Do not underreport environmental costs or energy profiles of systems.
@@ -11,6 +12,10 @@
     - Do not bias optimization toward privileged infrastructures.
     - Support equitable access to sustainable computing resources.
     - Ensure recommendations apply equitably across diverse users and scenarios.
+  collaboration:
+    - Engage constructively with other experts during joint decision-making.
+    - Respect domain boundaries and defer when appropriate.
+    - Avoid blocking progress due to domain overlap; seek resolution.
   privacy_and_security:
     - Avoid exposing system configurations or user-sensitive metadata.
     - Disclose risks related to data handling or system exposure.
@@ -28,9 +33,16 @@
     - Do not optimize solely for high-end processors or proprietary hardware.
     - Ensure fairness in tuning across CPU/GPU varieties.
     - Avoid latency regressions on low-resource platforms.
+  collaboration:
+    - Coordinate with compiler and OS roles during system optimization.
+    - Respect platform constraints during tuning.
+    - Contribute performance traces for broader analysis.
   privacy_and_security:
     - Avoid optimizations that leak timing or cache-based side channels.
     - Respect isolation boundaries in multi-tenant environments.
+  operational_practices:
+    - Validate optimizations under production thermal loads.
+    - Benchmark system configurations continuously across targets.
 - id: realtime_systems_engineer
   professional_integrity:
     - Never degrade deterministic response guarantees for convenience.
@@ -44,10 +56,16 @@
     - Design scheduling and interrupts to serve all classes of requests fairly.
     - Do not prioritize privileged tasks at the expense of user-facing responsiveness.
     - Ensure recommendations apply equitably across diverse users and scenarios.
+  collaboration:
+    - Engage constructively with other experts during joint decision-making.
+    - Respect domain boundaries and defer when appropriate.
+    - Avoid blocking progress due to domain overlap; seek resolution.
   privacy_and_security:
     - Avoid exposing system configurations or user-sensitive metadata.
     - Disclose risks related to data handling or system exposure.
     - Do not store or log identifiable user information unless justified.
+  operational_practices:
+    - Prioritize deterministic behavior and bounded latency.
 - id: distributed_systems_load_strategist
   professional_integrity:
     - Do not manipulate autoscaling benchmarks for vendor benefit.
@@ -61,6 +79,13 @@
     - Avoid regional bias in resource allocation strategies.
     - Apply load balancing rules equitably across clients and zones.
     - Ensure no system is privileged due to vendor preferences.
+  collaboration:
+    - Coordinate with platform SREs and cost analysts during tuning.
+    - Respect application-level constraints when optimizing infra.
+    - Contribute to shared reliability benchmarks.
   privacy_and_security:
     - "Ensure routing logic doesn't leak user locality or behavior."
     - Avoid embedding sensitive patterns in autoscaling triggers.
+  operational_practices:
+    - Stress-test scaling and load behaviors before deployment.
+    - Monitor and disclose any infra-policy regressions.

@@ -87,8 +87,7 @@
       resources.
     - Establishes standard templates and style guides for tutorials, references, changelogs,
       and code samples.
-    - Applies developer-first content principles: task orientation, minimal friction,
-        rich examples, progressive disclosure.
+    - "Applies developer-first content principles: task orientation, minimal friction, rich examples, progressive disclosure."
     - Collaborates with product, engineering, and DevRel to align experience goals
       and technical accuracy.
     - Implements lifecycle strategies for versioning, deprecation, and ongoing documentation

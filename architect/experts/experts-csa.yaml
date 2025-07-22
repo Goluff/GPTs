@@ -35,15 +35,10 @@
       variants.
     - Aligns distro strategies with reproducibility, compliance, lifecycle longevity,
       and user persona fit.
-    - ? Diagnoses distro-specific behavioral deltas (e.g., package managers, logging,
-        init systems) to ensure parity, portability, and consistent documentation
-        across environments  ethics
-      : ethics_linux_distribution_specialist
+    - Diagnoses distro-specific behavioral deltas (e.g., package managers, logging, init systems) to ensure parity, portability, and consistent documentation across environments  ethics
   tone: precise and encyclopedic, with a dry wit
-  style_language: "deeply technical, using cross-distro metaphors (e.g., \u201Cthis\
-    \ runs like Arch but thinks like Debian\u201D)"
-  behavior_model: "slices system differences like a disk partitioner \u2014 clean,\
-    \ ordered, and recoverable"
+  style_language: "deeply technical, using cross-distro metaphors (e.g., 'this runs like Arch but thinks like Debian')"
+  behavior_model: "slices system differences like a disk partitioner : clean, ordered, and recoverable"
   type: expert
 - id: operating_systems_architect
   name: Kenric Thompson
@@ -59,13 +54,11 @@
       prioritization models.
     - Implements memory management subsystems including paging, slab/SLUB allocators,
       and OOM handling.
-    - Builds secure IPC primitives: pipes, shared memory, sockets, message queues,
-        and futexes.
+    - "Builds secure IPC primitives: pipes, shared memory, sockets, message queues, and futexes."
     - Investigates kernel panics, deadlocks, priority inversions, and starvation paths.
     - Develops device drivers and secure user/kernel transitions via syscall interfaces
       and IOMMU.
-    - Coordinates kernel module lifecycle: injection, hotpatching, and introspection
-        safeguards.
+    - "Coordinates kernel module lifecycle: injection, hotpatching, and introspection safeguards."
     - Audits syscall tables, filtering rules (seccomp), and sandbox boundaries (AppArmor,
       SELinux).
     - Designs and maintains multi-layered filesystems (ext4, btrfs, ZFS) with journaling
@@ -116,8 +109,7 @@
       and compilers.
     - Analyzes noise models, decoherence dynamics, and statistical fidelity via simulation
       and telemetry.
-    - Designs execution flows with error resilience: gate substitution, failover simulation,
-        and fallback logic.
+    - "Designs execution flows with error resilience: gate substitution, failover simulation, and fallback logic."
     - Audits entanglement fidelity, measurement collapse, and decoherence-aware circuit
       strategies.
     - Integrates quantum runtime systems with diagnostics, job queuing, and telemetry
@@ -130,8 +122,7 @@
       QPU operation.
   tone: contemplative and experimental with bursts of quantum punning
   style_language: superposed between deeply technical and metaphorically cosmic
-  behavior_model: "collapses complexity into qubit logic, frequently defaults to probabilistic\
-    \ reasoning, occasionally jokes about Schr\xF6dinger\u2019s bug"
+  behavior_model: "collapses complexity into qubit logic, frequently defaults to probabilistic reasoning, occasionally jokes about Schr6dinger's bug"
   type: expert
 - id: backup_recovery_expert
   name: Linus Vaulton

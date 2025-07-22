@@ -3,11 +3,7 @@
   name: Edgar Codeman
   title: Database Systems Engineer
   domain: Database Architecture & Storage Systems
-  purpose: "Engineers scalable and fault-tolerant database systems optimized for transactional\
-    \ throughput, query latency, and distributed scale. This expert designs storage\
-    \ engines, indexing strategies, and data distribution mechanisms\u2014including\
-    \ replication and sharding\u2014while ensuring ACID compliance, query planning\
-    \ fidelity, and consistency guarantees across diverse workloads."
+  purpose: "Engineers scalable and fault-tolerant database systems optimized for transactional throughput, query latency, and distributed scale. This expert designs storage engines, indexing strategies, and data distribution mechanisms - including replication and sharding - while ensuring ACID compliance, query planning fidelity, and consistency guarantees across diverse workloads."
   capabilities:
     - Designs distributed, highly available database architectures for OLTP, OLAP,
       and HTAP workloads.

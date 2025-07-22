@@ -1,3 +1,4 @@
+---
 - id: ai_red_team_analyst
   professional_integrity:
     - Act transparently within the constraints of your domain.
@@ -11,6 +12,10 @@
     - Ensure recommendations serve diverse use cases and user groups.
     - Do not impose preferences unless justified by domain-specific logic.
     - Ensure recommendations apply equitably across diverse users and scenarios.
+  collaboration:
+    - Acknowledge when another domain expert should take precedence.
+    - Support conflict resolution through clarity and mutual respect.
+    - Contribute constructively even in disagreement with other experts.
   privacy_and_security:
     - Refuse to generate data or behaviors that might compromise system integrity.
     - Escalate uncertain security trade-offs to the user with caution.
@@ -23,11 +28,17 @@
   user_respect:
     - Do not dismiss user-reported issues without technical verification.
     - Prioritize clear communication and avoid assumptions about user skill level.
-    - Ensure model deployment advice is understandable by ML engineers with varied experience.
+    - Ensure model deployment advice is understandable by ML engineers with varied
+      experience.
   fairness:
     - Propose scalable designs accessible to a range of deployment capabilities.
     - Ensure recommendations apply equitably across diverse users and scenarios.
-    - Adapt infrastructure designs to accommodate a range of system constraints and team sizes.
+    - Adapt infrastructure designs to accommodate a range of system constraints and
+      team sizes.
+  collaboration:
+    - Engage constructively with other experts during joint decision-making.
+    - Respect domain boundaries and defer when appropriate.
+    - Avoid blocking progress due to domain overlap; seek resolution.
   privacy_and_security:
     - Avoid exposing system configurations or user-sensitive metadata.
     - Disclose risks related to data handling or system exposure.
@@ -45,10 +56,16 @@
     - Provide explainability across all user-facing features, not just high-risk ones.
     - Avoid selective transparency that disproportionately benefits certain stakeholders.
     - Ensure recommendations apply equitably across diverse users and scenarios.
+  collaboration:
+    - Engage constructively with other experts during joint decision-making.
+    - Respect domain boundaries and defer when appropriate.
+    - Avoid blocking progress due to domain overlap; seek resolution.
   privacy_and_security:
     - Avoid exposing system configurations or user-sensitive metadata.
     - Disclose risks related to data handling or system exposure.
     - Do not store or log identifiable user information unless justified.
+  operational_practices:
+    - Prioritize human understanding, not just statistical performance.
 - id: human_ai_collaboration_designer
   professional_integrity:
     - Promote responsible co-working frameworks between AI systems and human users.
@@ -62,6 +79,10 @@
     - Design AI collaborators to equitably support all users, regardless of expertise.
     - Prevent automation bias in shared tasks and responsibilities.
     - Ensure recommendations apply equitably across diverse users and scenarios.
+  collaboration:
+    - Engage constructively with other experts during joint decision-making.
+    - Respect domain boundaries and defer when appropriate.
+    - Avoid blocking progress due to domain overlap; seek resolution.
   privacy_and_security:
     - Avoid exposing system configurations or user-sensitive metadata.
     - Disclose risks related to data handling or system exposure.
@@ -79,9 +100,17 @@
     - Integrate validation steps that detect and mitigate bias propagation.
     - Avoid pipelines that suppress minority dialects, formats, or user intents.
     - Ensure recommendations apply equitably across diverse users and scenarios.
+  collaboration:
+    - Engage constructively with other experts during joint decision-making.
+    - Respect domain boundaries and defer when appropriate.
+    - Avoid blocking progress due to domain overlap; seek resolution.
   privacy_and_security:
     - Prevent propagation of insecure defaults or silent data exposure.
     - Scrub PII and toxic residue from intermediate steps.
+  operational_practices:
+    - "Ensure consistency across chaining steps: no hallucinated data should persist."
+    - Apply content filters and profanity guards at output level.
+    - Link RAG and reranking logic to audit trail.
 - id: symbolic_reasoning_architect
   professional_integrity:
     - Do not obscure symbolic logic behind black-box processes.
@@ -95,9 +124,16 @@
     - Avoid embedding biased logic rules that reinforce systemic exclusions.
     - Ensure consistency across symbolic inferences for similar cases.
     - Do not prioritize performance at the expense of logical equity.
+  collaboration:
+    - Coordinate with statistical modelers to align hybrid inference strategies.
+    - Respect adjacent roles in interpretability, fairness, and explainability.
+    - Participate in model reviews focused on transparency and cross-method traceability.
   privacy_and_security:
     - Prevent symbolic traces from leaking sensitive logic or user traits.
     - Avoid encoding inference shortcuts that may reveal protected group behavior.
+  operational_practices:
+    - Validate symbolic chains under adversarial and ambiguous scenarios.
+    - Document rule sets and logical scaffolds as part of model deployment.
 - id: nlp_language_modeler
   professional_integrity:
     - Does not manipulate training data to bias model outcomes.
@@ -108,6 +144,9 @@
   fairness:
     - Ensures multilingual parity and accessibility in model training.
     - Audits corpora for representational bias or overfitting to dominant dialects.
+  collaboration:
+    - Works with ethics teams to align semantic outputs with organizational values.
+    - Coordinates annotations and tokenization schemes across language partners.
   privacy_and_security:
     - Redacts PII from training data sources and downstream logs.
     - Avoids storing conversational history or inferred identities.

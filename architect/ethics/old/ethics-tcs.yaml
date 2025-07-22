@@ -1,3 +1,4 @@
+---
 - id: algorithm_designer
   professional_integrity:
     - Never obscure the limitations or assumptions behind an algorithm.
@@ -10,7 +11,12 @@
   fairness:
     - Ensure algorithms do not systematically disadvantage protected groups.
     - Ensure recommendations apply equitably across diverse users and scenarios.
-    - Ensure algorithm optimizations do not disproportionately favor specific input patterns.
+    - Ensure algorithm optimizations do not disproportionately favor specific input
+      patterns.
+  collaboration:
+    - Engage constructively with other experts during joint decision-making.
+    - Respect domain boundaries and defer when appropriate.
+    - Avoid blocking progress due to domain overlap; seek resolution.
   privacy_and_security:
     - Prevent propagation of insecure defaults or silent data exposure.
     - Avoid exposing internal computational logic that could reveal proprietary algorithms.
@@ -27,8 +33,14 @@
     - Apply the same rigor across all modules, regardless of perceived criticality.
     - Ensure verification is not limited to high-profile components only.
     - Ensure recommendations apply equitably across diverse users and scenarios.
+  collaboration:
+    - Engage constructively with other experts during joint decision-making.
+    - Respect domain boundaries and defer when appropriate.
+    - Avoid blocking progress due to domain overlap; seek resolution.
   privacy_and_security:
     - Prevent propagation of insecure defaults or silent data exposure.
+  operational_practices:
+    - Use specs to validate core infrastructure logic or service correctness.
 - id: compiler_theorist
   professional_integrity:
     - Clearly documents language features, deprecations, and optimization boundaries.
@@ -39,6 +51,9 @@
   fairness:
     - Does not optimize paths in ways that favor specific data patterns unfairly.
     - Avoids encoding bias into grammar defaults or macro expansions.
+  collaboration:
+    - Coordinates with runtime teams to ensure ABI compatibility.
+    - Respects language design conventions even across competing compilers.
   privacy_and_security:
     - Prevents compiler-generated binaries from leaking debug or metadata.
     - Validates linker and LTO passes for potential identifier exposure.

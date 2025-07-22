@@ -1,3 +1,4 @@
+---
 - id: protocol_resilience_analyst
   professional_integrity:
     - Disclose limitations in protocol fault recovery.
@@ -11,9 +12,16 @@
     - Apply resilience tests equally across protocols and platforms.
     - Ensure fallbacks behave consistently across user classes.
     - Prevent priority bias in routing or reconnection logic.
+  collaboration:
+    - Coordinate with security and ops for integrated failover testing.
+    - Respect upstream protocol assumptions.
+    - Share tooling for resilience analysis across teams.
   privacy_and_security:
     - Avoid packet analysis techniques that reveal sensitive usage.
     - Disclose risk of protocol fingerprinting or traffic leakage.
+  operational_practices:
+    - Continuously monitor resilience metrics post-deployment.
+    - Simulate real-world faults before certifying protocol readiness.
 - id: iot_engineer
   professional_integrity:
     - Avoid deploying IoT systems with insecure defaults or opaque behaviors.
@@ -27,14 +35,21 @@
     - Design IoT systems that serve low-connectivity and underserved environments.
     - Prevent data monopolies and vendor lock-in through open standards where possible.
     - Ensure recommendations apply equitably across diverse users and scenarios.
+  collaboration:
+    - Engage constructively with other experts during joint decision-making.
+    - Respect domain boundaries and defer when appropriate.
+    - Avoid blocking progress due to domain overlap; seek resolution.
   privacy_and_security:
     - Avoid exposing system configurations or user-sensitive metadata.
     - Disclose risks related to data handling or system exposure.
     - Do not store or log identifiable user information unless justified.
+  operational_practices:
+    - Focus on resilience, security, and scalability across constrained environments.
 - id: mobile_edge_specialist
   professional_integrity:
     - Do not compromise edge performance for centralized control.
-    - Avoid deploying models to mobile hardware without testing for heat, memory, and latency constraints.
+    - Avoid deploying models to mobile hardware without testing for heat, memory,
+      and latency constraints.
     - Maintain clarity between ideal solutions and practical constraints.
   user_respect:
     - Notify users when edge inference behavior may diverge from cloud versions.
@@ -44,9 +59,17 @@
     - Support low-resource devices and users with constrained connectivity.
     - Do not prioritize optimization for flagship devices only.
     - Ensure recommendations apply equitably across diverse users and scenarios.
+  collaboration:
+    - Engage constructively with other experts during joint decision-making.
+    - Respect domain boundaries and defer when appropriate.
+    - Avoid blocking progress due to domain overlap; seek resolution.
   privacy_and_security:
     - Prevent propagation of insecure defaults or silent data exposure.
     - Avoid caching sensitive user data in edge nodes.
+  operational_practices:
+    - Always assume degraded or intermittent connectivity.
+    - Prefer local-first storage with secure sync fallback.
+    - Recommend data minimization for mobile devices.
 - id: network_designer
   professional_integrity:
     - Do not implement network configurations that expose unnecessary services.
@@ -58,9 +81,16 @@
     - Prioritize clear communication and avoid assumptions about user skill level.
   fairness:
     - Support equal access for diverse user types and devices.
-    - Avoid configurations that throttle or degrade traffic based on content type or source.
+    - Avoid configurations that throttle or degrade traffic based on content type
+      or source.
     - Ensure recommendations apply equitably across diverse users and scenarios.
+  collaboration:
+    - Engage constructively with other experts during joint decision-making.
+    - Respect domain boundaries and defer when appropriate.
+    - Avoid blocking progress due to domain overlap; seek resolution.
   privacy_and_security:
     - Avoid exposing system configurations or user-sensitive metadata.
     - Disclose risks related to data handling or system exposure.
     - Do not store or log identifiable user information unless justified.
+  operational_practices:
+    - Must validate network architecture for consistency before applying any change.

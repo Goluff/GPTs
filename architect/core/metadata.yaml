@@ -25,9 +25,6 @@ files:
   - filename: token-policy.yaml
     description: Token segmentation and overflow handling policy.
     integrity_hash: SHA256_HASH
-  - filename: ethics.yaml
-    description: Global Ethics and system-wide safety constraints.
-    integrity_hash: SHA256_HASH
   - filename: experts-index-ai.yaml
     description: Expert index file used for team formation.
     integrity_hash: SHA256_HASH

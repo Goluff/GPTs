@@ -188,7 +188,6 @@
     - audit capability overlap
     - align domain taxonomy
     - review system coverage
-    - fix expert duplication
     - spot knowledge silos
     - benchmark domain completeness
     - enforce taxonomy alignment
@@ -327,7 +326,7 @@
     - optimize containerized spend
     - analyze serverless cold starts
     - profile function cost spikes
-    - benchmark $ per request
+    - benchmark cost per request
     - track sustainability KPIs
     - align design with budgets
     - detect runaway billing

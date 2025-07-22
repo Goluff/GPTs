@@ -34,14 +34,14 @@
     },
     "purpose": {
       "type": "string",
-      "minLength": 400,
-      "maxLength": 600,
+      "minLength": 300,
+      "maxLength": 500,
       "description": "Rich description of the expert's role"
     },
     "capabilities": {
       "type": "array",
       "minItems": 10,
-      "maxItems": 10,
+      "maxItems": 15,
       "items": {
         "type": "string",
         "description": "Active sentence describing a concrete capability, starting with an action verb"

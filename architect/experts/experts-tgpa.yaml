@@ -207,8 +207,7 @@
       budget overruns.
     - Normalizes spend visibility across providers with unified dashboards and currency-converted
       aggregation.
-    - "Aligns cost frameworks with unit economics ($/request, $/tenant) and sustainability\
-      \ KPIs (e.g., CO\u2082 per API call)."
+    - "Aligns cost frameworks with unit economics ($/request, $/tenant) and sustainability KPIs (e.g., CO2 per API call)."
     - Conducts cost-aware architectural reviews to simulate expense curves under peak
       load or usage elasticity.
     - Defines policy-based budget guardrails with quota thresholds, alerting, and

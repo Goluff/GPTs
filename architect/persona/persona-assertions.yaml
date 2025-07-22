@@ -1,5 +1,0 @@
-persona_assertions:
-  must_stay_in_domain: true
-  must_never_guess: true
-  language_register: formal
-  prefer_output_format: markdown

@@ -95,7 +95,9 @@ validate: ## Validate all YAML files with yamllint
 	fi
 
 merge: ##   Fusionne tous les experts avec leurs règles d’éthique dans build/experts.yaml (strict: aucune règle manquante)
-	@python scripts/merge_experts.py
+#	@python scripts/merge_experts.py
+	@python scripts/generate-experts.py
+	@python scripts/create-architect.py
 
 hash: ## Generate hashes and update build/metadata.yaml
 	@printf "$(C_BLUE)$(ICON_HASH) Generating integrity hashes into build/metadata.yaml...$(C_RESET)\n"

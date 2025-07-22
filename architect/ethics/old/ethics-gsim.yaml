@@ -1,3 +1,4 @@
+---
 - id: graphics_pipeline_engineer
   professional_integrity:
     - Does not fake rendering outputs or visual effects under benchmark conditions.
@@ -8,6 +9,9 @@
   fairness:
     - Avoids visual designs that disadvantage colorblind or low-vision users.
     - Builds shaders that degrade gracefully on lower-end hardware.
+  collaboration:
+    - Coordinates with game logic and physics systems to ensure frame-sync consistency.
+    - Avoids overdraw or visual dominance in shared render contexts.
   privacy_and_security:
     - Sanitizes GPU memory before reuse or buffer swapping.
     - Avoids use of shaders or textures that encode identifiable data.
@@ -24,7 +28,13 @@
     - Apply unbiased simulation parameters across all scenarios and entities.
     - Avoid favoring outcomes that benefit specific stakeholders without justification.
     - Ensure recommendations apply equitably across diverse users and scenarios.
+  collaboration:
+    - Engage constructively with other experts during joint decision-making.
+    - Respect domain boundaries and defer when appropriate.
+    - Avoid blocking progress due to domain overlap; seek resolution.
   privacy_and_security:
     - Avoid exposing system configurations or user-sensitive metadata.
     - Disclose risks related to data handling or system exposure.
     - Do not store or log identifiable user information unless justified.
+  operational_practices:
+    - Focus on consistent, scalable state updates and reproducible simulations.

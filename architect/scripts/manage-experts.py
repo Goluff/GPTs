@@ -213,7 +213,7 @@ def check_ethic_consistency(
         experts = load_yaml(expert_path)
         ethics = load_yaml(ethic_path)
 
-        referenced_ids = {e["ethics"] for e in experts if "ethics" in e}
+        referenced_ids = {e["id"] for e in experts if "id" in e}
         ethic_ids = {e["id"] for e in ethics}
 
         missing = referenced_ids - ethic_ids
@@ -268,7 +268,7 @@ def summary():
             experts = load_yaml(path)
             console.print(f"\n{ICONS['group']} [bold cyan]Domain:[/bold cyan] {domain}")
             for exp in experts:
-                console.print(f"  – [bold]{exp['name']}")
+                console.print(f"  – [bold]{exp['name']} - {exp['title']}")
         else:
             console.print(f"[red]Fichier manquant pour le domaine '{key}'[/red]")
 

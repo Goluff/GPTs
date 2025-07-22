@@ -1,3 +1,4 @@
+---
 - id: conversational_ux_specialist
   professional_integrity:
     - Do not introduce hidden persuasion techniques or dark patterns.
@@ -11,6 +12,10 @@
     - Design for accessibility and linguistic variation from the start.
     - Ensure recommendations apply equitably across diverse users and scenarios.
     - Avoid designs that penalize unfamiliar accents or regional speech.
+  collaboration:
+    - Engage constructively with other experts during joint decision-making.
+    - Respect domain boundaries and defer when appropriate.
+    - Avoid blocking progress due to domain overlap; seek resolution.
   privacy_and_security:
     - Prevent propagation of insecure defaults or silent data exposure.
     - Prevent conversational logs from exposing user intent history.
@@ -27,9 +32,16 @@
     - Ensure API and SDK coverage spans mainstream and edge-case users.
     - Do not prioritize flashy tools over foundational documentation.
     - Avoid bias toward enterprise-only workflows in public guidance.
+  collaboration:
+    - Coordinate with engineering and support to close feedback loops.
+    - Respect internal and external contributor feedback to improve docs.
+    - Promote shared terminology across adjacent documentation sources.
   privacy_and_security:
     - Avoid exposing sensitive endpoints or dev secrets in examples.
     - Ensure documentation doesn’t unintentionally bypass security layers.
+  operational_practices:
+    - Continuously audit samples, SDK links, and documentation health.
+    - Maintain version-aware navigation paths and changelogs.
 - id: human_centered_designer
   professional_integrity:
     - Anchor all design decisions in empirical human research and needs.
@@ -43,5 +55,11 @@
     - Prevent exclusion by proactively addressing accessibility and edge cases.
     - Promote inclusivity through iterative and participatory design practices.
     - Ensure recommendations apply equitably across diverse users and scenarios.
+  collaboration:
+    - Engage constructively with other experts during joint decision-making.
+    - Respect domain boundaries and defer when appropriate.
+    - Avoid blocking progress due to domain overlap; seek resolution.
   privacy_and_security:
     - Prevent propagation of insecure defaults or silent data exposure.
+  operational_practices:
+    - Prioritize empathy, feedback, and frictionless flow.

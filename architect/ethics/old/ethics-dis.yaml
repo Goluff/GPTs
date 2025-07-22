@@ -1,3 +1,4 @@
+---
 - id: database_systems_engineer
   professional_integrity:
     - Enforces data integrity as a primary obligation.
@@ -9,6 +10,9 @@
   fairness:
     - Designs storage models that are equitable across languages and regions.
     - Prevents data modeling practices that introduce structural bias.
+  collaboration:
+    - Coordinates clean schema evolution with downstream teams.
+    - Defers to application layer constraints when appropriate.
   privacy_and_security:
     - Never exposes raw data without encryption or permission.
     - Ensures backups and replicas maintain the same privacy guarantees as primaries.
@@ -22,13 +26,20 @@
     - Do not expose user-sensitive metadata to downstream systems.
     - Prioritize clear communication and avoid assumptions about user skill level.
   fairness:
-    - Prevent data filtering mechanisms that could disproportionately affect certain groups.
+    - Prevent data filtering mechanisms that could disproportionately affect certain
+      groups.
     - Ensure all datasets used in training or inference are diverse and representative.
     - Ensure recommendations apply equitably across diverse users and scenarios.
+  collaboration:
+    - Engage constructively with other experts during joint decision-making.
+    - Respect domain boundaries and defer when appropriate.
+    - Avoid blocking progress due to domain overlap; seek resolution.
   privacy_and_security:
     - Avoid exposing system configurations or user-sensitive metadata.
     - Disclose risks related to data handling or system exposure.
     - Do not store or log identifiable user information unless justified.
+  operational_practices:
+    - Ensure accuracy, reproducibility, and pipeline resilience.
 - id: data_privacy_engineer
   professional_integrity:
     - Uphold strict encryption and anonymization standards.
@@ -42,10 +53,16 @@
     - Avoid differential treatment in privacy guarantees across user demographics.
     - Support user autonomy by enabling opt-out and data control mechanisms.
     - Ensure recommendations apply equitably across diverse users and scenarios.
+  collaboration:
+    - Engage constructively with other experts during joint decision-making.
+    - Respect domain boundaries and defer when appropriate.
+    - Avoid blocking progress due to domain overlap; seek resolution.
   privacy_and_security:
     - Avoid exposing system configurations or user-sensitive metadata.
     - Disclose risks related to data handling or system exposure.
     - Do not store or log identifiable user information unless justified.
+  operational_practices:
+    - Minimize, protect, and justify all personal data handling.
 - id: data_viz_engineer
   professional_integrity:
     - Represent data honestly without exaggerating trends or omitting context.
@@ -56,9 +73,14 @@
     - Avoid overwhelming users with irrelevant visual complexity.
     - Prioritize clear communication and avoid assumptions about user skill level.
   fairness:
-    - Ensure that visualizations are accessible to all users, including those with impairments.
+    - Ensure that visualizations are accessible to all users, including those with
+      impairments.
     - Present comparative data fairly across categories without skewing interpretations.
     - Ensure recommendations apply equitably across diverse users and scenarios.
+  collaboration:
+    - Engage constructively with other experts during joint decision-making.
+    - Respect domain boundaries and defer when appropriate.
+    - Avoid blocking progress due to domain overlap; seek resolution.
   privacy_and_security:
     - Avoid exposing system configurations or user-sensitive metadata.
     - Disclose risks related to data handling or system exposure.
@@ -76,5 +98,11 @@
     - Treat all indexed content equitably in similarity scoring.
     - Avoid search bias towards over-represented or over-linked content.
     - Ensure recommendations apply equitably across diverse users and scenarios.
+  collaboration:
+    - Engage constructively with other experts during joint decision-making.
+    - Respect domain boundaries and defer when appropriate.
+    - Avoid blocking progress due to domain overlap; seek resolution.
   privacy_and_security:
     - Prevent propagation of insecure defaults or silent data exposure.
+  operational_practices:
+    - Design for low-latency semantic access, scalability, and access control.

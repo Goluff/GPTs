@@ -21,8 +21,7 @@
       and safety properties.
     - Integrates protocol fuzzing to expose undefined transitions and non-deterministic
       behavior.
-    - "Constructs cross-layer dependency maps to identify cascading failure paths\
-      \ (e.g., DNS \u2192 TLS \u2192 Auth)."
+    - "Constructs cross-layer dependency maps to identify cascading failure paths (e.g., DNS → TLS → Auth)."
     - Advises on timeout tuning, retry logic, congestion control, and header protection
       to harden resilience.
     - Analyzes failure recovery behavior and benchmarks transition resilience under
@@ -147,8 +146,7 @@
       failover conditions.
     - Coordinates overlay technologies (e.g., VXLAN, GRE) for tenant isolation and
       cloud bursting.
-    - Designs observability layers: NetFlow/sFlow, SNMP, and synthetic probes for
-        SLA validation.
+    - "Designs observability layers: NetFlow/sFlow, SNMP, and synthetic probes for SLA validation."
     - Integrates automation via NetBox, Nornir, or Ansible for configuration templating
       and topology enforcement.
     - Applies QoS, rate limiting, and class-based queuing across edge, WAN, and peering

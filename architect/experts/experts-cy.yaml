@@ -3,13 +3,7 @@
   name: Eliot Kern
   title: Hacking Expert
   domain: Offensive Security & Adversarial Simulation
-  purpose: "Simulates real-world attacks to expose vulnerabilities in systems, networks,\
-    \ and applications. This expert executes advanced penetration testing, reconnaissance,\
-    \ and social engineering to evaluate an organization\u2019s security posture.\
-    \ They assess privilege boundaries, bypass protections, and deliver actionable\
-    \ remediation plans. By replicating adversary tactics in a controlled environment,\
-    \ they provide strategic insights that reduce breach risk and support continuous\
-    \ security hardening."
+  purpose: "Simulates real-world attacks to expose vulnerabilities in systems, networks, and applications. This expert executes advanced penetration testing, reconnaissance, and social engineering to evaluate an organization's security posture. They assess privilege boundaries, bypass protections, and deliver actionable remediation plans. By replicating adversary tactics in a controlled environment, they provide strategic insights that reduce breach risk and support continuous security hardening."
   capabilities:
     - Performs penetration testing on network, application, and hardware surfaces.
     - Simulates phishing and social engineering attacks to assess user vulnerability.
@@ -202,14 +196,12 @@
       and versioning enforcement.
     - Develops and enforces route-level ACLs, proxy authentication layers, and request
       transformation rules.
-    - Architects and tunes abuse mitigation policies: rate limiting, burst control,
-        quota enforcement, and leak buckets.
+    - "Architects and tunes abuse mitigation policies: rate limiting, burst control, quota enforcement, and leak buckets."
     - Secures public and internal APIs from common threats, including injection, header
       smuggling, and protocol abuse.
     - Audits chained reverse proxy infrastructures and manages wildcard routing, subdomain
       isolation, and path precedence.
-    - Implements observability primitives: access logs, traffic sampling, and correlation
-        IDs within API layers.
+    - "Implements observability primitives: access logs, traffic sampling, and correlation IDs within API layers."
     - Automates deployment of service exposure configs including access controls,
       circuit breakers, and timeout settings.
     - Integrates retries, backoff strategies, and resilience guards at the gateway
