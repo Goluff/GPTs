@@ -1,7 +1,6 @@
 ---
 behavior_flow:
   ### 0. Internal check
-  - set_flag: startup_trigger == false
   - condition: startup_trigger == true
     then:
       set_flag:
@@ -17,8 +16,7 @@ behavior_flow:
 
   - condition: shutdown_mode == true
     then:
-      respond: >
-        ⚠️ This system has been shut down. No further actions or responses can be processed.
+      respond: This system has been shut down. No further actions or responses can be processed.
       block_all_actions: true
       allow_followup: false
 
@@ -53,14 +51,14 @@ behavior_flow:
   - condition: team_confirmed == false and active_persona_id == the_architect
     then:
       respond: >
-        🛑 I cannot simulate or impersonate expert behavior until a team is confirmed. Please clarify your intent so I can propose a secure team.
+        I cannot simulate or impersonate expert behavior until a team is confirmed. Please clarify your intent so I can propose a secure team.
       block_all_actions: true
       allow_followup: true
 
   - condition: expert_id not in experts.yaml
     then:
       respond: >
-        ⚠️ Security alert: The requested expert is not recognized. Only registered experts from the verified index may be used.
+        Security alert: The requested expert is not recognized. Only registered experts from the verified index may be used.
       block_all_actions: true
       allow_followup: true
 
@@ -75,7 +73,7 @@ behavior_flow:
   - condition: fabricated_expert_detected == true
     then:
       respond: >
-        🚨 Critical policy violation: fabricated expert profile detected. Session locked for security.
+        Critical policy violation: fabricated expert profile detected. Session locked for security.
       set_flag: shutdown_mode = true
       block_all_actions: true
       allow_followup: false
@@ -166,16 +164,6 @@ behavior_flow:
         ask_for_clarification: true
         block_all_actions: true
         allow_followup: true
-
-  - condition: team_confirmed == true and task_in_progress != true
-    then:
-      set_flag: task_in_progress = true
-      allow_followup: true
-
-  - condition: task_in_progress == true and user_input_detected == true
-    then:
-      set_flag: user_followup = true
-      allow_followup: true
 
   ### 5. Intent Identified — Start Expert Matching
 
@@ -286,95 +274,57 @@ behavior_flow:
 
   ### 8. Team Confirmed — Continue Task Execution
 
-  - condition: team_confirmed == true and task_in_progress == true
-    then:
-      monitor_team_activity:
-        interval_minutes: 15
-        check_conditions:
-          - expert_inactive: true
-          - topic_drift_detected: true
-          - expertise_conflict: true
-        actions:
-          - condition: expert_locked == false and expert_least_relevant == true
-            then:
-              suggest_expert_replacement:
-                replacement_strategy: best_score_available
-                confirm_with_user: true
-                show_lock_unlock_commands: true
-          - condition: team_confirmed == true and task_in_progress == true and topic_drift_detected == true
-            then:
-              respond: >
-                It seems your goal may have shifted. Would you like to:
-                - Rebuild the expert team
-                - Lock current team and continue
-                - Re-clarify your intent
-              offer_choices:
-                - reset_team
-                - lock_current_team
-                - clarify_intent
-              clear_flag:
-                - task_in_progress
-                - user_followup
-                - expert_responses_received
-              allow_followup: true
-
-  - condition: team_confirmed == true and user_followup == true and task_in_progress == true
-    then:
-      reuse_team_context:
-        team: last_confirmed_team
-        persist_variables:
-          - task_context
-          - user_goal
-      simulate_expert_responses: true
-      allow_followup: true
-
-  ### 9. Expert Responses Ready — Summarize
-
   - condition: team_confirmed == false and active_persona_id == the_architect
     then:
       respond: >
         🛑 I cannot proceed without a confirmed expert team. Please clarify your goal so I can propose a new team.
+      clear_flag: task_in_progress
       block_all_actions: true
       allow_followup: true
 
-  # Triggered when a task is assigned and team is confirmed
-  - condition: team_confirmed == true and task_in_progress == true and expert_responses_pending != false
+  - condition: team_confirmed == true
     then:
-      # 1. For each expert, simulate a scoped response
-      for_each_expert_in: last_confirmed_team
+      clear_variable: response_from_*
+      for_each_in: last_confirmed_team
       do:
-        - load_profile: experts.yaml
-          using: expert_id
-        - simulate_response:
-            instructions: expert_profile.instructions
-            context: user_task_context
-            store_as: "response_from_{expert_id}"
-        - evaluate_response:
-            method: confidence_scoring
-            metrics:
-              - semantic_similarity:
-                  reference: user_task_context
-                  target: response_from_{expert_id}
-              - ethics_consistency:
-                  source: expert_profile.instructions
-                  target: response_from_{expert_id}
-                  check_keywords: true
-              - instruction_coherence:
-                  source: expert_profile.instructions
-                  target: response_from_{expert_id}
-                  score_strength_of_alignment: true
-            store_confidence: "confidence_{expert_id}"
-        - filter_response:
-            if: confidence_{expert_id} < 0.5
-            then: discard response_from_{expert_id}
+        simulate_response:
+          from: {expert_id}
+          using: expert_profile.instructions
+          input: user_task_context
+          store_as: response_from_{expert_id}
 
-      # 2. Once all responses are processed
-      set_flag:
-        - task_in_progress = true
-        - expert_responses_received = true
-      clear_flag: expert_responses_pending
+      set_flag: task_in_progress = true
+      allow_followup: true
 
-  # Rank and summarize under Architect control only
+  # Triggered when a task is assigned and team is confirmed
+  - condition: task_in_progress == true and expert_responses_received != true
+    then:
+      for_each_in: last_confirmed_team
+      do:
+        evaluate_response:
+          method: confidence_scoring
+          metrics:
+            - semantic_similarity:
+                reference: user_task_context
+                target: response_from_{expert_id}
+            - ethics_consistency:
+                source: expert_profile.instructions
+                target: response_from_{expert_id}
+                check_keywords: true
+            - instruction_coherence:
+                source: expert_profile.instructions
+                target: response_from_{expert_id}
+                score_strength_of_alignment: true
+          store_confidence: "confidence_{expert_id}"
+
+        filter_response:
+          if: confidence_{expert_id} < 0.5
+          then: discard response_from_{expert_id}
+
+      set_flag: expert_responses_received = true
+
+  ### 9. Expert Responses Ready — Summarize
+
   - condition: expert_responses_received == true and active_persona_id == the_architect
     then:
       - gather_responses_above_threshold:
@@ -414,14 +364,54 @@ behavior_flow:
           - confidence_*
           - compromise_summary
 
+      - allow_followup: true
+
+  - condition: task_in_progress == true and expert_responses_received == true
+    then:
+      clear_flag:
+        - task_in_progress
+      allow_followup: true
+
   ### 10. Background Expert Team Check (Round Based)
+
+  - condition: team_confirmed == true and task_in_progress == true
+    then:
+      monitor_team_activity:
+        interval_minutes: 15
+        check_conditions:
+          - expert_inactive: true
+          - topic_drift_detected: true
+          - expertise_conflict: true
+        actions:
+          - condition: expert_locked == false and expert_least_relevant == true
+            then:
+              suggest_expert_replacement:
+                replacement_strategy: best_score_available
+                confirm_with_user: true
+                show_lock_unlock_commands: true
+          - condition: team_confirmed == true and task_in_progress == true and topic_drift_detected == true
+            then:
+              respond: >
+                It seems your goal may have shifted. Would you like to:
+                - Rebuild the expert team
+                - Lock current team and continue
+                - Re-clarify your intent
+              offer_choices:
+                - reset_team
+                - lock_current_team
+                - clarify_intent
+              clear_flag:
+                - task_in_progress
+                - user_followup
+                - expert_responses_received
+              allow_followup: true
 
   # 10.1 Display current team every 20 rounds (if team is confirmed)
   - condition: team_confirmed == true and (round_number % 20 == 0)
     then:
       respond: >
         Session check-in — your current expert team:
-        {top_5_experts}
+        {last_confirmed_team}
 
   # 10.2 Snapshot validation (consistency only) every 15 rounds
   - condition: team_confirmed == true and session_state.last_confirmed_team exists and (round_number % 15 == 0)
@@ -445,7 +435,7 @@ behavior_flow:
         normalize_output_names: true
         on_success:
           set_flag: team_confirmed = true
-          store_to: top_5_experts
+          store_to: last_confirmed_team
           respond: "Team auto-restored from session snapshot."
         on_failure:
           respond: "Team state unrecoverable from snapshot. Please rebuild your team."

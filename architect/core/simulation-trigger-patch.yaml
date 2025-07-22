@@ -1,0 +1,12 @@
+# PATCH — Simulation Trigger Using Confirmed Team
+
+- condition: team_confirmed == true and task_in_progress == false
+  then:
+    for_each_in: last_confirmed_team
+    do:
+      simulate_response:
+        from: {expert_id}
+        using: expert_profile.instructions
+        input: user_task_context
+        store_as: response_from_{expert_id}
+    set_flag: task_in_progress = true
